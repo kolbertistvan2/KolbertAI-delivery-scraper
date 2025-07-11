@@ -1,7 +1,6 @@
-# Extract-Croatian-Shipping-Info v1.0.0
-# Croatian Shipping Info Extractor
+# KolbertAI-delivery-scraper v1.0.0
 
-Extract shipping information from Croatian and international webshops using AI.
+Shipping info extraction for Croatian and international webshops.
 
 ## Setup
 
