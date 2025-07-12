@@ -348,7 +348,7 @@ async function aggregateResults() {
   } catch (e) {
     console.warn('Could not read websites.txt for domain completeness:', e);
   }
-  const outPath = path.join(RESULT_DIR, `shipping-info-ALL-SITES-${getTimestamp()}.json`);
+  const outPath = path.join(RESULT_DIR, `shipping-info-ALL-SITES.json`);
   await fs.writeFile(outPath, JSON.stringify(result, null, 2), 'utf-8');
   console.log(`Aggregated all site results to ${outPath}`);
 }
