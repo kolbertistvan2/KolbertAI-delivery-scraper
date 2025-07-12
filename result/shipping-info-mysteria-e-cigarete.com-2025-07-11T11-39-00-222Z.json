@@ -1,0 +1,100 @@
+{
+  "website": "mysteria-e-cigarete.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4 € for orders under 40 €. Free for orders over 40 €.",
+    "free_delivery_limit": "40 €",
+    "delivery_time": "Usually the next business day. Orders placed by 12:00 PM are processed the same day; later orders are sent the next business day.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Cash on delivery is available, but the specific surcharge is not mentioned."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "4 € for orders under 40 €. Free for orders over 40 €.",
+    "free_delivery_limit": "40 €",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW",
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "BOX NOW: Free until the end of June 2024. GLS: 4 € for orders under 40 €, free for orders over 40 €.",
+    "free_delivery_limit": "40 €",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "BOX NOW lockers are available for pickup 24/7."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Not available for BOX NOW. Not specified for GLS."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel locker, and parcel shop delivery within Croatia.\nPROVIDERS: Delivery is handled by GLS and BOX NOW.\nPRICING: GLS delivery costs 4 € for orders under 40 € and is free for orders of 40 € or more. BOX NOW delivery is free of charge until the end of June 2024, regardless of the order amount.\nDELIVERY TIME: GLS typically delivers on the next business day.\nPAYMENT: Cash on delivery is an option for GLS home delivery, but not for BOX NOW parcel lockers. Online payment options are available for both.\nNOTABLE FEATURES: BOX NOW parcel lockers are accessible 24/7 for package pickup. GLS provides fast, next-day delivery for orders placed before noon.\nWEBSITE ASSESSMENT: The shipping information provided on the 'Dostava' page is clear and concise. It effectively outlines the available services, providers, and pricing structures. However, it lacks details regarding potential surcharges for island deliveries or the specific cost for cash on delivery."
+}

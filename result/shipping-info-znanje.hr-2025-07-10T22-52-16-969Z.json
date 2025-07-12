@@ -1,0 +1,110 @@
+{
+  "website": "znanje.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD Croatia d.o.o."
+    ],
+    "pricing": "Iznos narudžbe do 25,00 €: 3,50 €. Iznad 25,00 €: Gratis.",
+    "free_delivery_limit": "25,00 €",
+    "delivery_time": "*Paket koji ste naručili stiže na vrata u roku od 3-7 radnih dana (ponedjeljak-petak). U iznimnim slučajevima u akcijskom razdoblju vrijeme isporuke se može produžiti do 10 radnih dana.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": [
+      "Znanje Bookshop Zagreb, Gajeva 1, Zagreb",
+      "Znanje Pula, Giardini 4, Pula",
+      "Znanje Rijeka - Korzo, Užarska 1, Rijeka",
+      "Znanje Slavonski Brod, Trg pobjede 28, Slavonski Brod",
+      "Znanje Split - Miroslav Krleža, Kraj Sv. Marije 1, Split",
+      "Znanje Varaždin - Lumini centar, Ulica grada Lipika 15, Donji Kneginec, Turčin",
+      "Znanje Zadar - Sveti Donat, Knezova Šubića Bribirskih 11, Zadar",
+      "Znanje Rijeka ZTC, Zvonimirova 3, Rijeka",
+      "Znanje Frankopanska, Frankopanska 5a, Zagreb",
+      "Znanje Westgate, Zaprešićka 2, Jablanovec",
+      "Znanje Osijek Gacka, Ulica kneza Trpimira 20, Osijek",
+      "Znanje Bjelovar, Ulica Frana Supila 3, Bjelovar",
+      "Znanje Dugo Selo – Stop Shop, Ulica Hrvatskog preporoda 70, Dugo Selo",
+      "Znanje Mall of Split, Ul. Josipa Jovića 93, Split"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Znanje.hr offers home delivery within Croatia via DPD. The cost is €3.50 for orders under €25 and free for orders of €25 or more. Standard delivery time is 3-7 working days, which may extend to 10 days during promotions. There are no alternative delivery options such as parcel shops, parcel lockers, or in-store pickup for online orders mentioned on the delivery page. \nNOTABLE FEATURES: The delivery information is straightforward. There is no mention of express delivery, weekend delivery, cash on delivery (COD), or any specific surcharges for island deliveries. International shipping is available via DHL Express. \nWEBSITE ASSESSMENT: The shipping information for domestic orders is clear and easy to find but lacks detail on several common options and potential surcharges (like COD or island delivery). Information on alternative pickup methods is absent."
+}

@@ -1,0 +1,99 @@
+{
+  "website": "comel.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD Croatia d.o.o."
+    ],
+    "pricing": "Cijena transporta na kopnenom dijelu RH ovisi o veličini i težini paketa. Za manje i lagane pakete ne iznosi više od 4,99EUR",
+    "free_delivery_limit": "Za narudžbe iznad 130,00EUR na kopnenom dijelu RH osiguravamo besplatnu dostavu!\nZa narudžbe iznad 250,00EUR na otoke koji nisu mostom povezani s kopnom osiguravamo besplatnu dostavu!",
+    "delivery_time": "Robu koju imamo na lageru dostavljamo najkasnije u roku od 3 radna dana, a robu koja je na vanjskom skladištu u dostavljamo u roku od 7 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Cijena dostave paketa na otoke koji nisu mostom povezani s kopnom iznosi 9,98EUR",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "Televizore ne dostavljamo dostavnom službom, isključivo osobno preuzimanje u našoj poslovnici uz obaveznu kontrolu ispravnosti televizora",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ul. Maksimilijana Vrhovca 11, 47000 Karlovac"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery across Croatia is provided by DPD. In-store pickup is available at their Karlovac location. No parcel shop or locker options are mentioned.\nPRICING: Standard delivery for smaller packages is up to €4.99. Delivery to islands costs €9.98. Free delivery is offered for mainland orders over €130 and island orders over €250. In-store pickup is free.\nDELIVERY TIME: Standard delivery takes 3 working days for in-stock items and up to 7 working days for items from external warehouses.\nNOTABLE FEATURES: The company explicitly states that televisions cannot be delivered and must be picked up in-store. Delivery to Slovenia is also available with specific pricing and a free shipping threshold of €398.16.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Načini dostave' page and is generally clear. It provides essential details on costs, providers, and timelines for both mainland and island delivery. However, it lacks information on express delivery, COD surcharges, and a detailed weekend delivery schedule (though Saturday store hours are mentioned). The specific rule for TV delivery is a crucial piece of information for customers."
+}

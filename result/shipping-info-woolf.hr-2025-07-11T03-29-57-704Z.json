@@ -1,0 +1,98 @@
+{
+  "website": "woolf.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "HP Expres"
+    ],
+    "pricing": "4,5€",
+    "free_delivery_limit": "60€",
+    "delivery_time": "2-5 radna dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke odvija se prema rasporedu dostavne službe.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "kargo prijevoz"
+    ],
+    "pricing": "Dostava takvih proizvoda je besplatna, u slučaju odustajanja od kupnje u trenutku kada je pošiljka već poslana, kupac je dužan snositi troškove povratne dostave.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Mursko Središće",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers standard home delivery, home delivery for bulky items (fitness equipment), and in-store pickup. Delivery to parcel shops or lockers is not available.\nPROVIDERS: Standard delivery is handled by GLS and HP Expres. Bulky items are delivered via unspecified 'cargo transport'.\nPRICING: Standard home delivery costs 4.5€ and is free for orders over 60€. Delivery for bulky items is stated to be free. In-store pickup pricing is not specified.\nRESTRICTIONS: Deliveries are made only on business days (Monday-Friday). Delivery to islands follows the courier's specific schedule, with no mention of an extra surcharge.\nNOTABLE FEATURES: In-store pickup is available at their physical location in Mursko Središće. Special conditions apply to returns of bulky items; if a customer cancels an order after it has been shipped, they must cover the return costs.\nWEBSITE ASSESSMENT: Shipping information is found within the 'Uvjeti kupnje' (Terms of Purchase) page. The details for standard delivery are clear. However, information for bulky items is less specific, lacking details on providers and delivery times. Key information such as COD surcharges and express delivery options is not provided."
+}

@@ -1,0 +1,111 @@
+{
+  "website": "ekupi.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "GLS",
+      "eKupi dostava (MSAN Logistika)"
+    ],
+    "pricing": "Srednji paketi (Medium packages):\neKupi dostava: 11,99 €\nHrvatska pošta: 9,99 €\nGLS: 4,99 € (Free over 500€)\n\nManji paketi (Small packages):\nHrvatska pošta: 2,99 €\nGLS: 4,99 € (Free over 500€)",
+    "free_delivery_limit": "GLS: Free delivery for orders over 500€",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Hrvatska pošta: For islands and places that do not support daily delivery, special delivery conditions apply.\nGLS: For islands and special delivery areas, special delivery conditions and schedules apply.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "eKupi dostava (MSAN Logistika)",
+      "Hrvatska pošta"
+    ],
+    "pricing": "Delivery to entrance (Dostava do ulaza):\neKupi dostava: 17,00 €\nHrvatska pošta: 19,00 €\n\nDelivery to apartment (Dostava u stan) - Zagreb area only:\nVeliki paketi (Large packages): 49,99 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Hrvatska pošta: For islands and places that do not support daily delivery, special delivery conditions apply. There are settlements with shipment weight limits.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "more than 1000",
+    "pricing": "4,99 EUR",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "eKupi&poKupi",
+      "Hrvatska Pošta",
+      "GLS",
+      "Box Now"
+    ],
+    "locations_count": "not available",
+    "pricing": "eKupi&poKupi – paketomat: Free\nPaketomati Hrvatske Pošte: 2,99 EUR\nPaketomati GLS-a: 2,99 EUR\nPaketomati Box Now: 1,99 EUR",
+    "free_delivery_limit": "Free delivery to eKupi&poKupi parcel lockers.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagrebački Velesajam, Zagreb",
+      "Rugvica (Dugoselska cesta 5)",
+      "Osijek (Ul. Josipa Jurja Strossmayera 165)"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: eKupi.hr offers a wide range of delivery methods including standard home delivery (to entrance), bulky item delivery, a special 'delivery to apartment' service in the Zagreb area, in-store pickup, parcel shop pickup, and parcel locker pickup.\nPROVIDERS: Delivery partners include Hrvatska pošta, GLS, Box Now, and their own internal service (eKupi dostava / MSAN Logistika).\nPRICING: Prices vary by package size and delivery method. Standard delivery starts at €1.99 (Box Now locker) or €2.99 (Hrvatska Pošta home delivery). Bulky item delivery to the entrance costs from €17.00. In-store pickup and pickup at eKupi's own parcel lockers are free. GLS offers free shipping for orders over €500.\nRESTRICTIONS: Special conditions, schedules, and potential weight limits apply for deliveries to Croatian islands via Hrvatska pošta and GLS. GLS does not deliver large packages.\nNOTABLE FEATURES: The 'Dostava u stan' (delivery to apartment) service for the Zagreb area is a key feature, which also includes the option to have an old appliance removed. The company offers its own free pickup points and parcel lockers in addition to using third-party networks like GLS, Hrvatska Pošta, and Box Now.\nWEBSITE ASSESSMENT: The shipping information is presented on a clear, dedicated page. It effectively uses tables and lists to detail pricing, providers, and package categories. The information is comprehensive, transparent, and easy for customers to understand, with helpful links for specific details like island delivery schedules."
+}

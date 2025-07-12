@@ -1,0 +1,95 @@
+{
+  "website": "kingtrade.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Cijena dostave ovisi o kategoriji artikla, masi i obujmu pošiljke; a definira se u procesu kreiranja narudžbe.",
+    "free_delivery_limit": "Besplatna dostava za područje cijele Makarske rivijere.",
+    "delivery_time": "1 do 14 radnih dana (područje RH osim otoka)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava se ne vrši na sve otoke. Cijena dostave za otoke se definira nakon završetka narudžbe te je različita od cijene dostave za ostatak Hrvatske.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Cijena dostave ovisi o kategoriji artikla, masi i obujmu pošiljke; a definira se u procesu kreiranja narudžbe.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1 do 14 radnih dana (područje RH osim otoka)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Cijena dostave za otoke se definira nakon završetka narudžbe te je različita od cijene dostave za ostatak Hrvatske.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Dubrovačka 29, 21300 Makarska"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: Kingtrade offers home delivery throughout Croatia and in-store pickup at their Makarska location. Parcel shop and locker options are not available. Delivery providers are not specified. PRICING: Shipping cost is calculated during checkout based on item weight and volume. Delivery is free for the Makarska Riviera. Island deliveries incur a surcharge, calculated after the order is placed. DELIVERY TIME: The standard delivery time is 1-14 working days for mainland Croatia. NOTABLE FEATURES: Free delivery is offered for the Makarska Riviera. Delivery is only to the building entrance and does not include carrying items inside. Not all islands are serviced. WEBSITE ASSESSMENT: The shipping information provided is minimal and lacks important details such as courier names, specific pricing, and information on express or weekend delivery. The final shipping cost is only shown at checkout, which reduces transparency for the customer."
+}

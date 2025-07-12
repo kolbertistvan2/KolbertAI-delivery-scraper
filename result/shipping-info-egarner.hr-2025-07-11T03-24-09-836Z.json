@@ -1,0 +1,93 @@
+{
+  "website": "egarner.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "6,63 eur",
+    "free_delivery_limit": "132 eur",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "13,27 eur po paketu",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Zagrebačka 62, 10410 Velika Gorica",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery for standard and bulky items is available across Croatia. In-store pickup appears to be an option at their Velika Gorica location. Parcel shop and parcel locker delivery are not mentioned.\nPRICING: Standard home delivery costs €6.63 and is free for orders over €132. Delivery for bulky items (e.g., white goods) is €13.27 per package. Cash on delivery is mentioned as a payment option, but any associated surcharge is not specified.\nPROVIDERS & TIMEFRAMES: The website does not name any specific delivery providers. Standard delivery timeframes are not provided.\nRESTRICTIONS & SPECIAL SERVICES: There is no information regarding express delivery, weekend delivery, or specific policies and surcharges for delivery to Croatian islands.\nWEBSITE ASSESSMENT: The shipping information is very basic. While it clearly states the costs for standard and bulky delivery and the free shipping threshold, it lacks crucial details such as delivery partners, estimated delivery times, and policies for island deliveries. Information on alternative delivery methods is absent."
+}

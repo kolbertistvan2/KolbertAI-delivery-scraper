@@ -1,0 +1,98 @@
+{
+  "website": "bike24.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL",
+      "DPD"
+    ],
+    "pricing": "5,99 € for orders up to 100 EUR, 3,99 € for orders from 100 EUR.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Calculated during checkout based on postal code.",
+      "pricing": "Subject to a surcharge, calculated during checkout."
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "freight service"
+    ],
+    "pricing": "120,00 € oversize surcharge for bicycles.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only option specified for Croatia. Standard delivery is handled by DHL and DPD. Bulky items like bicycles are sent via a non-specified 'freight service'. No parcel shop, parcel locker, or in-store pickup options are mentioned.\nPRICING: Standard shipping costs are €5.99 for orders up to €100 and €3.99 for orders over €100. There is a significant €120.00 surcharge for shipping bicycles. Express delivery is available with a surcharge, but the exact cost is calculated at checkout.\nRESTRICTIONS & OTHER INFO: No specific information is provided regarding delivery times, weekend delivery, island surcharges, or cash on delivery options.\nNOTABLE FEATURES: Tiered pricing for standard parcels. Very high surcharge for bulky items (bicycles). DHL Express is offered as an option during checkout.\nWEBSITE ASSESSMENT: The website provides clear pricing for standard and bulky item shipping but lacks comprehensive details. Key missing information includes specific delivery timeframes, providers for bulky freight, and alternative delivery methods. The availability of express shipping is mentioned, but details are deferred to the checkout process."
+}

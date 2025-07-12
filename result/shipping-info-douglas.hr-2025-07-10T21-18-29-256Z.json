@@ -1,0 +1,106 @@
+{
+  "website": "douglas.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena dostave se obračunava prema težini paketa i navedena je u pregledu košarice prije izvršenja plaćanja. Za narudžbe preko 47,78 € cijena dostave je besplatna.",
+    "free_delivery_limit": "47,78 €",
+    "delivery_time": "2-5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava nije raspoloživa na pojedinim otocima. Za narudžbe koje se dostavljaju na dugačak popis navedenih otoka/mjesta, moguće je isključivo virmansko ili kartično plaćanje (plaćanje pouzećem nije moguće).",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb",
+      "Osijek",
+      "Varaždin",
+      "Dubrovnik",
+      "Solin",
+      "Rijeka",
+      "Zadar",
+      "Pula",
+      "Split",
+      "Šibenik"
+    ],
+    "pricing": "Besplatna",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Plaćanje pouzećem nije moguće, narudžbe moraju biti unaprijed plaćene."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Douglas.hr offers home delivery across Croatia and in-store pickup at select locations. \nPROVIDERS: Home delivery is handled exclusively by GLS. \nPRICING: Home delivery is free for orders over €47.78; otherwise, the cost is calculated by weight at checkout. In-store pickup is free. \nRESTRICTIONS: Delivery is only available within Croatia. Home delivery is not available to certain islands, and for a long list of other island locations, Cash on Delivery is not an option (prepayment is required). In-store pickup also requires prepayment. \nNOTABLE FEATURES: Free samples are included with orders. \nWEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page. It specifies the delivery provider (GLS), free shipping threshold, and details for the in-store pickup option, including a list of available stores. A comprehensive list of islands with payment restrictions is provided. However, the site does not state the specific shipping costs for orders below the free shipping threshold and lacks information on express or weekend delivery options."
+}

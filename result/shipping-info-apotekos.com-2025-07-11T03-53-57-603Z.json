@@ -1,0 +1,97 @@
+{
+  "website": "apotekos.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "5,95 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "2-4 radnih dana, ne uključuje vikend i blagdane",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the primary method offered. Redirection to a GLS parcel shop is also possible. \nPROVIDERS: GLS is the exclusive delivery partner for Croatia. \nPRICING: Standard home delivery costs 5,95 €. No free shipping threshold is mentioned. Cash on delivery is available, but any potential surcharge is not specified. \nRESTRICTIONS: Delivery takes 2-4 business days, excluding weekends and holidays. There is no information regarding surcharges or specific policies for island deliveries. \nNOTABLE FEATURES: The service includes package tracking and the option to redirect a shipment to a nearby GLS location or a neighbor. \nWEBSITE ASSESSMENT: The shipping information is located on a dedicated page and presented in a clear table. However, it lacks key details such as a free shipping threshold, island delivery policies, and specific pricing for alternative delivery options like parcel shops."
+}

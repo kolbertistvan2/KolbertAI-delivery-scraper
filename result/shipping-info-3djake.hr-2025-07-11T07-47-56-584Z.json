@@ -1,0 +1,105 @@
+{
+  "website": "3djake.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Austrijska pošta",
+      "Slovenska pošta",
+      "DHL Express",
+      "DPD",
+      "Fedex Economy"
+    ],
+    "pricing": "€ 6,90 for orders from € 0,00. Free for orders from € 49,90.",
+    "free_delivery_limit": "€ 49,90",
+    "delivery_time": "Austrian Post: within 3 working days. Slovenian Post: within 4 working days. DHL Express: within 2 working days.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Within 2 working days. For European metropolises, delivery is on the next working day.",
+      "pricing": "DHL Express pricing depends on weight: up to 2 kg: €16.50, up to 5 kg: €20.50, up to 10 kg: €39.00, up to 20 kg: €65.00, up to 30 kg: €94.50, up to 70 kg: €182.50. If the order exceeds 70 kg, the costs of the additional weight are added."
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Špedicija (Freight forwarder)"
+    ],
+    "pricing": "Additional costs will be charged for selected items due to their nature and the associated special handling. These costs are calculated independently of the shipping costs. For special shipping with handling costs, the fees depend on the weight: up to 30 kg: normal handling fee; 30.01 to 60 kg: double handling fee; 60.01 to 90 kg: triple handling fee, and so on.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The freight forwarder will contact you by phone to arrange a delivery date.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Austrijska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Austrijska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, bulky product delivery, parcel shop pickup, and parcel locker delivery are available. In-store pickup is not offered.\nPROVIDERS: Standard delivery is handled by Austrian Post and Slovenian Post. Express delivery is via DHL Express. Bulky items are delivered by a freight forwarder. DPD and Fedex Economy are also listed as partners.\nPRICING: Standard home delivery costs €6.90 and is free for orders over €49.90. Express delivery starts at €16.50 and increases with weight. Bulky items incur additional handling fees based on weight.\nRESTRICTIONS: Deliveries are dispatched from Austria, so no shipments occur on Austrian public holidays. There is no specific information available regarding surcharges for delivery to Croatian islands or for cash on delivery (COD) payments.\nNOTABLE FEATURES: The free shipping threshold is relatively low at €49.90. A fast express delivery option is available. Delivery for bulky items is scheduled via a personal phone call from the freight forwarder.\nWEBSITE ASSESSMENT: The shipping information is comprehensive and clearly presented on a dedicated page. It details providers, delivery times, and costs for standard and express options. However, it lacks information on potential island surcharges and COD fees, which are relevant for the Croatian market."
+}

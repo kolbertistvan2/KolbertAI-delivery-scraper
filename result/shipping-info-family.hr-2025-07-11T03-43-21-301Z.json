@@ -1,0 +1,96 @@
+{
+  "website": "family.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express",
+      "DPD"
+    ],
+    "pricing": "Besplatna dostava na sve narudžbe iznad 70 €. U cijene proizvoda nisu uključeni troškovi dostave iz razloga se isti posebno plaćaju.",
+    "free_delivery_limit": "70 €",
+    "delivery_time": "Isporuka će uslijediti najkasnije u roku 10 radnih dana od vidljive uplate na računu Prodavatelja.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Popis otoka na koje dostavlja dostavna služba možete pronaći na linku.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only available shipping method. No options for parcel shops, parcel lockers, or in-store pickup are mentioned.\nPROVIDERS: Deliveries are handled by Overseas Express and DPD.\nPRICING: Shipping is free for all orders over 70 €. For orders below this amount, the shipping cost is calculated during the checkout process. Cash on delivery (pouzećem) is offered as a payment method, but no specific surcharge is mentioned.\nDELIVERY TIME & RESTRICTIONS: The standard delivery timeframe is up to 10 working days. Delivery to islands is possible, with a list of serviceable islands available via a link provided by the courier, suggesting potential restrictions. There is no information on express or weekend delivery services.\nNOTABLE FEATURES: The key feature is free delivery over a 70 € threshold. Cash on delivery is available.\nWEBSITE ASSESSMENT: Shipping information is not on a dedicated page but is located within the general 'Uvjeti kupnje' (Terms of Purchase). While it provides basic information on providers and a free shipping threshold, it lacks clarity on standard shipping costs, which are only revealed at checkout. Information on other common delivery methods like parcel points or express shipping is absent."
+}

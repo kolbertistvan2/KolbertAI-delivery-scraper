@@ -1,0 +1,96 @@
+{
+  "website": "art-rasvjeta.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "HP",
+      "In Time"
+    ],
+    "pricing": "Trošak dostave prikazuje se prilikom zaključivanja narudžbe. Za narudžbe iznad 50,00 € dostava je besplatna, osim za žarulje.",
+    "free_delivery_limit": "50,00 €",
+    "delivery_time": "Ovisno o proizvodu: 3-5 radnih dana, 8-10 radnih dana, ili 15-20 radnih dana.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "Besplatna dostava iznad 50,00 € ne odnosi se na žarulje, budući da se radi o lomljivim proizvodima koji zahtijevaju posebno pakiranje i rukovanje.",
+    "free_delivery_limit": "Besplatna dostava iznad 50,00 € ne odnosi se na žarulje.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Dostupna je samo dostava na kućnu adresu na području cijele Hrvatske. Nema opcija preuzimanja u trgovini, paketomatima ili na pickup lokacijama.\nPROVIDERS: Dostavu vrše HP i In Time.\nPRICING: Dostava je besplatna za narudžbe iznad 50,00 €, s iznimkom žarulja. Točan trošak dostave za narudžbe ispod tog iznosa prikazuje se pri zaključivanju narudžbe.\nDELIVERY TIME: Vrijeme isporuke ovisi o proizvodu i može biti 3-5, 8-10 ili 15-20 radnih dana. Radni dani su od ponedjeljka do petka.\nNOTABLE FEATURES: Ne vrše se dostave vikendom. Žarulje su izuzete iz ponude besplatne dostave zbog potrebe za posebnim pakiranjem. Nema informacija o nadoplati za otoke, pouzeću ili ekspresnoj dostavi.\nWEBSITE ASSESSMENT: Informacije o dostavi su osnovne i lako razumljive, ali nedostaju ključni detalji poput cijene dostave za narudžbe ispod 50,00 € i informacija o dostavi na otoke. Korisno je navedeno različito vrijeme isporuke ovisno o dostupnosti proizvoda."
+}

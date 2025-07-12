@@ -1,0 +1,101 @@
+{
+  "website": "mango.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "4,00 €",
+    "free_delivery_limit": "40,00 €",
+    "delivery_time": "2-6 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "20,00 €",
+    "free_delivery_limit": "100,00 €",
+    "delivery_time": "2-6 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available in Mango stores in Croatia (delivery to store takes 3-7 business days)",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Mango provides standard home delivery, separate home delivery for bulky items (Mango Home collection), and free in-store pickup in Croatia. Delivery to parcel shops or lockers is not an option. PROVIDERS: The specific courier service used for deliveries is not mentioned on the website. PRICING: Standard home delivery is 4,00 € (free for orders over 40,00 €). Bulky item delivery costs 20,00 € (free for orders over 100,00 €). In-store pickup is always free. DELIVERY TIMES: Both standard and bulky item home deliveries are estimated to take 2-6 business days. Delivery to a selected store for pickup takes 3-7 business days. NOTABLE FEATURES: The store does not offer express delivery, weekend delivery, or cash on delivery (COD). There is no information available regarding potential surcharges for deliveries to Croatian islands. The Mango Home collection is handled with a separate shipping fee structure. WEBSITE ASSESSMENT: The shipping information is clearly presented in the help section but lacks specifics on the delivery provider and policies for island addresses."
+}

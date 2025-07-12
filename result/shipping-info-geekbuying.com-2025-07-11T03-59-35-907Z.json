@@ -1,0 +1,98 @@
+{
+  "website": "geekbuying.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "AirMail",
+      "Registered AirMail",
+      "Priority Mail",
+      "Expedited Shipping"
+    ],
+    "pricing": "The shipping cost depends on the weight of the product, the origin, the destination, the shipping method and warehouses. Detailed pricing information is visible at checkout.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "From EU Warehouse (Expedited Shipping): 2-7 business days. From China & Hong Kong Warehouse: Priority Line 10-20 business days, Expedited Shipping 7-18 business days. Order processing time is an additional 2-7 business days (1-2 for EU warehouse).",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "From EU Warehouse: 2-7 business days. From China & Hong Kong Warehouse: 7-18 business days.",
+      "pricing": "Detailed pricing information is visible at checkout."
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "The delivery guide does not apply to certain selected remote locations.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only available option for Croatia. The website does not offer parcel shop, parcel locker, or in-store pickup services.\nPROVIDERS: Specific courier companies (like DPD, GLS) are not named. The service uses generic shipping methods: AirMail, Registered AirMail, Priority Mail, and Expedited Shipping.\nPRICING: Shipping costs are not fixed and are calculated at checkout based on product weight, origin/destination warehouse, and shipping method. No information on free shipping thresholds is provided.\nDELIVERY TIME: Delivery from the EU warehouse via Expedited Shipping takes 2-7 business days. From China/Hong Kong, Priority Line takes 10-20 business days, and Expedited Shipping takes 7-18 business days. This does not include a 2-7 day order processing time.\nRESTRICTIONS & SPECIAL SERVICES: There is no information on weekend delivery, Cash on Delivery (COD), or specific services for bulky items. There is a general note that delivery may not be available to certain remote locations, which could affect Croatian islands, but no specific surcharge is mentioned.\nNOTABLE FEATURES: The key feature is the availability of shipping from both EU and China warehouses, offering a trade-off between delivery speed and cost. Express (Expedited) shipping is available from both locations.\nWEBSITE ASSESSMENT: The shipping information is very general and lacks specifics for Croatia. Key details like courier names, exact pricing, and island delivery policies are missing. Customers must proceed to checkout to get precise shipping information for their order, making it difficult to assess costs and options beforehand."
+}

@@ -1,0 +1,99 @@
+{
+  "website": "bike-discount.de",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL",
+      "DPD"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL",
+      "DHL Freight"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "ca. 9 - 15 Werktage",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery for standard and bulky parcels is available for Croatia. Parcel shop, parcel locker, and in-store pickup options are not mentioned. PROVIDERS: Deliveries are handled by DHL and DPD. Bulky items and bikes are shipped with DHL and DHL Freight. PRICING: Specific shipping costs for Croatia are not available in the provided information. RESTRICTIONS: Cash on delivery is not available for orders to Croatia. A standard express delivery option is not offered. DHL Freight does not deliver on Saturdays. No information is provided regarding surcharges for island deliveries. WEBSITE ASSESSMENT: The website provides general shipping policies, but crucial country-specific details like pricing were not found. Information on key service limitations (COD, Express) is clear, but the lack of island delivery details is a notable omission."
+}

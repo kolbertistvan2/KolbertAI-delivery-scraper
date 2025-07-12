@@ -1,0 +1,95 @@
+{
+  "website": "maskice.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express"
+    ],
+    "pricing": "5,00€ za narudžbe manje od 30,00€. Besplatna dostava za narudžbe iznad 30,00€.",
+    "free_delivery_limit": "30,00€",
+    "delivery_time": "3-5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method offered is standard home delivery. PROVIDERS: Deliveries are handled by Overseas Express. PRICING: Delivery costs 5,00€ for orders under 30,00€ and is free for orders of 30,00€ or more. DELIVERY TIME: The estimated delivery time is 3-5 working days. RESTRICTIONS: No information is provided regarding island surcharges or specific delivery restrictions. NOTABLE FEATURES: The website does not mention express delivery, weekend delivery, cash on delivery (COD), or alternative delivery options like parcel shops, parcel lockers, or in-store pickup for online orders. WEBSITE ASSESSMENT: The shipping information is basic and easy to understand but lacks detail on many common delivery aspects. Key information like the delivery provider, cost, and timeframe is clearly stated, but there is a complete absence of information on alternative delivery methods, COD, or potential surcharges for specific locations like islands."
+}

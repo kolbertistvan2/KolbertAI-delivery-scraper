@@ -1,0 +1,96 @@
+{
+  "website": "emporium.hr",
+  "HOME_DELIVERY": {
+    "available": "no",
+    "providers": [
+      "HP Express",
+      "GLS"
+    ],
+    "pricing": "For orders up to 260 kn / 500 kn (information is contradictory), the delivery cost is 40 kn via HP Express or 30 kn via GLS.",
+    "free_delivery_limit": "260 kn / 500 kn",
+    "delivery_time": "2-5 business days",
+    "express_delivery": {
+      "available": "yes, on request",
+      "delivery_time": "next business day",
+      "pricing": "on request"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: The webshop is currently closed and not accepting orders. All shipping information on the page is outdated and struck through. FORMER DELIVERY OPTIONS: Home delivery was the only specified method. PROVIDERS: HP Express, GLS. PRICING (FORMER): The information was contradictory, stating free shipping thresholds of both 260 kn and 500 kn. Below the threshold, the cost was 40 kn (HP Express) or 30 kn (GLS). DELIVERY TIME (FORMER): Standard delivery was 2-5 business days. Next-day express delivery was available on request. RESTRICTIONS: Delivery was from Monday to Friday. No information was found on island surcharges, COD fees, or other delivery methods like parcel lockers, parcel shops, or in-store pickup. NOTABLE FEATURES: Express delivery was available but required a manual price quote request. WEBSITE ASSESSMENT: The site clearly communicates its current non-operational status. The visible but struck-through old shipping information is transparent but contains conflicting pricing details."
+}

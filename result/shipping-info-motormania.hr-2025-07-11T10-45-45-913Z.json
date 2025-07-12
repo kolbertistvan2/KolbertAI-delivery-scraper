@@ -1,0 +1,95 @@
+{
+  "website": "motormania.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta"
+    ],
+    "pricing": "35Kn za iznose računa do 2.000 kn.",
+    "free_delivery_limit": "2.000 kn",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "3,75% vrijednosti pošiljke (koja može uključivati i poštarinu) , minimalni iznos naknade je 9,00Kn te maksimalni iznos je 80,00Kn."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Ver d.o.o. –Motormania™\nMate Lovraka 1\n10410 Velika Gorica",
+    "pricing": "besplatno",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers two delivery methods: home delivery and in-store pickup. PROVIDERS: Home delivery is handled by Hrvatska pošta. PRICING: Home delivery costs 35 Kn for orders under 2,000 Kn and is free for orders above this amount. In-store pickup is free. RESTRICTIONS: Cash on delivery (COD) is available for home delivery with a surcharge of 3.75% of the order value (min 9 Kn, max 80 Kn), but it is not an option for in-store pickup. NOTABLE FEATURES: The only available pickup point is their physical store in Velika Gorica. WEBSITE ASSESSMENT: The shipping information is basic and found on a general 'Shopping' page. Key details such as delivery timeframes, island delivery policies, and options for express or weekend delivery are not provided, making the information incomplete."
+}

@@ -1,0 +1,99 @@
+{
+  "website": "mass-shoes.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "GLS"
+    ],
+    "pricing": "Free for orders of 80 EUR and more. For orders less than 80 EUR, the delivery cost is 3.00 EUR, 3.99 EUR, or 4.99 EUR, depending on the selected delivery option.",
+    "free_delivery_limit": "80 EUR",
+    "delivery_time": "Standard delivery is within 3 to 5 business days. During peak periods, it can extend to 7 business days. Delivery to islands can take up to 14 days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Delivery time is extended by the number of non-working days during holidays and weekends."
+    },
+    "island_surcharge": "No surcharge mentioned, but delivery can take up to 14 days.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "BOX NOW"
+    ],
+    "locations_count": "Over 600 locations for BOX NOW. The number for GLS is not specified.",
+    "pricing": "Same as home delivery. Promotional offer: Free delivery via BOX NOW for all purchases until 10.7.2025.",
+    "free_delivery_limit": "80 EUR",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "BOX NOW lockers are accessible 24/7, allowing for weekend pickups."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Cash on delivery is not possible at GLS and BOX NOW lockers. BOX NOW offers a 'Pay on delivery' service for digital payments upon pickup."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available, but specific locations are not listed on the delivery page. Orders are held for 3 days.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, Parcel Lockers, and In-store pickup are available. PROVIDERS: DPD, GLS, and BOX NOW. PRICING: Delivery is free for orders over €80. For smaller orders, the cost is €3.00, €3.99, or €4.99. DELIVERY TIME: Standard delivery is 3-5 business days, but can extend to 7 days during peak times. Island delivery may take up to 14 days. NOTABLE FEATURES: A promotional offer provides free delivery via BOX NOW lockers until July 10, 2025. Cash on delivery is not available for parcel lockers, but a digital payment on delivery option exists for BOX NOW. In-store pickup is an option, with orders held for 3 days. WEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page, covering providers, pricing, delivery times, and various options. It is comprehensive and easy to understand, with special promotions clearly highlighted. The only missing detail is a potential surcharge for cash on delivery for home delivery."
+}

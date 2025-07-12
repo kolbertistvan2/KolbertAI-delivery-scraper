@@ -1,0 +1,96 @@
+{
+  "website": "vbz.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Paket24 Hrvatska pošta",
+      "Overseas Express Hrvatska"
+    ],
+    "pricing": "– narudžba do 40 € = 4 € poštarine\n– narudžba iznad 40 € + … = 0,00 € poštarine",
+    "free_delivery_limit": "40 €",
+    "delivery_time": "3 – 5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava se vrši i putem Overseas Express Hrvatska na području Republike Hrvatske, osim nekih otoka. Dostava na otoke i u manja mjesta se odvija prema rasporedu dostavane službe (npr. 2 puta tjedno).",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only specified option. PROVIDERS: Hrvatska pošta (Paket24) and Overseas Express. PRICING: Delivery costs 4 € for orders up to 40 € and is free for orders above 40 € within Croatia. DELIVERY TIME: Standard delivery time is 3-5 business days. RESTRICTIONS: Overseas Express does not deliver to some islands, and island deliveries follow a specific schedule (e.g., twice a week). NOTABLE FEATURES: The website warns that Hrvatska pošta may charge an additional fee for home delivery attempts, which can be avoided by picking up the parcel directly from the post office. No express or weekend delivery options are mentioned. WEBSITE ASSESSMENT: The shipping information is available on a dedicated 'Dostava' page. It clearly outlines basic costs, providers, and delivery times. However, it lacks details on COD, express options, and specific island delivery costs or a list of excluded islands. The warning about the extra postal fee is a crucial and transparent detail for customers."
+}

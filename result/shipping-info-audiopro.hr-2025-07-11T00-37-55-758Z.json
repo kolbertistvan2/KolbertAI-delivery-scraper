@@ -1,0 +1,102 @@
+{
+  "website": "audiopro.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express",
+      "IN-TIME"
+    ],
+    "pricing": "Cijena ovisi o težini. do 2 kg: 5,04 €, do 5 kg: 5,97 €, do 10 kg: 6,64 €, do 15 kg: 7,30 €, do 20 kg: 8,63 €, do 25 kg: 9,29 €, do 30 kg: 10,62 €, do 35 kg: 11,28 €, do 40 kg: 11,95 €, do 45 kg: 13,27 €, do 50 kg: 15,93 €.",
+    "free_delivery_limit": "Za kupovinu iznad 50,00 € dostava je GRATIS.",
+    "delivery_time": "unutar 5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,99 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express",
+      "IN-TIME"
+    ],
+    "pricing": "Cijena ovisi o težini. od 50 do 100 kg: 21,24 €, od 100 do 200 kg: 22,56 €, od 200 do 300 kg: 38,49 €, od 300 do 400 kg: 47,78 €, od 400 do 500 kg: 55,74 €.",
+    "free_delivery_limit": "Za kupovinu iznad 50,00 € dostava je GRATIS.",
+    "delivery_time": "unutar 5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,99 €"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb",
+      "Osijek"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Nedjeljom i praznicima ne radimo"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is available for standard and bulky items. In-store pickup is also an option. Parcel shop and parcel locker delivery are not mentioned.\nPROVIDERS: Deliveries are handled by Overseas Express and IN-TIME.\nPRICING: Standard shipping costs range from 5,04 € (up to 2kg) to 15,93 € (up to 50kg). Bulky item shipping costs range from 21,24 € (up to 100kg) to 55,74 € (up to 500kg). Shipping is free for orders over 50,00 €. Cash on delivery (COD) incurs a surcharge of 1,99 €.\nDELIVERY TIME: The standard delivery timeframe is within 5 working days.\nRESTRICTIONS & SPECIAL SERVICES: There is no information on express delivery, weekend delivery, or specific surcharges/restrictions for island deliveries. In-store pickup is available at their Zagreb and Osijek locations.\nWEBSITE ASSESSMENT: Shipping information is located within the 'Kako kupiti' (How to buy) page, not on a dedicated delivery page. The information provided is clear, especially the detailed weight-based pricing table, but it lacks details on common services like express, weekend, and island delivery."
+}

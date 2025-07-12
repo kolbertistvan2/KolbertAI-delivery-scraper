@@ -1,0 +1,97 @@
+{
+  "website": "lelosi.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "5 € for orders up to 80 €, free for orders over 80 €",
+    "free_delivery_limit": "80 €",
+    "delivery_time": "2-5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "4,5 € for orders up to 80 €, free for orders over 80 €",
+    "free_delivery_limit": "80 €",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and Parcel Shop (Pickup Point) delivery are available. PROVIDERS: The sole delivery provider mentioned is GLS. PRICING: Home delivery costs 5 € for orders under 80 € and is free above that threshold. Parcel shop delivery costs 4,5 € for orders under 80 € and is also free for orders over 80 €. The standard delivery time is 2-5 business days. RESTRICTIONS: No information is provided regarding surcharges for island deliveries or weekend delivery options. NOTABLE FEATURES: Cash on delivery is offered as a payment method, though any potential surcharge is not specified. Customers receive an SMS from GLS allowing them to manage their delivery address and time. WEBSITE ASSESSMENT: The shipping information is available on a dedicated 'Dostava' page. The information regarding providers, pricing, and delivery times is clear. However, the page could be improved by clarifying the multiple pricing tables and providing details on express delivery, weekend delivery, and island delivery policies."
+}

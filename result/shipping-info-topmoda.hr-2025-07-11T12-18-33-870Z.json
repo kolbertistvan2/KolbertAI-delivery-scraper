@@ -1,0 +1,108 @@
+{
+  "website": "topmoda.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,00 € for orders up to 50,00 €. Free shipping for orders of 50,00 € and more.",
+    "free_delivery_limit": "50,00 €",
+    "delivery_time": "2-5 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands is subject to the courier's schedule, which may result in longer delivery times. No extra cost is mentioned.",
+    "cod_surcharge": "1,00 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb",
+      "Split",
+      "Rijeka",
+      "Zadar",
+      "Osijek",
+      "Pula",
+      "Šibenik",
+      "Dubrovnik",
+      "Varaždin",
+      "Slavonski Brod",
+      "Karlovac",
+      "Makarska"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery via the GLS courier service. In-store pickup is also available at their numerous physical locations across Croatia. Parcel shop and parcel locker delivery options are not offered.\nPRICING: Home delivery costs 4,00 € for orders under 50,00 €, while orders of 50,00 € or more qualify for free shipping. A surcharge of 1,00 € applies for cash on delivery (COD) payments. The cost for in-store pickup is not specified.\nDELIVERY TIME & RESTRICTIONS: The standard delivery timeframe is 2-5 business days. For Croatian islands, delivery is subject to the GLS schedule, which may lead to delays. Express and weekend delivery services are not available.\nNOTABLE FEATURES: The company offers a clear free shipping threshold and a single, straightforward delivery partner. The availability of in-store pickup in many cities is a significant advantage.\nWEBSITE ASSESSMENT: Shipping information is not on a dedicated page but is clearly outlined within the 'Uvjeti Plaćanja' (Terms of Payment) section. While functional, a separate 'Dostava' (Delivery) page would improve user experience. Information is concise and covers the essential details for standard home delivery."
+}

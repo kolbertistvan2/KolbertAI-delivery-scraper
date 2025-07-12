@@ -1,0 +1,97 @@
+{
+  "website": "tapiker.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena dostave je 6,50 EUR-a za narudžbe do 50 EUR-a.",
+    "free_delivery_limit": "besplatna je za narudžbe iznad 50,00 EUR-a do 5 kg težine",
+    "delivery_time": "u kontinentalnoj Hrvatskoj unutar 1-3 radnih dana, a na otocima prema rasporedu dostave do 5 radnih dana.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otocima prema rasporedu dostave do 5 radnih dana. Nije naveden dodatni trošak.",
+    "cod_surcharge": "Za sve pakete koji se plaćaju pouzećem, naplaćuje se dodatnih 1,00 EUR-a, po paketu(što nama naplaćuije GLS)."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Ako je paket težine od 5kg do 20kg, plaća se doplata na težinu u iznosu od 4,40 EUR-a, bez obzira na iznos, što znači osnovna cijena 6,50 EUR-a plus 4,40 EUR-a što iznosi 10,90 EUR-a. Ako je paket težine iznad 20kg - 25 kg, onda doplata na težinu iznosi 6,90 EUR-a, što znači 6,50 EUR-a plus doplata 6,90 EUR-a što iznosi 13,40 EUR-a. Za pakete veće težine kontaktirat ćemo Vas točnim iznosom pošatarine.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "u kontinentalnoj Hrvatskoj unutar 1-3 radnih dana, a na otocima prema rasporedu dostave do 5 radnih dana.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otocima prema rasporedu dostave do 5 radnih dana. Nije naveden dodatni trošak.",
+    "cod_surcharge": "Za sve pakete koji se plaćaju pouzećem, naplaćuje se dodatnih 1,00 EUR-a, po paketu(što nama naplaćuije GLS)."
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Tapiker.hr offers home delivery as the sole shipping method for online orders. There is no mention of parcel shop, parcel locker, or in-store pickup options.\nPROVIDER: All deliveries are handled exclusively by the GLS courier service.\nPRICING: Standard delivery for packages up to 5 kg costs 6,50 EUR for orders under 50 EUR and is free for orders over 50 EUR. A cash on delivery (COD) surcharge of 1,00 EUR applies to all relevant orders. Bulky items have a tiered pricing system based on weight: packages from 5-20 kg cost 10,90 EUR, and packages from 20-25 kg cost 13,40 EUR. For packages heavier than 25 kg or pallet deliveries, customers must request a custom quote.\nDELIVERY TIMES & RESTRICTIONS: Delivery within continental Croatia takes 1-3 business days, while delivery to islands can take up to 5 business days. There is no mention of an additional price surcharge for island deliveries. Certain fragile items, like fireclay plates, are not shipped, while others are sent at the customer's own risk.\nNOTABLE FEATURES: The website provides clear, weight-based pricing for heavier items and offers pallet delivery upon request via email. No express or weekend delivery services are available.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Uvjeti dostave' page and is quite detailed, especially regarding pricing for different weight categories. However, the presentation could be improved with a table for easier comparison. The information is sufficient for standard and bulky deliveries but lacks options like express shipping or alternative pickup points."
+}

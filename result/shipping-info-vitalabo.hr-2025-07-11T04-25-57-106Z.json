@@ -1,0 +1,105 @@
+{
+  "website": "vitalabo.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Austrijska pošta",
+      "Slovenska pošta",
+      "DHL Express",
+      "Fedex Economy",
+      "DPD"
+    ],
+    "pricing": "€ 6,90 for orders under € 49,90. Free for orders over € 49,90.",
+    "free_delivery_limit": "€ 49,90",
+    "delivery_time": "Austrian Post: within 3 business days. Slovenian Post: within 4 business days.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Within 2 business days. For orders placed by Sunday 23:59, delivery to European metropolises is on the next business day.",
+      "pricing": "Provider: DHL Express. Pricing is based on weight:\n- up to 2 kg: € 16,50\n- up to 5 kg: € 20,50\n- up to 10 kg: € 39,00\n- up to 20 kg: € 65,00\n- up to 30 kg: € 94,50\n- up to 70 kg: € 182,50"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Forwarding agent"
+    ],
+    "pricing": "Additional costs will be charged for selected items due to their nature and special handling. This information is displayed on the product detail page. For items requiring special handling, fees are applied based on weight (e.g., up to 30 kg: normal fee; 30.01 to 60 kg: double fee, etc.).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery service will contact you by phone to arrange a delivery date.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Austrijska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "Follows standard home delivery pricing: € 6,90 for orders under € 49,90, free for orders over € 49,90.",
+    "free_delivery_limit": "€ 49,90",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Austrijska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "Follows standard home delivery pricing: € 6,90 for orders under € 49,90, free for orders over € 49,90.",
+    "free_delivery_limit": "€ 49,90",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers standard home delivery, express delivery, bulky item delivery via forwarding agent, and pickup at Austrian Post parcel shops/lockers. \nPRICING & PROVIDERS: Standard delivery costs €6.90 and is free for orders over €49.90, handled by Austrian Post and Slovenian Post. Express delivery is available via DHL Express with prices starting at €16.50, depending on weight. Other listed providers include DPD and Fedex Economy. \nNOTABLE FEATURES: Packages are shipped from Austria, which may affect delivery times during Austrian public holidays. Special delivery options for bulky, refrigerated, or items requiring special handling are available with additional costs specified on product pages. Cash on delivery is listed as a payment method, but no surcharge is mentioned. \nWEBSITE ASSESSMENT: The shipping information is comprehensive and clearly presented on a dedicated page. It details costs, providers, and delivery times for different services. The main gap is the lack of information on potential island surcharges and cash on delivery fees. Overall, the information is of high quality and easy to access."
+}

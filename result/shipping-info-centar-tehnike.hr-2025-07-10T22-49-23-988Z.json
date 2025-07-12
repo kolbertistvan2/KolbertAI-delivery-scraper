@@ -1,0 +1,93 @@
+{
+  "website": "centar-tehnike.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Cijena dostave ovisi o masi i obujmu pošiljke, a definira se u procesu kreiranja narudžbe.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Isporuka unutar 10 radnih dana ako je roba dostupna na skladištu dobavljača u Hrvatskoj.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava se ne vrši na sve otoke. Cijena dostave za otoke i područje Dubrovačko-neretvanske županije je 50% veća od cijene dostave za ostatak Hrvatske. Za otoke na koje se ne dostavlja, pošiljku je potrebno preuzeti u navedenom terminalu dostavne službe.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Cijena dostave ovisi o masi i obujmu pošiljke, a definira se u procesu kreiranja narudžbe.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Isporuka unutar 10 radnih dana ako je roba dostupna na skladištu dobavljača u Hrvatskoj.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava se ne vrši na sve otoke. Cijena dostave za otoke i područje Dubrovačko-neretvanske županije je 50% veća od cijene dostave za ostatak Hrvatske. Za otoke na koje se ne dostavlja, pošiljku je potrebno preuzeti u navedenom terminalu dostavne službe.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only specified option for online orders. Delivery is available throughout Croatia, including for bulky items. No specific courier providers are named. PRICING: Shipping cost is calculated during checkout based on the order's weight and volume. There is no mention of a free shipping threshold. RESTRICTIONS: Delivery is not available to all Croatian islands. For islands and the Dubrovnik-Neretva county, the shipping cost is 50% higher. For islands where direct delivery is not possible, customers must pick up their order at a designated courier terminal. Delivery is to the first obstacle (e.g., building entrance) and does not include carrying items upstairs. NOTABLE FEATURES: Cash on delivery is available and does not incur a surcharge. Express and weekend delivery are not mentioned. In-store pickup, parcel shops, and parcel lockers are not listed as delivery methods for online orders. WEBSITE ASSESSMENT: The shipping information is somewhat basic. Key details like courier names and a clear list of islands with restricted delivery are missing. The 50% surcharge for certain areas is clearly stated, but the base shipping cost is only visible during checkout."
+}

@@ -1,0 +1,97 @@
+{
+  "website": "dm.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "€3.95",
+    "free_delivery_limit": "Free for registered customers with a 'Moj dm' account on orders over €49.",
+    "delivery_time": "2 to 3 working days (Monday to Friday, excluding holidays)",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to certain locations may deviate from the usual specified deadline.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD Pickup"
+    ],
+    "locations_count": "not available",
+    "pricing": "€3.95",
+    "free_delivery_limit": "Free for registered customers with a 'Moj dm' account on orders over €49.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to certain locations may deviate from the usual specified deadline.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Selectable dm stores",
+    "pricing": "€3.95 for standard pickup. Free for registered customers with a 'Moj dm' account on orders over €49.",
+    "free_delivery_limit": "Free for registered customers with a 'Moj dm' account on orders over €49.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Ready for pickup in 60 minutes",
+      "pricing": "Free for registered customers with a 'Moj dm' account. €0.95 for unregistered guest customers."
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Pickup is possible during the opening hours of the selected store, which may include weekends."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: dm.hr offers home delivery, DPD Pickup Point (parcel shop) delivery, and in-store pickup (standard and express) within Croatia.\nPROVIDERS: The exclusive delivery partner is DPD.\nPRICING: Standard delivery for all methods is €3.95. Delivery is free for registered 'Moj dm' account holders for orders over €49.\nRESTRICTIONS: Delivery is only within Croatia. Delivery times to certain locations, likely islands, may be longer than the standard 2-3 working days. Delivery is not made on weekends or holidays, except for in-store pickup which depends on store hours.\nNOTABLE FEATURES: An 'Express In-Store Pickup' service is available, allowing customers to collect their order in 60 minutes. This service is free for registered users and costs €0.95 for guests.\nWEBSITE ASSESSMENT: The shipping information is located on a clear, dedicated page. It effectively outlines the available methods, standard costs, and delivery times. However, it lacks specific details on potential island surcharges (beyond time delays), cash-on-delivery fees, and any policies related to bulky or heavy items."
+}

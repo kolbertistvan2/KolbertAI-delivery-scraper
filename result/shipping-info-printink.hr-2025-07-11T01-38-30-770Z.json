@@ -1,0 +1,98 @@
+{
+  "website": "printink.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Pošta Hrvatske"
+    ],
+    "pricing": "4,29 €",
+    "free_delivery_limit": "Free delivery for orders with products from the special offer.",
+    "delivery_time": "5 working days (usually 2-3 days)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0,8 € (for DPD deliveries)"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Pošta Hrvatske"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery. Bulky items over 31.5 kg are handled separately. There are no options for parcel shops, parcel lockers, or in-store pickup mentioned.\nPROVIDERS: DPD is the main provider, while Pošta Hrvatske (Croatian Post) is used for bulky items.\nPRICING: Standard home delivery costs €4.29. Free shipping is available for orders containing products from a special offer. A cash on delivery (COD) surcharge of €0.80 is applied by DPD.\nDELIVERY TIME: The standard delivery timeframe is up to 5 working days, typically arriving in 2-3 days.\nRESTRICTIONS: Information regarding island delivery, express options, or weekend delivery is not available.\nNOTABLE FEATURES: Free shipping is tied to purchasing specific promotional items. A separate carrier is used for heavy products. The COD surcharge is explicitly stated for DPD.\nWEBSITE ASSESSMENT: The shipping information is located on a single 'Dostava' page and is reasonably clear for standard orders. However, it lacks detail on key aspects like island surcharges, express delivery, and specific terms for bulky items. The information could be better structured to improve clarity."
+}

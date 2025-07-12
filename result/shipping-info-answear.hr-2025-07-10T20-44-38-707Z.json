@@ -1,0 +1,98 @@
+{
+  "website": "answear.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Overseas Express"
+    ],
+    "pricing": "4,90 EUR for orders under 60 EUR. Free for orders 60 EUR and over.",
+    "free_delivery_limit": "60 EUR",
+    "delivery_time": "48 sati (GLS) / 2-3 dana (Overseas Express)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Orders placed on weekends or holidays are dispatched on the first or second following working day."
+    },
+    "island_surcharge": "Za lokacije: MLJET, DUGI OTOK, ŠOLTA, ILOVIK, IST, KAPRIJE, KOLOČEP, LASTOVO, LOPUD, MOLAT, OLIB, PREMUD, PRVIĆ, RAVA, SALI, SESTRUNJ, SILBA, ŠIPAN, UNIJE, VELI IŽ, rokovi isporuke mogu biti od 2 do 6 dana.",
+    "cod_surcharge": "0,50 EUR"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Overseas OEX shops"
+    ],
+    "locations_count": "not available",
+    "pricing": "4,90 EUR for orders under 60 EUR. 1,30 EUR for orders 60 EUR and over.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Not available (online payment only)"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Answear.hr offers home delivery via GLS and Overseas Express, and parcel shop pickup via Overseas OEX shops. PRICING: Home delivery costs 4,90 EUR for orders under 60 EUR and is free for orders of 60 EUR or more. Parcel shop delivery costs 4,90 EUR for orders under 60 EUR and 1,30 EUR for orders of 60 EUR or more. DELIVERY TIME: Standard delivery time is 48 hours to 3 days, but can be extended to 2-6 days for specific Croatian islands. NOTABLE FEATURES: Cash on delivery is available for home delivery with a 0,50 EUR surcharge but is not an option for parcel shop pickup. Free returns are offered for orders over 60 EUR. WEBSITE ASSESSMENT: The shipping information on the dedicated page is clear and well-structured, detailing costs, providers, and delivery times. Information about island deliveries is limited to extended timeframes, with no mention of extra surcharges. Details for parcel lockers (BOX NOW), mentioned in the footer, are absent from the main delivery information page."
+}

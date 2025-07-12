@@ -1,0 +1,95 @@
+{
+  "website": "dostavacvijeca.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Dostavu cvijeća na području Sesveta, Velike Gorice naplaćujemo 25 eura. Za sve van tih granica molimo kontaktirati za ponudu dostave!",
+    "free_delivery_limit": "Dostava je uračunata u cijeni cvijeća prikazanog na web shop-u za područje : Zagreb - zapad (do Jankomira), Istok (do Dubrave), Sjever (Podsljemenska zona), Jug (do Buzina). Split - Dostava je uračunata u cijeni cvijeća prikazanog na web shop-u za područje grada Splita",
+    "delivery_time": "Dostava cvijeća 08 - 20 h",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available option is home delivery, primarily focused on the cities of Zagreb and Split. PROVIDERS: No specific third-party courier services are mentioned; delivery is likely handled by the company's own service. PRICING: Delivery cost is included in the product price for specified zones within Zagreb and the city of Split. A flat rate of 25 euros is charged for delivery to Sesvete and Velika Gorica. For all other locations, customers must contact the company for a custom price quote. RESTRICTIONS: The service is geographically limited, and there is no information regarding delivery to Croatian islands. Alternative delivery methods like parcel shops, lockers, or in-store pickup are not available. NOTABLE FEATURES: The service is highly localized, offering a personal touch with custom quotes for areas outside their standard delivery zones. Weekend delivery is available on Saturdays. WEBSITE ASSESSMENT: The shipping information is very basic and lacks detail on delivery timeframes (e.g., same-day, next-day), payment options like cash on delivery, and nationwide coverage. The information is sufficient only for customers within the specified delivery areas of Zagreb and Split."
+}

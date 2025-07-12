@@ -1,0 +1,95 @@
+{
+  "website": "topfishing.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4.63€ for orders under 39.81 EUR. Free for orders over 39.81 EUR.",
+    "free_delivery_limit": "39.81 EUR",
+    "delivery_time": "24-48 hours on business days. Orders placed on Friday are delivered on the following Monday.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only specified delivery method is standard home delivery. \nPROVIDERS: GLS is the designated courier. \nPRICING: Delivery costs 4.63€ for orders below 39.81€ and is free for orders exceeding this amount. \nDELIVERY TIME: Delivery is typically within 24-48 hours on business days. \nRESTRICTIONS: Deliveries are not made on weekends; Friday orders are delivered on Monday. Information regarding island surcharges or specific delivery terms for islands is not provided. \nNOTABLE FEATURES: The service offers fast standard delivery. Cash on delivery (pouzećem) is mentioned as a payment option, but any associated surcharge is not specified. \nWEBSITE ASSESSMENT: The shipping information is available on a dedicated 'Dostava' page and is straightforward. However, it lacks detail on several key aspects, such as delivery to Croatian islands, COD fees, and alternative delivery options like parcel shops, lockers, or in-store pickup for online orders. Information on handling bulky items is also absent."
+}

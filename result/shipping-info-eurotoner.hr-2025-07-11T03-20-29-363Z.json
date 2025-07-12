@@ -1,0 +1,101 @@
+{
+  "website": "eurotoner.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD",
+      "PAKET 24"
+    ],
+    "pricing": "5 Eura for all orders. The customer bears the cost of delivery.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1 to 21 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "An unnamed transport company different from the standard couriers."
+    ],
+    "pricing": "The standard delivery price of 5 Eura seems to apply, but the main condition is that the order must be prepaid by credit card or bank transfer.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1 to 21 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Cash on delivery is not available for products over 10 kg or large dimensions. Prepayment by credit card or bank transfer is required."
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta (Paket 24)"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Cash on delivery is not available. Payment at the parcel locker is possible only by card."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "The company operates only as an online store and does not have physical locations for pickup.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery for all of Croatia. Customers can also redirect their packages to a parcel locker. There is no in-store pickup or parcel shop option. A separate process exists for bulky items.\nPROVIDERS: Standard deliveries are handled by GLS, DPD, and Paket 24 (Hrvatska pošta). Bulky items are delivered by a different, unnamed transport company.\nPRICING: There is a flat delivery fee of 5 Euros for all orders. No free shipping threshold is mentioned.\nRESTRICTIONS: Delivery is only within Croatia. The delivery timeframe is quite wide, from 1 to 21 business days. Bulky items (over 10kg or large dimensions) cannot be paid for with cash on delivery and must be prepaid.\nNOTABLE FEATURES: Customers have the option to redirect a home delivery shipment to a parcel locker. Payment at the parcel locker is possible by card.\nWEBSITE ASSESSMENT: Shipping information is not on a dedicated page but is embedded within the very long 'General Terms and Conditions' (Uvjeti kupnje) page, making it difficult to locate. The information lacks clarity on several points, such as the specific provider for bulky items, island delivery policies, and express options. There is no mention of a free shipping threshold, which is a common feature for e-commerce sites."
+}

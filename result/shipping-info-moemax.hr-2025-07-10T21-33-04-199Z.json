@@ -1,0 +1,99 @@
+{
+  "website": "moemax.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "€3.90",
+    "free_delivery_limit": "Free delivery for orders over €530.00",
+    "delivery_time": "3 to 10 working days. Delivery to islands depends on the ferry schedule.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "€9.20",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebruder Weiss"
+    ],
+    "pricing": "€26.50. If the order contains both parcel and cargo items, only the cargo delivery price is charged.",
+    "free_delivery_limit": "Free delivery for orders over €530.00",
+    "delivery_time": "3 to 10 working days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "€9.20",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "locations_count": "840",
+    "pricing": "This is a redirection service for standard parcel delivery, pricing is not specified separately.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "The general island surcharge of €9.20 likely applies, but it is not explicitly stated for this service.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Mömax.hr provides home delivery throughout Croatia, with distinct services for standard parcels and bulky (cargo) items. Standard parcel delivery costs €3.90 via DPD, while bulky item delivery is €26.50 via Gebrüder Weiss. All deliveries are free for orders exceeding €530.00. The standard delivery timeframe is 3-10 working days, Monday to Friday. A surcharge of €9.20 applies to all island deliveries. Customers can also opt for free in-store pickup or redirect DPD parcels to one of 840 partner pickup locations (parcel shops). \nNOTABLE FEATURES: The company uses DPD for parcels and Gebrüder Weiss for bulky goods. Bulky items are delivered to the curbside, but in-home delivery can be arranged for an additional fee by contacting customer service. There is no weekend or express delivery option. \nWEBSITE ASSESSMENT: The shipping information is well-organized and detailed on a dedicated page. It clearly differentiates between parcel and cargo shipping, providing costs, providers, and delivery times for each. The inclusion of information on island surcharges, in-store pickup, and parcel shop redirection is helpful. However, details on COD surcharges and a list of store locations for pickup are not available on the page."
+}

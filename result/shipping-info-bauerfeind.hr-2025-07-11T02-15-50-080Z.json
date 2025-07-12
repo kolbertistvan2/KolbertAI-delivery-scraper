@@ -1,0 +1,95 @@
+{
+  "website": "bauerfeind.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "INTEREUROPA d.o.o."
+    ],
+    "pricing": "Troškovi dostave proizvoda čija ukupna cijena iznosi do zaključno 64,99 eura ili manje snosi kupac te isti iznose 3,98 eura. Troškove dostave proizvoda čija ukupna cijena iznosi 65,00 eura ili više snosi BAUERFEIND.",
+    "free_delivery_limit": "65,00 eura",
+    "delivery_time": "unutar roka od 14 dana od vidljive uplate",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke i pojedina mjesta vrši se sukladno pravilima društva za dostavu dostupnima na http://www.intereuropa.hr/usluge/kopneni-promet/ekspress/raspored-expressne-dostave.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only available option for online orders within Croatia.\nPROVIDERS: Deliveries are handled by Intereuropa d.o.o.\nPRICING: Delivery costs 3,98 € for orders up to and including 64,99 €. Delivery is free for orders of 65,00 € and above. Cash on delivery is available, but no specific surcharge is mentioned.\nDELIVERY TIME: The standard delivery timeframe is within 14 days from the payment confirmation.\nRESTRICTIONS: Delivery to Croatian islands and specific remote locations is subject to the courier's schedule, which can be checked on the Intereuropa website. No other delivery options like express, weekend, parcel shop/locker, or in-store pickup are mentioned for online orders.\nNOTABLE FEATURES: The free shipping threshold is clearly defined. The delivery timeframe is quite long (up to 14 days). There is a lack of alternative or faster delivery methods.\nWEBSITE ASSESSMENT: All shipping information is contained within the 'Uvjeti kupnje' (Terms of Purchase) page. The information is not easily accessible via a dedicated shipping page, which is a drawback. While basic pricing and provider details are clear, information regarding express delivery, weekend delivery, and specific island surcharges is absent."
+}

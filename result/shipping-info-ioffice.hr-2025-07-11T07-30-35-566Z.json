@@ -1,0 +1,95 @@
+{
+  "website": "ioffice.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "vlastitom dostavom ili dostavnom službom"
+    ],
+    "pricing": "Dostava je besplatna za pojedine artikle. Za područje Republike Hrvatske ako je narudžba minimalnog iznosa 200€ (s PDV-om). Ako je vrijednost narudžbe manja od gore navedenih 200€ vrijednosti obračunavamo trošak dostave u iznosu koji ovisi o težini paketa.",
+    "free_delivery_limit": "200€",
+    "delivery_time": "24-72 h",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only specified option available throughout Croatia. Delivery is handled by the company's own service or an unspecified courier. \nPRICING: Delivery is free for orders of 200€ or more. For orders below this amount, a shipping fee is charged based on the package weight, but the specific costs are not listed. \nDELIVERY TIME: The standard delivery timeframe is 24-72 hours. \nRESTRICTIONS: There is no information on special delivery services like express or weekend delivery, nor are there details about surcharges for island deliveries or cash on delivery. \nNOTABLE FEATURES: The free shipping threshold is set at a relatively high 200€. The lack of specific courier names means customers do not know who will handle their delivery. \nWEBSITE ASSESSMENT: The shipping information provided is very basic. Key details such as specific shipping costs for smaller orders, courier partners, and alternative delivery options (parcel shops, lockers, in-store pickup) are missing. The information is not comprehensive enough for a customer to make a fully informed decision without further inquiry."
+}

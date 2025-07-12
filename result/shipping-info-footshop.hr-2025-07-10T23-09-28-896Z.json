@@ -1,0 +1,102 @@
+{
+  "website": "footshop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "FedEx",
+      "GLS Europe",
+      "Hrvatska pošta",
+      "DPD"
+    ],
+    "pricing": "Standard delivery from 4.99 €. Free delivery for orders over 200 €.",
+    "free_delivery_limit": "200 €",
+    "delivery_time": "Dynamic, shown at checkout (e.g., \"od utorka 15.7.2025\")",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Dynamic, shown at checkout (e.g., \"od utorka 15.7.2025\")",
+      "pricing": "12 €"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS ParcelShop",
+      "Hrvatska pošta - pick up lokacije",
+      "DPD Pickup lokacija"
+    ],
+    "locations_count": "not available",
+    "pricing": "4.49 €. Free delivery for orders over 200 €.",
+    "free_delivery_limit": "200 €",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and parcel shop pickup are available for Croatia. PROVIDERS: Home delivery is handled by FedEx, GLS, DPD, and Hrvatska pošta. Parcel shop options include GLS, DPD, and Hrvatska pošta pickup points. PRICING: Home delivery starts at 4.99 €, with an express option (FedEx) at 12 €. Parcel shop delivery costs 4.49 €. Free shipping is offered on all options (except FedEx) for orders over 200 €. RESTRICTIONS: Information on island surcharges, weekend delivery, or COD fees is not provided. NOTABLE FEATURES: Multiple carrier choices for both home and parcel shop delivery. Clear free shipping threshold at 200 €. WEBSITE ASSESSMENT: The shipping page is straightforward, clearly listing providers and prices. However, it lacks details on potential surcharges (islands, COD) and specific delivery timeframes (e.g., 2-4 days), instead showing a dynamic delivery date."
+}

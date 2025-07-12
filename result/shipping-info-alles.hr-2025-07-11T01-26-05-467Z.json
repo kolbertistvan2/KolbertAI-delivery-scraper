@@ -1,0 +1,97 @@
+{
+  "website": "alles.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Depends on size and weight. Tiered pricing: €5.00, €8.00, €10.00, €15.00, €25.00, €33.00.",
+    "free_delivery_limit": "Free for orders over €500.00 on the mainland.",
+    "delivery_time": "1-7 working days for mainland, 3-15 working days for islands.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "A special fee is calculated at checkout. Delivery is not possible to the following islands: Brbinj Savar, Božava, Dragove, Zverinac, Polje, Soline, Veli Rat, Verunić, Rivanj, Sestrunj, Brgulje, Molat, Zapuntel, Ist, Premuda, Silba, Olib, Ilovik, Susak, Unije.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Depends on size and weight. Tiered pricing: €5.00, €8.00, €10.00, €15.00, €25.00, €33.00.",
+    "free_delivery_limit": "Free for orders over €500.00 on the mainland.",
+    "delivery_time": "1-7 working days for mainland, 3-15 working days for islands.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "A special fee is calculated at checkout. Delivery is not possible to the following islands: Brbinj Savar, Božava, Dragove, Zverinac, Polje, Soline, Veli Rat, Verunić, Rivanj, Sestrunj, Brgulje, Molat, Zapuntel, Ist, Premuda, Silba, Olib, Ilovik, Susak, Unije.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Alles, Industrijska 40, Požega"
+    ],
+    "pricing": "Free of charge.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery for standard and bulky items, and in-store pickup are available. Parcel shop and parcel locker options are not offered.\nPROVIDERS: The specific delivery service is chosen by Alles d.o.o. and not named on the website.\nPRICING: Home delivery costs are tiered based on package size and weight, ranging from €5.00 to €33.00. Delivery is free for mainland orders exceeding €500.00. In-store pickup in Požega is free.\nRESTRICTIONS: Delivery is made to the building entrance only. A special surcharge applies for island deliveries, calculated at checkout. Delivery is not possible to a specific list of 20 islands.\nNOTABLE FEATURES: Free in-store pickup is available at their Požega location, including on Saturdays.\nWEBSITE ASSESSMENT: The shipping information is generally clear and provides essential details like pricing tiers, free shipping thresholds, and delivery timeframes. However, it lacks transparency regarding the specific delivery providers used and the exact calculation method for island surcharges. The explicit list of non-serviceable islands is a positive feature."
+}

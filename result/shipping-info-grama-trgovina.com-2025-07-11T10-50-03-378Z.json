@@ -1,0 +1,95 @@
+{
+  "website": "grama-trgovina.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Shipping costs are not included in the product prices and are generally fixed, but the exact amount is not specified. The cost is added to the final bill.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Up to 5 working days. Shipments are dispatched once daily before 10:00 AM on working days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Deliveries are made on working days (Monday-Friday) only."
+    },
+    "island_surcharge": "Delivery to islands and remote areas is subject to the carrier's special price list and schedule (typically once every 3-5 days).",
+    "cod_surcharge": "A surcharge for cash on delivery may apply, but the specific amount is not mentioned."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Price is not specified. Cash on delivery is not an option for bulky items (over 31.5 kg). The customer is responsible for unloading the goods at their own expense.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Up to 15 days. Delivery to islands and remote areas follows a special schedule.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Deliveries are made on working days (Monday-Friday) only."
+    },
+    "island_surcharge": "Delivery to islands and remote areas is subject to the carrier's special price list and schedule (typically once every 3-5 days).",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Čakovec, Zrinsko-Frankopanska 15"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard and bulky items within Croatia, as well as free in-store pickup at their Čakovec location. Parcel shop and parcel locker delivery are not available.\nPRICING & PROVIDERS: Specific shipping providers are not named. Shipping costs are not included in product prices and are added to the final bill; specific prices are not listed. Delivery to islands and remote areas may incur extra charges.\nDELIVERY TIMES: Standard delivery takes up to 5 working days, while bulky items or deliveries to islands can take up to 15 days. Deliveries are only on weekdays.\nNOTABLE FEATURES: For bulky items (over 31.5 kg), cash on delivery is not an option, and the customer is responsible for unloading the items at their own expense. Delivery to islands follows a less frequent schedule (once every 3-5 days).\nWEBSITE ASSESSMENT: Shipping information is embedded within a lengthy 'Terms of Sale' document, making it difficult for users to quickly find practical details. Key information such as specific shipping costs, free shipping thresholds, and names of delivery companies is missing, which reduces transparency for the customer."
+}

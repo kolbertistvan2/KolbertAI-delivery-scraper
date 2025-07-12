@@ -1,0 +1,106 @@
+{
+  "alza.cz": {
+    "HOME_DELIVERY": {
+      "available": "not available",
+      "providers": [],
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "delivery_time": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "BULKY_PRODUCT_HOME_DELIVERY": {
+      "available": "not available",
+      "providers": [],
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "delivery_time": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "PARCEL_SHOPS": {
+      "available": "not available",
+      "providers": [],
+      "locations_count": "not available",
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "PARCEL_LOCKERS": {
+      "available": "not available",
+      "providers": [],
+      "locations_count": "not available",
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "IN_STORE_PICKUP": {
+      "available": "not available",
+      "locations": "not available",
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "SUMMARY": "SUMMARY: No shipping information could be extracted as the provided page content was a Cloudflare security check. All requested data points are unavailable. NOTABLE FEATURES: Not available. WEBSITE ASSESSMENT: The quality of shipping information cannot be assessed as the relevant page was not accessible."
+  },
+  "rohlik.cz": {
+    "error": "No result or error log found for this domain."
+  },
+  "mall.cz": {
+    "error": "No result or error log found for this domain."
+  },
+  "datart.cz": {
+    "error": "No result or error log found for this domain."
+  },
+  "notino.cz": {
+    "error": "No result or error log found for this domain."
+  }
+}

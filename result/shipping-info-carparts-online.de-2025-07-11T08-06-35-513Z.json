@@ -1,0 +1,99 @@
+{
+  "website": "carparts-online.de",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "DHL",
+      "UPS"
+    ],
+    "pricing": "43,50 € for standard parcels (GK1-5)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Speditionsweg (freight forwarder)"
+    ],
+    "pricing": "auf Anfrage (on request)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery for standard and bulky items is available to Croatia. No options for parcel shops, parcel lockers, or in-store pickup in Croatia were found.\nPRICING: Standard parcel delivery (GK1-5) costs a flat rate of €43.50. Delivery for bulky items (GK6-8) is available 'on request' (auf Anfrage).\nPROVIDERS: DPD, DHL, and UPS are mentioned as general providers. Bulky items are sent via freight forwarders ('Speditionsweg').\nRESTRICTIONS & FEATURES: No information is available regarding delivery times, express delivery, weekend delivery, island surcharges, or Cash on Delivery (COD).\nWEBSITE ASSESSMENT: The website provides a clear pricing table for international shipping, but it lacks crucial details. Information on delivery timeframes, specific couriers for Croatia, and policies for island delivery is missing. The term 'auf Anfrage' for bulky items requires customers to make direct contact for a price quote."
+}

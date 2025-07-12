@@ -1,0 +1,95 @@
+{
+  "website": "vigoexpress.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Paket24 Hrvatske pošte"
+    ],
+    "pricing": "Delivery costs are not included in the product prices and are calculated at checkout. The final price overview includes purchase cost, delivery cost, and total cost.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The estimated delivery time is available to the customer after placing the order. Deliveries are mostly made before noon.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Orders are handled and packed with higher priority. A specific timeframe is not mentioned.",
+      "pricing": "The price is shown at checkout before completing the order."
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "A fee is charged by the courier service for cash on delivery, calculated during order submission. This fee is not charged for credit card or PayPal payments."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available delivery method is home delivery, with options for standard or express service. No parcel shop, parcel locker, or in-store pickup options are mentioned.\nPROVIDERS: The exclusive delivery provider mentioned is Paket24 Hrvatske pošte.\nPRICING: Shipping costs are not specified upfront and are calculated during the checkout process. A surcharge is applied for Cash on Delivery (COD) payments, but the exact amount is not stated. No information on a free shipping threshold is available.\nRESTRICTIONS: There is no mention of any specific delivery restrictions or surcharges for Croatian islands.\nNOTABLE FEATURES: The company operates from a Croatian warehouse. A 48-hour delivery guarantee is offered to report issues like damaged or incorrect products. Returns are processed to a Croatian address in Velika Gorica.\nWEBSITE ASSESSMENT: Shipping information is embedded within the lengthy 'Opći uvjeti poslovanja' (General Terms & Conditions), making it difficult to locate. Crucial details such as specific shipping prices, concrete delivery timeframes, and island delivery policies are absent. The user must initiate the checkout process to view final costs and estimated delivery dates, indicating a lack of transparency and user-friendliness regarding shipping information."
+}

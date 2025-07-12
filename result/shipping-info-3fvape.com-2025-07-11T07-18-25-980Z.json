@@ -1,0 +1,99 @@
+{
+  "website": "3fvape.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Air Mail",
+      "ePacket",
+      "Railway Shipping",
+      "Express Shipping",
+      "Global special products Airline-Line6"
+    ],
+    "pricing": "Shipping costs are calculated in the shopping cart. For European customers, a method with pre-paid tax and VAT is available: \"Global special products Airline-Line6 (Remote Areas Excluded) Custom Tax & VAT Included\". Otherwise, customers are responsible for import tax and duty.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Estimated delivery time = Product Shipping Time + Estimated shipping time of chosen Shipping Method. Product shipping time varies (24 hours, 3-14 business days, or longer for pre-orders).",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Public holidays and weekends are excluded when calculating estimated delivery time."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only method mentioned, available via various international carriers. No options for parcel shops, lockers, or in-store pickup were found.\nPROVIDERS: Shipping is handled by generic services like 'Air Mail', 'ePacket', 'Railway Shipping', and 'Express Shipping'. A specific line for Europe, 'Global special products Airline-Line6', is also offered.\nPRICING & DELIVERY TIME: Specific costs and delivery times for Croatia are not provided; they are calculated at checkout. Total delivery time depends on product processing time (which can be up to 14+ days) plus transit time. A shipping option with pre-paid tax and VAT is available for Europe; otherwise, the customer is responsible for customs duties.\nRESTRICTIONS: Deliveries are not made on weekends or public holidays. Cash on delivery is not supported. No information is available regarding delivery to Croatian islands or for bulky items.\nNOTABLE FEATURES: The store may combine or split orders without prior notification. The final delivery time is heavily influenced by the product's individual sourcing/processing time.\nWEBSITE ASSESSMENT: The shipping information is very general and lacks country-specific details for Croatia. Critical information such as final costs, specific couriers, and precise delivery timeframes is only available during the checkout process, making it difficult for users to assess shipping options beforehand."
+}

@@ -1,0 +1,97 @@
+{
+  "website": "chipoteka.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Fiksni trošak dostave 4,99€ bez obzira na težinu ili volumen.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1-2 radna dana od dana vidljive uplate.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na hrvatske otoke prema rasporedu dostave, bez spomena dodatne naknade.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BoxNow"
+    ],
+    "locations_count": "not available",
+    "pricing": "Besplatna dostava tijekom promotivnog razdoblja (7. 5. do 31. 8. 2025.). Ograničenja: narudžbe do 500€, do 20kg, dimenzije do 36x45x60 cm.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostupno na području cijele RH, bez spomena dodatne naknade.",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DOSTUPNE OPCIJE: Kućna dostava (GLS) i dostava na paketomate (BoxNow). Nema informacija o preuzimanju u trgovini ili na pickup point lokacijama. CIJENE I PRAGOVI: Kućna dostava putem GLS-a košta fiksno 4,99€. Dostava na BoxNow paketomate je besplatna promotivno do 31.8.2025. Nije naveden prag za opću besplatnu dostavu. OGRANIČENJA I ROKOVI: Dostava GLS-om traje 1-2 radna dana, s posebnim rasporedom za otoke. BoxNow dostavlja isti ili sljedeći radni dan, ali ima ograničenja na vrijednost (do 500€), težinu (do 20kg) i dimenzije paketa. POSEBNE USLUGE: Plaćanje pouzećem je dostupno za kućnu dostavu bez navedene dodatne naknade. PROCJENA WEB STRANICE: Informacije o dostavi su dostupne unutar 'Uvjeta kupovine', ali nisu centralizirane na posebnoj stranici. Nedostaju ključne informacije poput praga za besplatnu dostavu i detalja o preuzimanju u poslovnici, što smanjuje preglednost."
+}

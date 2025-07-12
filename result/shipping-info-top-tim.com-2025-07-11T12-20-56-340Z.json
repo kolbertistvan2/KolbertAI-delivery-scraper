@@ -1,0 +1,93 @@
+{
+  "website": "top-tim.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "5,99 €",
+    "free_delivery_limit": "150 €",
+    "delivery_time": "15 do 30 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Cijena dostave se obračunava naknadno prema težini i dimenzijama artikla.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "15 to 30 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The website offers standard home delivery and a separate option for bulky items ('rekviziti'). No parcel shop, parcel locker, or in-store pickup options are mentioned.\nPROVIDERS: No specific delivery companies are named.\nPRICING: Standard delivery is €5.99, with free shipping for orders over €150. The cost for bulky items is calculated after the order based on weight and dimensions.\nDELIVERY TIME: The stated delivery time is 15-30 working days, which is unusually long. A conflicting timeframe of 3-7 working days is mentioned in the footer.\nNOTABLE FEATURES: The website lacks information on key services such as cash on delivery, island delivery surcharges, and weekend delivery. The conflicting delivery timeframes are a major point of confusion.\nWEBSITE ASSESSMENT: The shipping information is available on a dedicated page but is incomplete. It lacks crucial details like courier names, island delivery policies, and a clear, consistent delivery timeframe. The information is easy to find but insufficient for a customer to make a fully informed purchase decision."
+}

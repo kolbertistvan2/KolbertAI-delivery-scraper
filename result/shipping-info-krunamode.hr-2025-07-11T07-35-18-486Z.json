@@ -1,0 +1,95 @@
+{
+  "website": "krunamode.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "dostavna služba"
+    ],
+    "pricing": "Free delivery on all orders within the Republic of Croatia.",
+    "free_delivery_limit": "0",
+    "delivery_time": "3 to 8 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only method offered for Croatia. No information is available for parcel shops, parcel lockers, or in-store pickup.\nPROVIDERS: The specific domestic courier is not named, only referred to as 'dostavna služba' (delivery service). Overseas Express is mentioned for international deliveries.\nPRICING: Shipping is free for all orders within Croatia, regardless of the order value.\nDELIVERY TIME: The standard delivery time is 3-8 business days.\nRESTRICTIONS: No specific restrictions or surcharges for island deliveries are mentioned.\nNOTABLE FEATURES: The primary feature is free shipping on all domestic orders without a minimum purchase requirement. Cash on delivery is an available payment method, but any associated surcharge is not specified.\nWEBSITE ASSESSMENT: The shipping information is simple and easy to find. However, it lacks crucial details such as the name of the domestic courier, information on potential island surcharges, and details about alternative delivery options like parcel lockers or in-store pickup, which are common in the market."
+}

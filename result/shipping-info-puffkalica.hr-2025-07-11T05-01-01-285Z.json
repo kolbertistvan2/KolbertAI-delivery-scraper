@@ -1,0 +1,102 @@
+{
+  "website": "puffkalica.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "€3.99",
+    "free_delivery_limit": "For all orders over €35.00, delivery is free.",
+    "delivery_time": "For orders received by 12:00 on a working day, the package is delivered the very next working day (24 hours). For islands, the delivery time is up to 72 hours.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "No surcharge mentioned, but delivery takes longer (up to 72 hours).",
+    "cod_surcharge": "Available, the service is charged according to the price list of the delivery service."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb (Avenue Mall, City Center One East, Supernova Garden Mall, Supernova Buzin)",
+      "Velika Gorica (Robna kuća)",
+      "Sesvete (Ulica Biskupa A. Mandića 2)"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery methods are home delivery via GLS and in-store pickup at their physical stores. Parcel shop or locker delivery is not offered.\n\nPRICING & PROVIDERS: Home delivery by GLS costs €3.99. Shipping is free for all orders exceeding €35.00. In-store pickup is free of charge.\n\nDELIVERY TIMES & RESTRICTIONS: For orders placed by 12:00 PM on a business day, GLS delivery is typically the next business day for mainland Croatia. Delivery to islands can take up to 72 hours. There is no mention of an explicit island surcharge, only a longer delivery time. Weekend delivery is not available for home shipping but is possible for in-store pickup depending on store hours.\n\nNOTABLE FEATURES: The service offers a fast next-day delivery for most of Croatia. Cash on delivery is an option, but the surcharge is determined by the courier (GLS), not the store. The availability of free in-store pickup at multiple locations is a significant advantage.\n\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Isporuka i dostava' page and is clear and concise. All essential details like cost, provider, delivery times, and the free shipping threshold are easy to find. The only missing detail is the exact cost of the cash-on-delivery surcharge."
+}

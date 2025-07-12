@@ -1,0 +1,98 @@
+{
+  "website": "vrutak.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,65 € for orders up to 67,00 €. Free for orders above 67,00 €.",
+    "free_delivery_limit": "67,00 €",
+    "delivery_time": "2-5 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands may take longer than the standard timeframe. No specific surcharge is mentioned.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Vrutak, Vodovodna 20a, Zagreb",
+      "Vrutak, Gradišćanska 10, Zagreb"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and in-store pickup are available. Parcel shop and parcel locker delivery are not offered. PROVIDERS: Home delivery is handled exclusively by GLS. PRICING: Home delivery costs 4,65 € for orders under 67,00 €, and is free for orders of 67,00 € or more. In-store pickup is free. RESTRICTIONS: Delivery to Croatian islands may take longer than the standard 2-5 business days. Cash on delivery is not an available payment method. NOTABLE FEATURES: The store offers free in-store pickup at two locations in Zagreb. The free shipping threshold for home delivery is relatively low at 67,00 €. WEBSITE ASSESSMENT: The shipping information is located in the 'Dostava i povrat robe' section and is clear and concise. However, it lacks details on weekend delivery, express options, and specific delivery schedules for islands. Information about bulky item delivery is also missing."
+}

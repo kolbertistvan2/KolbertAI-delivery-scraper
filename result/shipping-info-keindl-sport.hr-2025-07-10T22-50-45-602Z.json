@@ -1,0 +1,93 @@
+{
+  "website": "keindl-sport.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "7 EUR for orders below 65,00 EUR. Free for orders above 65,00 EUR.",
+    "free_delivery_limit": "65,00 EUR",
+    "delivery_time": "Up to 4 working days. Note: A temporary notice states the delivery period is extended to 13 working days due to warehouse relocation.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to certain islands may take longer, but no surcharge is mentioned.",
+    "cod_surcharge": "Cash on delivery is available for amounts up to 1600 €. No specific surcharge is mentioned."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "The cost for bulky shipments (bicycles, electric bicycles, electric scooters, skis, and trainers) is 55,00 EUR. The cost for ski boots is 25,00 EUR. The free shipping threshold does not apply to these items.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Standard delivery time is up to 4 working days, but is temporarily extended to 13 working days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to certain islands may take longer, but no surcharge is mentioned.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Locations not specified on this page, but the option to pick up at one of the seller's stores is mentioned.",
+    "pricing": "Free (not explicitly stated)",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard and bulky items, as well as in-store pickup. Parcel shop and parcel locker delivery are not mentioned.\nPROVIDERS: Specific delivery service providers (e.g., GLS, DPD) are not named.\nPRICING: Standard home delivery costs €7 for orders under €65 and is free for orders above this amount. Bulky items like bicycles, e-bikes, and trainers have a fixed shipping fee of €55, while ski boots cost €25 to ship; the free shipping threshold does not apply to these items. In-store pickup is available and appears to be free.\nRESTRICTIONS: Delivery is available throughout Croatia, but may take longer for certain islands. Cash on delivery is an option for orders up to €1600.\nNOTABLE FEATURES: The standard delivery time is up to 4 working days, but a prominent notice indicates a temporary extension to 13 working days due to a warehouse relocation. Bicycles are shipped after a professional service but require minor final assembly by the customer.\nWEBSITE ASSESSMENT: The shipping information is located within the comprehensive 'Terms of Purchase' page. While detailed, it lacks a quick, user-friendly summary. The absence of named delivery providers is a notable omission. However, the pricing structure is clear, and the temporary delivery delay is transparently communicated."
+}

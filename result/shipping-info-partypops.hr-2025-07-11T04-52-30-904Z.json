@@ -1,0 +1,100 @@
+{
+  "website": "partypops.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS Croatia",
+      "Hrvatska pošta (Paket 24)"
+    ],
+    "pricing": "GLS Croatia: 5,00 €\nHrvatska pošta (Paket 24): 3,50 €\nBesplatna dostava za narudžbe iznad 60,00 €.",
+    "free_delivery_limit": "60,00 €",
+    "delivery_time": "GLS: sljedeći radni dan od dana slanja.\nHrvatska pošta: 1-3 radna dana od dana slanja.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava putem GLS-a uključuje otoke s popisa. Na otoke koji nisu navedeni u tablici dostava je moguća jedino putem Hrvatske pošte.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Box Now"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,50 €",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Isti dan za Zagreb i Zagrebačku županiju (za narudžbe do 12h radnim danom).",
+      "pricing": "2,50 €"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Plaćanje pouzećem nije moguće, isključivo virmanom ili kreditnim karticama."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Party Pops trgovina, Vlaška 47, Zagreb",
+    "pricing": "Besplatna",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Narudžbe se preuzimaju svaki dan."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel locker delivery, and in-store pickup.\nPROVIDERS: Delivery partners are GLS, Hrvatska pošta, and Box Now.\nPRICING: Home delivery costs €5.00 (GLS) or €3.50 (Hrvatska pošta). Parcel locker delivery is €2.50 (Box Now). In-store pickup is free. Free shipping is available for orders over €60.\nRESTRICTIONS: Cash on delivery is not an option for Box Now parcel lockers. Delivery to certain islands is restricted to Hrvatska pošta.\nNOTABLE FEATURES: Same-day delivery to Zagreb and Zagreb County is available via Box Now lockers for orders placed by noon. Saturday delivery is available for parcel lockers. In-store pickup is available every day of the week in Zagreb.\nWEBSITE ASSESSMENT: The shipping information is comprehensive, clearly structured, and easy to locate on the 'Informacije' page. It provides detailed breakdowns of costs, delivery times, and specific conditions for each delivery method, making it very user-friendly."
+}

@@ -1,0 +1,102 @@
+{
+  "website": "extremevital.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "€4.90",
+    "free_delivery_limit": "Free shipping on orders over €75",
+    "delivery_time": "2-3 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "€1.50"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebrüder Weiss"
+    ],
+    "pricing": "Bikes: €29.90. Skis, snowboards, Thule boxes: €14.90.",
+    "free_delivery_limit": "Free shipping for bikes on orders over €1500",
+    "delivery_time": "3-5 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ljubljana (Slovenia)",
+      "Radovljica (Slovenia)",
+      "Maribor (Slovenia)",
+      "Škofja Loka (Slovenia)"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is available for both standard and bulky items. Standard packages are sent via GLS, while bulky items like bikes are handled by Gebrüder Weiss. In-store pickup is an option, but all stores are located in Slovenia.\nPRICING: Standard delivery to Croatia is €4.90, with free shipping on orders over €75. Bulky item shipping is €29.90 for bikes (free over €1500) and €14.90 for other large goods. Cash on delivery has a €1.50 surcharge and is only for standard parcels.\nRESTRICTIONS: Express, weekend, and island delivery options are not mentioned or available.\nNOTABLE FEATURES: The store offers clear, separate shipping policies for standard and bulky goods, including different couriers and free shipping thresholds for each. COD is available for standard items.\nWEBSITE ASSESSMENT: The shipping information is well-organized and easy to find on a dedicated page. It clearly outlines costs, providers, and delivery times for Croatia. However, it lacks details on potential island surcharges, weekend delivery, or express services."
+}

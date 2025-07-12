@@ -1,0 +1,103 @@
+{
+  "website": "babyland.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "HP",
+      "GLS",
+      "Overseas",
+      "DPD"
+    ],
+    "pricing": "Free for orders of 55,00 EUR and above. For orders below 55,00 EUR, the delivery cost is 4,00 EUR.",
+    "free_delivery_limit": "55,00 EUR",
+    "delivery_time": "If the product is in stock, it is usually shipped the next working day or at the latest within 3 working days, with an additional 1-2 working days for delivery. For items available by order, the delivery time is 3-8 weeks.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "For children's furniture, delivery is only possible to the nearest distribution center on the mainland.",
+    "cod_surcharge": "0,90 EUR"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "HP",
+      "Overseas",
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "A handling fee of 20,00 EUR is charged for pallet delivery or bulky package delivery service.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "For items available by order, the delivery time is 3-8 weeks. For in-stock items, standard delivery times apply.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery of furniture to islands is not direct; it is delivered to the nearest distribution center on the mainland. Delivery services do not deliver pallets to islands.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Babyland.hr provides home delivery for both standard and bulky items across Croatia. There is no mention of parcel shop, parcel locker, or in-store pickup options.\nPROVIDERS: Delivery is handled by HP, GLS, Overseas, and DPD.\nPRICING: Standard delivery is free for orders over 55 EUR, otherwise it costs 4 EUR. A cash on delivery (COD) option is available for standard orders with a 0.90 EUR surcharge. Bulky item delivery, such as furniture, incurs a fixed 20 EUR handling fee.\nNOTABLE FEATURES: A key restriction applies to the delivery of bulky items (furniture) to Croatian islands; these are delivered only to the nearest mainland distribution center, not directly to the island address. Furthermore, cash on delivery is not an option for bulky/palletized shipments.\nWEBSITE ASSESSMENT: The shipping information is available on a dedicated 'Dostava & povrati' page. While the core details are present, the information could be better structured by clearly separating the rules for standard parcels from those for bulky goods. The lack of information on alternative delivery methods like pickup points or lockers is a notable omission."
+}

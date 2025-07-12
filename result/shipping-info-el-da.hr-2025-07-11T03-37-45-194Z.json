@@ -1,0 +1,99 @@
+{
+  "website": "el-da.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena dostave za račune do 55,00 € iznosi 6,00 €. Za račune preko 55,00 € dostava je besplatna.",
+    "free_delivery_limit": "55,00 €",
+    "delivery_time": "1–3 radna dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava se vrši samo na sljedeće otoke po redovnoj cijeni: Krk, Cres, Lošinj, Rab, Murter, Korčula, Pelješac, Vir, Pag, Hvar, Brač, Vis, Pašman, Ugljan. Na sve ostale otoke se ne dostavlja.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena dostave za ekstra velike/teške pošiljke (više od 19 kg) +1,00 € za svaki naredni kilogram.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1–3 radna dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava se vrši samo na sljedeće otoke: Krk, Cres, Lošinj, Rab, Murter, Korčula, Pelješac, Vir, Pag, Hvar, Brač, Vis, Pašman, Ugljan. Na sve ostale otoke se ne dostavlja.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "Cijena dostave za račune do 55,00 € iznosi 6,00 €. Za račune preko 55,00 € dostava je besplatna.",
+    "free_delivery_limit": "55,00 €",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava se vrši samo na sljedeće otoke po redovnoj cijeni: Krk, Cres, Lošinj, Rab, Murter, Korčula, Pelješac, Vir, Pag, Hvar, Brač, Vis, Pašman, Ugljan. Na sve ostale otoke se ne dostavlja.",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Dostava na kućnu adresu i preusmjeravanje manjih paketa na paketomate.\nPROVIDERS: GLS.\nPRICING: Dostava iznosi 6,00 € za narudžbe do 55,00 €, a besplatna je za narudžbe iznad tog iznosa. Pošiljke teže od 19 kg imaju nadoplatu od 1,00 € po dodatnom kilogramu.\nRESTRICTIONS: Dostava se vrši samo radnim danima. Dostava nije moguća na sve hrvatske otoke; postoji točan popis otoka na koje se dostavlja. Veći paketi se ne mogu preusmjeriti na paketomate.\nNOTABLE FEATURES: Mogućnost plaćanja pouzećem bez navedene dodatne naknade. Narudžbe zaprimljene radnim danom do 10:00h šalju se isti dan.\nWEBSITE ASSESSMENT: Informacije o dostavi su centralizirane na jednoj stranici, jasne su i detaljne. Navedeni su troškovi, rokovi isporuke, dostavna služba i specifična pravila za dostavu na otoke, što je pohvalno. Nedostaje podatak o eventualnoj naknadi za plaćanje pouzećem."
+}

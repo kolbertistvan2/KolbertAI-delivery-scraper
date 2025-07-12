@@ -1,0 +1,97 @@
+{
+  "website": "bima-shop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "Osnovna cijena dostave: 4,80 € (Basic delivery price: €4.80)",
+    "free_delivery_limit": "133 €",
+    "delivery_time": "2-4 radna dana (2-4 working days)",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "Usluga \"Narudžba s prioritetom obrade\" (+2 €) ... ne garantiramo bržu dostavu (Priority processing service for +2€ does not guarantee faster delivery)",
+      "pricing": "+2 € for priority processing, but not express delivery"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "DPD ne dostavlja subotom i nedjeljom. (DPD does not deliver on Saturdays and Sundays.)"
+    },
+    "island_surcharge": "Dostava na neka otočna mjesta: 6,50 €. Dostava na otoke može trajati duže od 5 radnih dana. (Delivery to some island locations: €6.50. Delivery to islands may take longer than 5 working days.)",
+    "cod_surcharge": "0,95 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "DPD Pickup paketomat"
+    ],
+    "locations_count": "not available",
+    "pricing": "Not specified, likely falls under the standard 4,80 € fee.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "The general COD surcharge of 0,95 € applies, but payment is made online via a link before pickup, not at the locker itself."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery via DPD. DPD Parcel Locker (Pickup paketomat) is also an option. \nPRICING: Standard delivery costs 4,80 €, with free shipping on orders over 133 €. Delivery to some islands costs 6,50 €. Cash on delivery (COD) incurs a 0,95 € surcharge. \nDELIVERY TIME & RESTRICTIONS: Standard delivery takes 2-4 working days. Island deliveries can take over 5 days. There is no weekend delivery (Saturday/Sunday). \nNOTABLE FEATURES: A 'priority processing' service is offered for +2 €, but it does not guarantee faster delivery. For parcel locker pickups with COD, payment is made online via a secure link before collection. \nWEBSITE ASSESSMENT: The shipping information is located on a clear, dedicated page. It effectively explains the standard delivery process, costs, and timelines. Information on parcel locker pickup is also provided. The site lacks specific information for bulky item delivery, in-store pickup, or parcel shop options."
+}

@@ -1,0 +1,96 @@
+{
+  "website": "knjiga.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "GLS"
+    ],
+    "pricing": "U cijene proizvoda nisu uključeni troškovi dostave. Troškovi dostave dodaju se vašoj narudžbi i oni se jasno vide u potrošačkoj košarici i na računu.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-10 dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Kod plaćanja pouzećem (gotovinom) Hrvatska pošta dodatno naplaćuje naknadu u visini 1,83% (odnosno minimalno 5 kn) od otkupnog iznosa. Kurirska služba GLS ne naplaćuje naknadu pri naplati pouzeća."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only available method for online orders. PROVIDERS: Delivery is handled by Hrvatska pošta (Croatian Post) and GLS. PRICING: Shipping costs are not fixed; they are calculated and displayed in the shopping cart during checkout. There is no mention of a free shipping threshold. The delivery time for in-stock items is 3-10 days. RESTRICTIONS: There is no information available regarding express delivery, weekend delivery, or any specific surcharges or restrictions for delivering to Croatian islands. NOTABLE FEATURES: A cash on delivery (COD) surcharge of 1.83% (minimum 5 kn) applies only to orders delivered by Hrvatska pošta; GLS does not charge a COD fee. WEBSITE ASSESSMENT: Shipping information is located within the 'Uvjeti kupnje' (Terms of Purchase) page and is not easily accessible from a dedicated link. The information provided lacks crucial details such as specific shipping prices, a free shipping threshold, and policies for island deliveries, which diminishes the user experience."
+}

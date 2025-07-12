@@ -1,0 +1,100 @@
+{
+  "website": "svijet-knjige.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta"
+    ],
+    "pricing": "Trošak dostave za narudžbe do 35 € iznosi 3,99 €. (The cost of delivery for orders up to €35 is €3.99.)",
+    "free_delivery_limit": "35 €",
+    "delivery_time": "3 do 7 radnih dana (3 to 7 business days)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "No specific surcharge mentioned; standard pricing applies.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb",
+      "Split",
+      "Rijeka",
+      "Osijek"
+    ],
+    "pricing": "Besplatno (Free)",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers two delivery methods: standard home delivery across Croatia and free in-store pickup. PROVIDERS: Home delivery is exclusively handled by Hrvatska pošta. PRICING: Home delivery costs 3,99 € for orders below 35 €, while orders of 35 € or more qualify for free shipping. In-store pickup is always free. RESTRICTIONS: Delivery time is estimated at 3-7 business days. No specific surcharges or restrictions for island deliveries are mentioned. \nNOTABLE FEATURES: The shipping policy is simple with a clear free shipping threshold. Cash on delivery is available, but no specific surcharge for this service is listed. \nWEBSITE ASSESSMENT: Shipping information is clearly presented and easy to locate within the FAQ and Terms and Conditions pages. Core details like the provider, pricing, and delivery timeframe are explicitly stated. The information lacks details on express or weekend delivery options."
+}

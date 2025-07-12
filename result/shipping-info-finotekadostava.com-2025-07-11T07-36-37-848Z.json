@@ -1,0 +1,96 @@
+{
+  "website": "finotekadostava.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "vlastita vozila",
+      "GLS"
+    ],
+    "pricing": "Dostava je besplatna za narudžbe veće od 60 €. Za narudžbe do 60 € dostava se naplaćuje 7 €. Dostava po Međimurju naplaćuje se 4 €!",
+    "free_delivery_limit": "60 €",
+    "delivery_time": "Najviše 24 h od trenutka slanja paketa.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Naša je dostava jednako kvalitetna na otocima kao i na kopnu.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available shipping method is home delivery. The website does not mention options for parcel shops, parcel lockers, or in-store pickup. NOTABLE FEATURES: Deliveries are carried out by the company's own vehicles and GLS. The standard delivery fee is 7€ for orders under 60€, with free shipping for orders exceeding this amount. A special rate of 4€ applies to deliveries in the Međimurje region. Delivery to Croatian islands is available, and the site states the service quality is the same as on the mainland, implying no extra charges. Deliveries are scheduled for Tuesdays, Wednesdays, Thursdays, and Fridays, with a delivery time of up to 24 hours from dispatch. Cash on delivery is offered as a payment method, but no specific surcharge is mentioned. WEBSITE ASSESSMENT: The website provides clear and concise information regarding home delivery in Croatia. Details on pricing, providers, and delivery schedules are readily available. However, it lacks information on alternative delivery methods, express shipping, and specific surcharges for islands or cash on delivery."
+}

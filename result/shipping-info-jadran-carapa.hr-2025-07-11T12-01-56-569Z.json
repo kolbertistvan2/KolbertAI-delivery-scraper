@@ -1,0 +1,95 @@
+{
+  "website": "jadran-carapa.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,00 € for orders under 40,00 €. Free for orders over 40,00 €.",
+    "free_delivery_limit": "40,00 €",
+    "delivery_time": "2-5 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands may take longer according to the GLS schedule. No extra cost is mentioned.",
+    "cod_surcharge": "No extra charge mentioned"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Primary delivery method is Home Delivery via GLS. The shipping fee is €4.00 for orders under €40.00, with free shipping for orders exceeding this amount. The estimated delivery time is 2-5 business days. Delivery to islands is available but may take longer, with no specified surcharge. Cash on delivery is an option with no mentioned extra fee.\nNOTABLE FEATURES: The webshop offers a clear free shipping threshold at €40.00. Island delivery is supported.\nWEBSITE ASSESSMENT: The shipping information is clear and concise but limited. It only details one delivery provider (GLS) and one method (Home Delivery). Information about other potential services like parcel shops, lockers, express, or weekend delivery is absent. In-store pickup is explicitly stated as not available."
+}

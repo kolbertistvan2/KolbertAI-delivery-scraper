@@ -1,0 +1,95 @@
+{
+  "website": "mobileshop.eu",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "FREE SHIPPING for all orders.",
+    "free_delivery_limit": "0",
+    "delivery_time": "Dispatch within 48-72 hours of receiving the order, excluding weekends and national holidays. Total delivery time not specified.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only specified method for Croatia. No mention of parcel shops, lockers, or in-store pickup.\nPROVIDERS: GLS is the exclusive courier partner mentioned.\nPRICING: The website offers free shipping for all orders to Croatia, with no minimum purchase amount specified.\nRESTRICTIONS: Orders are dispatched within 48-72 hours on business days (Monday-Friday). The total delivery timeframe is not provided. There is no information regarding delivery to Croatian islands, weekend delivery, or express options. While Cash on Delivery is listed as a payment method, any associated surcharge is not mentioned.\nNOTABLE FEATURES: The primary feature is free shipping on all orders.\nWEBSITE ASSESSMENT: The shipping information is straightforward but lacks depth. It confirms delivery to Croatia via GLS and highlights the free shipping policy, which is a major advantage. However, it is incomplete as it omits critical details such as the estimated delivery time, policies for island deliveries, and potential surcharges for services like Cash on Delivery. This lack of detail might require customers to seek further clarification before purchasing."
+}

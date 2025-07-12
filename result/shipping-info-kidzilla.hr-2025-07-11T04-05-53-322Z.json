@@ -1,0 +1,95 @@
+{
+  "website": "kidzilla.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "5,99 €",
+    "free_delivery_limit": "70,00 €",
+    "delivery_time": "3 - 5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Vikendi i blagdani ne smatraju se radnim danima te se tada ne vrši isporuka narudžbi."
+    },
+    "island_surcharge": "rok isporuke proizvoda, kod kojih je navedeno da se nalaze na zalihi na hrvatske otoke je do 7 radnih dana",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available shipping method is home delivery. \nPROVIDERS: Delivery is handled exclusively by GLS. \nPRICING: There is a fixed shipping cost of 5,99 €. Shipping is free for all orders with a total value exceeding 70,00 €. \nRESTRICTIONS: Delivery to Croatian islands has a longer delivery timeframe of up to 7 business days, compared to 3-5 business days for the rest of Croatia. Deliveries are not made on weekends or holidays. \nNOTABLE FEATURES: Cash on delivery (pouzeće) is offered as a payment method, but no specific surcharge for this service is mentioned. The website does not offer express delivery, parcel shop/locker delivery, or in-store pickup options. \nWEBSITE ASSESSMENT: Shipping information is clearly stated and easy to find within the 'Opći uvjeti' (General Terms) and a dedicated 'Dostava' (Delivery) section. The details provided are sufficient for the single delivery option offered, covering cost, provider, delivery times, and island delivery specifics. However, the range of shipping options is very limited."
+}

@@ -1,0 +1,93 @@
+{
+  "website": "bacelic.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Trošak dostave ovisi o okolnostima kao što su količina i lokacija dostave. Iznos troška dostave biti će vidljiv prije narudžbe. Dostava je besplatna iznad 130€ do 50kg.",
+    "free_delivery_limit": "130€",
+    "delivery_time": "od 2 do 7 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na hrvatske otoke je 7 do 10 radnih dana.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only specified option. PROVIDERS: No shipping providers are mentioned. PRICING: Shipping cost is calculated at checkout based on order quantity and location. Free shipping is available for orders over €130 up to 50kg. DELIVERY TIMES: Mainland Croatia delivery takes 2-7 business days, while delivery to islands takes 7-10 business days. RESTRICTIONS: A weight limit of 50kg applies to the free shipping offer. NOTABLE FEATURES: Free shipping threshold of €130. Specific delivery timeframe for Croatian islands. WEBSITE ASSESSMENT: The shipping information provided is minimal. Key details such as the courier, standard shipping costs below the free threshold, and information on alternative delivery methods (in-store pickup, parcel lockers) are missing. The user must proceed to checkout to see the final shipping cost."
+}

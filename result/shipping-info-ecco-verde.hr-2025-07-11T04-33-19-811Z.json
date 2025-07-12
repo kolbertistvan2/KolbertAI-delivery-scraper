@@ -1,0 +1,103 @@
+{
+  "website": "ecco-verde.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Austrijska pošta",
+      "Slovenska pošta",
+      "DHL Express",
+      "Fedex Economy",
+      "DPD"
+    ],
+    "pricing": "€ 6,90 for orders under € 49,90. Free for orders from € 49,90.",
+    "free_delivery_limit": "€ 49,90",
+    "delivery_time": "3-4 working days",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "2 working days",
+      "pricing": "DHL Express:\ndo 1 kg: € 16,50\ndo 2 kg: € 16,50\ndo 5 kg: € 20,50\ndo 10 kg: € 39,00\ndo 20 kg: € 65,00\ndo 30 kg: € 94,50\ndo 70 kg: € 182,50"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Freight forwarder (unspecified)"
+    ],
+    "pricing": "Additional costs will be charged for selected items due to their nature and the associated special handling. This information is displayed on the product detail page.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery company will contact you by phone to arrange a delivery date.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Austrijska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Ecco-verde.hr provides standard and express home delivery to Croatia from Austria, as well as delivery for bulky goods and an option for pickup at post office points.\nPROVIDERS: Standard delivery is handled by Austrian Post and Slovenian Post. Express delivery is via DHL Express. Other listed partners include Fedex Economy and DPD. Bulky items are delivered by an unspecified freight forwarder.\nPRICING: Standard delivery costs €6.90 and is free for orders of €49.90 and above. Express delivery pricing is tiered by weight, starting at €16.50 for up to 2 kg. Bulky item shipping costs are shown on the product page.\nRESTRICTIONS: No specific information is available regarding surcharges for island delivery or cash on delivery.\nNOTABLE FEATURES: The website offers a clear free shipping threshold. Detailed weight-based pricing for express delivery is provided. Special handling options for bulky and refrigerated items are available. Customers can opt to have their parcels delivered to an Austrian Post pickup station.\nWEBSITE ASSESSMENT: The shipping information is comprehensive and well-structured within a dedicated page. It clearly outlines costs, providers, and delivery times for different services. However, it lacks information on COD surcharges and potential extra costs for island deliveries. The distinction between parcel lockers and pickup points could be more precise."
+}

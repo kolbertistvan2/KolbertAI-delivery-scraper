@@ -1,0 +1,96 @@
+{
+  "website": "malaodlavande.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "GLS"
+    ],
+    "pricing": "DPD: 4€\nGLS: 5€",
+    "free_delivery_limit": "Besplatna dostava za narudžbe iznad 34€.",
+    "delivery_time": "Processing within 7 working days, delivery within 3-5 working days from the order.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0,70€"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only available option for all of Croatia.\nPROVIDERS: DPD and GLS.\nPRICING: DPD costs 4€ and GLS costs 5€. Shipping is free for orders over 34€. Cash on delivery (pouzeće) incurs an additional fee of 0,70€.\nDELIVERY TIME: Products are made to order, so processing can take up to 7 working days. After processing, delivery is expected within 3-5 working days.\nRESTRICTIONS: No specific information is provided for island surcharges, weekend delivery, or express options.\nNOTABLE FEATURES: The key feature is that products are freshly made upon order, which explains the longer processing time. The free shipping threshold is clearly stated.\nWEBSITE ASSESSMENT: The shipping information is available on a dedicated 'Dostava' page and is straightforward. It clearly outlines the providers, standard pricing, free shipping limit, and COD surcharge. However, it lacks details on express or weekend delivery and does not explicitly mention island delivery policies, which could be a point of confusion for some customers."
+}

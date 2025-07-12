@@ -1,0 +1,95 @@
+{
+  "website": "mohito.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "3,95 EUR",
+    "free_delivery_limit": "40 EUR",
+    "delivery_time": "2-5 working days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0,40 EUR"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available in all Mohito stores in Croatia.",
+    "pricing": "Free (0,00 EUR)",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: Mohito in Croatia provides two main delivery methods: standard home delivery via GLS and in-store pickup. Home delivery is priced at 3,95 EUR, with free shipping offered for purchases exceeding 40 EUR. The estimated delivery time for both options is 2-5 working days. Cash on delivery is an available payment method for home deliveries, incurring a small surcharge of 0,40 EUR. In-store pickup is a free service available at all Mohito locations across Croatia. NOTABLE FEATURES: The key advantages are the free in-store pickup option and a reasonable free shipping threshold for home delivery. The availability of cash on delivery is also a plus. Key limitations include the absence of express or weekend delivery services, and a lack of alternative delivery points like parcel shops or lockers. There is no specific information regarding potential surcharges or delays for deliveries to Croatian islands. WEBSITE ASSESSMENT: The shipping information is straightforward and easy to locate on a dedicated page. It clearly outlines the costs and timeframes for the available options. However, the information could be more comprehensive by addressing island deliveries and explaining why alternative delivery methods are not offered."
+}

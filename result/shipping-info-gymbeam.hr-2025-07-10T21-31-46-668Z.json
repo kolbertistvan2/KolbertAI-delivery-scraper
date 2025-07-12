@@ -1,0 +1,96 @@
+{
+  "website": "gymbeam.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "GLS: 3,85€, DPD: 3,50€ (za narudžbe do 50€). Besplatno za narudžbe iznad 50€.",
+    "free_delivery_limit": "50€",
+    "delivery_time": "naredni radni dan (za narudžbe do 11:30)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1€"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: GymBeam.hr offers home delivery to Croatia via GLS and DPD. Delivery is free for orders over 50€, otherwise it costs 3.85€ for GLS and 3.50€ for DPD. Delivery is typically the next working day for orders placed before 11:30 AM. Cash on delivery is available with a 1€ surcharge. No other delivery methods like parcel shops, lockers, or in-store pickup are mentioned.\nNOTABLE FEATURES: Standard next-day delivery is a key feature. There is no information regarding bulky item delivery, weekend delivery, or surcharges for island deliveries.\nWEBSITE ASSESSMENT: The shipping information is presented clearly on a dedicated page. It is easy to understand the costs, providers, and standard delivery times. However, the information is limited to standard home delivery and lacks details on potential exceptions or alternative delivery options."
+}

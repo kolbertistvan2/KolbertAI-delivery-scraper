@@ -1,0 +1,101 @@
+{
+  "website": "waveshop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "HP"
+    ],
+    "pricing": "Za sve narudžbe iznad 100€, unutar Hrvatske, dostava je besplatna. Cijena za narudžbe ispod 100€ nije navedena.",
+    "free_delivery_limit": "100€",
+    "delivery_time": "unutar 5 radnih dana",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "unutar 12h",
+      "pricing": "Dostupno samo u krugu 30 km od Splita"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "HP"
+    ],
+    "pricing": "poštarina se određuje po dogovoru",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": [
+      "Obala Ante Trumbića 3, 21000 Split, Hrvatska"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "PREGLED: Dostava za Hrvatsku se vrši putem DPD-a i HP-a unutar 5 radnih dana. Dostava je besplatna za narudžbe iznad 100€. Cijena za manje narudžbe nije navedena. Dostava za glomazne proizvode se dogovara posebno. Nema informacija o dostavi na otoke, vikendom ili plaćanju pouzećem. \nPOSEBNOSTI: Lokalna brza dostava unutar 12h za područje 30km oko Splita. Postoji fizička trgovina u Splitu, ali preuzimanje nije navedeno kao opcija. \nOCJENA: Informacije su osnovne i nedostaju važni detalji poput standardne cijene dostave, doplata za otoke i opcije pouzeća. Nema spomena o paketomatima ili pickup lokacijama."
+}

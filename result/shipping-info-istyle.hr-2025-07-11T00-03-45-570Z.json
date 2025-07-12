@@ -1,0 +1,101 @@
+{
+  "website": "istyle.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Locodels"
+    ],
+    "pricing": "3,95 € per package. Free for orders over 80 €.",
+    "free_delivery_limit": "80 €",
+    "delivery_time": "3 working days for orders placed by 13:00. 7-14 days for items from the central warehouse.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Same day for orders received by 14:00, delivery until 21:00. Only for products in stock in Zagreb or Rijeka.",
+      "pricing": "9 €"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Delivery is only on working days from Monday to Friday."
+    },
+    "island_surcharge": "Delivery to islands may be extended by an additional 1-2 working days. Delays are currently possible for the islands of Vis, Brač, Hvar, and Krk.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb",
+      "Split",
+      "Zadar",
+      "Rijeka"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery methods are standard home delivery across Croatia and same-day express delivery in Zagreb and Rijeka. In-store pickup is also available at their physical locations. \nPROVIDERS: Standard delivery is handled by DPD, while same-day delivery is managed by Locodels. \nPRICING: Standard delivery costs 3,95 €, with free shipping on orders over 80 €. Same-day delivery is a flat rate of 9 €. Pricing for in-store pickup is not specified. \nRESTRICTIONS: Deliveries are only made on weekdays (Monday-Friday). Delivery to islands may take 1-2 extra days, and there are current noted delays for Istria and the islands of Vis, Brač, Hvar, and Krk. Same-day delivery is contingent on the product being in stock at the local store and the order being placed by 14:00. \nNOTABLE FEATURES: The availability of same-day delivery in Zagreb and Rijeka is a key service. The free shipping threshold is clearly defined at 80 €. \nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava i preuzimanje' page and is generally clear and well-organized. It clearly outlines costs, timelines, and providers for standard and express services. However, it lacks information on COD surcharges, bulky item shipping, and options for parcel shops or lockers."
+}

@@ -1,0 +1,99 @@
+{
+  "website": "lijepa.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "3,90 €",
+    "free_delivery_limit": "69 €",
+    "delivery_time": "2-5 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0,90 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "69 €",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0,90 €"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "3,70 €",
+    "free_delivery_limit": "69 €",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0,90 €"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, GLS Parcel Lockers, and GLS Parcel Shops/Depots are available. PROVIDERS: Delivery is handled exclusively by GLS. PRICING: Home delivery costs €3.90, and GLS Parcel Lockers cost €3.70. Shipping is free for all orders over €69. A packaging fee of €1.90 applies to orders under €19. DELIVERY TIME: The standard delivery timeframe is 2-5 business days. NOTABLE FEATURES: Cash on delivery is available with a €0.90 surcharge. There is no delivery on weekends or public holidays. No information is provided regarding express delivery, island surcharges, or shipping for bulky items. WEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated 'Dostava' page. It effectively covers the primary delivery methods, costs, and timelines. However, it lacks details on potential island surcharges, express options, and specific pricing for Parcel Shop pickup."
+}

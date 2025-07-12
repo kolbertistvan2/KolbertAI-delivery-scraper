@@ -1,0 +1,99 @@
+{
+  "website": "kpop.ro",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "national and international postal services or couriers"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "2-3 weeks",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Niche Records, in Bucharest. Strada Arcușului 6A, București 031206"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery to Croatia is available. In-store pickup is offered, but only in Bucharest, Romania. Parcel shop and locker delivery options for Croatia are not mentioned.\nPROVIDERS: International orders are handled by 'national and international postal services or couriers', without specifying which ones operate in Croatia.\nPRICING: Specific shipping costs for Croatia are not listed on the page; customers likely see the price at checkout. Free shipping is only mentioned for domestic orders in Romania.\nDELIVERY TIME: Standard delivery to EU countries like Croatia is estimated to take 2-3 weeks. No express options are available.\nNOTABLE FEATURES: The website dispatches orders only on weekdays (Monday-Friday). There is no information regarding weekend delivery, island surcharges, or cash on delivery for international orders.\nWEBSITE ASSESSMENT: The website confirms international shipping but lacks crucial details for customers in Croatia. Information on shipping costs, specific couriers, and other delivery services is missing, making it difficult for a user to understand the full shipping terms without proceeding to checkout."
+}

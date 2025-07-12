@@ -1,0 +1,96 @@
+{
+  "website": "spartoo.com.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "UPS",
+      "DPD"
+    ],
+    "pricing": "Besplatna dostava. Za proizvode s oznakom \"Proizvod partnera\" dostava nije besplatna.",
+    "free_delivery_limit": "Besplatna dostava za sve proizvode osim onih s oznakom \"Proizvod partnera\".",
+    "delivery_time": "Unutar 5 dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only explicitly mentioned delivery method is Home Delivery. \nPROVIDERS: Delivery is handled by UPS and DPD. \nPRICING: Standard delivery is free. However, for items marked as \"Proizvod partnera\" (Partner Product), delivery is not free, though the specific cost is not mentioned. Cash on delivery is an available payment method, but any associated surcharge is not specified. \nDELIVERY TIME: The stated delivery timeframe is within 5 days. \nNOTABLE FEATURES: There is no information available regarding express delivery, weekend delivery, or delivery to Croatian islands. Other delivery options like parcel shops, parcel lockers, or in-store pickup are not mentioned. \nWEBSITE ASSESSMENT: The shipping information available on the homepage is very limited. Critical details such as the shipping cost for partner products, potential COD surcharges, and policies for island deliveries are missing. The site would benefit from a dedicated and comprehensive shipping information page."
+}

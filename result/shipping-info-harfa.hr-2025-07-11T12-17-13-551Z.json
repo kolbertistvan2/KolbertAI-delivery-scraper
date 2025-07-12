@@ -1,0 +1,95 @@
+{
+  "website": "harfa.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "ovlaštena kurirska služba (authorized courier service)"
+    ],
+    "pricing": "2,92 € for prepayment (po predračunu) and card payments (kartično).\n3,72 € for cash on delivery (pouzećem).\nFree for orders over 25 €.",
+    "free_delivery_limit": "Free for orders over 25 €.",
+    "delivery_time": "5 working days. During sales periods, the delivery time can be extended up to 10 working days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to Croatian islands takes up to 7 working days. No extra surcharge is mentioned.",
+    "cod_surcharge": "The total shipping cost for cash on delivery (pouzećem) is 3,72 €."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method offered is home delivery. There is no mention of parcel shop/locker delivery or in-store pickup.\nPROVIDERS: The specific courier service is not named, only referred to as an 'authorized courier service'.\nPRICING: Shipping costs 2,92 € for card/prepayment and 3,72 € for cash on delivery (COD). Shipping is free for all orders over 25 €.\nDELIVERY TIMES & RESTRICTIONS: Standard delivery time is 5 working days for mainland Croatia and up to 7 working days for islands. During sales, this can extend to 10 days. No express or weekend delivery options are available.\nNOTABLE FEATURES: A clear free shipping threshold at 25 €. Longer delivery times for islands are specified, but no additional surcharge is mentioned. COD is available at a higher shipping rate.\nWEBSITE ASSESSMENT: Shipping information is consolidated on the 'Plaćanje i dostava' page. The details on pricing and delivery times are clear and easy to find. However, it lacks information on the specific courier used and does not offer alternative delivery methods like parcel points or in-store pickup."
+}

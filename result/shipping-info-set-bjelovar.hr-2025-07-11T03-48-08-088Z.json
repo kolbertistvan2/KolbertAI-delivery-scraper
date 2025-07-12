@@ -1,0 +1,103 @@
+{
+  "website": "set-bjelovar.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "HP",
+      "GLS"
+    ],
+    "pricing": "Standardna dostava HP je 6,00 eur. Brza dostava GLS je 9,00 eur. Za maloprodajne kupce - besplatna dostava za narudžbe 100,00 eur.",
+    "free_delivery_limit": "100,00 eur",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "9,00 eur"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS paketomat je 4,00 eur",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Bjelovar",
+      "Virovitica"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, GLS parcel locker delivery, and in-store pickup. PROVIDERS: Delivery partners are HP (Hrvatska pošta) and GLS. PRICING: Standard home delivery via HP costs €6.00, while fast delivery via GLS is €9.00. Delivery to a GLS parcel locker costs €4.00. Free shipping is available for retail orders over €100.00. RESTRICTIONS: Information regarding delivery times, island surcharges, and cash-on-delivery fees is not available. NOTABLE FEATURES: Customers can choose between standard and fast home delivery. In-store pickup is available at two locations (Bjelovar and Virovitica), with Saturday pickup possible in Bjelovar. WEBSITE ASSESSMENT: Shipping information is not located on a dedicated page but within a news article, making it difficult to find. The provided information is basic, lacking key details such as delivery timeframes and potential surcharges for islands or COD."
+}

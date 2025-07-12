@@ -1,0 +1,98 @@
+{
+  "website": "skintegra.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,90€ (BESPLATNO za narudžbe iznad 45€)",
+    "free_delivery_limit": "45€",
+    "delivery_time": "Proizvodi se šalju u roku od 2 do 3 radna dana i dostavljaju u roku 1-2 radna dana od slanja.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Dostava od ponedjeljka do petka"
+    },
+    "island_surcharge": "Za otoke i manja mjesta, pošiljke se dostavljaju prema rasporedu GLS-a.",
+    "cod_surcharge": "Kurir nudi plaćanje pouzećem kao dodatnu uslugu te se stoga i dodatno naplaćuje."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "BOX NOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS paketomat: 2,50€ (BESPLATNO za narudžbe iznad 45€)\nBOX NOW paketomat: 2€ (BESPLATNO za narudžbe iznad 45€)",
+    "free_delivery_limit": "45€",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The website offers standard home delivery and parcel locker delivery within Croatia. In-store pickup, parcel shops, and bulky item delivery are not available.\nPROVIDERS: Home delivery is handled by GLS. Parcel locker delivery is available via GLS and BOX NOW.\nPRICING: Standard home delivery costs €4.90. GLS parcel locker delivery is €2.50, and BOX NOW parcel locker delivery is €2.00. All delivery methods are free for orders over €45.\nNOTABLE FEATURES: Delivery to Croatian islands is available but follows a specific GLS schedule; no extra surcharge is mentioned. Cash on Delivery (COD) is an option for home delivery but comes with an unspecified additional fee. Deliveries are made on weekdays (Monday-Friday) only. No express delivery options are offered.\nWEBSITE ASSESSMENT: The shipping information is located on a clear and dedicated 'Plaćanje i dostava' page. It effectively outlines the available services, providers, and costs. The only significant missing detail is the exact cost of the COD surcharge."
+}

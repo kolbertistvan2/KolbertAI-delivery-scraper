@@ -1,0 +1,95 @@
+{
+  "website": "sensilab.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas"
+    ],
+    "pricing": "3,50 € (26 kn) for orders up to 35 € (265 Kn). Free for orders of 35 € (265 Kn) or more.",
+    "free_delivery_limit": "35 €",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Cijena troškova dostave je jednaka na cijelom području Hrvatske.",
+    "cod_surcharge": "0,92 € (6.90 Kn)"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available delivery method is home delivery. There is no mention of parcel shops, parcel lockers, or in-store pickup.\nPROVIDERS: Deliveries are handled by Overseas.\nPRICING: Delivery costs 3,50 € for orders under 35 €. Delivery is free for orders of 35 € or more. The delivery price is the same for all of Croatia, with no specific island surcharge mentioned.\nNOTABLE FEATURES: Cash on delivery (COD) is available for a surcharge of 0,92 €. No information is provided about delivery times, express delivery, or weekend delivery.\nWEBSITE ASSESSMENT: The shipping information is basic but clear. Key details like pricing, the free shipping threshold, and the COD surcharge are easy to find. However, it lacks crucial information such as estimated delivery timeframes and alternative delivery options."
+}

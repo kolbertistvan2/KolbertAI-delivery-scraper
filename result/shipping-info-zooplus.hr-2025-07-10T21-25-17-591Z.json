@@ -1,0 +1,97 @@
+{
+  "website": "zooplus.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "Vrijednost narudžbe € 10,00 - 25,00: € 3,99. Vrijednost narudžbe € 25,00 - 39,00: € 1,49. Vrijednost narudžbe € 39,00 i više: besplatno. Najmanja vrijednost narudžbe iznosi € 10,00.",
+    "free_delivery_limit": "€ 39,00",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "Za narudžbe veće od 31 kg možemo primijeniti 1,49 € dodatne naknade po narudžbi kako bismo pokrili dodatnu naknadu za otpremu nastalu slanjem više od 1 paketa (maksimalna težina paketa je 31 kg).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery via DPD. There are no options for parcel shops, parcel lockers, or in-store pickup. PRICING: Shipping is free for orders over €39. For orders between €25 and €39, the cost is €1.49. For orders between €10 and €25, the cost is €3.99. The minimum order value is €10. A surcharge of €1.49 may be applied for orders exceeding 31 kg. RESTRICTIONS: The maximum weight per package is 31 kg. Information regarding delivery to islands is not available. NOTABLE FEATURES: Cash on delivery (Pouzećem) is listed as a payment method, but the associated surcharge is not specified. Free returns are offered. WEBSITE ASSESSMENT: The shipping cost information is clearly presented in a tiered table. However, crucial details such as delivery timeframes, express options, weekend delivery, and potential island surcharges are missing from the provided page, limiting a complete understanding of the shipping services."
+}

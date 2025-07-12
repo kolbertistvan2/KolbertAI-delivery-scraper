@@ -1,0 +1,102 @@
+{
+  "website": "mikronis.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "Overseas",
+      "GLS",
+      "City Express"
+    ],
+    "pricing": "6,50€ for orders under 66,36€",
+    "free_delivery_limit": "66,36€",
+    "delivery_time": "3 to 5 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands is available.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "kurirska služba (unspecified)"
+    ],
+    "pricing": "26,41€",
+    "free_delivery_limit": "not available",
+    "delivery_time": "10 days or more",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands is not available for large packages.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,49€ for orders under 66,36€",
+    "free_delivery_limit": "66,36€",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Delivery is from Monday to Friday."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Mikronis Centralnom skaldištu (for large packages)",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Mikronis provides home delivery for small and bulky items, parcel locker delivery via BOX NOW, and in-store pickup for large items at their central warehouse. PROVIDERS: Delivery partners include Hrvatska pošta, Overseas, GLS, City Express, and BOX NOW. PRICING: Free delivery is offered for orders over €66.36 for both standard home delivery and BOX NOW lockers. Standard delivery below this threshold is €6.50, while BOX NOW is €2.49. Bulky item delivery has a flat fee of €26.41. RESTRICTIONS: Delivery of bulky items is not available to Croatian islands, and cash on delivery is not accepted for these items. NOTABLE FEATURES: The website clearly distinguishes between different delivery types (small vs. large packages). Delivery to islands is available for standard packages. WEBSITE ASSESSMENT: The shipping information is presented on a single, dedicated page, making it easy to find. It clearly outlines costs and delivery timeframes for different services. However, details regarding express delivery, weekend delivery options, and specific COD surcharges are not provided."
+}

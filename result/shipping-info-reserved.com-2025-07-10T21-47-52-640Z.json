@@ -1,0 +1,99 @@
+{
+  "website": "reserved.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "3,95 EUR",
+    "free_delivery_limit": "50 EUR",
+    "delivery_time": "2-4 working days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS PaketShop"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,95 EUR",
+    "free_delivery_limit": "50 EUR",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS Paketomat"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,95 EUR",
+    "free_delivery_limit": "50 EUR",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available in selected stores",
+    "pricing": "Free",
+    "free_delivery_limit": "0 EUR",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Reserved offers three delivery methods for Croatia: home delivery via GLS, delivery to GLS pickup points (Paketomat/PaketShop), and free in-store pickup. The delivery time for all options is 2-4 working days. Home delivery costs 3,95 EUR, and pickup point delivery is 2,95 EUR, with both options becoming free for orders over 50 EUR. In-store pickup is always free.\nNOTABLE FEATURES: The only courier used is GLS. Cash on delivery is not an available payment method for any delivery type. There are no express or weekend delivery options. Specific information regarding potential surcharges or restrictions for delivery to Croatian islands is not provided.\nWEBSITE ASSESSMENT: The shipping information is located in the 'Help - Delivery' section and is presented clearly and concisely. It effectively covers the main aspects like pricing, methods, and timelines. The main weakness is the lack of specific details about island deliveries and which stores are excluded from the 'Click & Collect' service."
+}

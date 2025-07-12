@@ -1,0 +1,103 @@
+{
+  "website": "bluegym.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Hrvatska Pošta"
+    ],
+    "pricing": "4,65 € for orders up to 39,81 €.",
+    "free_delivery_limit": "39,82 €",
+    "delivery_time": "2-3 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands may take longer, but no extra surcharge is mentioned.",
+    "cod_surcharge": "1,33 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebrüder Weiss",
+      "Lagermax"
+    ],
+    "pricing": "Calculated on demand based on weight and volume. Customers need to contact for a quote.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ulica pod Ohrušvom 1, 51000 Rijeka"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers standard home delivery, specialized delivery for bulky/heavy items, and in-store pickup. Parcel shop and locker delivery options are not available.\nPROVIDERS: Standard deliveries are handled by GLS and Hrvatska Pošta. Bulky items are delivered by Gebrüder Weiss and Lagermax.\nPRICING: Standard delivery costs 4,65 € for orders under 39,82 €, with free shipping for orders above this amount. A cash on delivery (COD) surcharge of 1,33 € applies. The cost for bulky item delivery is calculated on demand. In-store pickup is free.\nRESTRICTIONS: Delivery to Croatian islands may experience delays compared to the standard 2-3 business day timeframe, but no additional surcharge is mentioned.\nNOTABLE FEATURES: A key feature is the option for in-store pickup at their Rijeka warehouse, which is also available on Saturday mornings.\nWEBSITE ASSESSMENT: The shipping information is generally clear and easy to find. The free shipping threshold is prominently displayed. While the need to contact for a quote on bulky items is a slight inconvenience, the overall transparency of shipping terms is good."
+}

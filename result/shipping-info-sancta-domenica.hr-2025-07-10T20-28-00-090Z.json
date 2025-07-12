@@ -1,0 +1,114 @@
+{
+  "website": "sancta-domenica.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta (Paket24)",
+      "GLS",
+      "Locodels"
+    ],
+    "pricing": "Standard delivery (Hrvatska pošta): 5 EUR. GLS delivery: 7 EUR.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery time depends on the availability of the item, the selected postal code and the type of delivery. It will be displayed when selecting the delivery type after entering the postal code.",
+    "express_delivery": {
+      "available": "yes, but currently unavailable",
+      "delivery_time": "Same day for orders placed by 2 p.m. Monday to Friday. Orders are most often delivered in the later afternoon hours.",
+      "pricing": "10 EUR"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "GLS has a specific delivery schedule for islands. Hrvatska Pošta has weight restrictions (up to 2kg) for certain settlements.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa"
+    ],
+    "pricing": "19 - 29 EUR. Delivery to the apartment with installation option is available for Zagreb/Split and surrounding areas for 35 - 120 EUR.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery time depends on the availability of the item, the selected postal code and the type of delivery. It will be displayed when selecting the delivery type after entering the postal code.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "Part of the GLS delivery service, which costs 7 EUR.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta (Paket24)"
+    ],
+    "locations_count": "not available",
+    "pricing": "3 EUR",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Big Bang Zagreb, Arena Park",
+      "Big Bang Sveta Nedelja",
+      "Big Bang Zagreb, CCO East",
+      "Big Bang Zagreb, CCO West",
+      "Samsung Experience Store Arena",
+      "Big Bang Rijeka, Marti",
+      "Big Bang Split, CCO",
+      "Big Bang Varaždin, Green Park",
+      "Big Bang Zadar, City Park",
+      "Big Bang Osijek, Gacka"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers several delivery methods: Standard Home Delivery for small packages, Bulky Product Home Delivery, GLS Home Delivery, delivery to Hrvatska Pošta Parcel Lockers, and free In-Store Pickup. A same-day express delivery via Locodels is listed but currently unavailable.\nPROVIDERS: Delivery partners include Hrvatska pošta (Paket24), GLS, and Intereuropa for bulky items.\nPRICING: In-store pickup is free. Parcel locker delivery is 3 EUR. Standard home delivery is 5 EUR (Hrvatska pošta) or 7 EUR (GLS). Bulky item delivery costs between 19 EUR and 29 EUR. A premium service for delivery into the apartment, with an option for installation, is available in Zagreb and Split areas for 35-120 EUR.\nRESTRICTIONS: Deliveries are made to the entrance of the building. There are specific delivery schedules and potential weight restrictions for islands. Cash on delivery is not mentioned.\nNOTABLE FEATURES: The store offers a wide range of delivery options, including specialized services for bulky goods like installation and removal of old appliances. The option to choose between different couriers (Hrvatska pošta, GLS) for standard parcels is a plus.\nWEBSITE ASSESSMENT: The shipping information is comprehensive, well-structured, and easy to find. It clearly outlines the different services, providers, and costs. The only ambiguity is the exact delivery timeframe, which is calculated at checkout."
+}

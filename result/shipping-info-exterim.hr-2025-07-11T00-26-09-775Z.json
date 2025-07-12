@@ -1,0 +1,95 @@
+{
+  "website": "exterim.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "A minimum fee is charged for delivery for the entire Republic of Croatia. The delivery cost is calculated after adding the product to the cart and selecting the delivery address. The price depends on the delivery zone, weight, and dimensions of the shipment.",
+    "free_delivery_limit": "Free shipping is available for items marked 'BESPLATNA DOSTAVA' (FREE SHIPPING), valid only for the Republic of Croatia.",
+    "delivery_time": "Up to 15 working days. Most items are shipped the same or next working day, with expected delivery within 2 days. Delivery is carried out on working days from 08:00 to 16:00.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Saturdays and Sundays are not included in the delivery period."
+    },
+    "island_surcharge": "For the islands of Dugi otok, Iž, Rava, Molat, Ist, Silba, Premuda, Olib, Sestrunj, Drvenik Mali, Drvenik Veli, Zverinac, Rivanj, Šolta, Lastovo, Mljet, Koločep, Šipan, Lopud, Susak, Unije, Ilovik, Crveni otok, Sveta Katarina, Otok Zlarin, Prvić Šepurine, Otok Kaprije, Otok Žirje, delivery is made to the post office for pickup; delivery to the address is not available.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "The delivery cost is calculated at checkout based on the delivery zone, weight, and dimensions of the shipment. A minimum fee is charged for delivery throughout the Republic of Croatia.",
+    "free_delivery_limit": "Free shipping is available for items marked 'BESPLATNA DOSTAVA' (FREE SHIPPING), valid only for the Republic of Croatia.",
+    "delivery_time": "Up to 15 working days. Delivery is carried out on working days from 08:00 to 16:00.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Saturdays and Sundays are not included in the delivery period."
+    },
+    "island_surcharge": "For the islands of Dugi otok, Iž, Rava, Molat, Ist, Silba, Premuda, Olib, Sestrunj, Drvenik Mali, Drvenik Veli, Zverinac, Rivanj, Šolta, Lastovo, Mljet, Koločep, Šipan, Lopud, Susak, Unije, Ilovik, Crveni otok, Sveta Katarina, Otok Zlarin, Prvić Šepurine, Otok Kaprije, Otok Žirje, delivery is made to the post office for pickup; delivery to the address is not available.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "Included in the standard delivery cost calculated at checkout.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "This service is the standard delivery method for a specific list of islands, where delivery is made to the local post office for pickup.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery across Croatia. For a specific list of islands, delivery is restricted to pickup from the local post office. In-store pickup and parcel locker services are not mentioned.\nPROVIDERS: The specific courier companies are not named, only referred to as 'logistics companies'. Croatian Post is implied for island deliveries.\nPRICING: Delivery costs are calculated dynamically at checkout based on the shipment's weight, dimensions, and destination zone. A minimum fee applies. Free shipping is offered on select items within Croatia.\nRESTRICTIONS: Delivery to certain islands requires pickup from the post office. Home delivery is to the building entrance only, not to the apartment door.\nNOTABLE FEATURES: The standard delivery timeframe is up to 15 working days, though many orders arrive within 2 days. Deliveries are made on weekdays only.\nWEBSITE ASSESSMENT: Shipping information is located within the 'Uvjeti kupnje' (Terms of Purchase) page. While it covers the essential aspects, it lacks specific details like courier names and a transparent price list, which are only revealed during the checkout process. The information regarding island delivery restrictions is clear and specific. The overall quality of information is average."
+}

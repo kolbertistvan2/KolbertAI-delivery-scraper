@@ -1,0 +1,101 @@
+{
+  "website": "cijenaguma.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "Besplatna za kopneni dio Republike Hrvatske za naručene iznose preko 200 HRK.",
+    "free_delivery_limit": "200 HRK",
+    "delivery_time": "3 radna dana sa našeg skladišta, te od 3 do 10 radnih dana za gume sa EU skladišta.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Cijena dostave na otoke je na upit.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "Besplatna za kopneni dio Republike Hrvatske za naručene iznose preko 200 HRK.",
+    "free_delivery_limit": "200 HRK",
+    "delivery_time": "3 radna dana sa našeg skladišta, te od 3 do 10 radnih dana za gume sa EU skladišta.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Cijena dostave na otoke je na upit.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only method offered, available throughout Croatia. As the store primarily sells tires, this information applies to bulky products as well. Parcel shop, parcel locker, and in-store pickup options are not available.\nPROVIDERS: The specific shipping courier is not mentioned.\nPRICING: Delivery to mainland Croatia is free for orders over 200 HRK. The cost for delivery to islands and specific locations with additional costs is available only on request.\nDELIVERY TIME: Delivery takes 3 working days from the local warehouse or 3-10 working days from the EU warehouse.\nNOTABLE FEATURES: The store offers a very low free shipping threshold. However, key information is missing. Delivery to islands requires a direct inquiry and prior arrangement. No express delivery, weekend delivery, or cash-on-delivery options are mentioned.\nWEBSITE ASSESSMENT: The shipping information is basic and easy to understand but lacks crucial details. The absence of information on the courier, COD options, and specific island delivery costs makes the information incomplete. Customers on islands must contact the seller for a price quote, which can be inconvenient."
+}

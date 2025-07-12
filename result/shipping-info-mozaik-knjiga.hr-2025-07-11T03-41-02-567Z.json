@@ -1,0 +1,99 @@
+{
+  "website": "mozaik-knjiga.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Hrvatska pošta"
+    ],
+    "pricing": "3,90 € for orders up to 40€. Free for orders over 40€.",
+    "free_delivery_limit": "40€",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Box Now",
+      "Hrvatska pošta"
+    ],
+    "locations_count": "Box Now: over 600, Hrvatska pošta: over 300",
+    "pricing": "2,49 € for orders up to 40€. Free for orders over 40€.",
+    "free_delivery_limit": "40€",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Trg Drage Iblera 10, 10000, Zagreb, Galleria Business Centru na etaži -1",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel locker delivery, and in-store pickup.\nPROVIDERS: Delivery partners include DPD, Hrvatska pošta, and Box Now.\nPRICING: Home delivery costs 3,90€ and parcel locker delivery costs 2,49€ for orders under 40€. Shipping is free for all orders over 40€. In-store pickup is free.\nRESTRICTIONS: No information is provided regarding delivery times, weekend delivery, island surcharges, or COD fees.\nNOTABLE FEATURES: The site offers a good variety of delivery methods, including two different parcel locker networks (Box Now and Hrvatska pošta). Free in-store pickup is available at their Zagreb location.\nWEBSITE ASSESSMENT: Shipping information is clearly presented in a dedicated section in the website's footer. The costs and free shipping threshold are easy to understand. However, the information lacks detail on delivery timeframes and potential surcharges for islands or cash on delivery, which would improve completeness."
+}

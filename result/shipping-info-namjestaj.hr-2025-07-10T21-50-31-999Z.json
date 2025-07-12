@@ -1,0 +1,99 @@
+{
+  "website": "namjestaj.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Specialized transport / Own delivery service"
+    ],
+    "pricing": "Free delivery for all orders on the mainland and on islands connected by a bridge (to the nearest point accessible by van).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The average delivery time is indicated in the product description, calculated from the day the order is confirmed. The customer is contacted one day before delivery to arrange a time.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "The delivery price for Rab, Cres, Lošinj, Hvar, Brač, Korčula, Pašman and Ugljan is €20. For all other islands, delivery is possible to the ferry port or the nearest access point on the mainland.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Specialized transport / Own delivery service"
+    ],
+    "pricing": "Free delivery for all orders on the mainland and on islands connected by a bridge. An optional carry-in service is available for €15 for items one person can carry; for larger items, the driver assists for free if the customer provides help.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The average delivery time is indicated in the product description.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "The delivery price for Rab, Cres, Lošinj, Hvar, Brač, Korčula, Pašman and Ugljan is €20. For all other islands, delivery is possible to the ferry port or the nearest access point on the mainland.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ježdovečka ulica 143, 10250 Ježdovec"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery via the company's own specialized transport service. Personal pickup is also available from their warehouse in Ježdovec. Parcel shop and locker delivery are not offered.\nPRICING & PROVIDERS: Delivery is free throughout continental Croatia and to islands connected by a bridge. The provider is the company's own delivery service. There is a €20 surcharge for delivery to the islands of Rab, Cres, Lošinj, Hvar, Brač, Korčula, Pašman, and Ugljan. For all other islands, delivery is made to the nearest ferry port on the mainland.\nNOTABLE FEATURES: Payment on delivery (cash or card) is available with no mentioned surcharge. The company actively coordinates the delivery time with the customer via SMS and phone calls. An optional carry-in service is available for €15.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava' page and is clear, comprehensive, and easy to understand. It covers costs, delivery zones, island surcharges, and special conditions like delivery to old town centers. The FAQ section provides additional useful clarifications."
+}

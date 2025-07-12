@@ -1,0 +1,103 @@
+{
+  "website": "libido.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "€3.19 for orders up to €40. Free for orders over €40.",
+    "free_delivery_limit": "€40",
+    "delivery_time": "1-2 business days. For remote islands, delivery can take 3-5 business days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Deliveries are made Monday to Friday."
+    },
+    "island_surcharge": "No surcharge mentioned. Delivery to all islands is available via GLS according to their schedule, or via Hrvatska pošta for islands not on the GLS schedule. Delivery time is longer (3-5 business days).",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Bulky items are delivered via GLS and follow standard home delivery pricing: €3.19 for orders up to €40, free for orders over €40. They cannot be delivered to BoxNow lockers.",
+    "free_delivery_limit": "€40",
+    "delivery_time": "1-2 business days (3-5 for remote islands)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "No surcharge mentioned, but delivery to some islands is handled by Hrvatska pošta and takes longer (3-5 business days).",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "€3.19 for orders up to €40. Free for orders over €40.",
+    "free_delivery_limit": "€40",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Deliveries to parcel shops are made Monday to Friday."
+    },
+    "island_surcharge": "No surcharge mentioned. Prices are valid for all of Croatia.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BoxNow"
+    ],
+    "locations_count": "not available",
+    "pricing": "€1.99 for orders up to €40. Free for orders over €40.",
+    "free_delivery_limit": "€40",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Packages can be picked up from the locker 24/7, including weekends."
+    },
+    "island_surcharge": "No surcharge mentioned. Prices are valid for all of Croatia.",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Obelisk d.o.o. Savica I. 141, Zagreb, 10000"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Pickup is available Monday to Friday, 09:00 to 16:00."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Cash on delivery is not possible for in-store pickup. Payment must be made in advance online."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers several delivery methods for Croatia: home delivery via GLS, pickup at GLS PaketShop locations, delivery to BoxNow parcel lockers, and free personal pickup at their warehouse in Zagreb.\nPROVIDERS: GLS and BoxNow.\nPRICING: Delivery is free for all orders over €40. For orders under €40, GLS delivery (home or parcel shop) costs €3.19, and BoxNow parcel locker delivery costs €1.99. Personal pickup is always free.\nDELIVERY TIME: The standard delivery time is 1-2 business days. For remote islands, it can extend to 3-5 business days.\nNOTABLE FEATURES: The webshop emphasizes extremely discreet packaging. GLS provides SMS and email notifications with a 3-hour delivery window and allows customers to redirect packages to a parcel shop. BoxNow lockers are accessible 24/7 for package pickup. Cash on delivery is not available for personal pickup.\nWEBSITE ASSESSMENT: The shipping information is comprehensive, clearly structured, and easy to understand. All delivery methods are explained in detail with pricing and timelines presented in a clear table. The only information not explicitly stated is the exact surcharge for cash on delivery, if any."
+}

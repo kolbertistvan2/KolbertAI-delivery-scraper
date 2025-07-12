@@ -1,0 +1,95 @@
+{
+  "website": "sonusart.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "In Time"
+    ],
+    "pricing": "4 € za narudžbe ispod 40.00 €. Besplatna dostava za narudžbe iznad 40.00 €.",
+    "free_delivery_limit": "40.00 €",
+    "delivery_time": "2-5 radnih dana. Za narudžbe na otoke dostava u pravilu traje nešto duže (5-7 radnih dana).",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke traje duže (5-7 radnih dana). Postoji popis mjesta bez mogućnosti isporuke i poseban raspored dostave na otoke.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method offered is home delivery. There is no mention of in-store pickup, parcel shops, or parcel lockers.\nPROVIDERS: Deliveries are handled by In Time.\nPRICING: Delivery costs €4 for orders under €40 and is free for orders of €40 or more. No information on COD surcharges is provided.\nDELIVERY TIMES & RESTRICTIONS: Standard delivery takes 2-5 business days. Delivery to islands takes longer, 5-7 business days, and some locations may be excluded. Delivery is made to the building entrance only, not to a specific floor.\nNOTABLE FEATURES: Customers can request a specific delivery time (morning or afternoon until 4 PM). Order tracking is available.\nWEBSITE ASSESSMENT: The shipping information is presented on a single, clear page. It covers the essential details for home delivery, including cost, provider, and timelines. However, it lacks information on alternative delivery methods, express or weekend options, and specific surcharges like COD. Information regarding island delivery restrictions is mentioned but requires clicking an external link."
+}

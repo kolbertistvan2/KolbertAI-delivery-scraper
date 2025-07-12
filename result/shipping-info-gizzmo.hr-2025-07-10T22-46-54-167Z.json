@@ -1,0 +1,98 @@
+{
+  "website": "gizzmo.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas",
+      "Packeta (Overseas Express)"
+    ],
+    "pricing": "3.50 EUR for prepayment (bank transfer) and card payments (Visa, Mastercard), 3.90 EUR for cash on delivery, 4.90 EUR for PayPal. Free shipping for orders over 50 EUR.",
+    "free_delivery_limit": "50 EUR",
+    "delivery_time": "2-4 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Total shipping cost for COD is 3.90 EUR."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Overseas"
+    ],
+    "locations_count": "not available",
+    "pricing": "Available as a fallback option for missed home delivery, no specific pricing mentioned.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery. Pickup at an Overseas branch is offered as a fallback option if the initial delivery attempt is unsuccessful. No other pickup options like parcel lockers or in-store pickup are available.\nPROVIDERS: Deliveries are handled by Overseas Express. For 'REBORN' products, the courier is Packeta (which is part of the Overseas Express group).\nPRICING: Shipping is free for orders over 50 EUR. For orders below this value, the cost is 3.50 EUR for prepayment/card, 3.90 EUR for cash on delivery (COD), and 4.90 EUR for PayPal.\nDELIVERY TIME: The standard delivery timeframe is 2-4 business days for orders placed before 14:00.\nNOTABLE FEATURES: 'REBORN' products have a separate shipping rule where the shipping fee is always applied, regardless of the order value, unless other non-REBORN items in the cart exceed 50 EUR. COD is not available for orders containing REBORN products if the total value exceeds 700 EUR. There is no mention of express or weekend delivery services.\nWEBSITE ASSESSMENT: Shipping information is located within the FAQ section rather than a dedicated page. The information provided is clear regarding standard delivery costs and times but lacks crucial details about potential surcharges for island deliveries, which is a notable omission for a Croatian e-commerce site. Information on express and weekend delivery is also missing."
+}

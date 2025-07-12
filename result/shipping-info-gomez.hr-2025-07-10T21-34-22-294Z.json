@@ -1,0 +1,97 @@
+{
+  "website": "gomez.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "Narudžbe ispod €99,99: €4,99 (Plaćanje unaprijed) / €9,99 (Plaćanje pouzećem). Narudžbe iznad €99,99: €0.",
+    "free_delivery_limit": "€99,99",
+    "delivery_time": "6-7 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "€5 for orders under €99,99 (€9,99 total cost vs €4,99 for prepayment). No surcharge for orders over €99,99 (free delivery)."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "Narudžbe ispod €99,99: €4,99 (Plaćanje unaprijed) / €9,99 (Plaćanje pouzećem). Narudžbe iznad €99,99: €0.",
+    "free_delivery_limit": "€99,99",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "€5 for orders under €99,99 (€9,99 total cost vs €4,99 for prepayment). No surcharge for orders over €99,99 (free delivery). COD is possible for orders up to €500."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and DPD Pickup Points are available. \nPROVIDERS: The exclusive provider is DPD. \nPRICING: Delivery for orders under €99.99 costs €4.99 for prepayment or €9.99 for cash on delivery (COD). Delivery is free for all orders over €99.99. \nDELIVERY TIME: The standard delivery time is 6-7 working days. \nNOTABLE FEATURES: Free shipping is offered on orders exceeding €99.99. Cash on delivery is available as a payment option, with a surcharge for smaller orders and a value limit of €500 for pickup point deliveries. \nWEBSITE ASSESSMENT: The shipping information is located on a dedicated page and is presented clearly in a table. It is easy to understand the basic costs and delivery times. However, it lacks details regarding express delivery, weekend delivery, or potential surcharges for island deliveries."
+}

@@ -1,0 +1,95 @@
+{
+  "website": "replikart.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "5,00 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "unutar 48 sati (osim subote, nedjelje i praznika)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na pojedine otoke traje 2-3 dana.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "– nije fizička trgovina – samo web shop –",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available shipping method for Croatia is home delivery. In-store pickup is not an option as the company operates exclusively as a webshop. There is no information on parcel shop, parcel locker, or bulky item delivery.\n\nPROVIDERS: DPD is the exclusive courier for all domestic shipments.\n\nPRICING: A flat rate of 5,00 € applies to all deliveries within Croatia. The website does not mention a free shipping threshold. Cash on delivery is listed as a payment option, but any potential surcharge is not specified.\n\nDELIVERY TIMES & RESTRICTIONS: Standard delivery time is within 48 hours, excluding weekends and holidays. Deliveries to certain islands may take longer, around 2-3 days. No specific surcharge for island delivery is mentioned. Weekend delivery is not available.\n\nNOTABLE FEATURES: The company ships to all EU countries with zoned pricing. All items are shipped from their own warehouse.\n\nWEBSITE ASSESSMENT: The shipping information is presented on a dedicated page and is straightforward. It clearly outlines the cost, provider, and delivery timeframe for Croatia. However, it lacks details regarding a free shipping threshold, potential COD surcharges, and alternative delivery methods. The information on island delivery is limited to an extended timeframe."
+}

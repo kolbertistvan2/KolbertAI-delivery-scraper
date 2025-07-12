@@ -1,0 +1,101 @@
+{
+  "website": "eurovrt.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena dostave ovisi o težini paketa: Do 2 kg: 6,65 €, Do 3 kg: 6,94 €, Do 5 kg: 7,33 €, Do 10 kg: 8,01 €, Do 15 kg: 8,73 €, Do 20 kg: 9,43 €, Do 25 kg: 10,10 €, Do 30 kg: 11,05 €, Do 40 kg: 12,30 €.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1-2 radna dana. Narudžbe zaprimljene radnim danom do 12h šalju se isti dan.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke traje duže (3-5 radnih dana), bez navedenog dodatnog troška.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena ovisi o težini: Od 40 do 56 kg: 14,99 €, Od 56 do 99 kg: 65,00 €, Od 99 do 200 kg: 92,91 €, Od 200 naviše: 231,25 €. Ako je stroj duži od 2 metra ne vrijedi naplata dostave prema težini (cijena nije specificirana). Kupac je dužan sam istovariti paletu težu od 30 kg.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1-2 radna dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke traje duže (3-5 radnih dana), bez navedenog dodatnog troška.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ulica Grada Gospića 3, Zagreb"
+    ],
+    "pricing": "Potrebna je prethodna najava na telefon. Cijena nije navedena.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Eurovrt.hr nudi dostavu isključivo unutar Hrvatske putem GLS dostavne službe, te opciju osobnog preuzimanja u poslovnici u Zagrebu. Cijene dostave su strukturirane prema težini pošiljke, od 6,65 € za pakete do 2 kg, pa sve do 231,25 € za pošiljke teže od 200 kg. Standardno vrijeme isporuke je 1-2 radna dana, dok za otoke iznosi 3-5 radnih dana. Ne postoji prag za besplatnu dostavu. NOTABLE FEATURES: Postoje posebna pravila za dostavu artikala dužih od 2 metra, no cijena nije specificirana. Kupac je odgovoran za istovar paleta težih od 30 kg. Moguće je osobno preuzimanje subotom. WEBSITE ASSESSMENT: Informacije o dostavi su jasno predstavljene na zasebnoj stranici, s detaljnom tablicom cijena. Nedostaju informacije o pragu za besplatnu dostavu, trošku pouzeća i specifičnim cijenama dostave za vangabaritne predmete ili nadoplatama za otoke."
+}

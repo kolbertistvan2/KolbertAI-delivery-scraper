@@ -1,0 +1,103 @@
+{
+  "website": "kralj.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa",
+      "GLS"
+    ],
+    "pricing": "Dostava na području Hrvatske: Minimalan iznos dostave je 7,50€ po uređaju (PDV uključen) za uređaj do 30 kg težine dok se iznos dostave za teže aparate ili više njih izračunava prema važećem cjeniku dostavne službe Intereuropa. Dostava na području Zagreba, Sesveta, Dugog Sela, Samobora, Zaprešića, Velike Gorice i Zeline: Cijena dostave iznosi 25€ za jedan aparat, a svaki slijedeći košta 15€. Dostava za 6-10 aparata iznosi 100€.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Dostava se vrši 1-2 dana od uplate ili po dogovoru. Dostave se vrše u jutarnjem terminu, između 9 i 15 sati.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Dostava za Veliku Goricu, Dugo Selo i Zelinu vrši se utorkom, četvrtkom i subotom. Dostave za Zagreb vrše se od ponedjeljka do subote."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa"
+    ],
+    "pricing": "Cijena se izračunava prema važećem cjeniku dostavne službe Intereuropa. Dostava Side-by-Side hladnjaka, Plamen peći i kamina: Uređaj se unosi u prostor na području Zagreba, Sesveta, Dugog Sela, Samobora, Zaprešića samo ako nije potrebno nošenje po stepenicama ili ukoliko artikl stane u lift. U protivnom je dostava pred ulaz u kuću/zgradu. Na području ostatka Hrvatske dostavu vrši Intereuropa koja uređaje NE UNOSI te je dostava pred ulaz u kuću/zgradu.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb (Dubrava, Čulinečka cesta 81)",
+      "Zadar (Obala Kneza Branimira 2G)"
+    ],
+    "pricing": "free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Kralj.hr provides home delivery throughout Croatia and in-store pickup. Home delivery is handled by Intereuropa and GLS. In-store pickup is available at their locations in Zagreb and Zadar.\nPRICING: Standard delivery for items up to 30 kg starts at €7.50. For the wider Zagreb area, delivery is €25 for the first appliance and €15 for each additional one. The cost for heavier items is calculated based on Intereuropa's price list. In-store pickup is free.\nDELIVERY TIME & FEATURES: Delivery is typically within 1-2 days of payment. Weekend delivery (Saturday) is available for Zagreb and some surrounding towns. There are specific delivery days for different towns near Zagreb. Bulky items are delivered only to the building entrance, not carried inside, especially if stairs are involved.\nLIMITATIONS: There is no information on express delivery, COD options, or specific surcharges for island deliveries. Pricing for heavy/bulky items is not fixed and requires an inquiry. The website does not offer delivery to parcel shops or lockers.\nWEBSITE ASSESSMENT: The shipping information is available but combines general national delivery with specific local rules, which can be confusing. Key details like island delivery costs and COD options are missing. The quality of information is moderate; it covers the basics but lacks transparency on certain costs and services."
+}

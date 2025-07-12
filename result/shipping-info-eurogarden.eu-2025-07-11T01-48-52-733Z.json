@@ -1,0 +1,103 @@
+{
+  "website": "eurogarden.eu",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Post of Slovenia d.o.o.",
+      "GLS"
+    ],
+    "pricing": "Shipping cost for Croatia (HR) based on order value (excluding VAT): from 0,1 to 99,99 € is 8,20 €; from 100,00 to 149,99 € is 6,56 €. For orders over 150,00 €, the cost is not specified for HR in this table.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery takes place during the week until 4 pm. No specific timeframe (e.g. 2-5 days) is mentioned.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Delivery takes place during the week."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Post of Slovenia d.o.o.",
+      "GLS"
+    ],
+    "pricing": "Shipping cost for Croatia (HR) for items over 25 kg is based on gross product weight (excluding VAT): 25-39.99kg is 5,74€, 40-59.99kg is 8,20€, 60-79.99kg is 12,30€, 80-99.99kg is 16,39€, 100-119.99kg is 21,31€, 120-139.99kg is 26,23€, 140-159.99kg is 32,79€, 160-179.99kg is 36,89€, 180-199.99kg is 40,98€, 200-219.99kg is 45,08€, 220-239.99kg is 49,18€, 240-259.99kg is 53,28€, 260-279.99kg is 57,38€, 280-299.99kg is 61,48€, 300-319.99kg is 65,57€, 320-339.99kg is 69,67€, 340-359.99kg is 73,77€, 360-379.99kg is 77,87€, 380-399.99kg is 81,97€, over 400kg is 90,16€.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery takes place during the week until 4 pm. No specific timeframe (e.g. 2-5 days) is mentioned.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Delivery takes place during the week."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: Eurogarden.eu offers home delivery to Croatia for standard and bulky items via Post of Slovenia and GLS. Standard delivery pricing is based on order value, costing €8.20 for orders up to €99.99 and €6.56 for orders between €100 and €149.99 (prices exclude VAT). Bulky item delivery (over 25kg) is priced based on weight, ranging from €5.74 to over €90.16 (excl. VAT). Deliveries are made on weekdays until 4 pm. Parcel shop, parcel locker, and in-store pickup options are not mentioned. Information on delivery timeframes, island surcharges, and cash on delivery is not available. NOTABLE FEATURES: A mandatory first start-up test is performed on certain machines (e.g., Husqvarna) before delivery. WEBSITE ASSESSMENT: The website provides detailed pricing tables but lacks crucial information such as delivery timeframes, free shipping thresholds for Croatia, island delivery policies, and COD options. All prices are listed excluding VAT, which may not be immediately clear to the end consumer."
+}

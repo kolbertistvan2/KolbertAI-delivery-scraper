@@ -1,0 +1,96 @@
+{
+  "website": "selectedd.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "Free delivery for orders with a minimum value of 50,00 EUR. The top banner mentions free delivery for orders over 70 EUR. The price for orders below the free shipping threshold is not specified.",
+    "free_delivery_limit": "50,00 EUR",
+    "delivery_time": "The delivery time is shown during the checkout process. The maximum delivery time is 6 months.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only standard delivery option is Home Delivery. In-store pickup might be possible via special arrangement but is not a standard option.\nPROVIDERS: GLS and DPD are used for home delivery.\nPRICING: Delivery is free for orders over 50 EUR according to the T&C, but a banner on the site states the threshold is 70 EUR. The cost for orders below this amount is not specified. Cash on delivery is available, with no mention of a surcharge.\nRESTRICTIONS & TIMEFRAMES: The specific delivery timeframe is provided during checkout. There is no information available regarding express delivery, weekend delivery, or extra charges for island deliveries.\nNOTABLE FEATURES: Cash on delivery is an available payment method.\nWEBSITE ASSESSMENT: Shipping information is found within the 'Opći uvjeti' (General Terms and Conditions). The information is somewhat clear but lacks specifics on delivery costs for smaller orders and standard delivery times. The conflicting information on the free shipping threshold (50 EUR vs. 70 EUR) is a significant point of confusion. Information on other common delivery methods is not provided."
+}

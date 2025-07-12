@@ -1,0 +1,102 @@
+{
+  "website": "hgspot.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "4,99 €, neovisno o vrijednosti narudžbe i lokaciji isporuke.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Standardni rok isporuke je do 3 radna dana ovisno o lokaciji isporuke i dostupnosti proizvoda.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "unutar istog dana, u roku nekoliko sati nakon potvrde narudžbe",
+      "pricing": "11,00 EUR (s PDV-om)"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Rok isporuke za otoke i udaljena područja može biti produljen za 1-2 dana, ovisno o dostavnom partneru. Dostava na otoke vrši se u skladu s redom plovidbe i rasporedom dostave odabrane kurirske službe.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Do 10 kg – 4,99 EUR\nPreko 10 kg do 30 kg – 15,00 EUR\nPreko 30 kg do 75 kg – 45,00 EUR\nPreko 75 kg – 100,00 EUR",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Standardni rok isporuke je do 3 radna dana ovisno o lokaciji isporuke i dostupnosti proizvoda. Rok isporuke za otoke i udaljena područja može biti produljen za 1-2 dana.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Rok isporuke za otoke i udaljena područja može biti produljen za 1-2 dana, ovisno o dostavnom partneru. Dostava na otoke vrši se u skladu s redom plovidbe i rasporedom dostave odabrane kurirske službe.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb",
+      "Split",
+      "Rijeka",
+      "Osijek",
+      "Pula",
+      "Varaždin",
+      "Zadar",
+      "Vinkovci"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: HGspot provides home delivery throughout Croatia. Standard delivery costs a flat rate of €4.99 with a timeframe of up to 3 business days. Delivery for bulky items, such as white goods, is priced based on weight, ranging from €4.99 to €100.00. In-store pickup is an available option at their physical store locations. The website does not mention parcel shop or parcel locker delivery options.\nNOTABLE FEATURES: Same-day express delivery is offered for €11.00 in Zagreb, Split, Rijeka, Osijek, Pula, Varaždin, Zadar, and Vinkovci for orders placed on weekdays before 3:00 PM. Deliveries to islands may experience a delay of 1-2 days. No free shipping threshold is mentioned.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava' page and is generally clear and easy to understand. Pricing for standard and bulky items is well-defined. However, the page does not specify the courier partners used, nor does it provide information on Cash on Delivery (COD) options or weekend deliveries. Details about in-store pickup are inferred from the express delivery section rather than being explicitly stated as a separate delivery method."
+}

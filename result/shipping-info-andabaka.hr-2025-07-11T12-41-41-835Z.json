@@ -1,0 +1,97 @@
+{
+  "website": "andabaka.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "INTEREUROPA"
+    ],
+    "pricing": "Delivery services are paid according to the offer issued by Andabaka d.o.o. before the delivery of the goods.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Delivery of the ordered goods, if available in stock, is carried out within 24 hours from the moment the Consumer's payment is received. If the goods are not available in stock, the delivery time is usually from 2 to 10 days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Weekends and holidays are not included in the delivery time."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "INTEREUROPA"
+    ],
+    "pricing": "Delivery services are paid according to the offer issued by Andabaka d.o.o. before the delivery of the goods.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery time is not specified for bulky products, but the general delivery time is 24 hours for in-stock items and 2-10 days for out-of-stock items.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Weekends and holidays are not included in the delivery time."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "The text implies a location in Split but does not provide a specific address. It states the customer can pick up the goods themselves.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery across Croatia and personal in-store pickup. Parcel shop and locker delivery are not available.\nPROVIDERS: Home delivery is handled by INTEREUROPA.\nPRICING: Shipping costs are not standardized; they are provided on a per-offer basis before delivery. There is no mention of a free shipping threshold. Personal pickup costs are not specified.\nRESTRICTIONS: Deliveries are not made on weekends or holidays. There is no specific information regarding delivery to Croatian islands or any potential surcharges.\nNOTABLE FEATURES: In-stock items are dispatched within 24 hours of payment receipt. Customers have the option to arrange their own courier for pickup.\nWEBSITE ASSESSMENT: The shipping information is basic and lacks crucial details for customers. The absence of standard shipping prices, island delivery policies, and cash-on-delivery options makes the purchasing process less transparent. The requirement to wait for an offer to know the shipping cost is inconvenient."
+}

@@ -1,0 +1,97 @@
+{
+  "website": "kupi-ulje.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD",
+      "Overseas"
+    ],
+    "pricing": "€6.50 for orders up to €70. Free for orders over €70.",
+    "free_delivery_limit": "€70",
+    "delivery_time": "Typically 2 business days. For smaller towns, islands, or remote locations, it can be 3-4 days.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands takes longer (3-4 days), but no specific surcharge is mentioned.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "Bulky items like car batteries cannot be sent by courier services.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available only for specific items (e.g., car batteries) at the Sveta Nedelja location. General personal pickup is not possible.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: The main delivery option is home delivery within Croatia, handled by GLS, DPD, and Overseas Express. The cost is €6.50 for orders up to €70, with free shipping for orders exceeding this amount. Standard delivery time is 2 business days, extending to 3-4 days for islands and remote locations. In-store pickup is generally not possible, with the exception of specific items like car batteries, which can be collected at their location in Sveta Nedelja. Parcel shop and locker delivery are not available. NOTABLE FEATURES: The website does not offer express or weekend delivery services. Delivery is restricted to Croatia. Car batteries cannot be shipped. Customers receive tracking information via email. WEBSITE ASSESSMENT: Shipping information is clearly presented on a dedicated page. It covers essential details but lacks information on potential surcharges for COD or specific island deliveries, and does not mention any special delivery services like express or weekend options."
+}

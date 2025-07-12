@@ -1,0 +1,96 @@
+{
+  "website": "hespo.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Price is based on weight for mainland Croatia: up to 5kg is 11 €, 5.01 to 15kg is 17 €, and over 15.01kg is 35 €.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "5 to 15 business days for standard items on mainland Croatia.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Surcharges for ferry transport apply. BRAČ: 27,08 €, DUGI OTOK: 63,71 €, OTOK ŠOLTA: 27,74 €, HVAR, VIS, KORČULA, LOŠINJ, RAB, UGLJAN, PAŠMAN, MLJET, CRES: 40,61 €",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Delivery price is based on total weight: packages over 15.01kg cost 35 €. Optional service for carrying goods inside is available for a surcharge, priced by floor (e.g., ground/1st floor: 6,64 €, 2nd-4th floor: 13,28 €).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-4 weeks",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Surcharges for ferry transport apply. BRAČ: 27,08 €, DUGI OTOK: 63,71 €, OTOK ŠOLTA: 27,74 €, HVAR, VIS, KORČULA, LOŠINJ, RAB, UGLJAN, PAŠMAN, MLJET, CRES: 40,61 €",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "PRELOG: Industrijska zona 11, 40323 Prelog",
+      "SPLIT: 4.gardijske brigade 53d, 21311 Stobreč"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Pickup is available on business days only. Prelog: Mon-Fri 07:00-18:00. Split: Mon & Wed 11:00-14:30, Tue & Thu 07:30-14:30, Fri closed."
+    },
+    "island_surcharge": "not applicable",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery for all products, including bulky items. In-store pickup is also available at their warehouses in Prelog and Split. Parcel shop and parcel locker delivery are not offered.\nPROVIDERS: The specific courier service is not named; they seem to handle deliveries in-house.\nPRICING: Home delivery costs are weight-based for mainland Croatia: 11 € (up to 5kg), 17 € (5-15kg), and 35 € (>15kg). There is no free shipping threshold mentioned. In-store pickup is free.\nRESTRICTIONS: Significant surcharges apply for delivery to Croatian islands, ranging from approximately 27 € to 64 €. Delivery is only on business days. Cash on delivery is not an available payment method.\nNOTABLE FEATURES: The delivery timeframe is relatively long, at 5-15 business days for standard items and 3-4 weeks for furniture. They offer an optional service for carrying items into the customer's home and an assembly service, both for an additional fee.\nWEBSITE ASSESSMENT: Shipping information is comprehensive and detailed, found in a 'Dostava' tab within a modal window on product pages. It clearly outlines costs, timelines, island surcharges, and pickup options. The main drawback is that the information is not easily accessible from the main site footer or a dedicated page, and the delivery provider is not specified."
+}

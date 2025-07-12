@@ -1,0 +1,97 @@
+{
+  "website": "musicshop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa d.o.o."
+    ],
+    "pricing": "Za iznose narudžbe preko 70,00 € s PDV-om vršimo besplatnu dostavu. Za iznose narudžbe manje od 70,00 € s PDV-om cijena dostave je:\n* do 2 kg .......................... 6,00 €\n* do 5 kg .......................... 6,50 €\n* do 10 kg ........................... 7,50 €\n* do 15 kg ........................... 9,00 €\n* do 20 kg ........................... 10,50 €\n* do 25 kg ........................... 11,50 €\n* do 30 kg ........................... 12,50 €",
+    "free_delivery_limit": "70,00 €",
+    "delivery_time": "2-3 radna dana, osim dostave za otoke i rijetko naseljena područja gdje može potrajati i duže.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava za otoke i rijetko naseljena područja može potrajati i duže.",
+    "cod_surcharge": "1 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa d.o.o."
+    ],
+    "pricing": "Za iznose narudžbe manje od 70,00 € s PDV-om cijena dostave je:\n* do 2 kg .......................... 6,00 €\n* do 5 kg .......................... 6,50 €\n* do 10 kg ........................... 7,50 €\n* do 15 kg ........................... 9,00 €\n* do 20 kg ........................... 10,50 €\n* do 25 kg ........................... 11,50 €\n* do 30 kg ........................... 12,50 €\n* do 35 kg ........................... 15,00 €\n* do 40 kg ........................... 17,00 €\n* do 45 kg ........................... 20,00 €\n* do 50 kg ........................... 21,00 €\n* do 75 kg ........................... 29,00 €\n* do 100 kg ........................... 37,00 €\n* do 150 kg ........................... 52,00 €\n* do 200 kg ........................... 70,00 €",
+    "free_delivery_limit": "70,00 €",
+    "delivery_time": "2-3 radna dana, osim dostave za otoke i rijetko naseljena područja gdje može potrajati i duže.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava za otoke i rijetko naseljena područja može potrajati i duže.",
+    "cod_surcharge": "1 €"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery within Croatia for both standard and bulky items. In-store pickup, parcel shop, and parcel locker delivery are not mentioned as available options for online orders.\nPROVIDERS: The exclusive delivery partner is Intereuropa d.o.o.\nPRICING: Delivery is free for orders over €70. For orders below this threshold, a tiered pricing structure based on weight applies, starting from €6.00 for packages up to 2 kg and going up to €70.00 for packages up to 200 kg.\nDELIVERY TIME & RESTRICTIONS: Standard delivery time is 2-3 business days. Deliveries to Croatian islands and sparsely populated areas may take longer, though no specific surcharge for islands is mentioned. Delivery is restricted to the Republic of Croatia.\nNOTABLE FEATURES: Cash on delivery (COD) is available for a surcharge of €1. Express and weekend delivery services are not offered.\nWEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated 'Dostava i plaćanje' page. The pricing structure is detailed and easy to understand. However, the page lacks information on alternative delivery methods like in-store pickup or parcel points, and does not provide details on express or weekend delivery options."
+}

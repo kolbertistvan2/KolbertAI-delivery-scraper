@@ -1,0 +1,95 @@
+{
+  "website": "svijet-igara.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS Croatia"
+    ],
+    "pricing": "5,00 EUR or 3,00 EUR for orders under 100,00 EUR, depending on the chosen delivery method.",
+    "free_delivery_limit": "100,00 EUR",
+    "delivery_time": "Processing takes 1-3 business days. Delivery to mainland Croatia is 24-48 hours from dispatch. Delivery to islands follows the courier's schedule.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "No surcharge mentioned, but delivery to islands is performed according to the courier's schedule.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only option available. PROVIDERS: GLS Croatia is the exclusive courier. PRICING: Delivery costs 5,00 EUR or 3,00 EUR for orders below 100,00 EUR, with free shipping for orders of 100,00 EUR or more. RESTRICTIONS: Delivery is only available within Croatia. NOTABLE FEATURES: No weekend deliveries are made. Island deliveries follow a specific courier schedule, but no surcharge is mentioned. Customers receive email and SMS notifications with a 3-hour delivery window. WEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava' page and is generally clear. It specifies the provider, costs, and delivery times for the mainland. However, it lacks details on COD surcharges, express options, and alternative delivery methods like parcel shops or in-store pickup. Information on island delivery schedules could be more specific."
+}

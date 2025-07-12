@@ -1,0 +1,97 @@
+{
+  "website": "runninggate.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "7,00 € for orders under 80,00 €. Free for orders over 80,00 €.",
+    "free_delivery_limit": "80,00 €",
+    "delivery_time": "up to 7 working days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Delivery from Monday to Friday"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BoxNow"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,00 € for orders under 80,00 €. Free for orders over 80,00 €.",
+    "free_delivery_limit": "80,00 €",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available in their stores, list at www.ferivisport.hr/lokacije",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available, only for prepaid orders (card or PayPal)"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel locker delivery, and in-store pickup within Croatia. PROVIDERS: Home delivery is handled by GLS, while parcel locker delivery uses BoxNow. PRICING: Delivery is free for all orders over €80.00. For smaller orders, GLS home delivery costs €7.00 and BoxNow locker delivery costs €2.00. In-store pickup pricing is not specified. DELIVERY TIME: The standard delivery timeframe is up to 7 working days. NOTABLE FEATURES: In-store pickup is only available for orders prepaid by card or PayPal. No cash on delivery option is mentioned for any delivery method. There is no information on express delivery, weekend delivery, or potential surcharges for island delivery. WEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava' page and is generally clear and easy to understand. It covers the basic delivery methods, providers, and costs effectively. However, it lacks details on several key aspects such as island delivery policies, COD options, and express services, which would improve completeness."
+}

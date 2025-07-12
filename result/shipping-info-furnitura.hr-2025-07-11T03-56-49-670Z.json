@@ -1,0 +1,101 @@
+{
+  "website": "furnitura.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "GLS",
+      "Intereuropa"
+    ],
+    "pricing": "Delivery of ordered products is charged according to the weight of the ordered products. If the volumetric weight is greater than the actual weight, the volumetric weight is charged. Volumetric weight is calculated using the formula 1 m3 = 200 kg. The delivery cost to the Dubrovnik-Neretva County and the islands is 50% higher than the price shown below the product.",
+    "free_delivery_limit": "650,00 EUR",
+    "delivery_time": "The delivery time is stated for each product in the online store. These deadlines are informative. The buyer will be notified of the expected delivery date after order confirmation via email.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "The delivery cost to the islands is 50% higher than the displayed price. Delivery is made to major islands. If the entered island is not on the list, delivery is possible to the nearest delivery service terminal.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "GLS",
+      "Intereuropa"
+    ],
+    "pricing": "Delivery of ordered products is charged according to the weight of the ordered products. If the volumetric weight is greater than the actual weight, the volumetric weight is charged. Volumetric weight is calculated using the formula 1 m3 = 200 kg. The delivery cost to the Dubrovnik-Neretva County and the islands is 50% higher than the price shown below the product.",
+    "free_delivery_limit": "650,00 EUR",
+    "delivery_time": "The delivery time is stated for each product in the online store. These deadlines are informative. The buyer will be notified of the expected delivery date after order confirmation via email.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "The delivery cost to the islands is 50% higher than the displayed price. Delivery is made to major islands. If the entered island is not on the list, delivery is possible to the nearest delivery service terminal.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery for all products, including bulky furniture, across mainland Croatia and major islands. Delivery is made to the entrance of the residential building.\nPROVIDERS: DPD, GLS, and Intereuropa.\nPRICING: Shipping cost is calculated based on the actual or volumetric weight of the order. Delivery is free for orders of €650 or more.\nRESTRICTIONS: A 50% delivery surcharge applies to Dubrovnik-Neretva County and all islands. For islands not on the main delivery list, shipment is made to the nearest mainland terminal. Cash on delivery is limited to orders up to €650.\nNOTABLE FEATURES: The company offers delivery for its entire range of furniture. There is no mention of express or weekend delivery services. Personal pickup is mentioned in the footer but not detailed on the T&C page.\nWEBSITE ASSESSMENT: The shipping information is located within the General Terms and Conditions page. While comprehensive, it requires careful reading to extract all details. Key information like the free shipping threshold and island surcharges is clearly stated. However, a dedicated, easy-to-find shipping page with a price calculator would improve user experience. Information on alternative delivery methods like in-store pickup or parcel shops is absent from this page."
+}

@@ -1,0 +1,93 @@
+{
+  "website": "thebodyshop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Besplatna dostava za sve narudžbe iznad 40€. Troškovi isporuke Proizvoda naznačeni su Kupcu na kartici \"Načini isporuke\" na internetskoj usluzi i svaki put na podstranici određenog Proizvoda.",
+    "free_delivery_limit": "40€",
+    "delivery_time": "do 30 kalendarskih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery option mentioned is standard home delivery to addresses within the Republic of Croatia. There is no information on parcel shops, parcel lockers, or in-store pickup.\nPRICING: Delivery is free for all orders over €40. For orders below this amount, the shipping cost is indicated on the product page or during the checkout process. Cash on delivery is mentioned as a payment option, but any potential surcharge is not specified.\nDELIVERY TIMEFRAME: The delivery time is stated as up to 30 calendar days.\nNOTABLE FEATURES: The website does not specify the courier company used for deliveries. There is no mention of express delivery, weekend delivery, or any specific surcharges or restrictions for delivering to Croatian islands.\nWEBSITE ASSESSMENT: The shipping information provided is very basic. Key details such as the name of the delivery provider, the standard shipping cost, and a more precise delivery timeframe are missing. The 30-day delivery window is exceptionally broad and unhelpful for customers. The information about free shipping is clear, but the overall details are insufficient for a comprehensive understanding of the delivery service."
+}

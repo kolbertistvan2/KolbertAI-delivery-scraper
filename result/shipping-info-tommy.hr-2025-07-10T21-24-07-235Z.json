@@ -1,0 +1,99 @@
+{
+  "website": "tommy.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Tommy",
+      "Wolt",
+      "Glovo"
+    ],
+    "pricing": "2,65 €. Free for orders over 55 €. Minimum order value is 15 €.",
+    "free_delivery_limit": "55 €",
+    "delivery_time": "Same-day delivery for orders placed by 12:00. Delivery slots: Monday to Saturday from 9:00 to 11:00, 13:00 to 15:00, and 17:00 to 20:00. Delivery can be scheduled up to 3 days in advance.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "30-50 minutes, Monday to Saturday.",
+      "pricing": "2,65 €. Free for orders over 55 €. Minimum order is 8 €. An additional fee of 1 € is charged for orders under 8 €. Payment is online only."
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "Delivery is available in Split, Šibenik, Zadar, Rijeka, Zagreb, and Dubrovnik. No specific information on island delivery or surcharges.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Tommy offers standard and express home delivery in partnership with Wolt and Glovo. Delivery is limited to specific cities: Split, Šibenik, Zadar, Rijeka, Zagreb, and Dubrovnik. Other options like in-store pickup, parcel shops/lockers, or bulky item delivery are not mentioned.\nPRICING & TIMES: Standard delivery costs 2,65 € (free over 55 €) and offers same-day delivery for orders before noon, Monday-Saturday. Express delivery costs 2,65 € (free over 55 €) and arrives within 30-50 minutes, Monday-Saturday. Minimum order values apply.\nRESTRICTIONS: Delivery is geographically limited. There is no information regarding island delivery or potential surcharges. Cash on delivery is available for standard service but not for express.\nNOTABLE FEATURES: Same-day and express delivery options are key services. Partnership with major delivery platforms Wolt and Glovo.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava' page and is clear and concise. It effectively explains the available home delivery services. However, it lacks information on other common delivery methods and does not address delivery to Croatian islands, which is a significant omission for a national retailer."
+}

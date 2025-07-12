@@ -1,0 +1,102 @@
+{
+  "website": "maras.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Hrvatska Pošta"
+    ],
+    "pricing": "Dostava je besplatna za bilo koju naručenu pošiljku.",
+    "free_delivery_limit": "Free delivery on all orders.",
+    "delivery_time": "Up to 10 working days. Delivery to islands and Zone 2 locations may be extended. For Zone 2, transit time is 48-168 hours.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "No surcharge mentioned. For Zone 2 locations (mostly islands), delivery is handled by Hrvatska Pošta with a maximum package weight of 10 kg and a transit time of 48-168 hours. Delivery to some islands is only on specific weekdays.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb",
+      "Zaprešić",
+      "Zadar",
+      "Split",
+      "Rijeka"
+    ],
+    "pricing": "Free (not explicitly mentioned, but implied as home delivery is free).",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Maras.hr offers free home delivery within Croatia and free in-store pickup. PROVIDERS: Home delivery is handled by GLS, with Hrvatska Pošta used for certain islands and remote locations (Zone 2). PRICING: All delivery options are free, with no minimum order value mentioned. RESTRICTIONS: Delivery takes up to 10 working days, with potential delays for islands. A 10kg weight limit and longer transit times (48-168 hours) apply to Zone 2 locations. No express or weekend delivery is available. Parcel shop and locker delivery are not offered. NOTABLE FEATURES: Free shipping on all orders is a significant benefit. The company provides a detailed list of islands with specific delivery schedules and another list for locations with service restrictions. WEBSITE ASSESSMENT: Shipping information is very detailed and transparent but is located within the general Terms and Conditions page. A separate, easily accessible summary page would improve user experience, but all necessary information is present and clearly explained."
+}

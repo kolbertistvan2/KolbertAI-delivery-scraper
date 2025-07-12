@@ -1,0 +1,105 @@
+{
+  "website": "nbhobby.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express",
+      "GLS"
+    ],
+    "pricing": "Dostava GLS – 5,90€\nDostava Overseas Express – 5,30€",
+    "free_delivery_limit": "Besplatna dostava iznad 50 €",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express",
+      "GLS"
+    ],
+    "pricing": "Za pakete teže od 5 kg kontaktirati ćemo vas i obavijestiti o troškovima dostave.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "besplatno (ukoliko je dimenzija paketa do 60x40x35 cm)",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Pickup is available 24/7"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "No specific surcharge mentioned, but COD payment is possible via card at the locker."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Puls hobby&art store – Zaprešićka 2, Zaprešić– Westgate city"
+    ],
+    "pricing": "besplatno",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, GLS parcel locker delivery, and in-store pickup for customers in Croatia. Home delivery is handled by Overseas Express and GLS. For packages over 5kg, shipping costs are provided upon request.\nPRICING: Home delivery costs €5.30 via Overseas Express and €5.90 via GLS for packages up to 5kg. Delivery is free for orders over €50. Delivery to GLS parcel lockers is free for packages up to 60x40x35 cm. In-store pickup is also free.\nNOTABLE FEATURES: Key features include free delivery to GLS parcel lockers and a free in-store pickup option at their Zaprešić location. The free shipping threshold is clearly stated at €50.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Uvjeti dostave i plaćanja' page. It clearly outlines the available delivery methods and their standard costs. However, the information is incomplete as it lacks details on delivery timeframes, express options, island surcharges, and specific cash-on-delivery fees."
+}

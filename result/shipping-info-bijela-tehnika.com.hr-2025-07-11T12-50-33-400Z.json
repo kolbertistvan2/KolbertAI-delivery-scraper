@@ -1,0 +1,99 @@
+{
+  "website": "bijela-tehnika.com.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Moje kuhinje d.o.o.",
+      "dostavna služba"
+    ],
+    "pricing": "Usluga dostave u stan iznosi 11,99 € za aparate do max težine 31,5 kg na području Grada Zagreba. Za ostale narudžbe, na zaprimljeni upit šaljemo ponudu koja uključuje uređaj i trošak dostave.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Dostava se vrši u periodu od 8h do 16h radnim danom. Dostavna služba će vam poslati SMS poruku na dan dostave.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostavlja na području Zagreba i okolice 50 km. Za udaljenije lokacije obračunava se dodatan putni trošak.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Moje kuhinje d.o.o.",
+      "dostavna služba"
+    ],
+    "pricing": "Na zaprimljeni upit šaljemo ponudu koja uključuje uređaj i trošak dostave i ugradnje.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Dostava se vrši u periodu od 8h do 16h radnim danom. Djelatnici će vas kontaktirati dan prije dostave kako biste dogovorili vrijeme.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostavlja na području Zagreba i okolice 50 km. Za udaljenije lokacije obračunava se dodatan putni trošak.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Bezdanska ulica 50, 10000 Zagreb",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Subota od 8 do 14 sati."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and in-store pickup are available. Home delivery is primarily for the Zagreb area and its surroundings (50 km), while in-store pickup is available at their Zagreb address.\nPROVIDERS: Deliveries are handled by the company's own staff (Moje kuhinje d.o.o.) or an unspecified delivery service ('dostavna služba').\nPRICING: Delivery to an apartment in Zagreb for items up to 31.5 kg costs €11.99. For all other deliveries, including those for bulky items or outside the main Zagreb area, a price quote is provided upon inquiry. In-store pickup is available, presumably for free.\nRESTRICTIONS: Home delivery is only on weekdays (Monday-Friday, 8 am-4 pm). An additional travel cost is charged for locations further than 50 km from Zagreb, which would include islands.\nNOTABLE FEATURES: The service includes carrying items into the customer's apartment. They also offer free removal and disposal of old appliances upon purchase of a new one. In-store pickup is available on Saturdays.\nWEBSITE ASSESSMENT: The shipping information is located on a single blog-style page, not a dedicated delivery section. While it provides basic information on available services and some pricing, it lacks a comprehensive price list and clear delivery timeframes (e.g., 2-5 business days). Customers must contact the company for a quote for most delivery scenarios, making the information incomplete for direct online purchases."
+}

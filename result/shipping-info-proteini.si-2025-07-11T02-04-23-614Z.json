@@ -1,0 +1,98 @@
+{
+  "website": "proteini.si",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Pošta Slovenije",
+      "DPD"
+    ],
+    "pricing": "3,99 EUR for orders up to 59,99 EUR. Free for orders over 59,99 EUR.",
+    "free_delivery_limit": "59,99 EUR",
+    "delivery_time": "Next working day if ordered by 14:00 (DPD) or 15:00 (Pošta Slovenije).",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Only for Pošta Slovenije: 1,35 EUR for orders up to 98 EUR; 1,39% of value for orders between 98 EUR and 501 EUR; 5,90 EUR + 0,30% of value for orders over 501 EUR."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only option detailed. No information is available for parcel shops, lockers, or in-store pickup.\nPROVIDERS: DPD and Pošta Slovenije (Post of Slovenia).\nPRICING: Delivery costs 3.99 EUR for orders up to 59.99 EUR and is free for orders above this amount.\nRESTRICTIONS & SURCHARGES: Cash on delivery via Pošta Slovenije has a variable surcharge depending on the order value. There is no information regarding delivery to Croatian islands, which suggests the provided information is for Slovenia, not Croatia.\nNOTABLE FEATURES: Standard next-day delivery is offered by both carriers if the order is placed before the daily cut-off time. Pošta Slovenije also delivers on Saturdays.\nWEBSITE ASSESSMENT: The shipping information is clear and well-structured for the services offered. However, it appears to be specific to Slovenia, as indicated by the provider 'Pošta Slovenije' and the lack of information on Croatian-specific issues like island delivery."
+}

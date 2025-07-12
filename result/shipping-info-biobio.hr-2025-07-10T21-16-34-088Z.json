@@ -1,0 +1,122 @@
+{
+  "website": "biobio.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD Croatia",
+      "HP"
+    ],
+    "pricing": "4 € za narudžbe do 50 €, besplatna dostava za narudžbe iznad 50 €.",
+    "free_delivery_limit": "50 €",
+    "delivery_time": "3 do 5 radnih dana",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Za narudžbe do 12 sati paket stiže između 15 i 20 sati istoga dana.",
+      "pricing": "ZONA 1 (Zagreb): 5 €, besplatno za narudžbe iznad 50 €. ZONA 2 (Sesvete, Lučko, etc.): 7 €, 3 € za narudžbe iznad 50 €. ZONA 3 (Zaprešić, Samobor, Velika Gorica): 10 €, 6 € za narudžbe iznad 50 €."
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Subotom, nedjeljom i blagdanima ne dostavljamo robu."
+    },
+    "island_surcharge": "Na otoke koje pokriva DPD roba će biti isporučena prema rasporedu iz tablice, a na sve ostale otoke koje ne pokriva DPD robu šaljemo putem HP-a.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb, Centar Cvjetni, Trg Petra Preradovića 6",
+      "Zagreb, Ilica 70",
+      "Zagreb, Radnička 49",
+      "Zagreb, Robna kuća NAMA Kvatrić, Nemčićeva 1-3",
+      "Zagreb, City Center one West, Jankomir 33",
+      "Zagreb, Centar, Martićeva 27",
+      "Zagreb, Centar Kaptol",
+      "Zagreb, Avenue Mall, Av. Dubrovnik 16",
+      "Zagreb, City Center one East, Slavonska av. 11d",
+      "Zagreb, Arena centar, Lanište 32",
+      "Zagreb, Jarun, Pakoštanska 19",
+      "Zagreb, Trešnjevka, Trakošćanska 7",
+      "bio&bio Ozaljska - ZG16",
+      "Split, City Center One, Vukovarska ul 207",
+      "Split, Centar, Trg Kralja Tomislava 6",
+      "Split, Mall od Split",
+      "Split, R.K. Prima 3, R. Boškovića bb",
+      "Zadar, Ante Starčevića 5A (Jazine)",
+      "Rijeka, Ivana Zajca 24",
+      "Osijek, Trg Ante Starčevića 3",
+      "Pula, Fontička 4",
+      "Varaždin, Trg slobode 1",
+      "Dubrovnik, Tommy Centar, Vukovarska 36",
+      "bio&bio Split Trstenik - ST5",
+      "bio&bio Split Joker - ST6"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and in-store pickup (Click & Collect) are available. Parcel shop and locker delivery are not offered.\nPROVIDERS: DPD is the primary courier for Croatia. Hrvatska pošta (HP) is used for islands not covered by DPD.\nPRICING: Standard home delivery costs 4€ for orders up to 50€ and is free for orders over 50€. Cash on delivery is an option, but no surcharge is mentioned. In-store pickup pricing is not specified.\nRESTRICTIONS: Delivery is limited to Croatia and Slovenia. There is no delivery on weekends (Saturday, Sunday) or holidays. Island deliveries follow a specific schedule and may involve a different courier (HP).\nNOTABLE FEATURES: A same-day 'Brza zagrebačka dostava' (Fast Zagreb Delivery) is available for orders placed by 12 PM, with zoned pricing. Click & Collect is available at all 25 store locations across Croatia.\nWEBSITE ASSESSMENT: Shipping information is clearly presented on a dedicated 'Plaćanje i dostava' page. Details on standard delivery, express options for Zagreb, pricing tiers, and providers are easy to find. The Click & Collect service is also well-explained with a full list of pickup locations. While the site mentions different delivery arrangements for islands, specific surcharge information is not provided, directing users to check DPD's schedule or contact customer service. Overall, the information is comprehensive and user-friendly."
+}

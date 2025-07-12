@@ -1,0 +1,95 @@
+{
+  "website": "gamershop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,99 eur za sve narudžbe, bez obzira na limit iznosa proizvoda",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Ako je proizvod \"na zalihi\":1-3 radna dana, ako je proizvod \"na zalihi kod dobavljača\" (proizvod je dobavljiv): 3-6 radnih dana. Another section states 2-4 business days for in-stock items.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "Nemamo poslovnicu, osobno preuzimanje robe nije moguće!",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available shipping method is home delivery. In-store pickup, parcel shops, and parcel lockers are explicitly unavailable as the company states they do not have a physical store. DELIVERY PROVIDERS: The exclusive courier service for all deliveries is GLS. PRICING & DELIVERY TIME: A flat rate of €4.99 is charged for all orders, with no free shipping threshold. Delivery time is 1-3 business days for in-stock items and 3-6 business days for items from a supplier. Deliveries are made on business days only. NOTABLE FEATURES: Payment on delivery (cash or card) is an option, with no specific surcharge mentioned. Delivery is restricted to the territory of the Republic of Croatia. WEBSITE ASSESSMENT: Shipping information is clearly presented on the 'Informacije' page, detailing the single delivery method, provider, and cost. The information is centralized and easy to find. However, it lacks details on potential island surcharges and does not offer alternative shipping options like express delivery or pickup points."
+}

@@ -1,0 +1,95 @@
+{
+  "website": "zutiklik.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Paket24 – dostavna služba Hrvatske pošte"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Dostava za 1. zonu (listu gradova pogledajte ovdje) – naručeni proizvodi u pravilu će biti dostavljeni sljedeći dan od trenutka primitka obavijesti o preuzimanju pošiljke sa skladišta.\nDostava za gradove i naselja izvan 1. zone (listu gradova pogledajte ovdje) – naručeni proizvodi u pravilu će biti dostavljeni u roku od najdulje tri dana od trenutka primitka obavijesti o preuzimanju pošiljke sa skladišta.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only confirmed option, provided by Hrvatska pošta (Paket24). No other delivery methods like parcel shops, lockers, or in-store pickup are mentioned. PRICING: Shipping costs and free shipping thresholds are not specified on the FAQ page. DELIVERY TIME: Delivery is zone-dependent, typically the next business day for Zone 1 and up to 3 business days for other areas in Croatia. RESTRICTIONS: No specific information is available regarding island delivery, potential surcharges, or policies for bulky items. NOTABLE FEATURES: An order may be split into multiple shipments if items are in different warehouses, but the delivery fee is charged only once per order. WEBSITE ASSESSMENT: The shipping information on the FAQ page is very basic and incomplete. It lacks essential details such as pricing, COD options, and specific policies for islands or bulky items, which are crucial for customers."
+}

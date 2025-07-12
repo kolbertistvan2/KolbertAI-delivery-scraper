@@ -1,0 +1,97 @@
+{
+  "website": "ferivisport.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "7,00€ za narudžbe manje od 80,00€. Besplatno za narudžbe iznad 80,00€.",
+    "free_delivery_limit": "80,00 €",
+    "delivery_time": "u roku od 7 radnih dana od zaprimanja narudžbe",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Dostava se vrši od ponedjeljka do petka."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BoxNow"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,00€ za narudžbe manje od 80,00€. Besplatno za narudžbe iznad 80,00€.",
+    "free_delivery_limit": "80,00 €",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Dostupno u Ferivi Sport trgovinama. Popis lokacija dostupan je na linku: www.ferivisport.hr/lokacije",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Plaćanje pouzećem nije moguće za dostavu u trgovinu."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Ferivisport.hr offers three delivery methods within Croatia: Home Delivery, Parcel Lockers (BoxNow), and In-Store Pickup. International delivery is available via DHL.\nPRICING: Home delivery via GLS costs 7,00 €, and delivery to a BoxNow parcel locker costs 2,00 €. Shipping is free for all orders exceeding 80,00 €. In-store pickup pricing is not specified.\nDELIVERY TIME: The standard delivery timeframe for all domestic orders is within 7 working days.\nNOTABLE FEATURES: In-store pickup is only available for orders prepaid by card or PayPal. Home delivery is conducted on weekdays (Monday to Friday) only. There is no information available regarding express delivery, weekend delivery, island surcharges, or cash-on-delivery fees.\nWEBSITE ASSESSMENT: The shipping information is straightforward and easy to find. Key details like providers, standard pricing, and the free shipping threshold are clearly stated. However, the page lacks information on several important aspects such as island delivery policies, express options, and COD surcharges, which would improve completeness."
+}

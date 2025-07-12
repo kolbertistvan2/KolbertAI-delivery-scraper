@@ -1,0 +1,95 @@
+{
+  "website": "extremeintimo.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,50 €",
+    "free_delivery_limit": "50,00 €",
+    "delivery_time": "2 do 5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,00 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Extreme Intimo offers a single delivery method for Croatia: home delivery via the GLS courier service. The standard delivery cost is 4,50 €, but becomes free for any order with a total value of 50,00 € or more. The expected delivery timeframe is between 2 and 5 working days. Customers can opt for cash on delivery (COD), which comes with an additional surcharge of 1,00 €. \nNOTABLE FEATURES: The primary features are a straightforward pricing model with a clear free shipping threshold and the availability of cash on delivery. Key limitations include the absence of alternative delivery options such as parcel shops, parcel lockers, or in-store pickup for online orders. Furthermore, there is no information regarding express or weekend delivery services, nor are there any specific details about shipping policies or potential surcharges for deliveries to Croatian islands.\nWEBSITE ASSESSMENT: The shipping information is presented clearly and concisely on a dedicated 'Dostava' page. However, its completeness is lacking. The absence of information on island deliveries is a significant omission for the Croatian market. The site would benefit from explicitly stating that express and weekend deliveries are unavailable and providing details on island shipping to manage customer expectations better."
+}

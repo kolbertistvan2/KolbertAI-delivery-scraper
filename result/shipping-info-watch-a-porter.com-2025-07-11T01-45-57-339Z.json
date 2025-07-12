@@ -1,0 +1,97 @@
+{
+  "website": "watch-a-porter.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "General Logistics Systems Croatia d.o.o. (GLS)"
+    ],
+    "pricing": "Cijena dostave za pakete ispod 50 € je 4.99 € (GLS). Dostava je besplatna za sve narudžbe iznad 50 €.",
+    "free_delivery_limit": "50 €",
+    "delivery_time": "Proizvod će biti dostavljen kupcu u roku od 5 radnih dana (subota, nedjelja i neradni dani su isključeni) od trenutka otpreme proizvoda dostavnoj službi.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "Cijena dostave za pakete ispod 50 € je 0.99 € (BOX NOW). Dostava je besplatna za sve narudžbe iznad 50 €.",
+    "free_delivery_limit": "50 €",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery and parcel locker delivery within Croatia. \nPROVIDERS: Home delivery is handled by GLS, and parcel locker delivery is handled by BOX NOW. \nPRICING: Delivery is free for all orders over 50 €. For orders below this threshold, GLS home delivery costs 4.99 €, and BOX NOW parcel locker delivery costs 0.99 €. \nDELIVERY TIME: Products are dispatched within 2 working days and delivered within 5 working days from dispatch. Deliveries are not made on weekends or holidays. \nNOTABLE FEATURES: Cash on delivery is an available payment method for home delivery, with no surcharge mentioned. There is no information on express delivery, weekend delivery, or specific surcharges/restrictions for island deliveries. \nWEBSITE ASSESSMENT: Shipping information is located within the 'Opći uvjeti poslovanja' (General Terms and Conditions) page. The information is clear but not on a dedicated, easily accessible page. It covers the main aspects like providers, pricing, and delivery times but lacks details on island delivery and express options."
+}

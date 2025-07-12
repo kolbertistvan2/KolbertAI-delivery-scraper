@@ -1,0 +1,96 @@
+{
+  "website": "petissimo.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "4,50 € for orders from 0 - 43,99 €. Free for orders from 44,00 €.",
+    "free_delivery_limit": "44,00 €",
+    "delivery_time": "2 working days for orders placed before 15:00",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Information available via a dedicated link on the website: \"*Informacije o isporuki na otoke nađete ovdje>>\"",
+    "cod_surcharge": "1,49 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery. There is no information on parcel shops, parcel lockers, or in-store pickup in Croatia.\nPROVIDERS: Deliveries are handled by GLS and DPD.\nPRICING: Delivery costs €4.50 for orders up to €43.99. Delivery is free for all orders of €44.00 and above.\nRESTRICTIONS: Special conditions apply for delivery to Croatian islands, with details available via a specific link on the website.\nNOTABLE FEATURES: Cash on delivery (COD) is available for a surcharge of €1.49. The store offers SMS notifications on the day of delivery with an estimated time window.\nWEBSITE ASSESSMENT: Shipping information is clearly presented within the 'How to Shop' section. Pricing, providers, and delivery times are easy to find. However, there is no single, dedicated 'Shipping' page in the main navigation or footer, and information about other potential delivery methods is absent. Information on island delivery is mentioned but requires navigating to another page."
+}

@@ -1,0 +1,97 @@
+{
+  "website": "futti.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "GLS",
+      "HP"
+    ],
+    "pricing": "5,00 € za DPD i GLS dostavu, te 5,50 € za HP dostavu za narudžbe koje ne prelaze vrijednost 60,00 €",
+    "free_delivery_limit": "60,00 €",
+    "delivery_time": "unutar 5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method offered is standard home delivery.\nPROVIDERS: DPD, GLS, and HP (Hrvatska pošta) are used for deliveries.\nPRICING: Shipping is free for orders over €60.00. For orders below this amount, the cost is €5.00 for DPD/GLS and €5.50 for HP. The delivery time is within 5 working days.\nRESTRICTIONS: Deliveries are only made on working days. There is no information available regarding express delivery, weekend delivery, island surcharges, or cash on delivery options.\nNOTABLE FEATURES: The website offers a clear and simple free shipping threshold.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava' page and is easy to understand. However, it is very basic and lacks details on many common services like COD, island delivery, express options, or alternative pickup methods (parcel shops/lockers, in-store pickup), making the information incomplete."
+}

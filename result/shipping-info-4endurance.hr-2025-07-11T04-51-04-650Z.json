@@ -1,0 +1,100 @@
+{
+  "website": "4endurance.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "DHL Express"
+    ],
+    "pricing": "Hrvatska pošta: 4.99 € for orders under 60 €. Free for orders 60 € and over.\nDHL Express: 20 €.",
+    "free_delivery_limit": "60 €",
+    "delivery_time": "1-4 RADNA DANA",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "1-4 RADNA DANA",
+      "pricing": "20 €"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Available, surcharge not specified."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "4.99 € for orders under 60 €. Free for orders 60 € and over.",
+    "free_delivery_limit": "60 €",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Available, surcharge not specified."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Box Now"
+    ],
+    "locations_count": "not available",
+    "pricing": "2.99 € for orders under 60 €. Free for orders 60 € and over.",
+    "free_delivery_limit": "60 €",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Plaćanje pouzećem NIJE MOGUĆE!"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel locker delivery, and pickup at post offices. \nPROVIDERS: Delivery partners are Hrvatska pošta, Box Now, and DHL Express. \nPRICING: Standard delivery via Hrvatska pošta costs 4.99€, and Box Now parcel locker delivery costs 2.99€. Shipping is free for all orders of 60€ or more. Express delivery via DHL is a flat rate of 20€. \nRESTRICTIONS: Cash on delivery (COD) is available for Hrvatska pošta deliveries but is explicitly not possible for Box Now parcel locker deliveries. Information on island surcharges and weekend delivery is not available. \nNOTABLE FEATURES: Clear free shipping threshold at 60€. Multiple delivery methods including standard, express, and parcel locker. \nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Besplatna dostava' page and is generally clear and concise. It covers the main delivery options, providers, and costs effectively. However, it lacks details regarding potential island surcharges, specific COD fees, and weekend delivery options."
+}

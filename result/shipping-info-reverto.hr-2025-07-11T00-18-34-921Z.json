@@ -1,0 +1,93 @@
+{
+  "website": "reverto.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "4,65€ for orders under 66€, free for orders over 66€",
+    "free_delivery_limit": "66€",
+    "delivery_time": "unutar 5 radnih dana od trenutka potvrde raspoloživosti naručenih artikala",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "Besplatna dostava na prodajno mjesto",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers two delivery methods for Croatia: standard home delivery and in-store pickup. \nPRICING: Home delivery costs 4,65€ for orders below 66€ and is free for orders of 66€ or more. In-store pickup is free but only available for orders paid by credit card. \nDELIVERY TIME: The delivery time for both home delivery and in-store pickup is within 5 working days. \nPROVIDERS: The specific delivery service provider is not mentioned. \nNOTABLE FEATURES: Key features include a free shipping threshold of 66€ and a free in-store pickup option. There is no information on express delivery, weekend delivery, island surcharges, COD surcharges, or delivery of bulky items. Parcel shop and parcel locker delivery are not offered. \nWEBSITE ASSESSMENT: The shipping information is presented on a dedicated 'Uvjeti dostave' page and is straightforward for the available options. However, it lacks detail regarding the courier, island delivery specifics, and other common delivery services, making the information incomplete for customers with specific needs."
+}

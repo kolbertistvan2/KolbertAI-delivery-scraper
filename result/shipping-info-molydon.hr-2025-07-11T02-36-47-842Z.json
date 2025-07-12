@@ -1,0 +1,93 @@
+{
+  "website": "molydon.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Za proizvode do 5kg je 5,50€ a za teže proizvode 10€+ ( npr. gume, felge itd.)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Standardni rok dostave je 3 do 5 radna dana.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "unutar 24h",
+      "pricing": "10,62 eur"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Iznimka su otoci i mjesta koja ne podržavaju svakodnevnu dostavu, a gdje je dostava moguća prema posebnim uvjetima dostave.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Za artikle većih dimenzija (kabasti artikli poput karoserijskih dijelova, krovnih kutija i sl.) moguć je naknadni izračun i veća cijena dostave od navedene. Trošak dostave akumulatora na adresu je 14,93 €.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3 to 5 radna dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Iznimka su otoci i mjesta koja ne podržavaju svakodnevnu dostavu, a gdje je dostava moguća prema posebnim uvjetima dostave.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery via unspecified courier services. There is no mention of parcel shop, parcel locker, or in-store pickup options.\nPRICING: Standard delivery costs €5.50 for packages up to 5kg and €10+ for heavier items. Bulky items require a custom price calculation. Shipping for car batteries is a flat €14.93. Express delivery is available for €10.62. No free shipping threshold is mentioned.\nDELIVERY TIME: Standard delivery takes 3-5 business days. Express delivery (Molydon Express24) is available within 24 hours for in-stock items.\nRESTRICTIONS: Delivery to Croatian islands is subject to 'special conditions,' but these are not detailed. Delivery is made to the building entrance, not to the apartment door.\nNOTABLE FEATURES: Offers an 'Express24' service for fast delivery. Special handling and pricing for hazardous materials like car batteries. Damaged shipments are replaced if reported immediately with photos.\nWEBSITE ASSESSMENT: The shipping information is located on a single, easy-to-find page. However, it lacks crucial details such as the names of the courier partners, specific conditions and surcharges for island deliveries, and information on cash-on-delivery fees. The absence of alternative delivery options like parcel lockers or in-store pickup is a notable limitation."
+}

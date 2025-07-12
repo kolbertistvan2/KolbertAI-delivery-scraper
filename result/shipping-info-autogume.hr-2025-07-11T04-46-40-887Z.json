@@ -1,0 +1,101 @@
+{
+  "website": "autogume.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "AUTO GUME - 4,99 €\nFELGE - 4,99 €\nATV GUME - 4,99 €\nMOTO GUME - 2,99 €\nBICKL GUME - 1,99 €\nZRAČNICE - 1,99 €\nminimalni trošak dostave po narudžbi = 9,98 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery time is specified next to each item. For mainland Croatia, this is the final time. For Croatian islands and the Dubrovnik-Neretva County, it takes an additional 2-5 working days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "No monetary surcharge is mentioned, but delivery to Croatian islands and the Dubrovnik-Neretva County takes an additional 2-5 working days.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "AUTO GUME (širina preko 255) - 6,99 €\nKOMBI GUME (širina preko 215) - 6,99 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery time is specified next to each item. For Croatian islands and the Dubrovnik-Neretva County, delivery takes an additional 2-5 working days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "No monetary surcharge is mentioned, but delivery to Croatian islands and the Dubrovnik-Neretva County takes an additional 2-5 working days.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "Not specified separately; likely follows the standard home delivery pricing.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary method is home delivery throughout Croatia, including islands. It is also possible to have items delivered to a Croatian Post office (ured Hrvatske pošte).\nPROVIDERS: Specific courier companies are not named; the site refers to a generic 'delivery service' (dostavna služba).\nPRICING: Shipping is charged per item, with costs varying by product type and size (e.g., standard car tires €4.99, larger tires €6.99). A minimum delivery cost of €9.98 applies to every order. There is no free shipping threshold mentioned.\nNOTABLE FEATURES: Delivery to Croatian islands and the Dubrovnik-Neretva region is explicitly supported but incurs a longer delivery time of an additional 2-5 working days. The base delivery time for any item is displayed on its product page.\nWEBSITE ASSESSMENT: The shipping cost information is detailed and transparent, broken down by product category. However, the site lacks crucial details such as the names of their delivery partners, and any information regarding express delivery, weekend delivery, or cash-on-delivery surcharges. The information is sufficient for calculating costs but incomplete regarding service options."
+}

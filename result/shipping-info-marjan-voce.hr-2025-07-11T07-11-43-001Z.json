@@ -1,0 +1,99 @@
+{
+  "website": "marjan-voce.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS Croatia d.o.o.",
+      "Hrvatska pošta d.o.o. (za otoke)",
+      "Vlastito vozilo tvrtke (za područje Zagreba)"
+    ],
+    "pricing": "4,00 € za narudžbe do 39,99 € putem GLS-a.",
+    "free_delivery_limit": "Besplatna dostava za narudžbe veće od 39,99 €. Za kupce s područja grada Zagreba, dostava je besplatna za narudžbe veće od 24,99 € vlastitim vozilom tvrtke.",
+    "delivery_time": "2 - 4 radna dana (subota, nedjelja i neradni dani isključeni)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Otoke koje ne pokriva dostavna mreža GLS-a dostavu paketa preuzima kurirska služba Hrvatska pošta d.o.o. Raspored dostava na otoke može se provjeriti na linku sa službene web stranice GLS Croatia d.o.o.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "1,99 € za narudžbe do 39,99 €.",
+    "free_delivery_limit": "Besplatna dostava za narudžbe veće od 39,99 €.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Centralno skladište u Dugom Selu, Trnošćica 10, 10 370 Dugo Selo, radnim danom od 7 h do 17 h.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel locker delivery, and in-store pickup. \nPROVIDERS: Delivery is handled by GLS, with Hrvatska pošta covering islands. BOX NOW is used for parcel lockers, and the company uses its own vehicle for deliveries in Zagreb. \nPRICING: Home delivery via GLS costs €4.00 for orders up to €39.99 and is free for orders above that amount. Parcel locker delivery via BOX NOW costs €1.99 for orders up to €39.99 and is free for orders above. In-store pickup is available at no specified cost. \nRESTRICTIONS: Delivery time is 2-4 working days, excluding weekends. Island deliveries are handled by a different provider (Hrvatska pošta) and may have a different schedule. \nNOTABLE FEATURES: A lower free shipping threshold of €24.99 is offered for customers in Zagreb who opt for delivery by the company's own vehicle. \nWEBSITE ASSESSMENT: Shipping information is comprehensively detailed within the 'Uvjeti kupnje' (Terms of Purchase) page. All necessary details regarding providers, pricing, delivery times, and special conditions are present, though spread across several paragraphs. The information is clear and sufficient for a customer to make an informed decision."
+}

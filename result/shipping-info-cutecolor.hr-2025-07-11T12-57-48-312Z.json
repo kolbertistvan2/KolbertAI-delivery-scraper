@@ -1,0 +1,96 @@
+{
+  "website": "cutecolor.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Hrvatska pošta"
+    ],
+    "pricing": "Trošak dostave će biti obračunat na blagajni. (The shipping cost will be calculated at checkout.)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "U većini slučajeva pošiljke su isporučene idući radni dan. (In most cases, shipments are delivered the next working day). Delivery can be extended by 1 working day for bank transfer payments.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Ukoliko plaćate pouzećem trošak dostave je viši jer uključuje trošak otkupnine tj. novčane transakcije. (The delivery cost is higher for cash on delivery because it includes the cost of the cash transaction.)"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is available for Croatia and internationally. No other delivery methods like parcel lockers, parcel shops, or in-store pickup are mentioned.\nPROVIDERS: Domestic delivery is handled by GLS. International delivery is done via GLS and Hrvatska pošta (Croatian Post).\nPRICING: Shipping costs are calculated at checkout and depend on the payment method. There is no information on a free shipping threshold.\nRESTRICTIONS: No specific restrictions, such as for island deliveries, are mentioned.\nNOTABLE FEATURES: Delivery is typically fast, usually arriving the next business day. Cash on Delivery (COD) is available but incurs a higher shipping cost to cover the transaction fee.\nWEBSITE ASSESSMENT: The shipping information provided is basic. Crucial details like specific shipping prices, free shipping limits, and potential island surcharges are missing. Customers must proceed to the checkout to view the final delivery cost."
+}

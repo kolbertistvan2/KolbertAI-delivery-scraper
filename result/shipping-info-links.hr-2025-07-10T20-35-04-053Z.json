@@ -1,0 +1,103 @@
+{
+  "website": "links.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Overseas",
+      "DPD",
+      "Wolt"
+    ],
+    "pricing": "5,99 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-5 radnih dana",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Links Premium dostava: isti dan za narudžbe do 13:00h (pon-pet) za područje Zagreba. Wolt Express dostava: narudžbe do 18:00h (pon-pet) i do 12:00h (vikend) u 12 gradova.",
+      "pricing": "Links Premium dostava (do 30 kg): 10,00 - 15,00 €. Wolt Express dostava: 5,99 €."
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Dostupno putem Wolt Express dostave, narudžbe do 12:00 h vikendom."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Milšped"
+    ],
+    "pricing": "Cijena ovisi o težini paketa i kreće se od 10,00 € do 150,00 €.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "5-7 radnih dana",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Da bi tvoja narudžba bila dostavljena isti dan, potrebno ju je naručiti do 13:00 h od ponedjeljka do petka. Narudžbe zaprimljene vikendom dostavljamo prvi radni dan, a usluga ovisi o dostupnosti proizvoda na skladištu.",
+      "pricing": "Cijena za pakete preko 30 kg: 50,00 €"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW",
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "3,99 €",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Dostupno u 12 gradova gdje postoje poslovnice.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Links.hr provides nationwide home delivery in Croatia via GLS, Overseas, and DPD for 5,99 € (3-5 days), and bulky item delivery via Milšped for 10€-150€ (5-7 days). Parcel locker delivery is offered through BOX NOW and GLS for 3,99 €. In-store pickup is available in 12 cities.\nNOTABLE FEATURES: The store offers multiple express services. 'Links Premium' provides same-day delivery in the Zagreb area for both standard (10-15€) and bulky (50€) items. 'Wolt Express' offers fast delivery, including on weekends, in 12 cities for 5,99 €.\nWEBSITE ASSESSMENT: The shipping information is presented on a single, well-structured page, making it easy to understand the different services. However, details regarding island surcharges, free shipping thresholds, and cash-on-delivery fees are not mentioned."
+}

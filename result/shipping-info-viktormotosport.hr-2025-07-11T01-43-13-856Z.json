@@ -1,0 +1,96 @@
+{
+  "website": "viktormotosport.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "Cijene pošiljaka kreću se od 30-70kn ovisi o veličini paketa.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "najčešće kroz 2-5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Sva vozila i roba večih dimenzija se naplačuju zasebno, te cijena pošiljke ovisi o težini i udaljenosti do mjesta kupca.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is available for both standard and bulky items. Parcel shop, parcel locker, and in-store pickup options are not mentioned.\nPROVIDERS: Standard delivery is handled by GLS and DPD. The provider for bulky items is not specified.\nPRICING: Standard delivery costs between 30 and 70 HRK, depending on package size. Bulky items are priced individually based on weight and destination. No free shipping threshold is mentioned. Cash on delivery is available, but any potential surcharge is not specified.\nRESTRICTIONS: Delivery is available within Croatia to areas covered by GLS. No specific information regarding island surcharges or delivery limitations is provided.\nNOTABLE FEATURES: The website offers delivery for large items like vehicles, with custom pricing. Cash on delivery is a payment option.\nWEBSITE ASSESSMENT: The shipping information is located within the 'Uvjeti kupnje' (Terms of Purchase) page and is quite basic. It lacks key details such as a free shipping policy, express delivery options, island delivery costs, and specific providers for bulky goods. The information is not easily accessible on a dedicated shipping page."
+}

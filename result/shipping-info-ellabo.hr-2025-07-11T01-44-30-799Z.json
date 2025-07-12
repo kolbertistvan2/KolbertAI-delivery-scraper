@@ -1,0 +1,97 @@
+{
+  "website": "ellabo.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "5 € for orders up to 300 €. Free for orders from 300.01 €.",
+    "free_delivery_limit": "300.01 €",
+    "delivery_time": "1 to 3 working days. Up to 5 working days for islands.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "Delivery to islands takes up to 5 working days. A specific delivery schedule is provided for the islands of Brač, Cres-Lošinj, Dugi Otok, Hvar, Korčula, Krk, Murter, Pag, Rab, Šolta, Ugljan, Pašman, Vis, and Lastovo. Delivery to other islands must be specially arranged and is charged separately.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "In special and rare cases when the ordered product is of large volume or great weight, and of low value, the delivery price is specially formed and calculated, about which the customer is informed in a timely manner.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands not explicitly mentioned for bulky items, but general island delivery rules likely apply: delivery has a specific schedule, may take longer (up to 5 days), and delivery to unlisted islands must be specially arranged and may be charged extra.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb, Kamenarka 24"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery across Croatia and free personal pickup at their Zagreb location. \nPRICING: Home delivery costs 5€ for orders up to 300€ and is free for orders over 300€. Personal pickup is free. \nPROVIDERS: Specific courier companies are not named; the site refers to them generally as 'transport companies'. \nDELIVERY TIME: Standard delivery takes 1-3 working days, extending up to 5 working days for islands. \nNOTABLE FEATURES: A detailed delivery schedule for major Croatian islands is provided, including some Saturday deliveries. For bulky or heavy items of low value, a custom delivery price is calculated and communicated to the customer. Delivery to islands not on the main schedule must be specially arranged and will incur extra charges. \nWEBSITE ASSESSMENT: The shipping information is presented on a dedicated page and is mostly clear and comprehensive. Key details like pricing tiers, delivery times, and island delivery specifics are well-defined. However, the page lacks information on the specific courier services used, express delivery options, and any potential cash-on-delivery surcharges."
+}

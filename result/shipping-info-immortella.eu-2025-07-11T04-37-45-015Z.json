@@ -1,0 +1,97 @@
+{
+  "website": "immortella.eu",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "GLS 5,90 €",
+    "free_delivery_limit": "Za narudžbe ukupnog iznosa većeg od 30,00 € DOSTAVA JE BESPLATNA za područje Hrvatske",
+    "delivery_time": "u roku od 5 radnih dana od dana primitka narudžbe odnosno uplate (najčešće i ranije)",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "BOX NOW 3 €",
+    "free_delivery_limit": "Za narudžbe ukupnog iznosa većeg od 30,00 € DOSTAVA JE BESPLATNA za područje Hrvatske",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and parcel locker delivery are available in Croatia.\nPROVIDERS: GLS for home delivery and BOX NOW for parcel lockers.\nPRICING: Home delivery (GLS) costs 5,90 €. Parcel locker (BOX NOW) costs 3 €. Shipping is free for all orders over 30,00 €.\nDELIVERY TIME: Standard delivery time is up to 5 business days.\nNOTABLE FEATURES: Cash on delivery is not an available payment method. There is no information regarding express delivery, weekend delivery, or additional charges for island delivery.\nWEBSITE ASSESSMENT: Shipping information is clearly stated within the 'Uvjeti poslovanja' (Terms of Service) page. The costs and providers for different delivery methods are well-defined. However, details about special delivery options (express, weekend, island) are missing."
+}

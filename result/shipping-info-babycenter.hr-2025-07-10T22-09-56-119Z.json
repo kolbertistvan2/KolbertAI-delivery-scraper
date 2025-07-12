@@ -1,0 +1,100 @@
+{
+  "website": "babycenter.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Paket24 Hrvatska Pošta"
+    ],
+    "pricing": "do 50 € na kućnu adresu > 3,99 €",
+    "free_delivery_limit": "veći od 50 € > dostava se ne naplaćuje",
+    "delivery_time": "Otprema u roku od 2 do 4 radnih dana.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Dostava se vrši isključivo radnim danom; od ponedjeljka do petka."
+    },
+    "island_surcharge": "Za određene otoke dostava se vrši sa Paket24 Hrvatska Pošta, paketi su ograničeni na:\n- maksimalna duljina: 1,5 m\n- maksimalni obujam: 3m (3m = 2x visina + 2x širina + 1x dulijna)",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Paletna dostava artikala velikog volumena nije isporučiva na kućnu adresu na sljedećim otocima, dostava se vrši u najbliži terminal dostavne službe Intereurope.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "do 50 € na GLS paketomat* > 2,99 €",
+    "free_delivery_limit": "veći od 50 € > dostava se ne naplaćuje",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Plaćanje narudžbe je isključivo karticom."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available in Baby Center stores, specific locations can be selected during checkout.",
+    "pricing": "Besplatno za narudžbe uz minimalni iznos od 20 €.",
+    "free_delivery_limit": "Besplatno za narudžbe uz minimalni iznos od 20 €.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Baby Center HR offers home delivery, bulky item delivery, parcel locker delivery, and in-store pickup. PROVIDERS: Standard delivery is handled by GLS, with Hrvatska Pošta (Paket24) used for certain islands. Bulky items are delivered by Intereuropa. Parcel lockers are operated by GLS. PRICING: Home delivery costs €3.99 for orders under €50. Parcel locker delivery is €2.99 for orders under €50. Delivery is free for all orders over €50. In-store pickup is free for orders over €20. NOTABLE FEATURES: Deliveries are made on weekdays only. There are significant restrictions for island deliveries: standard parcels have size limits and are handled by a different courier, while bulky items are not delivered to home addresses on islands but to the nearest courier terminal. Cash on delivery is not an option for parcel locker deliveries. WEBSITE ASSESSMENT: The shipping information is available on a dedicated 'Dostava' page. The pricing structure is clear. However, details regarding specific delivery times (beyond dispatch time) and a comprehensive list of islands with special delivery conditions are not provided directly on the page."
+}

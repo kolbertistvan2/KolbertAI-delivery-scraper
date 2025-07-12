@@ -1,0 +1,96 @@
+{
+  "website": "rotodinamic.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Roto dinamic dostavna služba",
+      "DPD Croatia d.o.o."
+    ],
+    "pricing": "5,99 EUR za narudžbe do 59,99 EUR. Besplatna dostava za narudžbe od 60,00 EUR i više.",
+    "free_delivery_limit": "60,00 EUR",
+    "delivery_time": "5-7 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Nadoplata od 7,50 EUR za dostave na otoke koji nisu povezani mostom. Ako je narudžba manja od 60,00 EUR, naplaćuje se i standardna dostava od 5,99 EUR.",
+    "cod_surcharge": "0,66 EUR"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available delivery option for online orders is home delivery within Croatia. In-store pickup, parcel shops, and parcel lockers are not mentioned as available options.\nPROVIDERS: Deliveries are handled by DPD Croatia and the company's own delivery service.\nPRICING: Delivery for mainland Croatia costs 5,99 EUR for orders up to 59,99 EUR and is free for orders of 60,00 EUR or more. The delivery time is 5-7 working days.\nRESTRICTIONS: A mandatory surcharge of 7,50 EUR applies to all deliveries to Croatian islands not connected by a bridge, regardless of the order value. If an island order is also below 60,00 EUR, the standard 5,99 EUR delivery fee is charged in addition to the island surcharge.\nNOTABLE FEATURES: Cash on delivery (COD) is available for a surcharge of 0,66 EUR. There is no mention of express or weekend delivery services.\nWEBSITE ASSESSMENT: Shipping information is clearly detailed within the 'Opći uvjeti poslovanja' (General Terms and Conditions) page. Costs, delivery times, and island surcharges are explicitly stated. However, the information is not on a dedicated, easily accessible 'Dostava' (Delivery) page, which could reduce visibility for customers. The lack of alternative delivery methods like in-store pickup or parcel points is a significant limitation."
+}

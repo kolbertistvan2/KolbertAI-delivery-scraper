@@ -1,0 +1,95 @@
+{
+  "website": "ehome.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Delivery to the door is available. A promo code for free delivery is mentioned.",
+    "free_delivery_limit": "A promo code for free delivery is mentioned.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Free delivery with promo code is not valid for islands that are not connected by a bridge.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Delivery with carrying into the apartment is available.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Free delivery with promo code is not valid for islands that are not connected by a bridge.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOXNOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free delivery for all packages with a value greater than 100€.",
+    "free_delivery_limit": "Free for orders over 100€",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Vrbanjska ul. 1, 10 000 Zagreb",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Closed on Saturday, Sunday, and holidays."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery (door-to-door and with carrying into the apartment), delivery to BOXNOW parcel lockers, and in-store pickup at their Zagreb location. \nPRICING: Delivery to BOXNOW lockers is free for orders over 100€. A promotional code for free home delivery is mentioned, but standard shipping costs are not specified on the homepage. \nPROVIDERS: Only BOXNOW is explicitly named as a delivery provider for parcel lockers. \nRESTRICTIONS: The free delivery promotion is not valid for Croatian islands that are not connected to the mainland by a bridge. \nNOTABLE FEATURES: The option for delivery that includes carrying items into the customer's apartment is a key service, especially for bulky goods. \nWEBSITE ASSESSMENT: The homepage provides a good overview of the available delivery methods and a key free shipping threshold. However, detailed information such as standard delivery pricing, delivery timeframes, and a complete list of courier partners is missing and likely located on a dedicated 'Dostava' (Delivery) page, which was not provided for analysis."
+}

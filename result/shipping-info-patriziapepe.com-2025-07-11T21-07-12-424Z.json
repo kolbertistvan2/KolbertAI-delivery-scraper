@@ -1,0 +1,96 @@
+{
+  "website": "patriziapepe.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "FedEx",
+      "UPS"
+    ],
+    "pricing": "8 EUR for sale items.",
+    "free_delivery_limit": "Free standard shipping with the purchase of at least one full-priced item.",
+    "delivery_time": "7 to 10 working days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available in monobrand boutiques, excluding Outlets. Specific locations for Croatia are not listed.",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary shipping method to Croatia is Standard Home Delivery. In-Store Pickup is offered as a free service, but its availability in specific Croatian cities is not confirmed. Parcel shop/locker delivery is not available for Croatia.\nPROVIDERS: Deliveries are handled by FedEx or UPS.\nPRICING: Standard Home Delivery costs 8 EUR for orders containing only sale items. It is free for orders with at least one full-priced item. In-Store Pickup is always free. No information is available on COD or island surcharges.\nDELIVERY TIMES: Standard delivery takes approximately 7-10 working days. Shipments are processed Monday to Friday.\nNOTABLE FEATURES: The key feature is free shipping on any order that includes a full-priced item. \nWEBSITE ASSESSMENT: The website provides basic shipping information, but it lacks clarity for specific countries. Information about express delivery and pickup points is generalized and does not explicitly state availability for Croatia, leading to potential confusion. A dedicated, country-specific shipping information table would significantly improve the user experience."
+}

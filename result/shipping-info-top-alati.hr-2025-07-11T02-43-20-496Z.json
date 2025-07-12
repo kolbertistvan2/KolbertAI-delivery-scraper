@@ -1,0 +1,101 @@
+{
+  "website": "top-alati.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas",
+      "GLS",
+      "Lagermax"
+    ],
+    "pricing": "Delivery of ordered goods is charged in accordance with the carrier's price list.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The estimated delivery time for goods in stock is 24h - 48h. For other goods, the customer will be specially notified of the delivery time.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Saturdays and Sundays are not included in the delivery time."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas",
+      "GLS",
+      "Lagermax"
+    ],
+    "pricing": "Delivery of ordered goods is charged in accordance with the carrier's price list.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The estimated delivery time for goods in stock is 24h - 48h. For other goods, the customer will be specially notified of the delivery time.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Saturdays and Sundays are not included in the delivery time."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "ul. kralja Zvonimira 59b, 40323 Prelog",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and in-store pickup are available. Parcel shop and locker delivery are not mentioned.\nPROVIDERS: Deliveries are handled by Overseas, GLS, and Lagermax.\nPRICING: Shipping costs are determined by the carrier's price list; specific prices and free shipping thresholds are not provided. There is no mention of pricing for in-store pickup.\nRESTRICTIONS: Delivery is available throughout Croatia. No specific surcharges for islands are mentioned. Weekend deliveries are not performed.\nNOTABLE FEATURES: The delivery time for in-stock items is relatively fast, at 24-48 hours. The inclusion of Lagermax as a carrier suggests a capability for handling bulky or heavy items.\nWEBSITE ASSESSMENT: The shipping information is quite basic. While it names the carriers and provides a general delivery timeframe, it lacks essential details such as specific shipping costs, free shipping thresholds, COD options, and clear policies for island deliveries. Information on in-store pickup is inferred from the returns policy and contact address rather than being presented as a distinct delivery option."
+}

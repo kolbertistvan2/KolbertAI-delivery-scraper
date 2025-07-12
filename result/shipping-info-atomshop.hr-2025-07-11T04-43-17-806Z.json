@@ -1,0 +1,95 @@
+{
+  "website": "atomshop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena dostave iznosi 4,65 €.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "do 7 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method offered is home delivery throughout Croatia.\nPROVIDERS: GLS is the exclusive delivery provider.\nPRICING: A flat shipping rate of 4,65 € applies to all orders. No information on a free shipping threshold is provided.\nRESTRICTIONS: Delivery is stated to be available for the entirety of Croatia, with no specific details or surcharges mentioned for island deliveries.\nNOTABLE FEATURES: The standard delivery time is up to 7 working days. There are no express or weekend delivery options. Payment on delivery is possible, but the specific courier for this service is ambiguously mentioned as HP (Croatian Post), while GLS is listed as the main courier. No specific COD surcharge is listed.\nWEBSITE ASSESSMENT: The shipping information is basic and easy to find but lacks important details. Key missing information includes a free shipping threshold, island delivery policies, and clarification on the COD service provider and any associated fees. The conflicting information regarding the delivery provider for COD (GLS vs. HP) could confuse customers."
+}

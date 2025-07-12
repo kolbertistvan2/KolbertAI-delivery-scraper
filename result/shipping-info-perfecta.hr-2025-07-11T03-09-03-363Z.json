@@ -1,0 +1,104 @@
+{
+  "website": "perfecta.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "Cijena dostave paketa do 5kg iznosi 11 €, paketa od 5,01 do 15kg iznosi 17 €, a paketa iznad 15,01kg iznosi 35 € za kopneni dio Hrvatske.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "5 do 15 radnih dana za kopneni dio Hrvatske.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke se vrši, a o cijenama i rokovima isporuke kupca kontaktiraju zaposlenici. Cjenik doplate za trajekt: BRAČ – 27,08 €, DUGI OTOK – 63,71 €, OTOK ŠOLTA – 27,74 €, HVAR, VIS, KORČULA, LOŠINJ, RAB, UGLJAN, PAŠMAN, MLJET, CRES – 40,61 €.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "Cijena dostave za pakete iznad 15,01kg iznosi 35 €. Doplata za unos robe po katovima: prizemlje i 1. kat – 6,64 €, 2.-4. kat – 13,28 €, 5.-7. kat – 19,92 €, 8.-10. kat – 26,56 €, 11.-13. kat – 33,20 €, 14.-16. kat – 39,84 €, 17. i viši kat – 46,48 €.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-4 tjedna",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke se vrši, a o cijenama i rokovima isporuke kupca kontaktiraju zaposlenici. Cjenik doplate za trajekt: BRAČ – 27,08 €, DUGI OTOK – 63,71 €, OTOK ŠOLTA – 27,74 €, HVAR, VIS, KORČULA, LOŠINJ, RAB, UGLJAN, PAŠMAN, MLJET, CRES – 40,61 €.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "PRELOG: Industrijska zona 11, 40323 Prelog",
+      "SPLIT: 4.gardijske brigade 53d, 21311 Stobreč"
+    ],
+    "pricing": "free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Skladište u Prelogu radi od ponedjeljka do petka. Skladište u Splitu radi od ponedjeljka do četvrtka, petkom je zatvoreno."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Perfecta.hr offers home delivery for standard and bulky items across Croatia, as well as free personal pickup from warehouses in Prelog and Split. Parcel shop and locker delivery are not available.\nPRICING: Home delivery costs are weight-based: 11€ (up to 5kg), 17€ (5.01-15kg), and 35€ (over 15.01kg). No free shipping threshold is mentioned. Personal pickup is free.\nDELIVERY TIME: Standard delivery takes 5-15 business days, while bulky items like beds and furniture take 3-4 weeks. Delivery is only on business days.\nNOTABLE FEATURES: The company provides a detailed list of ferry surcharges for island deliveries, ranging from 27.08€ to 63.71€. An optional service for carrying items into the customer's home is available, with prices tiered by floor level. Assembly service for beds can be requested.\nWEBSITE ASSESSMENT: The shipping information on the dedicated 'Dostava' page is comprehensive, particularly regarding island delivery and extra services. However, it lacks key details such as the names of courier partners and information on cash-on-delivery options. The structure is text-heavy and could be improved with tables for easier comparison."
+}

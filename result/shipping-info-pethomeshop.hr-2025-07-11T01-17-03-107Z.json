@@ -1,0 +1,105 @@
+{
+  "website": "pethomeshop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "General Logistics Systems Croatia d.o.o.",
+      "Hrvatska Pošta"
+    ],
+    "pricing": "Trošak dostave za sve narudžbe u iznosu koji je manji ili jednak iznosu 47 € iznosi 4,95 €. Za narudžbe veće od 47 €, dostava je besplatna.",
+    "free_delivery_limit": "47 €",
+    "delivery_time": "Sve regularne narudžbe zaprimljene radnim danom od ponedjeljka do petka, do 12 h, biti će na isporuci sljedeći radni dan. Za otoke, tranzitno vrijeme je 48 - 168h.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Na otoke koje GLS ne pokriva vlastitom dostavnom mrežom, isporuku vrši u suradnji sa Hrvatskom Poštom prema sljedećim specijalnim uvjetima dostave: maksimalna težina: 10kg, maksimalna duljina: 1,5 m, maksimalni obujam: 3m. Ukoliko pošiljka premašuje navedene uvjete, dostava se vrši do najbližeg poštanskog ureda.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DB Schenker d.o.o.",
+      "HP - Hrvatska pošta d.d."
+    ],
+    "pricing": "Dostava je moguća na paleti samo do prve prepreke (npr. stepenice) te ne uključuje dostavu proizvoda do vrata kupca. Cijena dostave je ista kao i za regularne pošiljke.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "do maksimalno tri radna dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "Raspored dostave na otoke: Korčula (subota ili ponedjeljak), Hvar (srijeda, petak ili subota), Brač (srijeda, petak ili subota), Rab (petak ili subota), Cres, Lošinj (četvrtak), Pag, Krk, Vir (ponedjeljak, srijeda, petak), Pelješac (petak). Ostali otoci su izvan dostave.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "Dostupno kao opcija preusmjeravanja pošiljke nakon neuspjelog pokušaja dostave. Nema dodatnih troškova.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "Dostupno kao opcija preusmjeravanja pošiljke nakon neuspjelog pokušaja dostave. Nema dodatnih troškova.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: Dostava se vrši isključivo unutar Hrvatske. Standardnu dostavu obavlja GLS po cijeni od 4,95 € za narudžbe do 47 €, dok je za narudžbe iznad tog iznosa dostava besplatna. Rok isporuke je 1-2 radna dana. Dostavu glomaznih proizvoda vrše DB Schenker i Hrvatska pošta, s rokom isporuke do 3 radna dana i posebnim rasporedom za otoke. Plaćanje pouzećem je dostupno bez navedene dodatne naknade. Preuzimanje u Paketomatima ili PaketSHOP-ovima moguće je samo kao opcija nakon neuspješne kućne dostave. Osobno preuzimanje u poslovnicama nije dostupno za online narudžbe.\nNOTABLE FEATURES: Postoje značajna ograničenja za dostavu na otoke; za standardne pakete vrijede limiti na težinu i dimenzije, dok za glomazne pakete postoji fiksan raspored dostave, a neki otoci su u potpunosti isključeni iz dostave. Dostava glomaznih paketa vrši se 'do prve prepreke', a ne do vrata stana.\nWEBSITE ASSESSMENT: Informacije o dostavi su sveobuhvatne, ali su smještene unutar opsežnog dokumenta 'Opći uvjeti poslovanja', što otežava njihovo pronalaženje. Nedostaje zasebna, lako dostupna stranica s informacijama o dostavi. Informacije o alternativnim opcijama dostave (Paketomat/PaketSHOP) su vrlo šture."
+}

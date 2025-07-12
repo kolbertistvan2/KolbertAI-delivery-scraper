@@ -1,0 +1,101 @@
+{
+  "website": "monokl.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,00 €",
+    "free_delivery_limit": "40,00 €",
+    "delivery_time": "2-3 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands may take longer, no surcharge mentioned.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb, Maksimirska 115",
+      "Zagreb, Ilica 248",
+      "Zagreb, Utrina, Barčev trg 15",
+      "Dugo Selo, Hrvatskih branitelja 3",
+      "Sisak, Ivana Kukuljevića Sakcinskog 9A"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: The webshop offers two main delivery methods: Home Delivery and In-Store Pickup. Home delivery is handled by GLS, costing 4,00 € with a free shipping threshold at 40,00 €. The standard delivery time is 2-3 business days, with potential delays for island deliveries. In-store pickup is available and free of charge at their five physical locations in Zagreb, Dugo Selo, and Sisak. NOTABLE FEATURES: Key features include free in-store pickup and a relatively low free shipping threshold for home delivery. A notable limitation is the lack of cash on delivery, express delivery, and parcel shop/locker options. WEBSITE ASSESSMENT: The shipping information is concise but lacks depth. While the basic cost and provider are clear, details regarding island surcharges, weekend delivery, and express options are missing. The availability of in-store pickup is a significant advantage."
+}

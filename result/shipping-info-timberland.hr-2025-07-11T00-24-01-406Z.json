@@ -1,0 +1,95 @@
+{
+  "website": "timberland.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "Dostava unutar Hrvatske i Slovenije na iznos kupovine veći od 26,54€ je besplatna, a za iznose manje od 26,54€ naplaćuje se u iznosu od 5€.",
+    "free_delivery_limit": "26,54€",
+    "delivery_time": "Svaki naručeni artikl kurirska služba dostavlja u roku sedam radnih dana. Tijekom akcija moguća su manja kašnjenja prilikom obrade i isporuke narudžbi.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Dostava se vrši isključivo radnim danima. Izuzetak je dostava na otoke koja se uobičajeno vrši subotom."
+    },
+    "island_surcharge": "Dostava na otoke se vrši jednom tjedno - uobičajeno subotom.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery via DPD. A 'Click & Collect' option is mentioned, indicating in-store pickup is available, but no further details are provided on the shipping page. \nPRICING & DELIVERY TIME: Home delivery within Croatia and Slovenia is free for orders over €26.54 and costs €5 for orders below this amount. The standard delivery time is up to 7 working days, with potential extensions during sales periods. \nRESTRICTIONS & SPECIAL SERVICES: Deliveries are made on working days only. An exception is made for Croatian islands, where delivery occurs once a week, typically on Saturdays. There is no mention of an extra surcharge for island delivery. No information is available for express delivery, COD, parcel shops, or parcel lockers. \nWEBSITE ASSESSMENT: The website has a dedicated page for shipping information that clearly outlines the costs, provider, and standard delivery times. However, it lacks comprehensive details regarding the 'Click & Collect' service, COD payments, and any alternative or express delivery options."
+}

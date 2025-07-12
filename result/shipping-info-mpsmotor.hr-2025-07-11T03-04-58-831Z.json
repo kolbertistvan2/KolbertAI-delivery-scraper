@@ -1,0 +1,95 @@
+{
+  "website": "mpsmotor.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "unspecified partner courier services"
+    ],
+    "pricing": "Delivery costs depend on the weight of the order and are clearly stated before completing the order.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1-2 working days for items in stock. 10-15 working days for items from the supplier's warehouse.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "The website states they cannot ship packages larger than 60x60x60 cm. Customers are advised to contact them for inquiries about larger packages.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery option offered is home delivery within Croatia via unspecified partner couriers. There is no mention of parcel shops, parcel lockers, or in-store pickup for online orders. PRICING & TIME: Delivery costs are calculated at checkout based on order weight; no free shipping threshold is mentioned. Delivery takes 1-2 working days for items in stock, or 10-15 working days for items sourced from suppliers. Cash on delivery is a payment option, but any potential surcharge is not specified. NOTABLE FEATURES: A significant restriction is the package size limit of 60x60x60 cm for standard delivery; customers must contact the store for larger items. There is no information on express delivery, weekend delivery, or specific policies for delivering to Croatian islands. WEBSITE ASSESSMENT: Shipping information is minimal and found only within the general Terms of Business page. Key details such as courier names, specific pricing, and island delivery policies are missing, making it difficult for customers to fully understand the shipping process and costs upfront."
+}

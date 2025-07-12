@@ -1,0 +1,97 @@
+{
+  "website": "ayugarden.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,95 € for prepaid packages. 5,95 € / 6,45 € for cash on delivery / card payment on delivery.",
+    "free_delivery_limit": "Free shipping is not mentioned for home delivery. It is only available for BoxNow parcel lockers for orders over 55 €.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "The total price for cash on delivery / card payment on delivery is 5,95 € / 6,45 €."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Box Now"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,95 €",
+    "free_delivery_limit": "55 €",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Delivery in Croatia is available via GLS home delivery and Box Now parcel lockers. PROVIDERS: GLS, Box Now. PRICING: GLS home delivery costs 4,95 € for prepaid orders and 5,95 € / 6,45 € for cash on delivery or card payment on delivery. Box Now parcel locker delivery costs 2,95 €, with free shipping on orders over 55 €. NOTABLE FEATURES: Free shipping is only offered for Box Now parcel locker delivery. The pricing for GLS COD/card on delivery has two different values (5,95 € / 6,45 €) without further explanation. WEBSITE ASSESSMENT: The shipping information is concise but lacks details on delivery timeframes, island delivery policies, and weekend delivery options. The information is clearly presented on a dedicated delivery page."
+}

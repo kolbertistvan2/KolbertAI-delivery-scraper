@@ -1,0 +1,97 @@
+{
+  "website": "hervis.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Trošak dostave iznosi 4,99 € (37,60 kn).",
+    "free_delivery_limit": "Za narudžbe u iznosu od 60,00 € (452,07 kn) ili više, dostava je besplatna.",
+    "delivery_time": "2-5 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke može potrajati duže od navedenog roka.",
+    "cod_surcharge": "1,50 € (11,30 kn)"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Trošak dostave za glomazne artikle (npr. bicikli, fitness oprema) iznosi 29,99 € (225,96 kn) po artiklu.",
+    "free_delivery_limit": "Besplatna dostava ne vrijedi za glomazne artikle.",
+    "delivery_time": "3-7 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke može potrajati duže od navedenog roka.",
+    "cod_surcharge": "1,50 € (11,30 kn)"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Dostupno u svim Hervis trgovinama u Hrvatskoj.",
+    "pricing": "Besplatno",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Ovisno o radnom vremenu odabrane trgovine."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Hervis.hr offers standard home delivery, home delivery for bulky items, and in-store pickup (Click & Collect). Delivery to parcel shops or parcel lockers is not available.\nPROVIDERS: The exclusive delivery partner for all home deliveries is GLS.\nPRICING: Standard delivery costs 4,99 € and is free for orders over 60,00 €. Bulky item delivery has a fixed fee of 29,99 € per item, with no free shipping option. In-store pickup is free. A cash on delivery (COD) surcharge of 1,50 € applies to home deliveries.\nDELIVERY TIMES & RESTRICTIONS: Standard delivery takes 2-5 business days, while bulky items take 3-7 business days. Delivery to Croatian islands may experience delays. Express and weekend delivery services are not offered for home delivery.\nNOTABLE FEATURES: The primary delivery options are straightforward home delivery via GLS and a free Click & Collect service available at all their physical stores. There is a clear distinction and separate pricing for bulky goods.\nWEBSITE ASSESSMENT: The shipping information is clear and well-structured, typically found on a dedicated 'Dostava' (Delivery) page or within the 'Opći uvjeti poslovanja' (General Terms & Conditions). Key details like costs, delivery times, and provider are easy to find. The lack of parcel shop/locker options is a limitation compared to some competitors."
+}

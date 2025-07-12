@@ -1,0 +1,99 @@
+{
+  "website": "xxxlesnina.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebrüder Weiss",
+      "DPD"
+    ],
+    "pricing": "Besplatna dostava za narudžbe od € 530,00",
+    "free_delivery_limit": "€ 530,00",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands is available with special summer and winter schedules, but extra costs are not specified.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebrüder Weiss",
+      "DPD"
+    ],
+    "pricing": "Besplatna dostava za narudžbe od € 530,00",
+    "free_delivery_limit": "€ 530,00",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands is available with special summer and winter schedules, but extra costs are not specified.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard and bulky items, as well as an in-store pickup service (Click & Collect). Delivery to parcel shops or parcel lockers is not available.\nPROVIDERS: All deliveries are exclusively handled by Gebrüder Weiss and DPD.\nPRICING: Delivery is free for all online orders with a value of €530 or more. The cost for orders below this threshold is not specified on the page. Pricing for the Click & Collect service is also not mentioned.\nRESTRICTIONS: Delivery to Croatian islands is possible, but it operates on separate summer and winter schedules. Information regarding potential surcharges for island deliveries is not provided.\nNOTABLE FEATURES: The website explicitly warns customers about potential phishing scams, clarifying that they only partner with Gebrüder Weiss and DPD for deliveries.\nWEBSITE ASSESSMENT: The delivery information page clearly states the shipping providers and the free shipping threshold. However, it lacks crucial details such as standard delivery costs, delivery timeframes, and specific costs or conditions for island deliveries. Much of the information appears to be contained within accordion-style sections that were not expanded, making a full assessment difficult."
+}

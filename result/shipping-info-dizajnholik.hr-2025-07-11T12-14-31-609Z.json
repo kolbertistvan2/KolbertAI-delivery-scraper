@@ -1,0 +1,99 @@
+{
+  "website": "dizajnholik.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "kurirske dostavne službe"
+    ],
+    "pricing": "Cijena usluge dostave nije uračunata u cijenu proizvoda.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3 do 5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Dostava proizvoda Kupcu obavlja se isključivo radnim danom. Subote, nedjelje, blagdani i neradni dani ne računaju se u rok dostave."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ilica 11 (dvorište), Zagreb"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery via unnamed courier services and personal in-store pickup. Parcel shop and locker delivery are not available.\nPRICING: Delivery costs are not included in the product price and are not specified. No free shipping threshold is mentioned. In-store pickup is available as an alternative.\nDELIVERY TIME & RESTRICTIONS: Standard delivery takes 3-5 working days. Deliveries are made only on weekdays to the entrance of the building. There is no information on island surcharges or express delivery.\nNOTABLE FEATURES: In-store pickup is available at their showroom in Zagreb (Ilica 11), including on Saturdays.\nWEBSITE ASSESSMENT: The shipping information is very basic. It confirms the availability of home delivery and in-store pickup but lacks essential details such as shipping costs, specific courier partners, and policies for island delivery or COD surcharges. All information is located on a single 'Dostava i povrat proizvoda' page."
+}

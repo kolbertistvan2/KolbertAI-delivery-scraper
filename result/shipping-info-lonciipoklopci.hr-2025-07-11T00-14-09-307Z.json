@@ -1,0 +1,101 @@
+{
+  "website": "lonciipoklopci.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Intereuropa",
+      "Overseas Express"
+    ],
+    "pricing": "€6.00 for orders under €150.00.",
+    "free_delivery_limit": "Free for orders over €150.00, but does not apply to discounted/outlet items or orders using VIP cards/promo codes.",
+    "delivery_time": "2-10 working days if in stock, up to 30 working days if sourced from supplier.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Longer delivery times are possible for islands, but no specific surcharge is mentioned.",
+    "cod_surcharge": "A surcharge may apply for cash on delivery, but the exact amount is not specified."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Intereuropa",
+      "Overseas Express"
+    ],
+    "pricing": "€35.00",
+    "free_delivery_limit": "Free for orders over €150.00, but does not apply if a VIP card or promo code is used, or if the items are already discounted or from the outlet.",
+    "delivery_time": "2-10 working days if in stock, up to 30 working days if sourced from supplier.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Longer delivery times are possible for islands, but no specific surcharge is mentioned.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard parcels ('Paketna dostava') and bulky/pallet items ('Paletna dostava'), as well as in-store pickup. Delivery is exclusively within Croatia.\nPROVIDERS: Delivery partners are DPD, Intereuropa, and Overseas Express.\nPRICING: Standard parcel delivery costs €6.00 and is free for orders over €150.00. Bulky item delivery costs €35.00 and is also free for orders over €150.00. In-store pickup is available, but pricing is not specified.\nRESTRICTIONS & NOTABLE FEATURES: The free shipping threshold of €150.00 does not apply to items that are already on sale, in the outlet, or purchased using a VIP card or promo code. Deliveries to Croatian islands may experience longer transit times. Cash on delivery is available, but may incur an unspecified surcharge. No express or weekend delivery options are mentioned.\nWEBSITE ASSESSMENT: Shipping information is comprehensively detailed within the 'Uvjeti prodaje' (Terms of Sale) page, clearly distinguishing between standard and bulky shipping. However, the information could be more user-friendly if presented on a dedicated shipping page. Key details like the exact cash-on-delivery surcharge and specific delivery times for islands are missing."
+}

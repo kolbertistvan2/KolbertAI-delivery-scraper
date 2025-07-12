@@ -1,0 +1,99 @@
+{
+  "website": "homedeco.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "DPD",
+      "GLS"
+    ],
+    "pricing": "Cijena dostave će se automatski obračunati prema ukupnoj težini svih artikala u košarici.\nHrvatska pošta: od 3,58 € (do 1 kg) do 17,70 € (do 80 kg) bez PDV.\nDPD: od 3,85 € (do 2 kg) do 6,24 € (do 31.5 kg) bez PDV.\nGLS: od 4,25 € (do 2 kg) do 7,17 € (do 40 kg) bez PDV.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "unutar 5 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Za otoke vrijedi isporuka prema posebnom rasporedu HP-a.",
+    "cod_surcharge": "Mogući su dodatni troškovi za odabir plaćanja putem pouzeća."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta"
+    ],
+    "pricing": "Paleta do 200 kg: 30,53 € (bez PDV)\nPaleta do 300 kg: 37,16 € (bez PDV)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Za otoke vrijedi isporuka prema posebnom rasporedu HP-a.",
+    "cod_surcharge": "Mogući su dodatni troškovi za odabir plaćanja putem pouzeća. Kod skupljih proizvoda i narudžbi velikog obujma moguće je da će Vas kontaktirati netko iz podrške za uplatu dijela novca virmanom kao garanciju preuzimanja!"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "na našem skladištu",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Plaćanje pouzećem nije moguće kod osobnog preuzimanja na našem skladištu."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and personal pickup at the warehouse are available. Delivery to parcel shops or lockers is not offered.\nPROVIDERS: Standard home delivery is handled by Hrvatska pošta, DPD, and GLS. Bulky item (pallet) delivery is handled by Hrvatska pošta.\nPRICING: Delivery costs are calculated based on package weight, with prices listed excluding VAT. Standard delivery starts from €3.58. Pallet delivery starts from €30.53. No free shipping threshold is mentioned. Personal pickup pricing is not specified.\nRESTRICTIONS & FEATURES: Delivery to Croatian islands follows a special schedule by Hrvatska pošta. An unspecified surcharge may apply for Cash on Delivery. For large or expensive orders, a partial advance payment may be required before shipping.\nWEBSITE ASSESSMENT: The website provides detailed weight-based pricing for its carriers but lacks information on a free shipping threshold, the exact COD surcharge, and specific delivery times for bulky items. The fact that prices are listed without VAT could be made more prominent. Information is generally clear but could be more complete."
+}

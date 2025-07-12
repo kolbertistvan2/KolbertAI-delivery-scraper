@@ -1,0 +1,126 @@
+{
+  "website": "pevex.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "The delivery price for each order is visible during checkout and is charged based on the gross weight of the ordered products.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "2 to 10 working days. Longer delivery times possible during April.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Saturday delivery is possible for larger cities (Zagreb, Pula, Rijeka, Karlovac, Varaždin, Bjelovar, Slavonski Brod, Osijek, Split, Šibenik, Zadar), but depends on the courier's capabilities."
+    },
+    "island_surcharge": "Delivery to some islands is only to the ferry port. Delivery is not possible to the following postal codes: 21225 Drvenik Mali, 21225 Drvenik Veliki, 21450 Palmižana, 22232 Zlarin, 22233 Prvić Luka, 22234 Prvić Šepurine, 22235 Kaprije, 22236 Žirje, 22243 Kornati, 23281 Luka, 23281 Sali, 23281 Zaglav, 23281 Žman, 23282 Luka, 23282 Žman, 23283 Rava, 23284 Mali Iž, 23284 Veli Iž, 23285 Brbinj, 23285 Savar, 23286 Božava, 23286 Dragove, 23286 Zverinac, 23287 Brbinj, 23287 Polje, 23287 Savar, 23287 Soline, 23287 Veli Rat, 23287 Verunić, 23291 Rivanj, 23291 Sestrunj, 23291 Zverinac, 23292 Brgulje, 23292 Molat, 23292 Zapuntel, 23293 Ist, 23294 Premuda, 23295 Silba, 23296 Olib, 51552 Ilovik, 51561 Susak, 51562 Unije, 20290 Lastovo.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "The delivery price for each order is visible during checkout and is charged based on the delivery location and the gross weight of the ordered products.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "2 to 10 working days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Saturday delivery is possible for larger cities (Zagreb, Pula, Rijeka, Karlovac, Varaždin, Bjelovar, Slavonski Brod, Osijek, Split, Šibenik, Zadar), but depends on the courier's capabilities."
+    },
+    "island_surcharge": "Delivery to some islands is only to the ferry port. Delivery is not possible to the following postal codes: 21225, 21450, 22232, 22233, 22234, 22235, 22236, 22243, 23281, 23282, 23283, 23284, 23285, 23286, 23287, 23291, 23292, 23293, 23294, 23295, 23296, 51552, 51561, 51562, 20290.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Bjelovar",
+      "Čakovec",
+      "Dubrovnik",
+      "Gospić",
+      "Karlovac",
+      "Koprivnica",
+      "Križevci",
+      "Kutina",
+      "Makarska",
+      "Osijek",
+      "Poreč",
+      "Pula",
+      "Rijeka - Kukuljanovo",
+      "Rijeka - Škurinje",
+      "Samobor",
+      "Šibenik",
+      "Sisak",
+      "Slavonski Brod",
+      "Split",
+      "Sveti Ivan Zelina",
+      "Varaždin",
+      "Vinkovci",
+      "Virovitica",
+      "Vrbovec",
+      "Vukovar",
+      "Zabok",
+      "Zadar",
+      "Zagreb - Črnomerec",
+      "Zagreb - Jankomir",
+      "Zagreb - Novi Zagreb",
+      "Zagreb - Sesvete",
+      "Zagreb - Žitnjak"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not applicable",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Pevex offers home delivery throughout Croatia and a free 'Click & Collect' in-store pickup service available at 31 locations. Parcel shop and parcel locker delivery are not available.\nPRICING & PROVIDERS: Home delivery costs are calculated at checkout based on order weight and delivery location; specific price tiers or free shipping thresholds are not listed. The courier companies used are not specified. In-store pickup is free.\nDELIVERY TIMEFRAME: The standard delivery time is 2-10 working days, Monday to Friday. \nNOTABLE FEATURES: Saturday delivery is possible but not guaranteed for major cities. There is no mention of express delivery or cash-on-delivery surcharges.\nRESTRICTIONS: Home delivery is not available to a significant number of island postal codes. For some other islands, delivery is limited to the ferry port. Deliveries to the historic centers of cities like Dubrovnik and Rovinj are also restricted.\nWEBSITE ASSESSMENT: The shipping information is available on a dedicated page but lacks some key details. While island delivery restrictions are clearly listed, the absence of a price list before checkout and no mention of specific courier partners makes it difficult for customers to compare options. Information for bulky items is not separately detailed but is covered under the general weight-based pricing."
+}

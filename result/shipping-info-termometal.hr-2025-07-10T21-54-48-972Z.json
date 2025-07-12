@@ -1,0 +1,101 @@
+{
+  "website": "termometal.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Termometal d.o.o. (own vehicles)",
+      "LAGERMAX AED d.o.o.",
+      "GLS d.o.o."
+    ],
+    "pricing": "Delivery costs depend on the address, transport weight, and dimensions of the product and are shown in the shopping cart or on the offer for payment.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery time is indicated on the offer provided after the order is placed.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "This service ensures order processing and preparation for dispatch on the same or the next working day. It does not guarantee delivery on a specific date.",
+      "pricing": "4,50€ for priority order processing"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Termometal d.o.o. (own vehicles)",
+      "LAGERMAX AED d.o.o.",
+      "GLS d.o.o."
+    ],
+    "pricing": "The price depends on the address, transport weight, and dimensions of the product and is shown in the shopping cart or on the offer. The company reserves the right to increase transport prices for bulky items according to the carrier's price list.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery time is indicated on the offer provided after the order is placed.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "This service ensures order processing and preparation for dispatch on the same or the next working day. It does not guarantee delivery on a specific date.",
+      "pricing": "4,50€ for priority order processing"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available, COD is only for packages of smaller dimensions and weight"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Termometal d.o.o., Industrijska ulica 3, 43280 Garešnica, Hrvatska",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Saturday (7:00 - 14:00h)"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard and bulky items, as well as in-store pickup. Parcel shop and parcel locker options are not available. Deliveries are made throughout the EU.\nPROVIDERS: Deliveries are handled by the company's own vehicles, LAGERMAX AED, and GLS.\nPRICING: Home delivery costs are variable and calculated at checkout based on the order's weight, dimensions, and destination address. In-store pickup is free. There is no mention of a free shipping threshold. Cash on delivery (COD) is available for smaller packages within Croatia, with no specific surcharge mentioned.\nNOTABLE FEATURES: A 'Priority Processing' service is available for €4.50, which ensures the order is prepared for dispatch on the same or next business day, but does not guarantee a specific delivery date. In-store pickup is available on Saturdays.\nWEBSITE ASSESSMENT: Shipping information is consolidated within the 'Uvjeti kupnje' (Terms of Purchase) page. The information is comprehensive but requires careful reading as key details like delivery costs and timeframes are not fixed but determined on a per-order basis and communicated via a formal offer. There is no separate section for bulky items, but rules for them are mentioned within the general delivery text."
+}

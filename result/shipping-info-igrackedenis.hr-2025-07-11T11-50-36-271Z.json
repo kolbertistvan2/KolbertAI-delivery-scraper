@@ -1,0 +1,100 @@
+{
+  "website": "igrackedenis.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "5,98€",
+    "free_delivery_limit": "60€",
+    "delivery_time": "2 do 3 radna dana na područje grada Zagreba, do 7 radnih dana za područje kontinentalnog dijela Republike Hrvatske, odnosno do 7 radnih dana za područje otoka.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava do 7 radnih dana za područje otoka. Nema spomena o dodatnoj naknadi.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "3,98€",
+    "free_delivery_limit": "60€",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "BOXNOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS dostava na paketomat - 3,98€ | BOXNOW dostava na paketomat - 2,98€.",
+    "free_delivery_limit": "60€",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Borongajska 81a, 10000 Zagreb (ulaz sa južne strane), ponedjeljak-četvrtak od 08h do 16h te u petak od 8 h do 13 h.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop provides home delivery, parcel locker, parcel shop, and in-store pickup options across Croatia.\nPROVIDERS: Delivery is handled by GLS and BOXNOW.\nPRICING: Home delivery (GLS) is 5,98€. Parcel Shop/Locker (GLS) is 3,98€. Parcel Locker (BOXNOW) is 2,98€. Free shipping is offered on orders over 60€.\nDELIVERY TIME & RESTRICTIONS: Delivery takes 2-3 working days for Zagreb and up to 7 working days for the rest of Croatia, including islands. Deliveries are not made on weekends or public holidays.\nNOTABLE FEATURES: Multiple delivery options are available, including budget-friendly parcel lockers. Free personal pickup is available at their Zagreb location.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava' page and is generally clear. It outlines providers, pricing, and delivery times. However, it lacks information on COD surcharges, express delivery options, and any specific policies for bulky items."
+}

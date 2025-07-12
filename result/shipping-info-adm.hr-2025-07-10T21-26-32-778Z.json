@@ -1,0 +1,101 @@
+{
+  "website": "adm.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Vlastita dostava",
+      "GLS",
+      "Overseas express"
+    ],
+    "pricing": "Cijena dostave za narudžbe do 265 € i ispod 25 kg težine je 6 €, dok je dostava besplatna za narudžbe iznad 265 €.",
+    "free_delivery_limit": "265 €",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Vlastita dostava",
+      "GLS",
+      "Overseas express"
+    ],
+    "pricing": "Pošiljke teže od 25 kg šalju se na trošak kupca ili se naplaćuje tržišna vrijednost dostave.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only specified option, available for both standard and bulky items. Parcel shop, parcel locker, and in-store pickup options are not mentioned.\nPROVIDERS: Deliveries in Zagreb are handled by the company's own service, while GLS and Overseas Express are used for other regions in Croatia.\nPRICING: Standard delivery for orders under 25 kg costs €6 for purchases up to €265. Delivery is free for orders exceeding €265. For bulky items (over 25 kg), the delivery cost is charged at the market rate at the buyer's expense.\nRESTRICTIONS: Delivery is available throughout Croatia, but is limited to addresses within the Republic of Croatia.\nNOTABLE FEATURES: A clear free shipping threshold of €265 is provided. The company uses its own delivery fleet for the Zagreb area.\nWEBSITE ASSESSMENT: The shipping information is basic and found on a combined 'Delivery and Complaints' page. It clearly states the providers and pricing structure for standard parcels. However, it lacks crucial details such as delivery timeframes, express options, weekend delivery, island surcharges, and COD fees."
+}

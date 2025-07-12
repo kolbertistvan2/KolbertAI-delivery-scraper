@@ -1,0 +1,102 @@
+{
+  "website": "vitapur.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "OverseasExpress",
+      "GLS"
+    ],
+    "pricing": "Troškovi dostave vidljivi su u košarici prije nego što zaključite narudžbu. Dostava je besplatna za sve narudžbe iznad 89,90 €.",
+    "free_delivery_limit": "89,90 €",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "GLS vrši dostavu na sve veće otoke i otoke povezane cestom bez bilo kakve dodatne naknade.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "naše osobne dostave"
+    ],
+    "pricing": "Madraci koji se izrađuju od lateksa dostavljaju se u najbližu Vitapur trgovinu. Kupac može proizvod preuzeti osobno u trgovini ili putem osobno organiziranog prijevoza i vlastitom trošku.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "O vremenu termina dostave biti ćete naknadno obaviješteni nakon izvršene narudžbe i prema dogovoru.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Madraci koji se izrađuju od lateksa dostavljaju se u najbližu Vitapur trgovinu.",
+    "pricing": "Kupac može proizvod preuzeti osobno u trgovini ili putem osobno organiziranog prijevoza i vlastitom trošku.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The website offers home delivery, GLS PaketSHOP pickup, parcel locker delivery, and in-store pickup for specific items (latex mattresses, custom orders). PROVIDERS: Main providers are OverseasExpress and GLS. Bulky/custom items are delivered via their own personal delivery service. PRICING: Delivery is free for orders over 89,90 €. For orders below this amount, the cost is calculated in the shopping cart. RESTRICTIONS: Delivery to major Croatian islands is handled by GLS at no extra charge. Special products like latex mattresses are delivered to the nearest Vitapur store for customer pickup at their own expense. NOTABLE FEATURES: GLS offers flexible delivery options, including changing the delivery time/address or redirecting to a PaketSHOP. Customers receive SMS and email notifications about their delivery. WEBSITE ASSESSMENT: The shipping information is generally clear but lacks some specific details. The exact shipping cost for orders under the free threshold is not stated upfront. Information on parcel locker providers and cash-on-delivery surcharges is missing. The page is reasonably easy to understand but could benefit from a more structured table format for pricing and options."
+}

@@ -1,0 +1,95 @@
+{
+  "website": "mylapiel.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "reputable delivery service"
+    ],
+    "pricing": "The delivery price depends on the order delivery address and depends on the weight of the package itself. Free shipping for orders over 70 EUR.",
+    "free_delivery_limit": "70 €",
+    "delivery_time": "3-14 working days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only available option for Croatia. No parcel shop, parcel locker, or in-store pickup services are mentioned.\nPROVIDERS: The specific courier is not named, only referred to as a 'reputable delivery service'.\nPRICING: Shipping cost is variable, depending on the delivery address and package weight. Free worldwide shipping is offered for orders over 70 EUR.\nDELIVERY TIME & RESTRICTIONS: Standard delivery time is 3-14 working days. Deliveries are made only on weekdays (Monday to Friday). There is no information on express delivery, weekend delivery, or surcharges for island deliveries.\nPAYMENT: Payment options are by card (Stripe) and PayPal. Cash on delivery is not available.\nNOTABLE FEATURES: The store offers 'La PIEL Purchase Protection', an optional insurance for packages lost or damaged in transit.\nWEBSITE ASSESSMENT: Shipping information is located within the general 'Terms of service' page, not on a dedicated delivery page. While it provides a free shipping threshold and a general delivery timeframe, it lacks crucial details such as the specific courier used, precise shipping costs, and policies for island deliveries. The information is not easily accessible and requires reading through a lengthy legal document."
+}

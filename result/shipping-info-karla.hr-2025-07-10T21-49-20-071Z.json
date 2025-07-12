@@ -1,0 +1,95 @@
+{
+  "website": "karla.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "BESPLATNA DOSTAVA ZA SVE NARUDŽBE",
+    "free_delivery_limit": "BESPLATNA DOSTAVA ZA SVE NARUDŽBE",
+    "delivery_time": "Naručeni proizvod ćemo Vam isporučiti najkasnije u roku od 8 radnih dana od narudžbe, rok isporuke teče od primitka sredstava na naš račun.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only available option for Croatia.\nPROVIDERS: Deliveries are handled by GLS.\nPRICING: The webshop offers free delivery for all orders.\nDELIVERY TIME: The delivery timeframe is up to 8 business days from the receipt of payment.\nRESTRICTIONS: There is no information regarding delivery to Croatian islands. Cash on delivery is not an available payment method.\nNOTABLE FEATURES: The key feature is free shipping for all orders without a specified minimum value.\nWEBSITE ASSESSMENT: The shipping information is very basic and is found within the general 'Uvjeti kupnje' (Terms of Purchase) page rather than a dedicated section. It clearly states the provider, delivery time, and the free shipping policy. However, it lacks details on potential island delivery restrictions, express options, or alternative delivery methods like parcel shops or in-store pickup."
+}

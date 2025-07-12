@@ -1,0 +1,97 @@
+{
+  "website": "housebrand.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "4,95 EUR",
+    "free_delivery_limit": "40 EUR",
+    "delivery_time": "2-5 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Nema dodatnih troškova"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS Paketomat"
+    ],
+    "locations_count": "not available",
+    "pricing": "3,95 EUR",
+    "free_delivery_limit": "40 EUR",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Nema dodatnih troškova"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Dostupno u odabranim House trgovinama",
+    "pricing": "Besplatno",
+    "free_delivery_limit": "0",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Housebrand.com in Croatia offers three delivery methods: Home Delivery, Parcel Locker (GLS Paketomat), and In-Store Pickup (Click & Collect). PROVIDERS: The exclusive courier for home and parcel locker delivery is GLS. PRICING & DELIVERY TIME: Home delivery costs €4.95, and parcel locker delivery is €3.95, with a standard delivery time of 2-5 working days for both. In-store pickup is free. Free shipping is available for all orders of €40 or more. NOTABLE FEATURES: Cash on delivery (pouzeće) is offered as a payment method with no additional surcharge. There is no mention of express delivery, weekend delivery, or any specific surcharges or restrictions for delivering to Croatian islands. WEBSITE ASSESSMENT: The shipping information is located on a clear and easily accessible 'Dostava' page. It provides essential details on costs, delivery times, and available methods. However, it lacks information on express/weekend options and specific policies for island deliveries."
+}

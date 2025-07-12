@@ -1,0 +1,93 @@
+{
+  "website": "volino.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Besplatna dostava za narudžbe iznad 65.87 €.",
+    "free_delivery_limit": "€65.87",
+    "delivery_time": "5 - 30 dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 kn"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method offered is home delivery. There is no mention of parcel shops, parcel lockers, or in-store pickup.\nPROVIDERS: The specific shipping provider is not mentioned on the website.\nPRICING: Delivery is free for orders over €65.87. The cost for orders below this amount is not specified. Cash on delivery (COD) is available with no extra charge (0 kn).\nDELIVERY TIME: The delivery timeframe is stated as a maximum of 5 to 30 days.\nRESTRICTIONS: There is no information regarding surcharges or specific delivery policies for Croatian islands.\nNOTABLE FEATURES: The key features are free shipping over a certain threshold and free cash on delivery. A significant limitation is the very long and broad delivery window (5-30 days) and the lack of information about the courier service.\nWEBSITE ASSESSMENT: The shipping information provided is minimal and lacks important details. Key information such as the standard shipping cost, the name of the delivery provider, and policies for island deliveries is missing. The provided delivery timeframe is exceptionally long, which could be a major concern for customers."
+}

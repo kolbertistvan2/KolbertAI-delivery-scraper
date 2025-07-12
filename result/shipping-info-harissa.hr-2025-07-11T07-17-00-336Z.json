@@ -1,0 +1,98 @@
+{
+  "website": "harissa.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "pošta ili tvrtka koja se bavi kurirskom uslugom"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "unutar 3 do 7 radnih dana od dana narudžbe. Za vrijeme povećanog obima narudžbi dostava može biti unutar 3 do 10 radnih dana.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Dostava se vrši radnim danom."
+    },
+    "island_surcharge": "Dostava na otoke po dostavnom redu dostavljača do maksimalnih 7 radnih dana.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Harissa.hr offers home delivery and delivery to GLS parcel lockers within Croatia. \nPROVIDERS: Delivery is handled by GLS and other unspecified courier services or the post office. \nPRICING: Specific shipping costs and free shipping thresholds are not mentioned on the delivery information page. \nDELIVERY TIMES: Standard delivery time is 3-7 working days, extending to 3-10 working days during peak periods. Delivery to islands can take up to 7 working days. \nRESTRICTIONS & SURCHARGES: Deliveries are made on working days only. No information is provided on island surcharges or cash-on-delivery fees. \nNOTABLE FEATURES: Delivery to GLS parcel lockers is explicitly offered. \nWEBSITE ASSESSMENT: The website provides basic delivery information, including timeframes and providers. However, it lacks crucial details such as shipping costs, free shipping limits, and potential surcharges, making the information incomplete for customers."
+}

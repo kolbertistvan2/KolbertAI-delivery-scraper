@@ -1,0 +1,96 @@
+{
+  "website": "wow-junkie.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "HP Express"
+    ],
+    "pricing": "5 EUR for orders up to 69,99 EUR. Free for orders over 69,99 EUR.",
+    "free_delivery_limit": "69,99 EUR",
+    "delivery_time": "1-3 radna dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke ne kasni za klasičnom dostavom na kopnu ali moguće je da zbog loših prometnih (i inih) veza paket putuje nešto dulje.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Petrova 59a, 10 000 Zagreb",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "od ponedjeljka do petka od 12,00 do 15,00 sati"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is available across Croatia, along with a free in-store pickup option in Zagreb. No parcel shop or locker delivery is offered.\nPROVIDERS: GLS and HP Express are used for home delivery.\nPRICING: Home delivery costs 5 EUR for orders under 69,99 EUR and is free for orders of 69,99 EUR or more. In-store pickup is free.\nDELIVERY TIME: Standard delivery takes 1-3 business days.\nNOTABLE FEATURES: The store offers free shipping on a relatively low threshold. There is no extra charge for delivery to islands, although it may take longer. Express and weekend delivery are not available. Information on a cash-on-delivery surcharge is missing.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava' page and is clear and easy to understand. It covers the most important aspects like cost, providers, and delivery times. However, it lacks information on certain specifics like COD surcharges and does not offer alternative delivery methods like parcel points."
+}

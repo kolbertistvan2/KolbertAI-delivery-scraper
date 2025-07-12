@@ -1,0 +1,99 @@
+{
+  "website": "hobicentar.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Troškovi dostave proizvoda čija ukupna cijena iznosi do 120,00€ ili manje snosi kupac. Troškovi dostave u tom slučaju iznose 6€.",
+    "free_delivery_limit": "120,00€",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Troškove dostave proizvoda čija ukupna cijena iznosi 120,00€ (i mase do 30,00kg) ili više snosi HOBI CENTAR osim za artikle na kojima je posebno naznačen fiksni iznos troška dostave. (zbog gabaritnosti,mase, specifičnog oblika i visine)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Bana Jelačića 59, 32100 Vinkovci",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery across Croatia and personal in-store pickup. There are no options for parcel shops or parcel lockers. PROVIDERS: The exclusive delivery provider is GLS. PRICING: Home delivery costs 6€ for orders up to 120€. Shipping is free for orders of 120€ or more, provided the package weight is under 30kg. Cash on delivery is an option, but any associated surcharge is not specified. RESTRICTIONS & SPECIALS: For bulky or heavy items (over 30kg), a separate, fixed delivery cost is applied, which is indicated on the product page. There is no information regarding island surcharges, express delivery, or weekend delivery services. In-store pickup is free at their Vinkovci location. WEBSITE ASSESSMENT: The shipping information is presented clearly on a dedicated 'Dostava' page. It covers the basics like provider and pricing structure well. However, it lacks details on delivery timeframes, island delivery policies, and specific fees for services like cash on delivery."
+}

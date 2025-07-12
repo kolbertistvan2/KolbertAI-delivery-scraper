@@ -1,0 +1,96 @@
+{
+  "website": "iglusport.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Hrvatska Pošta"
+    ],
+    "pricing": "4,00 € for orders below 50,00 €",
+    "free_delivery_limit": "50,00 €",
+    "delivery_time": "unutar 5 (pet) radnih dana od datuma narudžbe",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method offered is home delivery within Croatia. In-store pickup, parcel shops, and parcel lockers are not available for online orders.\nPROVIDERS: Deliveries are handled by DPD. If the recipient is not available, the parcel can be picked up at a Hrvatska Pošta (Croatian Post) office.\nPRICING: Standard delivery costs €4.00. Shipping is free for all orders with a value exceeding €50.00. Cash on delivery is an available payment method, but no specific surcharge is mentioned.\nDELIVERY TIME & RESTRICTIONS: The standard delivery time is within 5 working days. There is no information available regarding express delivery, weekend delivery, or any specific surcharges or restrictions for delivering to Croatian islands.\nWEBSITE ASSESSMENT: Shipping information is not on a dedicated page but is located within the 'Opća pravila i uvjeti' (General Terms and Conditions) document. The provided information is basic but clear. Key details such as island delivery policies, express options, and weekend services are missing, which makes the information incomplete for customers with specific needs."
+}

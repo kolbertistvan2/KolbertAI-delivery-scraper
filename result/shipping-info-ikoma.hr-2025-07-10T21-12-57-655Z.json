@@ -1,0 +1,107 @@
+{
+  "website": "ikoma.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebrüder Weiss d.o.o.",
+      "Intereuropa d.o.o.",
+      "GLS Croatia d.o.o",
+      "own delivery vehicles"
+    ],
+    "pricing": "The delivery price depends not only on the distance but also on other factors, such as the weight, volume, and price of the product. The exact cost is calculated in the shopping cart after entering the postal code for the delivery location.",
+    "free_delivery_limit": "ikoma.hr strives to cover the delivery cost for as many items as possible and provide the customer with free delivery, but for certain types of products and distances, this is not possible.",
+    "delivery_time": "Products are sent for delivery the next working day after receipt of the order or payment, or within another time frame indicated with the product. The prescribed delivery time is indicated with each product on ikoma.hr.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebrüder Weiss d.o.o.",
+      "Intereuropa d.o.o.",
+      "GLS Croatia d.o.o",
+      "own delivery vehicles"
+    ],
+    "pricing": "The delivery cost depends on the product selection, its dimensions, the quantity chosen by the customer, and the distance to the delivery location. The cost is calculated in the shopping cart after entering the postal code.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The prescribed delivery time is indicated with each product on ikoma.hr.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Miroslava Krleže 164, 43000 Bjelovar"
+    ],
+    "pricing": "Free (delivery costs are not charged).",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Cash on delivery is not available for in-store pickup."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Ikoma.hr provides home delivery for both standard and bulky/heavy items throughout Croatia and offers free in-store pickup. PROVIDERS: Delivery is handled by Gebrüder Weiss, Intereuropa, GLS, and the company's own vehicles. PRICING: Home delivery costs are calculated dynamically in the shopping cart based on product weight, volume, price, and the delivery postal code. The store aims to offer free shipping on many items. In-store pickup at their Bjelovar location is free. RESTRICTIONS: Home delivery is to the building entrance. Cash on delivery is available for home delivery but not for in-store pickup. \nNOTABLE FEATURES: A key feature is the dynamic shipping cost calculator in the shopping cart, which provides a price before the customer needs to enter personal data. The service is well-equipped to handle large and heavy construction materials. \nWEBSITE ASSESSMENT: Shipping information is located within the 'Opći uvjeti poslovanja' (General Terms and Conditions) page. While comprehensive, the details are embedded in a lengthy legal document, making them difficult to find quickly. The primary method for determining shipping costs is to use the shopping cart calculator, which is practical but less direct than a simple price list or map."
+}

@@ -1,0 +1,101 @@
+{
+  "website": "vrtnicentariva.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena dostave ovisi o težini samog paketa:\n- do 5 kg: 8,00 €\n- do 10 kg: 8,80 €\n- do 20 kg: 9,90 €\n- do 30 kg: 12,00 €\n- do 40 kg: 19,90 €\n- do 50 kg: 22,00 €\n- do 60 kg: 24,00 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "u roku pet dana (within five days)",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava za 2. zonu isporuke (otoci): 20,00 €. Restrictions apply: max weight 10kg, max length 1.5m, transit time 48-168h.",
+    "cod_surcharge": "1,00 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "unspecified"
+    ],
+    "pricing": "Cijena dostave dobiva naknadnom ponudom na Vaš e mail. (The delivery price is provided via a subsequent offer to your e-mail.)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands is limited to packages up to 10kg and 1.5m in length, which likely excludes bulky items. The standard island surcharge is €20.00.",
+    "cod_surcharge": "1,00 €"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "B. Radića 54, Štefanec, 40 000 Čakovec",
+      "Križevačka cesta 61, Koprivnica",
+      "Šašec 31, Lukarišće, 10 370 Dugo Selo"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard and bulky items, as well as in-store pickup ('Klikni i pokupi'). Parcel shop and parcel locker delivery are not available.\nPROVIDERS: Standard home delivery is handled by GLS. The provider for bulky items (over 150 cm) is not specified.\nPRICING: Standard delivery costs are based on weight, ranging from €8.00 (up to 5kg) to €24.00 (up to 60kg). The price for bulky item delivery is provided via a custom email offer. In-store pickup pricing is not mentioned. There is no free shipping threshold.\nNOTABLE FEATURES: Cash on delivery (COD) is available for a surcharge of €1.00. In-store pickup is an option at their three garden centers in Štefanec (Čakovec), Koprivnica, and Lukarišće (Dugo Selo). Delivery to islands (Zone 2) incurs a flat fee of €20.00 and has significant restrictions (max 10kg, max 1.5m length), which effectively excludes bulky items.\nWEBSITE ASSESSMENT: Shipping information is consolidated on the 'Uvjeti kupnje i dostava' page. The details for standard parcels and island delivery are clear and well-structured with tables. However, information regarding bulky item delivery is incomplete, requiring customers to inquire for pricing and provider details. The lack of express or weekend delivery options is clearly stated."
+}

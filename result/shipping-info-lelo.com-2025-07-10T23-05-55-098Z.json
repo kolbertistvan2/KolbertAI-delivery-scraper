@@ -1,0 +1,100 @@
+{
+  "website": "lelo.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "FedEx",
+      "DHL",
+      "DPD",
+      "GLS",
+      "TNT",
+      "EDS"
+    ],
+    "pricing": "4.99 EUR for orders below 50 EUR. Free for orders above 50 EUR.",
+    "free_delivery_limit": "50 EUR",
+    "delivery_time": "7-10 days",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "2-3 working days",
+      "pricing": "9.99 EUR"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only option available for Croatia, as part of the EU. Standard delivery costs 4.99 EUR for orders under 50 EUR (free for orders over 50 EUR) and takes 7-10 days. Express delivery is available for 9.99 EUR and takes 2-3 working days. PROVIDERS: FedEx, DHL, DPD, GLS, TNT, EDS. RESTRICTIONS: No information is provided on weekend delivery, island surcharges, or Cash on Delivery. Other delivery methods like parcel shops, lockers, or in-store pickup are not offered. NOTABLE FEATURES: The website offers express shipping and ensures discreet packaging for all orders. WEBSITE ASSESSMENT: The shipping information is presented clearly under a general EU policy. However, it lacks specific details relevant to Croatia, such as island delivery policies or local payment options like COD. The absence of alternative delivery methods (parcel lockers, pickup points) is a notable limitation."
+}

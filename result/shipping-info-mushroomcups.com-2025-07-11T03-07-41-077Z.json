@@ -1,0 +1,93 @@
+{
+  "website": "mushroomcups.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "€3.90 - 9.90€ flat rate shipping to all EU countries.",
+    "free_delivery_limit": "Free shipping for orders over €40.00",
+    "delivery_time": "All orders are processed within 1 to 5 business days (excluding weekends and holidays).",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only specified option available for Croatia, as part of their EU-wide shipping. PRICING: Shipping costs are a flat rate of €3.90 - €9.90, with free shipping on orders over €40.00. PROVIDERS & TIMEFRAMES: Specific courier companies are not mentioned. Order processing takes 1-5 business days, excluding weekends. A final delivery timeframe is not provided, but customers are advised to contact support if an order is not received within 30 days. NOTABLE FEATURES: Cash on Delivery (COD) is listed as a payment method, but any associated surcharge is not specified. There is no information on express delivery, weekend delivery, island surcharges, or alternative delivery methods like parcel shops, lockers, or in-store pickup. WEBSITE ASSESSMENT: The shipping information is basic and located on a dedicated 'Shipping policy' page. While it clearly states the pricing and free shipping threshold, it lacks crucial details such as courier partners, specific delivery times for Croatia, and policies for island deliveries."
+}

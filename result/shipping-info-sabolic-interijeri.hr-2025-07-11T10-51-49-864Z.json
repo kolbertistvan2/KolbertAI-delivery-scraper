@@ -1,0 +1,93 @@
+{
+  "website": "sabolic-interijeri.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Distribution of goods up to 50kg:\n- up to 1kg: 26,00 kn\n- up to 2kg: 28,00 kn\n- up to 5kg: 30,00 kn\n- up to 10kg: 32,00 kn\n- up to 15kg: 35,00 kn\n- up to 20kg: 40,00 kn\n- up to 30kg: 50,00 kn\n- up to 40kg: 60,00 kn\n- up to 50kg: 70,00 kn",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "VAŽNO. Cijena dostave je informativna zadržavamo pravo izmjenu cijene i kilaže za dostavu jer se obračunava po kubnom metru,za Dalmaciju i otoke cijenu dostave šaljemo nakon dostupnosti artikla...u obliku ponude",
+    "cod_surcharge": "Plaćanje pouzećem odnosno po primitku pošiljke SAMO DO IZNOSA DO 150,00 EUR. No surcharge is mentioned."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Prices for goods over 50kg are based on weight and six delivery zones defined by postal codes/counties. Prices are expressed in EUR per shipment without VAT. A detailed table is available on the website.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "VAŽNO. Cijena dostave je informativna zadržavamo pravo izmjenu cijene i kilaže za dostavu jer se obračunava po kubnom metru,za Dalmaciju i otoke cijenu dostave šaljemo nakon dostupnosti artikla...u obliku ponude",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The website offers home delivery for standard packages (up to 50kg) and bulky items (over 50kg). No other delivery methods like parcel shops, lockers, or in-store pickup are mentioned. \nNOTABLE FEATURES: Delivery to islands and the Dalmatia region requires a custom price quote, which is provided after the order is placed. Cash on Delivery (COD) is available but limited to orders up to 150 EUR; no surcharge is specified. Pricing for standard items is in HRK, while bulky items are priced in EUR based on weight and regional zones. No specific delivery providers or timeframes are listed. \nWEBSITE ASSESSMENT: Shipping information is located on the 'Uvjeti prodaje' (Terms of Sale) page. It provides detailed pricing tables but lacks clarity on delivery times and providers. There's a contradiction in the currency used for standard packages (HRK in the table vs. a note mentioning EUR). The process for island delivery is not clearly defined upfront, requiring customers to wait for a quote."
+}

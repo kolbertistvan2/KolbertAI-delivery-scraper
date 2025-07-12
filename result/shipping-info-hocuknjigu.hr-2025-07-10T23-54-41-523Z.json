@@ -1,0 +1,100 @@
+{
+  "website": "hocuknjigu.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "3,50 eura za narudžbe ispod 55 eura. Besplatno za narudžbe iznad 55 eura.",
+    "free_delivery_limit": "55 eura",
+    "delivery_time": "Maksimalno 48 sati od preuzimanja pošiljke (ne računajući vikende i praznike). Za otoke, maksimalno 72 sata.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke traje duže (do 72 sata), ali nema spomena o dodatnoj naplati.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "Nije specificirano, vjerojatno se primjenjuje standardna cijena dostave.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Box Now"
+    ],
+    "locations_count": "not available",
+    "pricing": "2 eura za narudžbe ispod 55 eura. Besplatno za narudžbe iznad 55 eura.",
+    "free_delivery_limit": "55 eura",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Sveti Duh 6, 10 000 Zagreb",
+    "pricing": "Besplatno",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Radno vrijeme za preuzimanje je od ponedjeljka do petka, 7:00 - 15:00."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Plaćanje pouzećem nije moguće kod osobnog preuzimanja."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Hoću knjigu offers home delivery, parcel locker delivery, and in-store pickup. PROVIDERS: Delivery partners are GLS, DPD, and Box Now. PRICING: Home delivery costs €3.50 (free for orders over €55). Parcel locker delivery is €2.00 (free over €55). In-store pickup is free. RESTRICTIONS: Delivery to islands takes longer (up to 72h). Weekend delivery is not available. Cash on delivery is an option for home delivery but not for in-store pickup; no surcharge is mentioned. NOTABLE FEATURES: Customers receive detailed email/SMS notifications for tracking and can manage their delivery (e.g., change address). Same-day parcel locker delivery is available for Zagreb. WEBSITE ASSESSMENT: The shipping information is comprehensive and clearly located on a dedicated page. It details providers, costs, delivery times, and various options. Information on potential COD or island surcharges is not explicitly stated."
+}

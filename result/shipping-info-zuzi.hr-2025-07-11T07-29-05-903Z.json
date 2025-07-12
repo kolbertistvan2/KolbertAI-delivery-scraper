@@ -1,0 +1,98 @@
+{
+  "website": "zuzi.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "GLS"
+    ],
+    "pricing": "Besplatna dostava Za narudžbe iznad 70€",
+    "free_delivery_limit": "70€",
+    "delivery_time": "Narudžbe koje zaprimimo radnim danom putem e-maila ili telefonski do 13.30h, isporučujemo vam isti dan sa naše adrese kurirskom službom, a dostavlja vam se drugi radni dan na vašu adresu u toku dana (okvirno vrijeme kurirske dostave, 10h-16h).\nPreostale narudžbe, pristigle poslije 13.30h, isporučujemo drugi radni dan i stižu dan kasnije na vašu adresu.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Isporuka i dostava pošiljaka se vrši svakim radnim danom osim subote, nedjelje i praznika."
+    },
+    "island_surcharge": "Kod isporuke na hrvatske otoke, dostava može potrajati dulje od 24h. Otoke koje ne pokriva GLS kurirska služba vlastitim vozilima dostavljati će u suradnji sa Hrvatskom poštom u tranzitnom vremenu 48-168h.",
+    "cod_surcharge": "nemate dodatnih troškova za trošak transakcije novca."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Antuna Šoljana 33, 10000 Zagreb",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery across Croatia and personal in-store pickup. Parcel shop and locker delivery are not available.\nPROVIDERS: Home delivery is handled by GLS and Hrvatska pošta (Croatian Post).\nPRICING: Delivery is free for orders over €70. The cost for orders below this amount is not specified. There is no surcharge for Cash on Delivery (COD).\nDELIVERY TIMES: Orders placed by 13:30 on a workday are typically delivered the next workday. For Croatian islands not directly served by GLS, delivery is handled by Hrvatska pošta and can take 48-168 hours.\nNOTABLE FEATURES: The standard delivery is very fast (next day for mainland). The shop provides SMS notifications about the shipment. In-store pickup is available on Saturdays at their Zagreb location.\nWEBSITE ASSESSMENT: The shipping information is detailed and clearly explains the delivery process, providers, and timelines, including specific procedures for island deliveries. The main omission is the lack of information on the standard shipping fee for orders under the free shipping threshold."
+}

@@ -1,0 +1,102 @@
+{
+  "website": "malalan.eu",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL",
+      "contractual partners"
+    ],
+    "pricing": "Free for purchases over €100.00. For purchases under this amount, the buyer is informed about the cost before confirming the order.",
+    "free_delivery_limit": "EUR 100.00",
+    "delivery_time": "3–5 working days from the date of receipt of the “order confirmation”",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "contractual partners"
+    ],
+    "pricing": "The buyer is informed about the amount of costs before confirming the order with a separate disclosure of the amount of these costs. The free shipping threshold for standard products does not apply.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb"
+    ],
+    "pricing": "free of charge",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery to Croatia and in-store pickup at their Zagreb boutique. Parcel shop and locker delivery are not available. PROVIDERS: Home delivery is handled by contractual partners, with DHL mentioned as one of them. PRICING: Home delivery is free for orders over €100. In-store pickup is free. For orders under the threshold and for bulky items, shipping costs are calculated at checkout. RESTRICTIONS: Delivery for some brands, like Fope, is limited to Slovenia and Croatia. No specific information on island delivery is provided. NOTABLE FEATURES: Bulky items have special shipping arrangements and costs. In-store pickup is available on Saturdays. WEBSITE ASSESSMENT: Shipping information is not on a dedicated page but is embedded within the lengthy 'Terms & Conditions' document, making it difficult for users to find. Key details such as a full list of couriers, express options, and potential island surcharges are missing. The information provided is basic and lacks clarity and accessibility."
+}

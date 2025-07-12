@@ -1,0 +1,99 @@
+{
+  "website": "jessyss.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Packeta",
+      "Overseas Express",
+      "Hrvatska pošta"
+    ],
+    "pricing": "Za narudžbe iznad 50 EUR dostava je besplatna ako plaćate na račun, platnom karticom ili putem usluge PayPal.\nZa narudžbe u vrijednosti do 50 EUR poštarina iznosi 3,95 EUR ako plaćate putem bankovnog transfera, platnom karticom ili putem usluge PayPal.",
+    "free_delivery_limit": "50 EUR",
+    "delivery_time": "3-5 radnih dana od dana slanja",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1 EUR"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express"
+    ],
+    "locations_count": "više od 850",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1 EUR"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and parcel shop pickup are available. PROVIDERS: Delivery is managed by Packeta, which collaborates with Overseas Express for mainland deliveries and Hrvatska Pošta for islands and remote areas. Parcel shop pickups are handled by the Overseas Express (OEX shop) network. PRICING: Standard home delivery is 3.95 EUR for orders up to 50 EUR, and free for orders above 50 EUR (excluding COD). A 1 EUR surcharge applies to all cash on delivery orders. Pricing for parcel shop delivery is not specified. DELIVERY TIME: The standard delivery timeframe is 3-5 business days. RESTRICTIONS: No express or weekend delivery options are mentioned. Delivery to islands is available via Hrvatska Pošta, but no specific surcharge is listed. NOTABLE FEATURES: The key features are a clear free shipping threshold at 50 EUR, a multi-carrier approach ensuring wide coverage (including islands), and the ability to redirect packages to a large network of over 850 parcel shops (OEX shops). A key limitation is the absence of an express delivery service. WEBSITE ASSESSMENT: The shipping information is presented on a single, easy-to-find page. It clearly details providers, standard costs, delivery times, and COD fees. The information is comprehensive for standard delivery but could be improved by specifying if the standard pricing applies to parcel shop delivery and clarifying if any surcharges exist for island deliveries."
+}

@@ -1,0 +1,99 @@
+{
+  "website": "svijetmetraze.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "GLS"
+    ],
+    "pricing": "5,00 EUR for orders below 50 EUR. Free for orders above 50 EUR.",
+    "free_delivery_limit": "50 EUR",
+    "delivery_time": "2 - 4 radna dana. U vrijeme većih popusta, rok dostave se produžuje.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "2,00 EUR"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "GLS"
+    ],
+    "pricing": "8,60 EUR for sewing machines",
+    "free_delivery_limit": "not available",
+    "delivery_time": "2 - 4 radna dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "2,00 EUR"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery. There is a separate shipping fee for bulky items like sewing machines. No other delivery options like parcel shops, lockers, or in-store pickup are mentioned.\nPROVIDERS: Hrvatska pošta, GLS.\nPRICING: Standard delivery costs 5,00 EUR for orders under 50 EUR and is free for orders over 50 EUR. Shipping for a sewing machine is 8,60 EUR. A cash on delivery (COD) surcharge of 2,00 EUR applies.\nDELIVERY TIME & RESTRICTIONS: Standard delivery time is 2-4 business days, which may be extended during sales periods. There is no information on express delivery, weekend delivery, or specific surcharges for island deliveries.\nNOTABLE FEATURES: Clear pricing structure with a free shipping threshold. Specific cost for bulky items (sewing machines) is provided. COD is available with a fixed surcharge.\nWEBSITE ASSESSMENT: The shipping information on the dedicated page is straightforward and covers essential details like cost, providers, and delivery time. However, it lacks information on alternative delivery methods, express options, and potential surcharges for specific locations like islands, which could be a point of improvement."
+}

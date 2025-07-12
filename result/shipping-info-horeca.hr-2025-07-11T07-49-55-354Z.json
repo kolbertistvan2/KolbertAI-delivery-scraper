@@ -1,0 +1,93 @@
+{
+  "website": "horeca.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "od 48 h do tjedan dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Svu naručenu robu moguće je preuzeti u odabranom Diskont-u Stanić za vrijeme radnog vremena. Popis poslovnica u kojima možete koristiti uslugu PREUZMI možete provjeriti OVDJE.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Narudžbe zaprimljene petkom, u dane vikenda kao i u vrijeme blagdana odnosno drugih neradnih dana biti će spremne sljedećeg radnog dana sukladno navedenom rasporedu."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The website's terms and conditions primarily detail an in-store pickup service ('Preuzmi u poslovnici') at their 'Diskont' stores. A vague mention of home delivery with a timeframe of '48 hours to a week' is present in the website footer, but no further details are provided. No other delivery methods like parcel shops or lockers are mentioned.\nPROVIDERS: No shipping providers are mentioned for any delivery method.\nPRICING & FEES: There is no information available regarding shipping costs, free shipping thresholds, or any surcharges for COD or island delivery.\nNOTABLE FEATURES: The main offered service is in-store pickup, where orders placed before 14:00 on a workday are ready for collection within 24-48 hours. Payment is made upon collection in the store via cash or card.\nWEBSITE ASSESSMENT: The shipping information on the website is extremely poor and incomplete. The 'Terms of Business' page, which is the only source of information, almost exclusively describes the in-store pickup process and lacks critical details for home delivery, such as costs, providers, and specific conditions. A dedicated and clear shipping information page is missing."
+}

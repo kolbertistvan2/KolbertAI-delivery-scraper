@@ -1,0 +1,95 @@
+{
+  "website": "brandsandtrends.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "5.20 eura. Free for orders over 50.00 eura.",
+    "free_delivery_limit": "50.00 eura",
+    "delivery_time": "up to 7 working days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0.52 eura"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only option available. PROVIDERS: DPD is the exclusive courier service. PRICING: Standard delivery costs 5.20 EUR, but is free for orders exceeding 50.00 EUR. A cash on delivery (COD) surcharge of 0.52 EUR applies regardless of the order value. RESTRICTIONS: Delivery is provided within Croatia, with an expected timeframe of up to 7 working days. No specific information is available for island delivery, weekend delivery, express options, or bulky items. Alternative delivery methods like parcel shops, lockers, or in-store pickup are not offered. NOTABLE FEATURES: The key features are a clear free shipping threshold at 50.00 EUR and a flat-rate delivery fee. The main limitation is the lack of delivery flexibility, with no express, weekend, or alternative pickup options. WEBSITE ASSESSMENT: Shipping information is located within the general 'Uvjeti kupnje' (Terms of Purchase) page, not on a dedicated delivery page, which makes it less accessible. The provided information is clear but incomplete, lacking details on island delivery, express services, and other common delivery methods."
+}

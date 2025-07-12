@@ -1,0 +1,101 @@
+{
+  "website": "vivre.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "Cijena isporuke je prikazana u košarici. Za dostavu narudžbi pouzećem naplaćuje se naknada.",
+    "free_delivery_limit": "Vivre Deco može imati kampanje u vezi s besplatnom dostavom za narudžbe plaćene unaprijed.",
+    "delivery_time": "Rok isporuke je naveden prilikom narudžbe i varira između 2 dana i 8 tjedana.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Proizvodi na zalihi bit će poslani odmah unutar naznačenog vremenskog okvira.",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Naplaćuje se naknada za plaćanje pouzećem koja je prikazana u košarici i može varirati ovisno o kupljenim proizvodima."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Vivre.hr offers home delivery via courier for standard and bulky items. There is no mention of parcel shops, parcel lockers, or in-store pickup options in Croatia.\nPROVIDERS: Specific courier companies are not named in the Terms and Conditions; they are only referred to as 'kurirska dostava' (courier delivery).\nPRICING: The exact shipping cost is displayed in the shopping cart. A surcharge is applied for Cash on Delivery (COD) payments. The company runs promotional campaigns for free delivery on prepaid orders.\nRESTRICTIONS: COD is not available for bulky products, large quantity orders (more than 10 of the same item), or orders exceeding 1100 €. All deliveries originate from Romania.\nNOTABLE FEATURES: A 'fast delivery' option is available for certain in-stock items. Orders may be split into multiple packages ('MultiColet') at no extra cost to ensure the integrity of items.\nWEBSITE ASSESSMENT: Shipping information is not easily accessible, being located within a lengthy and legally dense 'Terms and Conditions' document. Crucial details such as specific courier partners, exact shipping fees, and COD surcharges are only revealed during checkout. There is no information regarding delivery to Croatian islands. The overall quality and transparency of shipping information are low."
+}

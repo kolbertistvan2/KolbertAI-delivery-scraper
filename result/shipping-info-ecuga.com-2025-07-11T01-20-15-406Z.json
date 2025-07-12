@@ -1,0 +1,95 @@
+{
+  "website": "ecuga.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Cijena dostave za narudžbe do 70,00 € iznosi 5,00 €.",
+    "free_delivery_limit": "70,00 €",
+    "delivery_time": "2-5 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Dostava se ne vrši subotom, nedjeljom i praznicima."
+    },
+    "island_surcharge": "Rok isporuke za otoke je duži (do 7 radnih dana).",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method offered is home delivery via GLS courier service, available throughout Croatia. \nPRICING: Delivery costs 5,00 € for orders under 70,00 €, with free shipping for orders of 70,00 € or more. \nDELIVERY TIME: The standard delivery timeframe is 2-5 business days. For islands, the delivery time is extended up to 7 business days. \nNOTABLE FEATURES: Deliveries are not made on weekends (Saturdays, Sundays) or public holidays. Cash on delivery (pouzeće) is listed as a payment method, but no specific surcharge is mentioned. There are no options for express delivery, parcel shops, parcel lockers, or in-store pickup. \nWEBSITE ASSESSMENT: Shipping information is found within the 'Uvjeti kupovine' (Terms of Purchase) page. The information provided is clear and concise but limited. It covers the basics but lacks details on potential COD fees and does not offer alternative delivery methods."
+}

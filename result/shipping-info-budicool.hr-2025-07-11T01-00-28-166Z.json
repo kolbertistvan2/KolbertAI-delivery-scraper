@@ -1,0 +1,96 @@
+{
+  "website": "budicool.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Paket24",
+      "GLS"
+    ],
+    "pricing": "4,99e",
+    "free_delivery_limit": "100e",
+    "delivery_time": "2-5 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available shipping method is home delivery. PROVIDERS: Deliveries are handled by Paket24 and GLS. PRICING: Standard shipping costs €4.99. Shipping is free for orders over €100. DELIVERY TIME: The estimated delivery time is 2-5 business days. RESTRICTIONS: There is no information available regarding express delivery, weekend delivery, or any surcharges for island deliveries. NOTABLE FEATURES: Cash on delivery is offered as a payment method, but a specific surcharge is not mentioned. A penalty of €5 is charged if a shipment is not accepted by the customer and is returned to the sender. WEBSITE ASSESSMENT: The shipping information is located on a dedicated page and is easy to understand. However, it lacks detail on alternative delivery options (like parcel shops/lockers), express services, and potential surcharges for specific locations like islands."
+}

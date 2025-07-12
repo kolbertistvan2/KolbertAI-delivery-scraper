@@ -1,0 +1,95 @@
+{
+  "website": "shopbuilder.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Okvirno vrijeme provedbe iznosi pet radnih dana od datuma potvrde.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Posebni troškovi za pakiranje naplatit će se u slučaju prevelikih proizvoda, pri čemu se troškovi pakiranja razlikuju ovisno o proizvodu i naznačeni su na podatkovnom listu prevelikog proizvoda, kao i tijekom postupka naručivanja.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The website offers home delivery for standard and bulky items. No other delivery methods like parcel shops, lockers, or in-store pickup are mentioned.\nPROVIDERS: GLS is the only courier explicitly named for deliveries.\nPRICING: Specific shipping costs and free shipping thresholds are not available in the Terms & Conditions; this information is reportedly shown during the checkout process. Bulky items incur additional, product-specific charges.\nRESTRICTIONS: Delivery is stated to occur on working days. There is no information regarding surcharges or restrictions for deliveries to Croatian islands.\nNOTABLE FEATURES: Cash on delivery is available, but any potential surcharge is not specified. The standard delivery time is approximately five working days.\nWEBSITE ASSESSMENT: The Terms & Conditions page provides only general shipping information. Key details such as pricing, free shipping limits, and island delivery policies are missing, requiring the user to proceed to checkout to see the final costs. The information is not well-consolidated or easily accessible."
+}

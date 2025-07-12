@@ -1,0 +1,97 @@
+{
+  "website": "proteini-outlet.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "4 eur za DPD standard dostavu na odabranu adresu",
+    "free_delivery_limit": "not available",
+    "delivery_time": "prosječno vrijeme dostave paketa za kontinentalnu Hrvatsku je 2 – 3 dana, dok za otoke može biti dulje",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "dostava za otoke može biti dulja",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "2 eur za dostavu na BOX NOW paketomate",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "dostava za otoke može biti dulja",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop provides two delivery methods for Croatia: DPD home delivery and BOX NOW parcel locker delivery. PRICING: DPD home delivery is priced at 4 EUR. BOX NOW parcel locker delivery costs 2 EUR. No free shipping threshold is mentioned. DELIVERY TIME: DPD delivery takes an average of 2-3 days for continental Croatia, while BOX NOW takes 1-2 days. Delivery to islands may take longer for both services. NOTABLE FEATURES: The website does not mention options for express delivery, weekend delivery, cash on delivery (COD), or specific policies for bulky items. In-store pickup is not offered as a delivery method for online orders. WEBSITE ASSESSMENT: The shipping information is easy to find on a dedicated 'Dostava' page but lacks comprehensive details. Key information such as a free shipping limit, COD availability, and specific island delivery terms is missing."
+}

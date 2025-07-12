@@ -1,0 +1,97 @@
+{
+  "website": "gladnipsic.com.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Kurirska služba"
+    ],
+    "pricing": "4,9 €",
+    "free_delivery_limit": "49,99 €",
+    "delivery_time": "3-5 dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "dostava na otocima je po rasporedu dostave",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Nakon zaprimanja narudžbe koja sadrži proizvode većih dimenzija i mase, primjerice akvarija, kontaktirat će vas naša korisnička služba zbog dogovora. U slučaju narudžbe tih proizvoda pravovremeno ćemo Vas obavijestiti putem telefona ili email pošte o cijeni dostave već navedenih proizvoda.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "dva do maksimalno pet radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "K. Zahradnika 11, Zagreb"
+    ],
+    "pricing": "nema troškova dostave",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and in-store pickup are available. Parcel shop and parcel locker delivery are not offered.\nPROVIDERS: The specific courier service for home delivery is not named.\nPRICING: Standard home delivery costs 4,9 € and is free for orders over 49,99 €. In-store pickup is free. Bulky items have a special delivery cost determined after the order is placed.\nDELIVERY TIME: Standard delivery is 3-5 days for continental Croatia. Bulky item delivery is 2-5 working days. Delivery to islands follows a specific schedule.\nRESTRICTIONS: Delivery to islands is subject to a specific schedule, but no surcharge is mentioned. Bulky items (e.g., aquariums) have special delivery conditions and costs that are communicated post-order.\nNOTABLE FEATURES: Free in-store pickup is available in Zagreb. The cost for delivering large/heavy items is handled on a case-by-case basis.\nWEBSITE ASSESSMENT: The shipping information is generally clear and easy to find. However, it lacks crucial details such as the name of the courier company, information on weekend delivery, express options, and cash-on-delivery surcharges. The details about island delivery are vague, only mentioning a 'delivery schedule' without providing a link or further explanation."
+}

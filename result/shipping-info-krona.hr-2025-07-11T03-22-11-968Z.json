@@ -1,0 +1,95 @@
+{
+  "website": "krona.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Trošak dostave unutar Republike Hrvatske iznosi 3,90 € za narudžbe ispod 40,00EUR. Dostava je besplatna za sve narudžbe iznad 39,99EUR.",
+    "free_delivery_limit": "39,99EUR",
+    "delivery_time": "3-10 radnih dana.Rok isporuke može biti nešto duži u vrijeme velikih sniženja i neradnih dana te blagdana.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery option available is standard home delivery. There is no mention of in-store pickup, parcel shops, or parcel lockers.\nPROVIDERS: Delivery is handled by GLS.\nPRICING: Delivery costs €3.90 for orders under €40.00. Delivery is free for all orders of €39.99 and above. Cash on delivery is available, but no specific surcharge is mentioned.\nRESTRICTIONS: Delivery time is 3-10 working days and may be longer during sales periods. There is no information about express delivery, weekend delivery, or specific surcharges/restrictions for island deliveries.\nNOTABLE FEATURES: Clear and simple free shipping threshold. Cash on delivery is offered as a payment method.\nWEBSITE ASSESSMENT: Shipping information is located within the General Terms and Conditions page, not on a dedicated delivery page, which makes it harder to find. The information provided covers the basics (cost, provider, timeframe) but lacks detail on special services like express or weekend delivery and potential surcharges for islands. The information is sufficient for a standard purchase but could be more comprehensive and accessible."
+}

@@ -1,0 +1,101 @@
+{
+  "website": "topsport.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express",
+      "DPD"
+    ],
+    "pricing": "7.5 EUR",
+    "free_delivery_limit": "not available",
+    "delivery_time": "2-5 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands costs 10 EUR.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express",
+      "DPD"
+    ],
+    "pricing": "36 EUR for bicycles.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "2-5 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands costs 36 EUR.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Top Sport, Srima I br.58b, 22211 Vodice"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Cash on delivery is not possible for in-store pickup."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard and bulky items (bicycles) and in-store pickup. Parcel shop or locker delivery is not available.\nPROVIDERS: Delivery is handled by Overseas Express and DPD.\nPRICING: Standard home delivery costs 7.5 EUR. Delivery for bulky items like bicycles is 36 EUR. There is no mention of a free shipping threshold. In-store pickup pricing is not specified.\nRESTRICTIONS & SURCHARGES: Delivery to Croatian islands costs more for standard items (10 EUR) but the same for bicycles (36 EUR). Delivery time to islands depends on the ferry schedule. Cash on delivery is available for home delivery but not for in-store pickup; no surcharge is mentioned for this service.\nNOTABLE FEATURES: In-store pickup is available at their location in Vodice, but requires prior notice. Delivery time is 2-5 working days.\nWEBSITE ASSESSMENT: Shipping information is located within the 'Uvjeti korištenja' (Terms of Use) page, not on a dedicated page, which makes it harder to find. The information provided is basic but covers costs and timeframes. Key details like a free shipping threshold are missing. Delivery providers are only mentioned in the privacy policy section."
+}

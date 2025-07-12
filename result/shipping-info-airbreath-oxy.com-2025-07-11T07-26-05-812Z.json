@@ -1,0 +1,95 @@
+{
+  "website": "airbreath-oxy.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS Croatia d.o.o."
+    ],
+    "pricing": "5,50 EUR for orders below 50,00 EUR. Free for orders above 50,00 EUR.",
+    "free_delivery_limit": "50,00 EUR",
+    "delivery_time": "Isporuka će uslijediti u roku od osam (8) dana od dana narudžbe, a najkasnije u zakonom propisanom roku od trideset (30) dana. Očekujemo da će Vaša narudžba biti isporučena u roku od sedam do deset (7-10) dana od dana otpreme.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available delivery method is home delivery.\nPROVIDERS: Deliveries are handled by GLS Croatia d.o.o.\nPRICING: The shipping fee is 5,50 EUR for orders under 50,00 EUR. Delivery is free for all orders valued at 50,00 EUR or more.\nDELIVERY TIME: The expected delivery time is 7-10 days from the date of shipment, with a maximum legal delivery period of 30 days.\nRESTRICTIONS: No specific restrictions for island deliveries are mentioned.\nNOTABLE FEATURES: The website offers a relatively low free shipping threshold. No other delivery options like parcel shops, lockers, or in-store pickup are available. Information about COD, express, or weekend delivery is not provided.\nWEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated 'Dostava' page. However, it lacks details on several common delivery services and options, providing only basic home delivery information."
+}

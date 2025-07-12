@@ -1,0 +1,96 @@
+{
+  "website": "astratex.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "Overseas Express"
+    ],
+    "pricing": "Hrvatska pošta: 3,85 €\nOverseas Express Home Delivery: 4,91 €",
+    "free_delivery_limit": "za narudžbe iznad 55 €",
+    "delivery_time": "3 do 4 radna dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Astratex.hr offers home delivery in Croatia through Hrvatska pošta and Overseas Express. \nPRICING: Delivery via Hrvatska pošta costs €3.85, and via Overseas Express it is €4.91. Free shipping is available for all orders over €55. \nDELIVERY TIME: The standard delivery time is 3-4 working days for orders placed before 12:00. \nPAYMENT: Cash on delivery (Pouzećem) is available, but no specific surcharge is mentioned. \nNOTABLE FEATURES: The website does not provide information on express delivery, weekend delivery, island surcharges, or delivery of bulky items. Alternative delivery methods such as parcel shops, parcel lockers, or in-store pickup are not offered. \nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Dostava i plaćanje' page and is easy to find. The details provided are clear for standard home delivery but lack information on special circumstances (islands, express) and alternative delivery options."
+}

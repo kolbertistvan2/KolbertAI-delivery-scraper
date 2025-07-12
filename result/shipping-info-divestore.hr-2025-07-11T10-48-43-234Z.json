@@ -1,0 +1,107 @@
+{
+  "website": "divestore.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "HP",
+      "HP Ex",
+      "DPD",
+      "GLS",
+      "inTime",
+      "Intereuropa"
+    ],
+    "pricing": "Cijena standardne dostave za Hrvatsku kreće se od 4,25 do 39,15 EUR, ovisno o masi pošiljke.",
+    "free_delivery_limit": "Besplatna standardna dostava unutar Hrvatske ostvaruje se za vrijednost narudžbe iznad 80,00 EUR.",
+    "delivery_time": "2 do 4 dana",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Cijena dostave na otoke je 2,50 EUR skuplja od standardne dostave pošiljke iste mase. Dosta na otoke se može produljiti za nekoliko dana.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "HP",
+      "HP Ex",
+      "DPD",
+      "GLS",
+      "inTime",
+      "Intereuropa"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "Besplatna dostava nije moguća za masu pošiljke veću od 31,50 kg.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Cijena dostave na otoke je 2,50 EUR skuplja od standardne dostave pošiljke iste mase. Dosta na otoke se može produljiti za nekoliko dana.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the primary method offered. There is no mention of parcel shops, parcel lockers, or in-store pickup.\nPROVIDERS: Deliveries are handled by standard postal service (HP) or express couriers (HP Ex, DPD, GLS, inTime, Intereuropa).\nPRICING: Standard delivery in Croatia costs between €4.25 and €39.15, depending on weight. Free shipping is available for orders over €80.00.\nRESTRICTIONS: Free shipping is not available for all products or for shipments heavier than 31.50 kg. Deliveries to Croatian islands incur a surcharge of €2.50 and may take longer.\nNOTABLE FEATURES: The webshop offers both standard and express delivery options, although specific details (pricing, time) for express are not provided. Cash on delivery (Pouzeće) is listed as a payment method, but any associated surcharge is not mentioned on the delivery page.\nWEBSITE ASSESSMENT: The shipping information is generally clear and easy to find on a dedicated 'Dostava' page. It provides key details like standard pricing, free shipping threshold, and island delivery policies. However, it lacks specific information on express delivery costs and timelines, as well as pricing for bulky items."
+}

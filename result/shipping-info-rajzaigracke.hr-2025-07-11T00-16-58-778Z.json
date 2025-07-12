@@ -1,0 +1,100 @@
+{
+  "website": "rajzaigracke.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Isporuke predmeta ispunjenja (naručene robe) bit će prema dostupnosti proizvoda i operativnim mogućnostima prodavatelja realizirane u najkraćem mogućem roku, od obvezujuće potvrde narudžbe, u iznimnim slučajevima rok isporuke može biti duži, uz dogovor s kupcem.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebruder Weiss"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS Parcelshop"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard and bulky items, as well as parcel shop pickup. In-store pickup and parcel lockers are not available.\nPROVIDERS: Delivery is handled by GLS, DPD, and Gebruder Weiss for freight/bulky items. GLS Parcelshop is available for pickups.\nPRICING: Specific shipping costs, free shipping thresholds, and any surcharges for cash on delivery or island delivery are not mentioned on the Terms and Conditions page. Delivery time is vaguely described as 'in the shortest possible time'.\nNOTABLE FEATURES: The site provides multiple delivery carriers, including a specialized one for bulky goods. Cash on delivery is offered as a payment method, but any associated fee is not specified.\nWEBSITE ASSESSMENT: The shipping information is incomplete. While delivery methods and providers are listed, essential details like pricing, specific delivery timeframes, and potential surcharges are missing. Customers likely need to proceed to checkout to view actual shipping costs."
+}

@@ -1,0 +1,96 @@
+{
+  "website": "mojabeba.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa",
+      "HP Express"
+    ],
+    "pricing": "10,00 eura for orders under 99,00 eura",
+    "free_delivery_limit": "99,00 eura",
+    "delivery_time": "unutar 48h (2 dana) do Vaših ulaznih vrata – subote i nedjelje ne računaju se u rok dostave",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available shipping method is home delivery across Croatia.\nPROVIDERS: Delivery is handled by Intereuropa and HP Express.\nPRICING: Shipping costs 10,00 EUR for orders below 99,00 EUR. Orders of 99,00 EUR and above qualify for free delivery.\nDELIVERY TIME: In-stock items are delivered within 48 hours (2 business days).\nRESTRICTIONS: Deliveries are not made on Saturdays and Sundays.\nNOTABLE FEATURES: The website does not mention options for express delivery, cash on delivery, island surcharges, or alternative pickup methods like parcel lockers or in-store pickup.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Načini dostave' page and is straightforward. However, it lacks detail on several common shipping aspects, such as COD, island delivery specifics, and alternative delivery options."
+}

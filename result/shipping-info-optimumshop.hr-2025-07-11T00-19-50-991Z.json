@@ -1,0 +1,95 @@
+{
+  "website": "optimumshop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "HP ( PAKET 24 )"
+    ],
+    "pricing": "Cijena dostave iznosi 4,99 EURA bez obzira na broj proizvoda koji su naručeni i bez obzira na ukupnu cijenu narudžbe.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-5 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available delivery method is home delivery. PROVIDERS: Delivery is handled by Hrvatska pošta (HP PAKET 24). PRICING: There is a flat shipping fee of €4.99 for all orders, regardless of size or value. No free shipping is offered. Cash on delivery is an option, but any potential surcharge is not specified. DELIVERY TIME: The standard delivery time is 3-5 business days. RESTRICTIONS: No information is provided regarding surcharges or restrictions for delivering to Croatian islands. NOTABLE FEATURES: The website highlights its customer support and the option to pay upon delivery. WEBSITE ASSESSMENT: Shipping information is minimal and located within the FAQ section, not on a dedicated page. Key details such as express options, weekend delivery, island surcharges, and specific COD fees are missing. There is also conflicting information about the delivery timeframe (2 days vs. 3-5 days)."
+}

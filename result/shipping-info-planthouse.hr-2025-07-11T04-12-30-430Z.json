@@ -1,0 +1,95 @@
+{
+  "website": "planthouse.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Pismovna pošiljka (sjeme): 5.75€. Paket (sadnice): 7.90€. Minimalna narudžba za sjeme: 10.00€. Minimalna narudžba za sadnice: 20.00€. Minimalna narudžba za sadnice + sjeme: 30.00€.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Narudžba se otprema najkasnije 5 radnih dana od uplate.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1.00€"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Delivery is exclusively via GLS home delivery. No other options like parcel shops, lockers, or in-store pickup are offered.\nPRICING: Shipping costs are flat-rate: €5.75 for letter shipments (seeds) and €7.90 for packages (seedlings). Minimum order values apply (€10 for seeds, €20 for seedlings). No free shipping threshold is mentioned. Cash on delivery costs an extra €1.00.\nDELIVERY TIME: Orders are dispatched within 5 working days of payment confirmation. The final delivery day is communicated via SMS by GLS.\nRESTRICTIONS: Personal pickup is explicitly not possible. No information is provided regarding island delivery surcharges or restrictions.\n\nNOTABLE FEATURES: Simple, flat-rate pricing based on product type (seed vs. plant) rather than weight or order value. Minimum order thresholds are required for shipping.\n\nWEBSITE ASSESSMENT: The shipping information is located on a clear, dedicated page. It provides essential details on the provider, costs, and processing time. However, it lacks information on specific transit times, express options, weekend delivery, and potential island surcharges."
+}

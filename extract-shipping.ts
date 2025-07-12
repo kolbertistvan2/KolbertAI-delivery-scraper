@@ -10,6 +10,28 @@ if (!process.env.BROWSERBASE_API_KEY) {
 
 const RESULT_DIR = 'result-delivery';
 
+// Dynamic prompt loading function
+async function loadPromptTemplate(promptFile: string = 'prompt.txt'): Promise<string> {
+  try {
+    const promptPath = path.join(process.cwd(), promptFile);
+    const promptContent = await fs.readFile(promptPath, 'utf-8');
+    return promptContent;
+  } catch (error) {
+    console.error(`Error loading prompt template from ${promptFile}:`, error);
+    throw new Error(`Failed to load prompt template: ${promptFile}`);
+  }
+}
+
+// Általánosított változócsere
+function replacePromptVariables(template: string, variables: Record<string, string>): string {
+  let result = template;
+  for (const [key, value] of Object.entries(variables)) {
+    const regex = new RegExp(`\\$\{${key}\}`, 'g');
+    result = result.replace(regex, value);
+  }
+  return result;
+}
+
 const shippingSchema = z.object({
   website: z.string(),
   HOME_DELIVERY: z.object({
@@ -167,6 +189,15 @@ async function processDomain(domain: string) {
     const page = stagehand.page;
     if (!page) throw new Error("Failed to get page instance from Stagehand");
 
+    // Load and process prompt template
+    console.log(`[${domain}] Loading prompt template from prompt.txt...`);
+    const promptTemplate = await loadPromptTemplate('prompt.txt');
+    const variables = { website: domain };
+    const prompt = replacePromptVariables(promptTemplate, variables);
+    const hasIslandSurcharge = prompt.includes('island_surcharge');
+    
+    console.log(`[${domain}] Using prompt with island_surcharge: ${hasIslandSurcharge}`);
+
     // Step 1: Goto homepage (robust)
     const homepage = `https://${domain}`;
     const stagehandRef = { stagehand };
@@ -175,14 +206,14 @@ async function processDomain(domain: string) {
     const pageAfter = stagehand.page;
     if (!pageAfter) throw new Error("Failed to get page instance from Stagehand after restart");
 
-    // Step 2: Multi-stage observe fallback
-    const observePromptMain = `Stagehand tool használatával:\n\n1. Navigate to homepage of the website: ${domain}\n2. Search for shipping information to Croatia in these locations:\n* Dedicated shipping info pages (/dostava, /shipping, /delivery)\n* Footer links: \"dostava\", \"shipping\", \"informacije o dostavi\", \"troškovi dostave\"\n* FAQ section: search for shipping/delivery keywords in Croatian\n* Terms & Conditions page for shipping terms\n\n3. Extract shipping information from all relevant pages\n\nEXTRACT EXACTLY THESE SHIPPING CATEGORIES:\n\nHOME DELIVERY:\n* Available: yes/no\n* Providers: [list of shipping companies such as: GLS, Hrvatska pošta, DPD, Overseas Express, DHL, UPS, Gebrüder Weiss, InTime, etc.]\n* Pricing: [price information and free shipping thresholds]\n* Delivery time: [timeframe - e.g., 2-5 business days]\n* Express delivery: [availability, pricing, delivery time]\n* Weekend delivery: [availability, which days]\n* Island surcharge: [extra cost or delivery restrictions to Croatian islands like Rab, Krk, Brač, Hvar, etc.]\n* COD surcharge: [cash on delivery surcharge]\n\nBULKY PRODUCT HOME DELIVERY:\n* Available: yes/no\n* Providers: [list of shipping companies for bulky items such as: GLS, Hrvatska pošta, DPD, Overseas Express, etc.]\n* Pricing: [price information for bulky items]\n* Delivery time: [timeframe for bulky items]\n* Express delivery: [availability, pricing, delivery time for bulky items]\n* Weekend delivery: [availability, which days for bulky items]\n* Island surcharge: [extra cost or delivery restrictions to islands for bulky items]\n* COD surcharge: [cash on delivery surcharge for bulky items]\n\nPARCEL SHOPS / PICKUP POINTS:\n* Available: yes/no\n* Providers: [such as: GLS, Hrvatska pošta, DPD, Overseas Express, etc.]\n* Number of locations: [number if visible]\n* Pricing: [price information]\n* Express delivery: [availability, pricing, delivery time]\n* Weekend delivery: [availability, which days]\n* Island surcharge: [extra cost or delivery restrictions to islands]\n* COD surcharge: [cash on delivery surcharge]\n\nPARCEL LOCKERS:\n* Available: yes/no\n* Providers: [such as: Box Now, GLS, Hrvatska pošta, DPD, Overseas Express, etc.]\n* Number of locations: [number if visible]\n* Pricing: [price information]\n* Express delivery: [availability, pricing, delivery time]\n* Weekend delivery: [availability, which days]\n* Island surcharge: [extra cost or delivery restrictions to islands]\n* COD surcharge: [cash on delivery surcharge]\n\nIN-STORE PICKUP:\n* Available: yes/no\n* Locations: [store locations/cities if available]\n* Pricing: [price information]\n* Express delivery: [availability, pricing, delivery time]\n* Weekend delivery: [availability, which days]\n* Island surcharge: [extra cost or delivery restrictions to islands]\n* COD surcharge: [cash on delivery surcharge]\n\nWebsite: ${domain} Country: HR\n\nResponse Format: Return exactly this JSON structure. If a field is unavailable, write \"not available\". Strings should be human-readable.\n{\n  \"website\": \"${domain}\",\n  \"HOME_DELIVERY\": {\n    \"available\": \"yes/no/not available\",\n    \"providers\": [\"provider1\", \"provider2\"],\n    \"pricing\": \"price info or not available\",\n    \"delivery_time\": \"timeframe or not available\",\n    \"express_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"delivery_time\": \"timeframe or not available\",\n      \"pricing\": \"price info or not available\"\n    },\n    \"weekend_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"days\": [\"Saturday\", \"Sunday\"] or \"not available\"\n    },\n    \"island_surcharge\": \"extra cost or delivery restrictions to Croatian islands like Rab, Krk, Brač, Hvar, etc., or not available\",\n    \"cod_surcharge\": \"exact surcharge or not available\"\n  },\n  \"BULKY_PRODUCT_HOME_DELIVERY\": {\n    \"available\": \"yes/no/not available\",\n    \"providers\": [\"provider1\", \"provider2\"],\n    \"pricing\": \"price info or not available\",\n    \"delivery_time\": \"timeframe or not available\",\n    \"express_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"delivery_time\": \"timeframe or not available\",\n      \"pricing\": \"price info or not available\"\n    },\n    \"weekend_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"days\": [\"Saturday\", \"Sunday\"] or \"not available\"\n    },\n    \"island_surcharge\": \"extra cost or delivery restrictions to islands or not available\",\n    \"cod_surcharge\": \"exact surcharge or not available\"\n  },\n  \"PARCEL_SHOPS\": {\n    \"available\": \"yes/no/not available\",\n    \"providers\": [\"provider1\", \"provider2\"],\n    \"locations_count\": \"number or not available\",\n    \"pricing\": \"price info or not available\",\n    \"express_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"delivery_time\": \"timeframe or not available\",\n      \"pricing\": \"price info or not available\"\n    },\n    \"weekend_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"days\": [\"Saturday\", \"Sunday\"] or \"not available\"\n    },\n    \"island_surcharge\": \"extra cost or delivery restrictions to islands or not available\",\n    \"cod_surcharge\": \"exact surcharge or not available\"\n  },\n  \"PARCEL_LOCKERS\": {\n    \"available\": \"yes/no/not available\",\n    \"providers\": [\"provider1\", \"provider2\"],\n    \"locations_count\": \"number or not available\",\n    \"pricing\": \"price info or not available\",\n    \"express_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"delivery_time\": \"timeframe or not available\",\n      \"pricing\": \"price info or not available\"\n    },\n    \"weekend_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"days\": [\"Saturday\", \"Sunday\"] or \"not available\"\n    },\n    \"island_surcharge\": \"extra cost or delivery restrictions to islands or not available\",\n    \"cod_surcharge\": \"exact surcharge or not available\"\n  },\n  \"IN_STORE_PICKUP\": {\n    \"available\": \"yes/no/not available\",\n    \"locations\": [\"city1\", \"city2\"] or \"not available\",\n    \"pricing\": \"price info or not available\",\n    \"express_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"delivery_time\": \"timeframe or not available\",\n      \"pricing\": \"price info or not available\"\n    },\n    \"weekend_delivery\": {\n      \"available\": \"yes/no/not available\",\n      \"days\": [\"Saturday\", \"Sunday\"] or \"not available\"\n    },\n    \"island_surcharge\": \"extra cost or delivery restrictions to islands or not available\",\n    \"cod_surcharge\": \"exact surcharge or not available\"\n  },\n  \"SUMMARY\": \"[Brief summary of delivery options, providers, pricing, and restrictions]. NOTABLE FEATURES: [Key features, limitations, and special services]. WEBSITE ASSESSMENT: [Overall evaluation of shipping information quality and completeness].\"\n}\n\nIf something is not available or not found, write \"not available\".\nOnly extract information that is explicitly visible on the pages. Do not assume or guess.\n\nIMPORTANT: The SUMMARY field should be formatted as a single text string that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.`;
+    // Step 2: Multi-stage observe fallback with dynamic prompts
     const fallbackPrompts = [
-      observePromptMain,
-      `Find and return the selector for a footer link related to shipping or delivery (e.g. 'dostava', 'shipping', 'informacije o dostavi', 'isporuka', 'prijevoz') on the homepage of ${domain}.`,
-      `Find and return the selector for a FAQ section or link related to shipping or delivery on the homepage of ${domain}.`,
-      `Find and return the selector for a Terms and Conditions ("Uvjeti korištenja" or similar) link on the homepage of ${domain}.`,
+      prompt,
+      replacePromptVariables(`Find and return the selector for a footer link related to shipping or delivery on the homepage of ${domain}.`, { website: domain }),
+      replacePromptVariables(`Find and return the selector for a FAQ section or link related to shipping or delivery on the homepage of ${domain}.`, { website: domain }),
+      replacePromptVariables(`Find and return the selector for a Terms and Conditions link on the homepage of ${domain}.`, { website: domain }),
     ];
+    
     let observed = null;
     let usedPromptIndex = -1;
     for (let i = 0; i < fallbackPrompts.length; i++) {
@@ -195,9 +226,11 @@ async function processDomain(domain: string) {
         break;
       }
     }
+    
     if (observed) {
       const fallbackNames = ['main', 'footer', 'faq', 'terms'];
       console.log(`[${domain}] Observed selector (fallback: ${fallbackNames[usedPromptIndex]}):`, observed.selector);
+      
       // Step 3: Act (click) on the observed link
       console.log(`[${domain}] Clicking observed shipping/delivery link...`);
       await page.act({
@@ -206,10 +239,11 @@ async function processDomain(domain: string) {
         arguments: [],
         selector: observed.selector
       });
+      
       // Step 4: Extract shipping info
       console.log(`[${domain}] Extracting shipping information...`);
       const extractedData = await page.extract({
-        instruction: observePromptMain,
+        instruction: prompt,
         schema: shippingSchema
       });
       console.log(`[${domain}] Extraction completed successfully.`);
@@ -218,7 +252,7 @@ async function processDomain(domain: string) {
       // Fallback: extract directly from homepage
       console.log(`[${domain}] No link found in any observe stage, extracting directly from homepage...`);
       const extractedData = await page.extract({
-        instruction: observePromptMain,
+        instruction: prompt,
         schema: shippingSchema
       });
       return extractedData;
@@ -321,26 +355,26 @@ async function aggregateResults() {
 
 async function main() {
   await ensureResultDir();
+  
+  // Get domain from command line arguments (as passed by run-batches.sh)
   const domains = process.argv.slice(2);
   if (domains.length === 0) {
-    console.error('Usage: node extract-shipping.js <domain1> <domain2> ...');
-    process.exit(1);
+    // Ha nincs argumentum, aggregáljunk!
+    console.log('No domain argument provided, aggregating all results...');
+    await aggregateResults();
+    return;
   }
-  for (const domain of domains) {
-    const outFile = path.join(RESULT_DIR, `shipping-info-${domain}-${getTimestamp()}.json`);
-    // Check if result already exists
-    const resultPattern = new RegExp(`^shipping-info-${domain}-.*\.json$`);
-    const existingFiles = await fs.readdir(RESULT_DIR);
-    const alreadyExists = existingFiles.some(f => resultPattern.test(f));
-    if (alreadyExists) {
-      console.log(`Skipping ${domain}: result already exists.`);
-      continue;
-    }
-    console.log(`Processing: ${domain}`);
-    const data = await retryProcessDomain(domain, 3);
-    await fs.writeFile(outFile, JSON.stringify(data, null, 2), 'utf-8');
-    console.log(`Result for ${domain} written to ${outFile}`);
-  }
+  
+  // Process single domain (as called by run-batches.sh)
+  const domain = domains[0];
+  const outFile = path.join(RESULT_DIR, `shipping-info-${domain}-${getTimestamp()}.json`);
+  
+  console.log(`Processing: ${domain}`);
+  const data = await retryProcessDomain(domain, 3);
+  await fs.writeFile(outFile, JSON.stringify(data, null, 2), 'utf-8');
+  console.log(`Result for ${domain} written to ${outFile}`);
+
+  // Minden domain után aggregálj!
   await aggregateResults();
 }
 

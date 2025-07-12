@@ -1,0 +1,95 @@
+{
+  "website": "aboutyou.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Post HR"
+    ],
+    "pricing": "Za narudžbe u vrijednosti od 17,90 € i iznad dostava je besplatna. Ako je vrijednost narudžbe manja, naknada za dostavu i usluge po narudžbi iznosi 2,90 € uključujući PDV.",
+    "free_delivery_limit": "17,90 €",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Standard home delivery is the only method offered. Delivery is restricted to the Republic of Croatia. PROVIDERS: Hrvatska Pošta (Post HR) is the only indicated delivery partner. PRICING: Delivery is free for orders of €17.90 and above. For orders below this value, a fee of €2.90 applies. NOTABLE FEATURES: Payment on delivery (pouzećem) is available, though no specific surcharge is mentioned. The store offers a 100-day return policy. WEBSITE ASSESSMENT: Shipping information is minimal and located within the General Terms and Conditions (Opći uvjeti poslovanja), not on a dedicated page. While the pricing structure is clear, the site lacks essential details such as estimated delivery times, information on island deliveries, express options, or alternative delivery methods like parcel shops or lockers. The overall quality of shipping information is poor due to its lack of detail and difficult-to-find location."
+}

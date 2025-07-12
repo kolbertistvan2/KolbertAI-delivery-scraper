@@ -1,0 +1,103 @@
+{
+  "website": "guttashop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Paket24 Hrvatske pošte",
+      "Lagermax",
+      "Quehenberger"
+    ],
+    "pricing": "Shipping cost is based on order value:\n- up to 75,00€: 7,50€\n- 75,01€ to 150,00€: 15,00€\n- 150,01€ to 225,00€: 22,50€\n- 225,01€ to 300,00€: 30,00€\n- 300,01€ to 375,00€: 37,50€\n- 375,01€ to 450,00€: 45,00€\n- 450,01€ to 525,00€: 52,50€\n- 525,01€ to 600,00€: 60,00€\n- 600,01€ to 675,00€: 67,50€\n- 675,01€ to 750,00€: 75,00€\n- 750,01€ to 825,00€: 82,50€\n- 825,01€ to 900,00€: 90,00€\n- 900,01€ to 975,00€: 97,50€",
+    "free_delivery_limit": "Free shipping for orders over 975,00€ (not applicable to island deliveries or items marked 'Cijena dostave na upit').",
+    "delivery_time": "4-7 business days (can be extended to 7-15 business days for islands or unforeseen circumstances)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Standard pricing and free shipping do not apply. The cost is calculated manually upon request based on the courier's price list.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Paket24 Hrvatske pošte",
+      "Lagermax",
+      "Quehenberger"
+    ],
+    "pricing": "The standard pricing table applies, but for specific bulky items (e.g., panels over 4m, pallets over 3m), the price is available on request (\"Cijena dostave na upit\").",
+    "free_delivery_limit": "not available",
+    "delivery_time": "7-15 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Standard pricing and free shipping do not apply. The cost is calculated manually upon request based on the courier's price list.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Gutta Hrvatska d.o.o. (skladište), KOBILJAČKA CESTA 102/1, 10361 SESVETSKI KRALJEVAC",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Working hours: Mon-Fri 8:00-16:00"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Gutta.hr provides home delivery throughout Croatia and personal pickup from their warehouse in Sesvetski Kraljevac. Parcel shop and locker delivery are not offered.\nPROVIDERS: Delivery is handled by GLS, Paket24 Hrvatske pošte, Lagermax, and Quehenberger.\nPRICING & DELIVERY TIME: Home delivery costs are tiered based on order value, starting at 7.50€ and going up to 97.50€. Shipping is free for orders over 975.00€. Standard delivery time is 4-7 business days, extending to 7-15 days for bulky items and island deliveries. Personal pickup is free.\nNOTABLE FEATURES: A significant restriction is that the standard pricing and free shipping do not apply to island deliveries or certain bulky items marked 'Price on request'; these costs are calculated manually after an inquiry. Cash on delivery (COD) is not available as a payment method.\nWEBSITE ASSESSMENT: The shipping information is well-organized and detailed on a dedicated page. The tiered pricing structure is clear. The main drawback is the lack of a fixed price list for island deliveries, which requires customers to contact the company for a quote."
+}

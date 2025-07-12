@@ -1,0 +1,101 @@
+{
+  "website": "pixma-itshop.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Hp express"
+    ],
+    "pricing": "6,30Eur po paketu do 20kg težine (cijela Hrvatska).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "12 - 48 sati",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Subote i Nedjelje ne računaju se u rok dostave."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Hp express"
+    ],
+    "pricing": "Za veće pakete i palete obračunava se cijena po cijeniku dostavnih službi.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "12 - 48 sati",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Subote i Nedjelje ne računaju se u rok dostave."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Trogir"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery for standard and bulky items, and in-store pickup are available. PROVIDERS: GLS and HP Express are used for nationwide delivery. PRICING: Standard delivery is €6.30 for packages up to 20kg. Pricing for bulky items is based on the courier's price list. No free shipping threshold is mentioned. DELIVERY TIME: 12-48 hours, excluding weekends. RESTRICTIONS: Delivery is only within Croatia. No specific information on island surcharges. NOTABLE FEATURES: In-store pickup is available in Trogir. Cash on delivery is possible, but any potential surcharge is not stated. No express or weekend delivery options are mentioned. WEBSITE ASSESSMENT: The shipping information is found within the 'Uvjeti prodaje' page and is somewhat limited. While it provides basic costs and providers, it lacks details on free shipping, island delivery, and express options, which reduces its completeness."
+}

@@ -1,0 +1,102 @@
+{
+  "website": "konzum.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Wolt",
+      "Konzum"
+    ],
+    "pricing": "Order value up to €90.00: €4.99. Order value from €90.00 to €130.00: €3.99. Order value from €130.00 to €160.00: €2.99. Order value over €160.00: Free. Minimum order value is €50.00.",
+    "free_delivery_limit": "160,00 €",
+    "delivery_time": "Konzum delivery: next day from the day of the order. Wolt delivery: within 3 hours.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Within 3 hours",
+      "pricing": "Follows standard pricing: up to €90 is €4.99, €90-€130 is €3.99, €130-€160 is €2.99, over €160 is free."
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Konzum"
+    ],
+    "pricing": "Follows standard pricing: up to €90 is €4.99, €90-€130 is €3.99, €130-€160 is €2.99, over €160 is free.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Next day from the day of the order",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Konzum provides two main home delivery services: a standard next-day delivery using its own vehicle fleet and an express 3-hour delivery in partnership with Wolt. The standard service covers major cities like Zagreb, Split, Rijeka, Zadar, and Osijek with their surrounding areas. The Wolt express service is restricted to the inner city area of Zagreb. In-store pickup options ('Pokupi' and 'Drive In') are indicated but not detailed on the page. \nPRICING: Delivery pricing is tiered based on the order total. It costs €4.99 for orders up to €90, €3.99 for orders between €90 and €130, and €2.99 for orders between €130 and €160. Delivery is free for all orders exceeding €160. The minimum order value for delivery is €50. \nNOTABLE FEATURES: A key feature is the 3-hour express delivery via Wolt in Zagreb. Standard delivery is available on Saturdays. Payment for Wolt deliveries is strictly online, while standard Konzum delivery allows for payment upon receipt. Bulky items are excluded from the Wolt express service. \nWEBSITE ASSESSMENT: The shipping information is presented clearly, effectively distinguishing between the two delivery types. The pricing structure is transparent and easy to find. However, the page lacks any information regarding delivery to Croatian islands and does not provide details on the 'Pokupi' (In-Store Pickup) or 'Drive In' services mentioned in the site's footer."
+}

@@ -1,0 +1,106 @@
+{
+  "website": "makromikrogrupa.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Own delivery service (Grad Zagreb)",
+      "Courier services"
+    ],
+    "pricing": "For orders under 80,00 € + VAT:\n• up to 10 kg – 5,60 € + VAT\n• 10 – 20 kg – 11,20 € + VAT",
+    "free_delivery_limit": "Free for orders over 80,00 € (+ VAT) and under 20 kg.",
+    "delivery_time": "1 working day for Zagreb area (own delivery), 2-3 working days from central warehouse, 3-7 working days from multiple locations.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Iznimka su otoci i mjesta koja ne podržavaju svakodnevnu dostavu. (Exception are islands and places that do not support daily delivery.)",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Own delivery service (Grad Zagreb)",
+      "Courier services"
+    ],
+    "pricing": "For orders over 80,00 € + VAT:\n• 20 – 50 kg – 8,00 € + VAT\n• 50 – 80 kg – 13,60 € + VAT\n• Over 80 kg – 16,00 € + VAT\n• Pallet – 37,00 € + VAT\n\nFor orders under 80,00 € + VAT:\n• 20 – 50 kg – 13,60 € + VAT\n• Over 50 kg – 19,00 € + VAT",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1 working day for Zagreb area (own delivery), 2-3 working days from central warehouse, 3-7 working days from multiple locations.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Iznimka su otoci i mjesta koja ne podržavaju svakodnevnu dostavu. (Exception are islands and places that do not support daily delivery.)",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "4,79 € + PDV (service available only for individuals)",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "Pickup is possible within the working hours of the selected parcel shop."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "No surcharge mentioned, but COD is available with cash payment at the parcel shop."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "3,99 € + PDV (service available only for individuals)",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "No surcharge mentioned, but COD is available with card payment at the locker."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery via its own fleet in Zagreb and unnamed courier services for the rest of Croatia. It also provides delivery to GLS Parcel Lockers and GLS Parcel Shops for smaller items. In-store pickup is not mentioned as a delivery option.\nPRICING: Home delivery pricing is tiered based on order value (above/below 80€ + VAT) and weight, with free delivery for orders over 80€ + VAT and under 20kg. GLS Parcel Locker delivery costs 3.99€ + VAT, and GLS Parcel Shop delivery is 4.79€ + VAT.\nDELIVERY TIMES: Delivery is typically within 1 working day in Zagreb, and 2-7 working days for the rest of Croatia, depending on stock location. Delivery to islands may take longer.\nNOTABLE FEATURES: The company uses its own delivery service for business customers in Zagreb, ensuring fast delivery. GLS Parcel Lockers offer 24/7 pickup availability. COD is an option for parcel shop (cash) and parcel locker (card) deliveries.\nWEBSITE ASSESSMENT: The shipping information page is clear and provides detailed pricing for home delivery. It clearly outlines the conditions for using parcel services. However, it fails to name the general courier service provider and lacks any information on express delivery options or specific COD surcharges."
+}

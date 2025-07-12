@@ -1,0 +1,97 @@
+{
+  "website": "amds.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "4,65 € for orders less than 50,00 €.",
+    "free_delivery_limit": "49.99 €",
+    "delivery_time": "3 to 7 working days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to less populated areas is done on a weekly schedule, which may extend delivery time. A list of locations where DPD does not deliver is available via a link on the website.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW"
+    ],
+    "locations_count": "not available",
+    "pricing": "From 01.05.2025, the cost is 2,50 EUR for orders less than 50,00 EUR.",
+    "free_delivery_limit": "Free delivery from 10.02.2025 to 30.04.2025 regardless of the value. For orders over 50,00 EUR from 01.05.2025.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available (payment is digital-only via a link, no cash)"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery and parcel locker pickup within Croatia only.\nPROVIDERS: Home delivery is handled by DPD, and parcel locker services are provided by BOX NOW.\nPRICING: DPD delivery costs €4.65 for orders under €50.00 and is free for orders over €49.99. BOX NOW delivery costs €2.50 for orders under €50.00 (effective from May 1, 2025), with a promotional free delivery period from February 10, 2025, to April 30, 2025.\nNOTABLE FEATURES: Cash on delivery is available for DPD home delivery without a specified surcharge. For BOX NOW lockers, payment upon pickup is handled exclusively through a digital payment link (no cash). DPD delivery to certain less populated areas may be delayed, and a list of non-delivery zones exists.\nWEBSITE ASSESSMENT: Shipping information is integrated into the 'Uvjeti kupnje' (Terms of Purchase) page. While the core details are present, they could be more accessible on a dedicated delivery page. The pricing information for BOX NOW refers to future dates in 2025, which may be confusing for customers placing orders currently. Details on island delivery are limited to potential delays and a non-delivery list for DPD, lacking specific surcharge information."
+}

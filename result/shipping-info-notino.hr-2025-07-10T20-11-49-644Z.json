@@ -1,0 +1,101 @@
+{
+  "website": "notino.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Paket24 Hrvatske pošte",
+      "DPD"
+    ],
+    "pricing": "Paket24 Hrvatske pošte: 3,49 €\nDPD: 3,99 €",
+    "free_delivery_limit": "Besplatna dostava na određeni način dostave na odabrane brendove",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,00 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta - Poštanski ured"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,99 €",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,00 €"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BOX NOW",
+      "Hrvatska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "BOX NOW paketomat: 2,49 €\nHrvatska pošta - Paketomat: 2,49 €",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,00 €"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Notino Mjesta preuzimanja",
+    "pricing": "2,00 €",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,00 € (Gotovina ili kartica u trgovini dostupno)"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Notino.hr offers a variety of delivery methods in Croatia, including home delivery, parcel lockers, parcel shops (post offices), and in-store pickup at Notino locations.\nPROVIDERS: Delivery partners include DPD, Hrvatska pošta (for home delivery, parcel lockers, and post office pickup), and BOX NOW (for parcel lockers).\nPRICING: Home delivery costs €3.49 via Hrvatska pošta and €3.99 via DPD. Parcel lockers are €2.49 (both BOX NOW and Hrvatska pošta). Pickup at a post office is €2.99, and pickup at a Notino store is the cheapest option at €2.00. Free shipping is offered on selected brands.\nNOTABLE FEATURES: Cash on delivery (COD) is available for all delivery methods with a surcharge of €1.00. Payment with cash or card is also an option for in-store pickup.\nWEBSITE ASSESSMENT: The shipping information page clearly lists all available delivery methods and their corresponding prices. However, it lacks critical details such as estimated delivery times, information on island delivery (surcharges or restrictions), express delivery options, and weekend delivery availability. The information is easy to find but incomplete for a comprehensive understanding of the shipping process."
+}

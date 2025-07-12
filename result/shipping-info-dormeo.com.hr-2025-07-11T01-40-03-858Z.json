@@ -1,0 +1,97 @@
+{
+  "website": "dormeo.com.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Troškovi dostave vidljivi su u košarici prije nego što zaključite narudžbu. Uz cijenu proizvoda u koju je uključen PDV, istaknuti su troškovi dostave koji se sastoje od troškova poštarine za svaki proizvod (koja ovisi o masi proizvoda iz narudžbe).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Ako proizvod imamo na zalihi, uobičajeni rok dostave je do 7 radnih dana, osim ako na varijanti proizvoda koji ste odabrali nije pisalo drugačije. U tom će slučaju dostava ovisiti o najduljem vremenu dostave proizvoda koji se nalazi u košarici. Zbog povećane potražnje za hit proizvodima u vrijeme velikih akcija moguće je produljenje uobičajenog roka dostave.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,19 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Troškovi dostave vidljivi su u košarici prije nego što zaključite narudžbu. Uz cijenu proizvoda u koju je uključen PDV, istaknuti su troškovi dostave koji se sastoje od troškova poštarine za svaki proizvod (koja ovisi o masi proizvoda iz narudžbe).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Rokovi dostave madraca naručenih po mjeri ovise o dogovoru.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "1,19 €"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and in-store pickup are the available delivery methods. Parcel shop and parcel locker options are not mentioned.\nPROVIDERS: GLS is the sole courier mentioned for home delivery.\nPRICING: Delivery costs are calculated in the shopping cart and depend on the weight of the ordered products. There is a cash on delivery (COD) surcharge of €1.19. Information on free shipping thresholds is not available. The cost for in-store pickup is not specified.\nDELIVERY TIME: Standard delivery for in-stock items is up to 7 working days, but can be longer during sales. Delivery for custom-made mattresses is by agreement.\nNOTABLE FEATURES: Orders are not processed on weekends. Not all physical stores offer the in-store pickup service. An order may be delivered in multiple shipments.\nWEBSITE ASSESSMENT: The shipping information is provided on a dedicated 'Dostava' page. It clearly states the delivery provider, standard timeframe, and COD surcharge. However, it lacks details on express delivery, island delivery policies, free shipping thresholds, and a list of stores available for pickup. The pricing structure is not fixed, requiring the user to add items to the cart to see the final cost."
+}

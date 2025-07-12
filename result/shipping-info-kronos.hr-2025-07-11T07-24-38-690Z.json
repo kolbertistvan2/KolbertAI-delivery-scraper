@@ -1,0 +1,101 @@
+{
+  "website": "kronos.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Dostava se naplaćuje u paušalnom iznosu od 3,92 € (29,50 kn) + PDV.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Dostavna služba najčešće dostavlja u roku 24 sata od preuzimanja pošiljke u našem skladištu.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Iznimka su otoci i mjesta koja ne podržavaju svakodnevnu dostavu ili spadaju pod naselja ograničena masom pošiljke, a gdje je dostava moguća prema rasporedu dostave. Pošiljke za otoke koji nisu na rasporedu, najčešće su dostavljene u roku od 3 radna dana.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Dostava se naplaćuje u paušalnom iznosu od 3,92 € (29,50 kn) + PDV.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Dostava se vrši do ulaza u stambeni objekt željene adrese. Za pošiljke većih gabarita dostava je moguća do prve fizičke prepreke koja onemogućava prilaz dostavnog vozila stambenom objektu.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Iznimka su otoci i mjesta koja ne podržavaju svakodnevnu dostavu ili spadaju pod naselja ograničena masom pošiljke, a gdje je dostava moguća prema rasporedu dostave. Pošiljke za otoke koji nisu na rasporedu, najčešće su dostavljene u roku od 3 radna dana.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Tratinska 20, 10000 Zagreb"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery across Croatia. In-store pickup is also available at their physical location in Zagreb.\nPROVIDERS: GLS is the exclusive delivery partner.\nPRICING: Home delivery has a flat rate of €3.92 + VAT. No free shipping threshold is mentioned. Pricing for in-store pickup is not specified.\nRESTRICTIONS: Delivery is made to the entrance of the residential building. For larger items, delivery is to the first physical obstacle for the vehicle. Delivery to islands may take longer, up to 3 working days.\nNOTABLE FEATURES: Standard delivery is fast, typically within 24 hours for mainland Croatia. The store is open on Saturdays for potential pickups.\nWEBSITE ASSESSMENT: The shipping information is available on a dedicated page and is straightforward. However, it lacks details on a free shipping threshold, cash on delivery options, and does not explicitly list in-store pickup as a checkout option, although a physical store address and hours are provided."
+}

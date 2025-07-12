@@ -1,0 +1,95 @@
+{
+  "website": "almagea.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Trošak dostave za narudžbe čija je vrijednost manja od 40,00 € (301,38 kn) iznosi 4,00 € (30,14 kn). Za sve narudžbe iznad 40,00 € (301,38 kn) dostava je besplatna.",
+    "free_delivery_limit": "40,00 €",
+    "delivery_time": "2-5 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Isporuka na otoke se vrši sukladno rasporedu vožnje dostavne službe i može potrajati duže.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Almagea.hr offers home delivery within Croatia via GLS. The shipping fee is 4,00 € for orders under 40,00 €, with free delivery for orders exceeding this amount. The standard delivery time is 2-5 business days, with potential delays for island deliveries. Cash on delivery is available with no extra charge. Other options like express delivery, weekend delivery, parcel shops, parcel lockers, or in-store pickup are not mentioned and appear to be unavailable. NOTABLE FEATURES: Key aspects are a clear free shipping threshold at 40,00 € and no surcharge for cash on delivery. The main limitation is the lack of alternative or expedited shipping methods. WEBSITE ASSESSMENT: Shipping information is located in the 'Opći uvjeti poslovanja' (General Terms and Conditions). The details for the available home delivery service are clear, but a dedicated and more easily accessible shipping page would improve user experience by consolidating information and explicitly stating which services are not offered."
+}

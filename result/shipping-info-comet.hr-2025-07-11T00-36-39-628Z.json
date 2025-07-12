@@ -1,0 +1,99 @@
+{
+  "website": "comet.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "5,00 € for orders up to 49,99 €. Free for orders 50 € or more, except for items with a specially indicated fixed shipping cost.",
+    "free_delivery_limit": "50 €",
+    "delivery_time": "2 to 5 business days from handover to the delivery service. Total time from order to receipt can be up to 10 business days.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Varaždin",
+      "Novi Marof",
+      "Bjelovar",
+      "Ludbreg",
+      "Koprivnica"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Comet.hr provides home delivery throughout Croatia and personal pickup at five of their physical stores. Parcel shop and locker delivery are not offered.\nPRICING: Home delivery is €5.00 for orders up to €49.99 and free for orders of €50 or more. Some items may have a fixed delivery cost regardless of the order total. In-store pickup pricing is not specified. There is no mention of surcharges for island delivery or cash on delivery.\nDELIVERY TIMES: Orders are processed and handed over to the courier within 2-5 business days. Delivery then takes an additional 2-5 business days. The total time from order to delivery can be up to 10 business days. No express or weekend delivery options are available.\nNOTABLE FEATURES: The key features are the free shipping threshold at a reasonable €50 and the option for in-store pickup in five cities in northern Croatia.\nWEBSITE ASSESSMENT: Shipping information is integrated into the general 'Terms of Purchase' page. While the core details on pricing and delivery times are present, the information lacks specifics on courier partners and potential surcharges. A dedicated, more easily accessible shipping page would improve clarity for customers."
+}

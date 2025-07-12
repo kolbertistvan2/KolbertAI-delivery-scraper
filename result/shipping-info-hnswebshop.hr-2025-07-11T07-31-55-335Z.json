@@ -1,0 +1,95 @@
+{
+  "website": "hnswebshop.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Paket24"
+    ],
+    "pricing": "€5 for orders up to €80.00. Free for orders over this amount.",
+    "free_delivery_limit": "€80.00",
+    "delivery_time": "Up to 5 business days. Up to 10 business days for personalized items.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery option mentioned for Croatia is standard home delivery.\n\nPROVIDERS: Delivery is handled by Paket24.\n\nPRICING: Delivery costs €5 for orders under €80 and is free for orders of €80 or more. Delivery time is up to 5 business days for standard items and up to 10 business days for personalized items.\n\nRESTRICTIONS: The free shipping offer does not apply to 'Frame the Game' products.\n\nNOTABLE FEATURES: No information is available for express delivery, weekend delivery, island surcharges, or cash on delivery (COD). There is no mention of alternative delivery methods such as parcel shops, parcel lockers, or in-store pickup.\n\nWEBSITE ASSESSMENT: The shipping information provided is very basic. While it covers the standard delivery cost and timeframe, it lacks detail on many common services and potential surcharges. The information is found on a single 'Dostava' page."
+}

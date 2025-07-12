@@ -1,0 +1,99 @@
+{
+  "website": "autokreso.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express"
+    ],
+    "pricing": "5,5 € for orders under 80 €. Free for orders over 80 €.",
+    "free_delivery_limit": "80 €",
+    "delivery_time": "24 hours from warehouse pickup. For islands not on the daily schedule, delivery is within 3 working days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Non-working days are not included in the delivery time."
+    },
+    "island_surcharge": "Delivery to islands is possible according to the delivery schedule. For detailed conditions, the website refers to the Overseas Express website.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express Shop (Auro Domus locations)"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Dragutina Golika 14, Zagreb"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery via Overseas Express. In-store pickup is available at a single location in Zagreb. Parcel shop pickup is also an option at Overseas Express Shops within Auro Domus branches.\nPRICING: Home delivery costs €5.50 for orders below €80 and is free for orders of €80 or more. Pricing for pickup options is not specified.\nDELIVERY TIMES & RESTRICTIONS: Standard delivery is within 24 hours on the mainland. Island deliveries may take up to 3 working days depending on the courier's schedule. Weekend deliveries are not available.\nNOTABLE FEATURES: The website offers a clear free shipping threshold. It provides an alternative pickup option at parcel shops, which is a recent addition. Detailed delivery conditions for islands are outsourced to the courier's website.\nWEBSITE ASSESSMENT: The shipping information is consolidated on a dedicated 'Dostava i isporuka' page and is generally clear. However, it lacks details on COD surcharges, express options, and specific costs for pickup services. The information is sufficient for a standard mainland delivery but requires customers to seek external information for island deliveries."
+}

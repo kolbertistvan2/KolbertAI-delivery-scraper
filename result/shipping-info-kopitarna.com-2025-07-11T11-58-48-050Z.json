@@ -1,0 +1,96 @@
+{
+  "website": "kopitarna.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Pošta Slovenije",
+      "GLS"
+    ],
+    "pricing": "Cena dostave v EUR (brez DDV): 3,55",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-10 delovnih dni",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is the only specified option for Croatia. In-store pickup, parcel shops, and parcel lockers are not mentioned as delivery methods.\nPROVIDERS: Delivery is handled by Pošta Slovenije and GLS.\nPRICING: Shipping to Croatia costs €3.55 (excluding VAT). A free shipping threshold is not mentioned. Cash on delivery is not available for Croatia.\nRESTRICTIONS: No specific information is provided regarding surcharges or restrictions for delivery to Croatian islands.\nNOTABLE FEATURES: No special services like express or weekend delivery are mentioned.\nWEBSITE ASSESSMENT: Shipping information is not located on a dedicated page but is embedded within the general 'Terms of Use' (Pogoji uporabe). The information is minimal, lacking details on free shipping, island delivery, and other common services. Locating the information requires navigating the terms and conditions written in Slovenian."
+}

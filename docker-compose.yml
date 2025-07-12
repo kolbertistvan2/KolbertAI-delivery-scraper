@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  extractor:
+    build: .
+    image: kolbertai-shipping-extractor
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - BROWSERBASE_API_KEY=${BROWSERBASE_API_KEY}
+      - BROWSERBASE_PROJECT_ID=${BROWSERBASE_PROJECT_ID}
+      - BATCH_SIZE=${BATCH_SIZE:-5}
+    volumes:
+      - ./result:/app/result
+      - ./websites.txt:/app/websites.txt
+      - ./prompt.txt:/app/prompt.txt
+    stdin_open: true
+    tty: true 

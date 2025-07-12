@@ -1,0 +1,106 @@
+{
+  "website": "zarahome.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "5,29 EUR",
+    "free_delivery_limit": "52,96 EUR",
+    "delivery_time": "3-6 working days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "A special shipping cost will be applied, which will be calculated automatically at the time of payment.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "5,29 EUR",
+    "free_delivery_limit": "52,96 EUR",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zagreb",
+      "Split",
+      "Zadar",
+      "Rijeka"
+    ],
+    "pricing": "FREE",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home Delivery, Bulky Item Delivery, Parcel Shop (Drop Point), and In-Store Pickup. PROVIDERS: The primary carrier is DPD. The carrier for bulky items is not specified. PRICING: Standard Home Delivery and Parcel Shop delivery cost 5,29 EUR, free for orders over 52,96 EUR. In-Store Pickup is free. Bulky item shipping costs are calculated at checkout. DELIVERY TIME: Standard delivery is 3-6 working days. NOTABLE FEATURES: No express delivery, weekend delivery, or Cash on Delivery (COD) options are mentioned. Information regarding shipping to Croatian islands is not available. WEBSITE ASSESSMENT: The shipping information is clear but lacks details on the bulky item carrier, island delivery policies, and the number of parcel shop locations."
+}

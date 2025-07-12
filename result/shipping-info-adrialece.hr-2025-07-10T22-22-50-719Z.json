@@ -1,0 +1,104 @@
+{
+  "website": "adrialece.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "Overseas Express"
+    ],
+    "pricing": "Hrvatska pošta: 3.49 € (unaprijed), 4.39 € (pouzećem)\nOverseas Express: 4.49 € (unaprijed), 5.39 € (pouzećem)",
+    "free_delivery_limit": "Za narudžbe iznad 55 € je dostava besplatna",
+    "delivery_time": "2-3 radna dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Tijekom vikenda i praznika narudžbe ne šaljemo!"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0,90 €"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Box now",
+      "Paket 24 Hrvatske pošte"
+    ],
+    "locations_count": "not available",
+    "pricing": "Paketomat Box now: 2.99 € (unaprijed), 3.89 € (pouzećem)\nPaketomat Paket 24 Hrvatske pošte: 3.49 € (unaprijed), 4.39 € (pouzećem)",
+    "free_delivery_limit": "Za narudžbe iznad 55 € je dostava besplatna",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Tijekom vikenda i praznika narudžbe ne šaljemo!"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0,90 €"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "OPTIKA Adrialece.hr ZAGREB, Zagrebačka avenija 104, 10 000 Zagreb",
+      "OPTIKA Adrialece.hr SPLIT, Ulica Ljudevita Posavskog 17, 21 000 Split"
+    ],
+    "pricing": "0.99 € (Plaćanje je moguće samo unaprijed)",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel locker pickup, and in-store pickup.\nPROVIDERS: Delivery partners include Hrvatska pošta, Overseas Express, and Box Now.\nPRICING: Home delivery starts at 3.49€, parcel locker delivery at 2.99€, and in-store pickup costs 0.99€. Free shipping is available for all orders over 55€. A cash on delivery (COD) surcharge of 0.90€ applies to all applicable orders.\nRESTRICTIONS: Orders are not shipped on weekends or holidays. There is no information regarding extra charges or restrictions for delivery to Croatian islands.\nNOTABLE FEATURES: Customers can pick up their orders at physical store locations in Zagreb and Split, which are open on Saturdays. The website mentions 'priority processing' but does not define it as a formal express delivery option with distinct pricing or timelines.\nWEBSITE ASSESSMENT: Shipping information is well-organized and clearly presented on a dedicated 'Dostava' page. The table format makes it easy to compare costs and payment methods for different delivery options. The inclusion of store addresses and opening hours is a significant plus. The only notable omission is information about island deliveries."
+}

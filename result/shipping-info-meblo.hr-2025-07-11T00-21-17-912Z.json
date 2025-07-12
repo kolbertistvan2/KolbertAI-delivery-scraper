@@ -1,0 +1,95 @@
+{
+  "website": "meblo.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Delivery costs vary depending on the place of delivery and the value of the ordered products. Specific prices are not mentioned on this page.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to larger islands is available, but specific surcharge information is not provided on this page.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Meblo Trade"
+    ],
+    "pricing": "Available for cities and wider surroundings of our sales showrooms. Specific costs are not mentioned on this page.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Meblo.hr offers two types of delivery in Croatia: a standard parcel delivery for the entire country including larger islands, and a specialized 'Meblo Trade' delivery for areas near their showrooms, likely for bulky items. Delivery costs are variable and depend on the order value and location. There is no information available regarding specific delivery providers, delivery times, express or weekend delivery, or any surcharges for cash on delivery. Parcel shop, parcel locker, and in-store pickup options are not mentioned. NOTABLE FEATURES: The company distinguishes between standard parcel delivery and a specialized delivery service. Delivery to larger Croatian islands is explicitly mentioned as available. WEBSITE ASSESSMENT: The provided 'Dostave i montaže' page serves only as a directory. It confirms the availability of different delivery methods but lacks essential details like pricing, providers, and timelines, which are presumably located on subsequent pages. This makes it impossible to get a complete overview of shipping options from this single page."
+}

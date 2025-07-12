@@ -1,0 +1,97 @@
+{
+  "website": "stradivarius.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "3,95 EUR",
+    "free_delivery_limit": "40 EUR",
+    "delivery_time": "3-5 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke može potrajati duže.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "2,95 EUR",
+    "free_delivery_limit": "40 EUR",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Dostupno u svim Stradivarius trgovinama u Hrvatskoj.",
+    "pricing": "Besplatno",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Stradivarius nudi tri opcije dostave za Hrvatsku: dostavu na kućnu adresu, preuzimanje u trgovini i dostavu na DPD Pickup lokaciju. Dostava na kućnu adresu košta 3,95 EUR, a na DPD Pickup lokaciju 2,95 EUR, s besplatnom dostavom za narudžbe iznad 40 EUR. Preuzimanje u trgovini je uvijek besplatno. Standardno vrijeme dostave za sve opcije je 3-5 radnih dana. \nNOTABLE FEATURES: Ne postoji opcija ekspresne ili vikend dostave. Dostava na otoke može potrajati duže, ali nije naveden dodatni trošak. Nema informacija o doplati za plaćanje pouzećem. \nWEBSITE ASSESSMENT: Informacije o dostavi su jasne i lako dostupne. Glavni nedostatak je izostanak informacija o doplati za plaćanje pouzećem i točan broj DPD Pickup lokacija."
+}

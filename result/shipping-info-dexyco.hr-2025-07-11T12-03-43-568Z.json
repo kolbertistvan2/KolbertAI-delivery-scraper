@@ -1,0 +1,96 @@
+{
+  "website": "dexyco.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Pošta Slovenije",
+      "Hrvatska pošta"
+    ],
+    "pricing": "4,65 EUR for orders below 50 EUR. Free for orders over 50 EUR.",
+    "free_delivery_limit": "50 EUR",
+    "delivery_time": "1 to 7 business days. Orders received on business days by 13:00 will be shipped the same day, while all other orders will be shipped the next business day.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Delivery is made on business days."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only available delivery method is home delivery to addresses within the Republic of Croatia. \nPROVIDERS: Delivery is handled by Pošta Slovenije in cooperation with Hrvatska pošta. \nPRICING: Shipping costs 4,65 EUR for orders under 50 EUR and is free for orders of 50 EUR or more. \nDELIVERY TIME: The estimated delivery time is 1 to 7 business days. \nRESTRICTIONS: Deliveries are made only on business days. There is no information regarding surcharges for island deliveries. \nNOTABLE FEATURES: Orders placed by 13:00 on a business day are dispatched the same day. If delivery is unsuccessful, the package can be collected at the nearest post office. \nWEBSITE ASSESSMENT: The shipping information is provided on a dedicated 'Dostava' page and is straightforward. However, it lacks details on alternative delivery methods (parcel shops, lockers, in-store pickup), COD payments, and specific policies for island deliveries."
+}

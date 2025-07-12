@@ -1,0 +1,106 @@
+{
+  "website": "kapitalac.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska Pošta",
+      "DPD",
+      "GLS"
+    ],
+    "pricing": "The total shipping cost is calculated in the shopping cart and depends on the type of product and the place of delivery.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1-3 business days. Orders placed by 12:00/13:00 are usually shipped the same day.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Deliveries are made on working days, from Monday to Friday."
+    },
+    "island_surcharge": "Delivery to islands may take longer and is subject to the delivery service's schedule. No specific surcharge mentioned.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska Pošta",
+      "DPD",
+      "GLS"
+    ],
+    "pricing": "Calculated at checkout, dependent on product type and delivery location.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1-3 business days (longer for islands)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands may take longer and is subject to the delivery service's schedule. No specific surcharge mentioned.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Box Now"
+    ],
+    "locations_count": "not available",
+    "pricing": "The total shipping cost is calculated in the shopping cart and depends on the type of product and the place of delivery.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Available for Box Now via a 'pay on the go' payment link. Surcharge amount not specified."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Kapitalac store in Valpovo, Vijenac 107. brigade HV br. 1",
+    "pricing": "Free (implied). Payment must be made in advance by card or bank transfer.",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not applicable",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel locker delivery, and in-store pickup.\nPROVIDERS: Home delivery is handled by Hrvatska Pošta, DPD, and GLS. Parcel locker services are provided by GLS and Box Now.\nPRICING: Shipping costs are not fixed and are calculated dynamically in the shopping cart based on the products and delivery address. No free shipping threshold is mentioned. In-store pickup is free but requires prepayment.\nRESTRICTIONS: Delivery to Croatian islands takes longer and is subject to provider schedules. Bulky items like fishing rods, tents, and chairs cannot be delivered to parcel lockers. Weekend delivery is not available, except for in-store pickup on Saturdays.\nNOTABLE FEATURES: A good variety of delivery carriers and methods are available. Parcel locker delivery is a key feature, with two different providers. Cash on delivery is explicitly mentioned as an option for Box Now lockers, handled via a payment link.\nWEBSITE ASSESSMENT: The shipping information is comprehensive and clearly presented on a dedicated page. It details the providers, delivery times, and specific conditions for each service. The main drawback is the lack of upfront pricing information, requiring customers to proceed to checkout to see shipping costs."
+}

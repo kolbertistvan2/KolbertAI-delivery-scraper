@@ -1,0 +1,97 @@
+{
+  "website": "pet-centar.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa",
+      "Overseas Express",
+      "DPD"
+    ],
+    "pricing": "Cijena dostave je 3,50 € za narudžbe u iznosu od 10 € do 49,99 €, odnosno 4,99 € za narudžbe u iznosu do 9,99 €. Dostava je besplatna za narudžbe iznad 50 €.",
+    "free_delivery_limit": "50 €",
+    "delivery_time": "1-7 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke vrši se prema rasporedu dostave na otoke.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available in all Pet centar stores except Rijeka Martinkovac, Zagreb King Cross, and Dubrovnik.",
+    "pricing": "Besplatno",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Available during store opening hours."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and in-store pickup are the available methods. Parcel shop and locker services are not offered.\nPROVIDERS: Home delivery is handled by Intereuropa, Overseas Express, and DPD.\nPRICING: Home delivery is €4.99 for orders up to €9.99, and €3.50 for orders from €10 to €49.99. Delivery is free for orders over €50. In-store pickup is always free.\nRESTRICTIONS: Delivery to Croatian islands follows a specific schedule, but no extra surcharge is mentioned. In-store pickup is unavailable in the Rijeka Martinkovac, Zagreb King Cross, and Dubrovnik stores.\nNOTABLE FEATURES: Cash on delivery (COD) is an available payment method for home delivery, but no specific surcharge is listed. Express and dedicated weekend delivery services are not mentioned.\nWEBSITE ASSESSMENT: The shipping information is consolidated and clearly explained on one page. It covers the primary delivery methods, costs, and providers effectively. However, it lacks details on express options and could provide a direct link to the island delivery schedule for better clarity."
+}

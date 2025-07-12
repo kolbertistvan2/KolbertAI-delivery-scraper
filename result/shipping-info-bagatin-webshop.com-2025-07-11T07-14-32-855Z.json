@@ -1,0 +1,96 @@
+{
+  "website": "bagatin-webshop.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Hrvatska pošta"
+    ],
+    "pricing": "DPD: 5,31 €, Hrvatska pošta: 7,96 €. Free delivery for all orders over 66,36 €.",
+    "free_delivery_limit": "66,36 €",
+    "delivery_time": "1-3 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to remote islands or isolated places generally takes a little longer (3-5 working days).",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery throughout Croatia. No other options like parcel services or in-store pickup are mentioned. PROVIDERS: Delivery is handled by DPD and Hrvatska pošta. PRICING: DPD delivery costs 5,31 €, and Hrvatska pošta costs 7,96 €. Shipping is free for orders exceeding 66,36 €. DELIVERY TIME: The standard delivery timeframe is 1-3 business days. For remote islands, it extends to 3-5 business days. NOTABLE FEATURES: There is a payment restriction for Hrvatska pošta deliveries, which can only be paid via direct bank transaction, implying no Cash on Delivery for this option. Information on COD for DPD is not provided. No express or weekend delivery services are mentioned. WEBSITE ASSESSMENT: The shipping information is available on a dedicated 'Dostava' page and is straightforward. However, it lacks details on COD, bulky item shipping, and alternative delivery methods."
+}

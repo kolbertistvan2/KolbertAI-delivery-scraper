@@ -1,0 +1,103 @@
+{
+  "website": "saturo.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "GLS",
+      "Saturo dostava (vlastito vozilo)"
+    ],
+    "pricing": "CJENIK SATURO DOSTAVE (za Samobor, Zaprešić, Velika Gorica, Sesvete, Sesvetski Kraljevec, Sveta Nedelja):\nOd 0.1 do 30 kg 3.99 eura\nOd 30.01 do 60 kg 8.99 eura\nOd 60.01. do 100 kg 10.99 eura\nCjenik za ostatak Hrvatske za pakete do 50 kg nije naveden.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Dostava unutar 1-3 dana (za područje Samobora, Zaprešića, Velike Gorice, Sesveta, Svete Nedelje). Uobičajeni rok isporuke za ostatak Hrvatske je do 5 radnih dana.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na otoke se vrši, ali za teže pošiljke spadaju u posebnu cjenovnu zonu. Za standardne pakete, dostava se vrši prema popisu naselja Hrvatske pošte; za ostala mjesta potrebno je preuzimanje u poštanskom uredu.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "GLS",
+      "druge dostavne službe"
+    ],
+    "pricing": "CJENIK DOSTAVE za Hrvatsku od 50 do 400 kg. Cijene ovise o 4 definirane zone dostave (ZONA 1 - Zagreb i okolica, ZONA 2 - veći gradovi osim otoka, ZONA 3 - Gospić, ZONA 4 - Dubrovnik i otoci). Točne cijene po zonama nisu navedene.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Uobičajeni rok isporuke je do 5 radnih dana po potvrdi narudžbe.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Otoci spadaju u ZONU 4, koja je zasebna cjenovna kategorija. Cijene za zone nisu navedene.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "Nije navedeno kao zasebna opcija s cijenom. Preuzimanje u poštanskom uredu je obavezno za mjesta gdje Hrvatska pošta ne vrši dostavu na kućnu adresu.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Dostava na kućnu adresu dostupna je u cijeloj Hrvatskoj, s mogućnošću preuzimanja u poštanskim uredima za lokacije bez kućne dostave. Ne nude se opcije dostave na paketomate ili osobno preuzimanje u trgovini.\nPROVIDERS: Glavni dostavni partneri su Hrvatska pošta (za pakete do 50 kg) i GLS. Za šire područje Zagreba (Samobor, Zaprešić, Velika Gorica, Sesvete, Sveta Nedelja) koriste vlastitu dostavnu službu.\nPRICING: Cijene su jasno definirane samo za lokalnu dostavu vlastitim vozilom (3.99€ - 10.99€ ovisno o težini). Za teže pošiljke (50-400 kg) cijene se temelje na 4 zone, ali točan cjenik nije prikazan. Cijene za standardnu dostavu (do 50 kg) za ostatak Hrvatske nisu navedene. Prag za besplatnu dostavu nije spomenut.\nRESTRICTIONS: Dostava na otoke je moguća, ali se za teže pošiljke nalaze u posebnoj, skupljoj zoni dostave. Za neka mjesta, dostava se ne vrši na kućnu adresu već je paket potrebno preuzeti u lokalnom poštanskom uredu.\nNOTABLE FEATURES: Nude vlastitu dostavu za područje Zagreba i okolice s unosom u stan bez obzira na kat. Moguće je plaćanje karticama prilikom preuzimanja za njihovu lokalnu dostavu.\nWEBSITE ASSESSMENT: Informacije o dostavi su djelomično dostupne, ali ključni detalji nedostaju. Cjenik je nepotpun, posebno za nacionalnu dostavu standardnih i teških paketa. Nedostaju informacije o plaćanju pouzećem, ekspresnoj i vikend dostavi. Stranica se poziva na cjenik iz 2018. godine, što ukazuje na moguću zastarjelost informacija."
+}

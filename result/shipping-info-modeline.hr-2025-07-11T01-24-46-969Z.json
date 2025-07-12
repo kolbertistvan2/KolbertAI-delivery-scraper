@@ -1,0 +1,95 @@
+{
+  "website": "modeline.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "3,99€ for orders up to 80€.",
+    "free_delivery_limit": "For orders above 80€",
+    "delivery_time": "2-3 working days. Up to 8 working days for islands.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery to islands takes longer (up to 8 working days), but no monetary surcharge is mentioned.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery and delivery to parcel lockers (paketomati) within Croatia.\nPROVIDERS: The exclusive provider for home delivery is GLS. The provider for parcel lockers is not specified.\nPRICING: Home delivery costs 3,99€ for orders under 80€ and is free for orders of 80€ or more. Delivery to parcel lockers is always free. Cash on delivery is an option, but no surcharge is mentioned.\nDELIVERY TIMES & RESTRICTIONS: Standard home delivery takes 2-3 working days. Delivery to Croatian islands can take up to 8 working days. No other specific restrictions or surcharges for islands are mentioned. Weekend and express delivery are not available.\nNOTABLE FEATURES: A key feature is the completely free delivery to parcel lockers, regardless of order value. The free shipping threshold for home delivery is 80€.\nWEBSITE ASSESSMENT: Shipping information is not on a dedicated page but is integrated within the 'Uvjeti kupnje' (Terms of Purchase) page. The information is reasonably clear but requires searching through a long legal document. Key details, such as the parcel locker provider, are missing. There is no mention of in-store pickup, parcel shops, or bulky item delivery."
+}

@@ -1,0 +1,100 @@
+{
+  "website": "top4running.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Orders 0 – €130,99: €4,20. Orders €131,00 and more: besplatno.",
+    "free_delivery_limit": "€131,00",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "€1,39"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Hrvatska pošta",
+      "Overseas Express"
+    ],
+    "locations_count": "not available",
+    "pricing": "Hrvatska pošta: €3,85 for orders 0 – €130,99. Overseas Express: €4,85 for orders 0 – €130,99. Free for orders €131,00 and more for both.",
+    "free_delivery_limit": "€131,00",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "€1,39"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BoxNow"
+    ],
+    "locations_count": "not available",
+    "pricing": "Orders 0 – €130,99: €3,85. Orders €131,00 and more: besplatno.",
+    "free_delivery_limit": "€131,00",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "€1,39"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery, parcel shop pickup, and parcel locker delivery. PROVIDERS: Delivery partners include GLS for home delivery, Hrvatska pošta and Overseas Express for parcel shops, and BoxNow for parcel lockers. PRICING: Standard shipping costs for orders under €131,00 range from €3,85 to €4,85 depending on the service. Free shipping is available for all prepaid orders of €131,00 and above. NOTABLE FEATURES: Cash on delivery (COD) is available for all delivery methods with a fixed surcharge of €1,39. There is no information regarding delivery times, express or weekend delivery, or potential surcharges for island deliveries. WEBSITE ASSESSMENT: The shipping information is well-structured and clearly presents the costs associated with different delivery methods and payment types. However, it lacks crucial details such as delivery timeframes and information on special deliveries (islands, express), which diminishes its completeness."
+}

@@ -1,0 +1,103 @@
+{
+  "website": "drijen.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "In time",
+      "GLS"
+    ],
+    "pricing": "Minimalna narudžba je 30€. Cijena za kopno (Zona 1 i 2) za pakete do 40 kg je 11,50€. Kupac snosi trošak dostave.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-7 radnih dana. Pošiljke se šalju na dostavu od ponedjeljka do četvrtka, te dolaze na mjesto dostave unutar 48 sati.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Dostava subotom za otoke Cres, Lošinj, Pašman, Rab, Ugljan, Vis."
+    },
+    "island_surcharge": "Yes, there is a separate, higher price list for islands. For packages up to 30 kg, the price is 14,95€. There is also a specific delivery schedule for different islands (e.g., Brač daily, Krk on Tuesdays and Thursdays, Rab on Saturdays).",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "In time",
+      "GLS"
+    ],
+    "pricing": "Pricing is based on weight. For mainland (Zona 1 i 2): 45 kg - 20,70€, 100 kg - 59,80€, 500 kg - 117,30€, up to 3,000 kg for 694,60€. For orders over 100 kg, the delivery price is calculated and communicated to the customer subsequently.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-7 radnih dana",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "Yes, there is a separate, higher price list for islands. For example, a 100 kg package costs 82,80€ to an island vs 59,80€ to the mainland. There is also a specific delivery schedule for different islands.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Ispred vrtnog centra na adresi Ježdovečka 7b, 10250 Lučko.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard and very heavy/bulky items (up to 3,000 kg) across Croatia, as well as in-store pickup from their garden center in Lučko. Parcel shop or locker delivery is not available.\nPROVIDERS: Delivery is handled by In Time and GLS.\nPRICING: Delivery is paid by the customer, with a minimum order value of €30. Mainland delivery starts at €11.50 for packages up to 40 kg. There is no free shipping threshold. Prices increase significantly with weight.\nRESTRICTIONS: Deliveries are dispatched only from Monday to Thursday. Deliveries to islands are subject to a surcharge and follow a specific weekly schedule, with some islands receiving deliveries only on certain days (including Saturdays).\nNOTABLE FEATURES: The primary payment method for online orders is cash on delivery (pouzeće). The shop specializes in delivering very heavy items, with a detailed price list up to 3,000 kg. In-store pickup is available, including on Saturdays.\nWEBSITE ASSESSMENT: The shipping information is located on a dedicated 'Narudžbe i Dostava' page and is quite detailed, especially the weight-based pricing table. However, information about in-store pickup is only mentioned in a top banner and not integrated into the main delivery page, which could be missed by users."
+}

@@ -1,0 +1,97 @@
+{
+  "website": "emmezeta.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "vanjski partner"
+    ],
+    "pricing": "Cijena se obračunava po cjeniku ovisno o količini i gabaritima kupljenih proizvoda.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-12 radnih dana",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "u roku od 48 sati na području grada u kojem se nalazi prodajni centar, u krugu 30 km",
+      "pricing": "50% veća od standardnog cijenika"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava je osigurana na području cijele Hrvatske, uključujući i otoke.",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "vanjski partner"
+    ],
+    "pricing": "Cijena se obračunava po cjeniku ovisno o količini i gabaritima kupljenih proizvoda.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3-12 radnih dana",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "u roku od 48 sati na području grada u kojem se nalazi prodajni centar, u krugu 30 km",
+      "pricing": "50% veća od standardnog cijenika"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava je osigurana na području cijele Hrvatske, uključujući i otoke.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Lokacije dostupne na stranici 'Lokacije i radno vrijeme trgovina'",
+    "pricing": "besplatno",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Emmezeta offers home delivery for both standard and bulky items across all of Croatia, including islands, and a free in-store pickup service ('Klikni i preuzmi'). Parcel shop and parcel locker delivery are not mentioned. \nPRICING: Home delivery pricing is variable, depending on the quantity and dimensions of the products, based on a price list which is not detailed on the page. In-store pickup is free. \nPROVIDERS: Home delivery is handled by an unnamed 'external partner'. \nNOTABLE FEATURES: An express delivery option is available within 48 hours for locations within a 30km radius of a physical store, at a 50% higher price. The website also offers assembly services for an additional fee. \nWEBSITE ASSESSMENT: The shipping information is consolidated on a 'Dostave i montaže' page. It clearly outlines the types of services available (delivery, pickup, assembly). However, it lacks specific pricing details and does not name the courier service. Information on COD, weekend delivery, and parcel services is absent."
+}

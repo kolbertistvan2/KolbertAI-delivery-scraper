@@ -1,0 +1,103 @@
+{
+  "website": "decathlon.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD",
+      "UPS",
+      "Wolt Drive"
+    ],
+    "pricing": "Standardna dostava (GLS, DPD, UPS): 4,49€. Brza dostava (GLS, DPD): 4,99€. Wolt Drive dostava: od 5,99€.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Standardna dostava: 3 do 9 dana. Brza dostava: 1 do 3 dana. Wolt Drive: U roku od 2 sata.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Brza dostava (GLS, DPD): 1 do 3 dana. Wolt Drive dostava: U roku od 2 sata.",
+      "pricing": "Brza dostava: 4,99€. Wolt Drive dostava: Od 5,99€ do 7,99€ ovisno o zoni (do 10km od trgovine)."
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Na određene otoke i udaljena mjesta dostava nije moguća ili je moguća samo do najbližeg kurirskog terminala. Postoji mogućnost odstupanja od očekivanog datuma dostave. Za detalje je potrebno provjeriti rasporede dostave za DPD i GLS.",
+    "cod_surcharge": "Plaćanje pouzećem je moguće do maksimalnog iznosa od 1660.00€. Nije navedena posebna naknada."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Intereuropa"
+    ],
+    "pricing": "Dostava bicikala: 9,99€. Dostava gabaritnih narudžbi: 20,00€. FAQ navodi i cijene ovisno o slanju iz skladišta ili trgovine: Bicikli: 7,99 € (iz skladišta) ili 8,99 € (iz trgovine). Lakši nestandardni paketi: 4,99 € ili 5,99 €. Teži nestandardni paketi: 20,00 € ili 22,00 €.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Od 4 do 10 radnih dana",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Dostava na određene otoke i udaljena mjesta nije moguća ili je moguća samo do najbližeg kurirskog terminala. Postoji mogućnost odstupanja od očekivanog datuma dostave. Za detalje je potrebno provjeriti raspored dostave za Intereuropa.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "Standardna dostava: 2,99€. Brza dostava: 3,49€.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Od 1 do 3 dana",
+      "pricing": "3,49€"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "Na određene otoke i udaljena mjesta dostava nije moguća ili je moguća samo do najbližeg kurirskog terminala. Postoji mogućnost odstupanja od očekivanog datuma dostave.",
+    "cod_surcharge": "Plaćanje pouzećem je moguće do maksimalnog iznosa od 1660.00€. Nije navedena posebna naknada."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "Besplatno",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Dostupno isti dan, moguće preuzimanje u roku od 1h ako je proizvod dostupan u odabranoj trgovini.",
+      "pricing": "Besplatno"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Plaćanje pouzećem je moguće do maksimalnog iznosa od 10000.00€. Nije navedena posebna naknada."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Decathlon.hr offers several delivery methods: Home Delivery (Standard, Fast, and Express via Wolt Drive), Bulky Item Delivery, Parcel Shop Pickup, and free In-Store Pickup.\nPROVIDERS: Main couriers are GLS, DPD, and UPS. Bulky items are handled by Intereuropa. Express local delivery is provided by Wolt Drive.\nPRICING: Standard home delivery is €4.49, while fast delivery is €4.99. Parcel shop delivery costs €2.99 (standard) or €3.49 (fast). In-store pickup is always free. Bulky items have specific pricing, with bicycles costing around €7.99-€9.99 and heavier items €20.00-€22.00.\nRESTRICTIONS: Delivery to certain Croatian islands and remote areas is limited or may incur delays. Cash on Delivery (COD) is available up to €1660 for deliveries and €10000 for in-store pickup, but is not an option for Wolt Drive deliveries. Parcel shop deliveries have size and weight limits (e.g., max 20kg for DPD, 5kg for GLS).\nNOTABLE FEATURES: A key feature is the Wolt Drive service, offering delivery within 2 hours in a 10km radius of a store. In-store pickup is also very fast, with items often ready in 1 hour if in stock locally. There is a price difference for shipping bicycles from the warehouse versus from a store, as store-shipped bikes are pre-assembled.\nWEBSITE ASSESSMENT: The shipping information is presented clearly and comprehensively on a dedicated 'Uvjeti dostave' page. The use of icons, tables, and a detailed FAQ section makes it easy for customers to find and understand delivery options, costs, and limitations. The information is well-organized and complete."
+}

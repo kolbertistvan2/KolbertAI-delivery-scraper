@@ -1,0 +1,102 @@
+{
+  "website": "ealati.hr",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Overseas Express"
+    ],
+    "pricing": "GLS (up to 40 kg): 7 €\nOverseas Express (up to 50 kg): 5 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Delivery is from Monday to Friday. The valid delivery time for each product is stated in the basic product information. For some products, the delivery time may be longer than 5 working days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Delivery schedules for islands are available via links for each delivery service (GLS, Overseas Express).",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebrüder Weiss"
+    ],
+    "pricing": "Delivery for items over 50 kg (pallet delivery):\n- Mainland: 40 €\n- Islands: 60 €",
+    "free_delivery_limit": "not available",
+    "delivery_time": "From Monday to Friday. For some islands, delivery is also on Saturdays according to the schedule.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Delivery is made on Saturdays only for certain islands according to the driving schedule."
+    },
+    "island_surcharge": "The price for island delivery is 60 €. Pallet delivery is only possible to the following islands: Brač, Cres, Dugi otok, Čiovo, Hvar, Krk, Korčula, Lošinj, Murter, Mljet, Pag, Pašman, Rab, Ugljan, Vir, Vis, Šolta, and the Pelješac peninsula.",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Overseas Express (partners: Tisak, iNovine, Crodux, Tifon, Tobacco, Boso)"
+    ],
+    "locations_count": "more than 850",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS Paketomat (up to 40 kg): 3,50 €",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The webshop offers home delivery for standard parcels (up to 50 kg) and bulky/pallet items (over 50 kg), as well as delivery to parcel lockers and parcel shops. Delivery is limited to Croatia.\nPROVIDERS: Delivery partners are GLS, Overseas Express, and Gebrüder Weiss for bulky items.\nPRICING: Standard home delivery costs 5 € (Overseas) or 7 € (GLS). GLS Parcel Locker delivery is 3.50 €. Bulky item delivery is 40 € for the mainland and 60 € for islands. No free shipping threshold is mentioned.\nRESTRICTIONS: Weekend delivery is not available for standard parcels. For bulky items, Saturday delivery is possible for some islands. Pallet delivery is restricted to a specific list of islands.\nNOTABLE FEATURES: The website clearly distinguishes between parcel and pallet delivery based on weight, with separate pricing tables. Customers can redirect Overseas Express shipments to over 850 partner parcel shops. Links to courier schedules for island deliveries are provided.\nWEBSITE ASSESSMENT: The shipping information is well-organized, detailed, and easy to understand. The use of tables for pricing is effective. However, information regarding express delivery options and cash-on-delivery surcharges is missing."
+}
