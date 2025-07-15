@@ -19,7 +19,7 @@ IN-STORE RETURN:
 
 HOME COLLECTION:
 * Available: yes/no
-* Providers: [list of courier companies that collect returns such as: DHL, Hermes, DPD, UPS, GLS, Deutsche Post, etc.]
+* Providers: [list of courier companies that collect returns such as: DHL, Hermes, DPD, UPS, GLS, trans-o-flex, Fedex, Deutsche Post, etc.]
 * Cost: [price information or free collection details]
 * Time limit: [return period]
 * Conditions: [booking requirements, packaging conditions]

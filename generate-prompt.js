@@ -366,20 +366,20 @@ IN-STORE RETURN:
 
 HOME COLLECTION:
 * Available: yes/no
-* Providers: [list of courier companies that collect returns such as: ${country.returnHomeCollectionProviders.join(', ')}, etc.]
+* Providers: [list of courier companies that collect returns such as: ${country.homeDelivery.join(', ')}, etc.]
 * Cost: [price information or free collection details]
 * Time limit: [return period]
 * Conditions: [booking requirements, packaging conditions]
 
 DROP OFF VIA PARCEL SHOP:
 * Available: yes/no
-* Providers: [such as: ${country.returnParcelShops.join(', ')}, etc.]
+* Providers: [such as: ${country.parcelShops.join(', ')}, etc.]
 * Cost: [price information or free drop-off details]
 * Time limit: [return period]
 
 DROP OFF VIA PARCEL LOCKER:
 * Available: yes/no
-* Providers: [such as: ${country.returnParcelLockers.join(', ')}, etc.]
+* Providers: [such as: ${country.parcelLockers.join(', ')}, etc.]
 * Cost: [price information or free drop-off details]
 * Time limit: [return period]
 

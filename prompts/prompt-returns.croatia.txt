@@ -19,20 +19,20 @@ IN-STORE RETURN:
 
 HOME COLLECTION:
 * Available: yes/no
-* Providers: [list of courier companies that collect returns such as: , etc.]
+* Providers: [list of courier companies that collect returns such as: GLS, Hrvatska pošta, DPD, Overseas Express, DHL, UPS, Gebrüder Weiss, InTime, etc.]
 * Cost: [price information or free collection details]
 * Time limit: [return period]
 * Conditions: [booking requirements, packaging conditions]
 
 DROP OFF VIA PARCEL SHOP:
 * Available: yes/no
-* Providers: [such as: , etc.]
+* Providers: [such as: GLS, Hrvatska pošta, DPD, Overseas Express, etc.]
 * Cost: [price information or free drop-off details]
 * Time limit: [return period]
 
 DROP OFF VIA PARCEL LOCKER:
 * Available: yes/no
-* Providers: [such as: , etc.]
+* Providers: [such as: Box Now, GLS, Hrvatska pošta, DPD, Overseas Express, etc.]
 * Cost: [price information or free drop-off details]
 * Time limit: [return period]
 

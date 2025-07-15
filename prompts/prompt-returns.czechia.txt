@@ -19,20 +19,20 @@ IN-STORE RETURN:
 
 HOME COLLECTION:
 * Available: yes/no
-* Providers: [list of courier companies that collect returns such as: , etc.]
+* Providers: [list of courier companies that collect returns such as: Česká pošta, PPL, DPD, GLS, Zásilkovna, DHL, WEDO, UPS, etc.]
 * Cost: [price information or free collection details]
 * Time limit: [return period]
 * Conditions: [booking requirements, packaging conditions]
 
 DROP OFF VIA PARCEL SHOP:
 * Available: yes/no
-* Providers: [such as: , etc.]
+* Providers: [such as: Zásilkovna, Česká pošta branches, PPL Parcelshop, DPD Pickup, GLS Parcel Shop, WEDO Points, etc.]
 * Cost: [price information or free drop-off details]
 * Time limit: [return period]
 
 DROP OFF VIA PARCEL LOCKER:
 * Available: yes/no
-* Providers: [such as: , etc.]
+* Providers: [such as: Zásilkovna (Z-Box), Česká pošta Balíkovna, PPL ParcelBox, DPD Box, GLS Locker, AlzaBox, WEDO Box, etc.]
 * Cost: [price information or free drop-off details]
 * Time limit: [return period]
 
