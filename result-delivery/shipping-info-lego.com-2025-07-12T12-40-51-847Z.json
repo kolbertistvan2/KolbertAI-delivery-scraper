@@ -1,0 +1,97 @@
+{
+  "website": "lego.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL"
+    ],
+    "pricing": "90 Kč for orders under 1400 Kč. Free for orders over 1400 Kč.",
+    "free_delivery_limit": "1400 Kč",
+    "delivery_time": "2-4 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DHL"
+    ],
+    "locations_count": "not available",
+    "pricing": "90 Kč for orders under 1400 Kč. Free for orders over 1400 Kč.",
+    "free_delivery_limit": "1400 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: LEGO.com offers Standard Home Delivery and Pick-up Point delivery to Czechia. PROVIDERS: Both services are handled by DHL. PRICING: Shipping is 90 Kč for orders below 1,400 Kč and free for orders above this threshold for both delivery methods. DELIVERY TIME: Standard delivery takes 2-4 business days from a warehouse in Belgium. NOTABLE FEATURES: No express delivery, weekend delivery, or Cash on Delivery (COD) options are offered. There is no separate shipping policy for bulky items. WEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page, detailing costs, delivery times, and the free shipping threshold. The information is straightforward but lacks details on advanced options like express or weekend services."
+}

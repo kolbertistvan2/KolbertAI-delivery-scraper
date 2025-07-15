@@ -1,0 +1,93 @@
+{
+  "website": "automobilovedily24.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Pro objednávky pod 2800 CZK je poplatek za doručení 235,00 CZK. Pro objednávky nad 2800 CZK je poplatek za doručení 0 CZK.",
+    "free_delivery_limit": "2800 CZK",
+    "delivery_time": "Produkty s tímto označením odesíláme 1-2 dny po zaplacení objednávky.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Sobota – Neděle: nepracovní dny"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Poplatek za nadrozměrný náklad v České republice činí: 517,00 CZK.",
+    "free_delivery_limit": "Bezplatné doručení se nevztahuje na nadrozměrné položky.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers standard home delivery and bulky item delivery to Czechia. No parcel shop, parcel locker, or in-store pickup options are mentioned. PRICING: Standard delivery is 235 CZK, with free shipping on orders over 2800 CZK. Bulky item delivery costs a flat 517 CZK. Free shipping does not apply to bulky items or tires. DELIVERY TIME: In-stock items are dispatched within 1-2 business days. No weekend or holiday deliveries. PROVIDERS: Specific shipping carriers are not named. NOTABLE FEATURES: An optional 'Bezpečná objednávka' (Safe Order) service for 89.99 CZK extends the return period to 100 days and includes free return shipping for one return per order. WEBSITE ASSESSMENT: The shipping information page is straightforward regarding pricing but lacks crucial details such as specific delivery providers, estimated total delivery times (only dispatch time is provided), and information on Cash on Delivery. The absence of any alternative delivery methods like pickup points is a significant limitation."
+}

@@ -1,0 +1,93 @@
+{
+  "website": "northfinder.com",
+  "HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: Could not extract shipping information. The website presented a security check page (Cloudflare) which prevented access to the actual content. Therefore, no details about delivery options, providers, pricing, or any other shipping-related information could be obtained. NOTABLE FEATURES: Not available. WEBSITE ASSESSMENT: The quality and completeness of shipping information could not be assessed due to the inability to access the website's content."
+}

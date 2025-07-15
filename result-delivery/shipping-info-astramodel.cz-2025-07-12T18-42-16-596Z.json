@@ -1,0 +1,104 @@
+{
+  "website": "astramodel.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta (Balík do ruky)",
+      "DPD (DPD do ruky)",
+      "PPL"
+    ],
+    "pricing": "K ceně zboží jsou účtovány expediční poplatky za každý jednotlivý balík. Aktuální výše expedičních poplatků je uvedena v objednávkovém formuláři.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Při zasílání zboží v rámci České republiky prostřednictvím DPD, PPL a České pošty je dodací lhůta zpravidla následující pracovní den. Denní expedice jsou uzavírány obvykle ve 14:00 hodin.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "TOPTRANS"
+    ],
+    "pricing": "Zboží specifického typu (např. raketové motory popř. palivo) je možné přepravovat dle platných právních předpisů pouze ADR přepravou (např. TOPTRANS).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Zpravidla do dvou pracovních dnů.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta (Balík do balíkovny)",
+      "DPD (DPD pickup)"
+    ],
+    "locations_count": "not available",
+    "pricing": "K ceně zboží jsou účtovány expediční poplatky za každý jednotlivý balík. Aktuální výše expedičních poplatků je uvedena v objednávkovém formuláři.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Prakšická 2589, 688 01 Uherský Brod"
+    ],
+    "pricing": "Zdarma",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Otevřeno Po-Pá 8.00 - 16.30"
+    },
+    "island_surcharge": "not applicable",
+    "cod_surcharge": "not applicable"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery, parcel shop delivery, in-store pickup, and special ADR transport for hazardous goods.\nPROVIDERS: Standard delivery is handled by Česká pošta (Balík do ruky, Balík do balíkovny), DPD (DPD do ruky, DPD pickup), and PPL. Special ADR transport is provided by TOPTRANS.\nPRICING: Specific shipping costs are displayed in the order form during checkout. In-store pickup in Uherský Brod is free. No general free shipping threshold is mentioned.\nDELIVERY TIME: Orders placed by 14:00 are typically dispatched the same day, with delivery usually on the next business day. ADR transport takes approximately two business days.\nNOTABLE FEATURES: Free personal pickup at the company's headquarters. Special handling for specific items like rocket engines. Orders exceeding 35,000 CZK may require prepayment.\nWEBSITE ASSESSMENT: Shipping information is embedded within a lengthy 'Terms and Conditions' document on the 'Jak nakupovat' page, which makes it difficult to quickly find a summary of options and prices. A dedicated, easily accessible shipping information page with a clear price list is missing. All necessary details are present but require significant effort to extract from the legal text."
+}

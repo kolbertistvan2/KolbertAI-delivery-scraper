@@ -1,0 +1,93 @@
+{
+  "website": "cropp.com",
+  "HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Shipping information for Czechia could not be extracted. The provided website view is a country selection page and does not contain details about shipping methods, costs, or providers for a specific country. NOTABLE FEATURES: not available. WEBSITE ASSESSMENT: The necessary shipping information is not present on the initial country selection page. Further navigation is required to access these details."
+}

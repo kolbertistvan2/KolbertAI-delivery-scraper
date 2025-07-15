@@ -1,11 +1,13 @@
 {
-  "website": "alza.cz",
+  "website": "makeup.cz",
   "HOME_DELIVERY": {
-    "available": "not available",
-    "providers": [],
-    "pricing": "not available",
-    "free_delivery_limit": "not available",
-    "delivery_time": "not available",
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "59 Kč při nákupu do 499 Kč, zdarma při nákupu nad 499 Kč.",
+    "free_delivery_limit": "nad 499 Kč",
+    "delivery_time": "4 pracovní dny od expedovaní balíku z našeho skladu.",
     "express_delivery": {
       "available": "not available",
       "delivery_time": "not available",
@@ -37,11 +39,14 @@
     "cod_surcharge": "not available"
   },
   "PARCEL_SHOPS": {
-    "available": "not available",
-    "providers": [],
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "DPD"
+    ],
     "locations_count": "not available",
-    "pricing": "not available",
-    "free_delivery_limit": "not available",
+    "pricing": "49 Kč při nákupu do 499 Kč, zdarma při nákupu nad 499 Kč.",
+    "free_delivery_limit": "nad 499 Kč",
     "express_delivery": {
       "available": "not available",
       "delivery_time": "not available",
@@ -73,7 +78,7 @@
     "cod_surcharge": "not available"
   },
   "IN_STORE_PICKUP": {
-    "available": "not available",
+    "available": "no",
     "locations": "not available",
     "pricing": "not available",
     "free_delivery_limit": "not available",
@@ -89,5 +94,5 @@
     "island_surcharge": "not available",
     "cod_surcharge": "not available"
   },
-  "SUMMARY": "SUMMARY: No shipping information could be extracted as the provided page content was a Cloudflare security check. All requested data points are unavailable. NOTABLE FEATURES: Not available. WEBSITE ASSESSMENT: The quality of shipping information cannot be assessed as the relevant page was not accessible."
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is provided by DPD. Parcel shop (pickup point) delivery is available through Zásilkovna and DPD. PRICING: Home delivery costs 59 Kč. Parcel shop delivery costs 49 Kč. Free shipping is offered on all orders over 499 Kč. DELIVERY TIMES: Zásilkovna delivers in 1-2 business days, while DPD (both courier and pickup point) takes 4 business days from dispatch. NOTABLE FEATURES: The free shipping threshold is a low 499 Kč for all methods. Zásilkovna provides a significantly faster delivery option. WEBSITE ASSESSMENT: The shipping information is clear and easy to find on a dedicated page. It specifies providers, pricing, free shipping limits, and delivery times. However, information regarding Cash on Delivery (COD), express options, and weekend delivery is not available."
 }

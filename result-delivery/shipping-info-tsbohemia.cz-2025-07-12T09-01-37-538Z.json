@@ -1,0 +1,102 @@
+{
+  "website": "tsbohemia.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "DPD",
+      "PPL"
+    ],
+    "pricing": "Česká pošta: 79 Kč for orders up to 2 999 Kč. DPD: 79 Kč for orders up to 2 999 Kč. PPL: 93 Kč for orders up to 2 999 Kč, 19 Kč for orders over 2 999 Kč.",
+    "free_delivery_limit": "Free for orders over 2 999 Kč (excludes PPL and bulky items).",
+    "delivery_time": "Usually the next working day for orders placed before the cut-off time (Česká pošta: 16:00, DPD: 18:00, PPL: 19:00).",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "59 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "199 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "59 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD Pickup",
+      "PPL Parcelshop"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for orders over 999 Kč. Price for orders under 999 Kč is not specified.",
+    "free_delivery_limit": "Free for orders over 999 Kč.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "59 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "Free for orders over 999 Kč. Price for orders under 999 Kč is not specified.",
+    "free_delivery_limit": "Free for orders over 999 Kč.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "59 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Wide network of stores throughout the Czech Republic.",
+    "pricing": "Zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Zdarma"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: TSBOHEMIA.CZ offers home delivery, bulky item delivery, pickup at parcel shops/lockers, and in-store pickup. PROVIDERS: Main providers for home delivery are Česká pošta, DPD, and PPL. Parcel shop providers include DPD Pickup and PPL Parcelshop. PRICING: Home delivery is free for orders over 2,999 Kč (except for PPL, which costs 19 Kč). Pickup at parcel shops/lockers is free for orders over 999 Kč. In-store pickup is always free. Bulky item delivery has a flat fee of 199 Kč. COD surcharge is 59 Kč. NOTABLE FEATURES: The company offers next-day delivery with different cut-off times depending on the carrier (up to 19:00 with PPL). In-store pickup is available on Saturdays. WEBSITE ASSESSMENT: The shipping information page is well-organized with a clear summary table at the top. Detailed information for each carrier is provided in separate sections. However, some information is missing, such as the price for parcel shop/locker delivery for orders below the free shipping threshold and the specific providers for parcel lockers."
+}

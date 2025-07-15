@@ -1,0 +1,110 @@
+{
+  "website": "vivantis.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "GLS",
+      "Česká pošta"
+    ],
+    "pricing": "89 Kč (ZDARMA od 2 500 Kč)",
+    "free_delivery_limit": "2 500 Kč",
+    "delivery_time": "doručení následující pracovní den (při objednání v pracovních dnech do 10:00)",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "GLS - výdejní místa",
+      "PPL výdejní místa",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 59 Kč, GLS - výdejní místa: 59 Kč, PPL výdejní místa: 59 Kč, Zásilkovna: 64 Kč. Vše zdarma od 2 500 Kč.",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS - výdejní boxy",
+      "PPL Alzaboxy",
+      "PPL Parcelboxy",
+      "Zásilkovna ZBox"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS - výdejní boxy: 59 Kč, PPL Alzaboxy: 59 Kč, PPL Parcelboxy: 59 Kč, Zásilkovna ZBox: 64 Kč. Vše zdarma od 2 500 Kč.",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha",
+      "Chrudim"
+    ],
+    "pricing": "Praha: 39 Kč, Chrudim: 15 Kč (ZDARMA od 2 500 Kč)",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "doručení ještě týž pracovní den (při objednání do 08:30 pro Prahu, do 12:00 pro Chrudim)",
+      "pricing": "Included in standard price"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Vivantis.cz provides home delivery, parcel shop/locker pickup, and personal pickup at two store locations (Prague, Chrudim). PROVIDERS: Carriers include PPL, GLS, Zásilkovna, and Česká pošta (via Balíkovna). PRICING: Home delivery is 89 Kč. Parcel services range from 59 Kč to 64 Kč. In-store pickup costs 15 Kč (Chrudim) or 39 Kč (Prague). Free shipping is offered on orders over 2,500 Kč for most methods. A 25 Kč packing fee applies to orders under 350 Kč. DELIVERY SPEED: Most services offer next-day delivery if ordered by the specified cut-off time. NOTABLE FEATURES: Same-day personal pickup is available for both store locations. The website offers a wide variety of parcel shop and locker options. WEBSITE ASSESSMENT: The shipping information is well-organized and clear on a dedicated page. Prices, delivery times, and order deadlines are explicitly stated for each option. However, information regarding Cash on Delivery (COD) surcharges is missing, and the specific carrier for the general 'Home Delivery' option is not explicitly named."
+}

@@ -1,0 +1,93 @@
+{
+  "website": "nejlevnejsinabytek.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "* objednávka 1 - 999 Kč - dopravné 99 Kč\n* objednávka 1 000 - 1 999 Kč - dopravné 199 Kč\n* objednávka od 2 000 Kč - dopravné zdarma",
+    "free_delivery_limit": "2000 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "50 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "* objednávka 1 - 999 Kč - dopravné 99 Kč\n* objednávka 1 000 - 1 999 Kč - dopravné 199 Kč\n* objednávka od 2 000 Kč - dopravné zdarma\n\nPříplatkové služby:\nPomoc s výnosem: 350 Kč\nPlnohodnotný výnos: 1 499 Kč",
+    "free_delivery_limit": "2000 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "50 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "bez poplatku",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: The e-shop offers home delivery for all products, including bulky furniture, and free in-store pickup. Delivery pricing is tiered based on order value: 99 Kč for orders up to 999 Kč, 199 Kč for orders between 1,000 and 1,999 Kč, and free for orders of 2,000 Kč and above. Parcel shop and parcel locker delivery are not available. \nNOTABLE FEATURES: Cash on delivery is available for a 50 Kč surcharge. For bulky items, optional carrying services are offered: 'Pomoc s výnosem' (driver assistance) for 350 Kč and 'Plnohodnotný výnos' (two-person service) for 1,499 Kč, with some weight and item type restrictions. \nWEBSITE ASSESSMENT: The shipping information is located on a dedicated page and is straightforward. The pricing structure is clear. However, the page lacks crucial details such as specific shipping carriers, estimated delivery times, and information about express or weekend delivery options. The location for in-store pickup is also not mentioned on this page."
+}

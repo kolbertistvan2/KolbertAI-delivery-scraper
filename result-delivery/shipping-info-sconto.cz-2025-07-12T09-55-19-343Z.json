@@ -1,0 +1,102 @@
+{
+  "website": "sconto.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "129 Kč. Free for orders over 2,000 Kč.",
+    "free_delivery_limit": "2 000 Kč",
+    "delivery_time": "2-5 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "50 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "SCONTO Doprava",
+      "contractual partners"
+    ],
+    "pricing": "Price is based on the total order value:\n- up to 4,999 Kč: 499 Kč\n- 5,000 Kč - 9,999 Kč: 699 Kč\n- 10,000 Kč - 19,999 Kč: 899 Kč\n- 20,000 Kč - 29,999 Kč: 1,099 Kč\n- 30,000 Kč - 49,999 Kč: 1,299 Kč\n- over 50,000 Kč: 1,499 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The delivery date will be announced by e-mail and SMS.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "50 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč. Free for orders over 2,000 Kč.",
+    "free_delivery_limit": "2 000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "50 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč. Free for orders over 2,000 Kč.",
+    "free_delivery_limit": "2 000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "50 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "9 SCONTO stores in Czechia",
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not applicable"
+  },
+  "SUMMARY": "Sconto.cz provides multiple shipping options in the Czech Republic. For small items, customers can opt for home delivery via DPD for 129 Kč or use Zásilkovna (parcel shops/lockers) for 89 Kč, with both options being free for orders over 2,000 Kč. For large, bulky items, Sconto uses its own delivery service with a tiered pricing structure based on the order value, starting from 499 Kč. Additionally, free in-store pickup is available at all 9 of their physical locations. A cash on delivery (COD) surcharge of 50 Kč applies to all paid delivery methods. NOTABLE FEATURES: Free shipping threshold of 2,000 Kč for standard parcels. Tiered pricing for bulky goods delivery. Free in-store pickup at 9 locations. The price for bulky delivery does not include carrying items upstairs, which is an optional paid service. WEBSITE ASSESSMENT: The shipping information is located on a clear and well-organized 'Doprava a platba' (Shipping and Payment) page. The different delivery methods are distinctly separated, making it easy for users to find relevant pricing and terms. The main limitation is the lack of specific delivery timeframes for bulky items and the absence of express or weekend delivery options."
+}

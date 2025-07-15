@@ -1,0 +1,93 @@
+{
+  "website": "decodoma.cz",
+  "HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "Doprava zdarma při nákupu nad 1 500 Kč",
+    "free_delivery_limit": "1 500 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [],
+    "locations_count": "20 000",
+    "pricing": "Doprava zdarma při nákupu nad 1 500 Kč",
+    "free_delivery_limit": "1 500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [],
+    "locations_count": "20 000",
+    "pricing": "Doprava zdarma při nákupu nad 1 500 Kč",
+    "free_delivery_limit": "1 500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: The website advertises free shipping for orders exceeding 1,500 Kč and offers a network of 20,000 pickup points, which likely includes parcel shops and lockers. NOTABLE FEATURES: Specific details regarding shipping carriers, standard delivery costs, delivery timeframes, express options, or cash on delivery fees are not available on the homepage. WEBSITE ASSESSMENT: The shipping information on the homepage is very limited. To obtain comprehensive details, customers would need to navigate to the dedicated 'Doprava a platba' page or proceed to the checkout."
+}

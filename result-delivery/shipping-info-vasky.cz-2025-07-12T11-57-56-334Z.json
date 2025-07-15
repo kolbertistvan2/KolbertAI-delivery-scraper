@@ -1,0 +1,101 @@
+{
+  "website": "vasky.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "The approximate delivery time is listed for each model on the website.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta (Balíkovna)",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta (Balíkovna)",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available, but specific locations not listed on this page.",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Vasky.cz offers home delivery, pickup at parcel shops/lockers, and in-store pickup within the Czech Republic.\nPROVIDERS: Delivery partners include Česká pošta (for home delivery and Balíkovna pickup points) and Zásilkovna (for pickup points).\nPRICING: Specific shipping costs, free shipping thresholds, and COD surcharges are not mentioned on the FAQ page.\nDELIVERY TIME: The delivery timeframe is not fixed and is specified on each individual product's page.\nNOTABLE FEATURES: Customers can pick up orders from the company's own stores. Orders for in-store pickup are held for one month. International shipping is also available, but with higher costs.\nWEBSITE ASSESSMENT: The shipping information on the FAQ page is very basic. It confirms the available delivery methods and providers but lacks essential details like pricing and standard delivery times. Customers need to proceed to checkout or view product pages to get more complete information."
+}

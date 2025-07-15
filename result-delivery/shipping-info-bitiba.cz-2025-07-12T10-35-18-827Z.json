@@ -1,0 +1,103 @@
+{
+  "website": "bitiba.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "PPL"
+    ],
+    "pricing": "Česká pošta & PPL: 79 Kč for orders from 299 Kč to 598 Kč; 59 Kč for orders from 599 Kč to 799 Kč; Free for orders over 799 Kč.",
+    "free_delivery_limit": "799 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL Parcelshop: 69 Kč for orders from 299 Kč to 598 Kč; 59 Kč for orders from 599 Kč to 799 Kč; Free for orders over 799 Kč. Zásilkovna: 49 Kč for orders from 299 Kč to 598 Kč; 39 Kč for orders from 599 Kč to 799 Kč; Free for orders over 799 Kč.",
+    "free_delivery_limit": "799 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Not available for Zásilkovna. 39 Kč for other providers where available."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "AlzaBox",
+      "PPL Parcelbox",
+      "Zásilkovna (Z-BOX)"
+    ],
+    "locations_count": "not available",
+    "pricing": "AlzaBox, PPL Parcelbox: 69 Kč for orders from 299 Kč to 598 Kč; 59 Kč for orders from 599 Kč to 799 Kč; Free for orders over 799 Kč. Zásilkovna Z-BOX: 49 Kč for orders from 299 Kč to 598 Kč; 39 Kč for orders from 599 Kč to 799 Kč; Free for orders over 799 Kč.",
+    "free_delivery_limit": "799 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "AlzaBox and PPL Parcelbox are accessible non-stop, implying weekend availability."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Not available for Zásilkovna Z-BOX. 39 Kč for other providers where available."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: bitiba.cz offers home delivery, parcel shops, and parcel lockers. Home delivery is handled by Česká pošta and PPL. Parcel shop/locker options include PPL Parcelshop/Parcelbox, Zásilkovna/Z-BOX, and AlzaBox. In-store pickup and dedicated bulky item delivery are not available.\nPRICING: Shipping is free for all orders over 799 Kč. For orders between 299 Kč and 799 Kč, prices are tiered. Home delivery costs 79 Kč (for orders up to 598 Kč) or 59 Kč (for orders up to 799 Kč). Zásilkovna is the most economical option, starting at 49 Kč and dropping to 39 Kč. The cash on delivery (COD) surcharge is 39 Kč, but this option is not available for Zásilkovna services.\nRESTRICTIONS: There is a minimum order value of 299 Kč. Zásilkovna has a weight limit of 15 kg per parcel. The choice of carrier is not guaranteed and may be changed by bitiba for logistical reasons.\nNOTABLE FEATURES: A wide network of pickup points and lockers is available. AlzaBox and PPL Parcelbox lockers offer non-stop 24/7 access.\nWEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page with a well-organized, tabular layout. Pricing tiers are easy to understand. However, the information lacks specific delivery time estimates (e.g., 2-4 business days) and details on shipping bulky items."
+}

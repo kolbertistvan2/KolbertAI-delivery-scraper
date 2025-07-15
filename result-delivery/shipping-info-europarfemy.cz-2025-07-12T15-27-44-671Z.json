@@ -1,0 +1,104 @@
+{
+  "website": "europarfemy.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna",
+      "Balíkovna"
+    ],
+    "pricing": "PPL doručení řidičem na adresu: 89 Kč. Zásilkovna na adresu: 85 Kč. Balíkovna na adresu: 89 Kč. Doprava je ZDARMA při objednávce nad 2990 Kč. Při objednávkách do 300 Kč účtujeme 30 Kč za balné.",
+    "free_delivery_limit": "2990 Kč",
+    "delivery_time": "Termíny doručení jsou pouze orientační a závisí na aktuální situaci a kapacitách jednotlivých přepravních společností.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "15 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL výdejní místa",
+      "Zásilkovna",
+      "Balíkovna"
+    ],
+    "locations_count": "Více než 7000 poboček Zásilkovny v ČR a na Slovensku.",
+    "pricing": "PPL výdejní místa: 30 Kč. Osobní odběr Zásilkovna: 50 Kč. Balík do Balíkovny: 55 Kč. Doprava je ZDARMA při objednávce nad 2990 Kč. Při objednávkách do 300 Kč účtujeme 30 Kč za balné.",
+    "free_delivery_limit": "2990 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "15 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (Z-BOX)",
+      "Balíkovna (Balíkovna-BOX)"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna (Z-BOX): 50 Kč. Balík do Balíkovny (Balíkovna-BOX): 55 Kč. Doprava je ZDARMA při objednávce nad 2990 Kč. Při objednávkách do 300 Kč účtujeme 30 Kč za balné.",
+    "free_delivery_limit": "2990 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Není možná platba na dobírku pro Z-BOX. Pro Balíkovna-BOX je dobírka 15 Kč."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, Parcel Shops, and Parcel Lockers are available. PROVIDERS: PPL, Zásilkovna, and Balíkovna (Česká pošta) are the main carriers for all delivery types. PRICING: Parcel shop/locker delivery starts at 30 Kč (PPL). Home delivery starts at 85 Kč (Zásilkovna). Free shipping is offered on orders over 2990 Kč. A 30 Kč packing fee applies to orders under 300 Kč. COD surcharge is a standard 15 Kč. NOTABLE FEATURES: A good variety of common Czech carriers are offered. COD is not available for Z-BOX lockers. Delivery times are not guaranteed and are stated as indicative. WEBSITE ASSESSMENT: The shipping information is consolidated on a single, easy-to-find 'Doprava a platba' page. The details are clear and well-structured, covering pricing, providers, and key conditions. The main missing piece of information is a specific delivery timeframe for each service."
+}

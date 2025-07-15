@@ -1,0 +1,108 @@
+{
+  "website": "svarecky-obchod.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DHL",
+      "DPD",
+      "Geis",
+      "GLS",
+      "Zásilkovna",
+      "Česká Pošta"
+    ],
+    "pricing": "Cena dopravy se zobrazuje v košíku po vložení zboží do košíku.",
+    "free_delivery_limit": "U vybraných položek doprava zdarma.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL",
+      "Geis"
+    ],
+    "pricing": "U vybraného zboží přesahující 50 kg je účtován váhový příplatek.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Cena dopravy se zobrazuje v košíku po vložení zboží do košíku.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "U vybraných dopravců"
+    ],
+    "locations_count": "not available",
+    "pricing": "Cena dopravy se zobrazuje v košíku po vložení zboží do košíku.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "expedičním centru-prodejna v Rožnově pod Radhoštěm",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, bulky item delivery (>50 kg), parcel shop/locker delivery, and in-store pickup.\nPROVIDERS: A wide range of carriers is used, including PPL, DHL, DPD, Geis, GLS, Zásilkovna, and Česká Pošta. Bulky items are specifically delivered by DHL or Geis.\nPRICING: Shipping costs are dynamic and shown in the shopping cart. Free shipping is available for selected products. A weight surcharge is applied for items over 50 kg. A 1% discount is given for prepayment via bank transfer.\nNOTABLE FEATURES: In-store pickup is available at a single location in Rožnově pod Radhoštěm. The website mentions delivery to parcel lockers and pickup points is possible with selected carriers. Cash on delivery is an option, but the specific surcharge for the Czech Republic is not stated on the page.\nWEBSITE ASSESSMENT: The shipping information page provides a good general overview of available methods and carriers. However, it lacks specific pricing details, delivery timeframes, and COD surcharges, requiring the customer to add an item to the cart to see the final cost. The information for different delivery types (e.g., home vs. parcel shop) is not clearly separated."
+}

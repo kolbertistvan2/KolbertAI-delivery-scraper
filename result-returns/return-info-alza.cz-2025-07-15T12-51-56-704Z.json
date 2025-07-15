@@ -1,0 +1,44 @@
+{
+  "website": "alza.cz",
+  "IN_STORE_RETURN": {
+    "available": "not available",
+    "locations": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "HOME_COLLECTION": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "FREE_RETURN": {
+    "available": "not available",
+    "conditions": "not available",
+    "methods": "not available"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "not available",
+    "usage": "not available",
+    "providers": "not available"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "not available",
+    "url": "not available",
+    "features": "not available"
+  },
+  "SUMMARY": "Return information could not be extracted as the page is blocked by a Cloudflare security check."
+}

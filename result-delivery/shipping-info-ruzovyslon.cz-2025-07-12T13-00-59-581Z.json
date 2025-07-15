@@ -1,0 +1,118 @@
+{
+  "website": "ruzovyslon.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "GLS",
+      "DPD",
+      "PPL",
+      "Zásilkovna"
+    ],
+    "pricing": "Zásilkovna na adresu: 89 Kč. Balíkovna na adresu, GLS, DPD kurýr, PPL kurýr: 99 Kč. Zdarma nad 1200 Kč (1000 Kč pro stálé zákazníky).",
+    "free_delivery_limit": "Při nákupu nad 1 200 Kč máte dopravné zdarma, stálí zákazníci už nad 1 000 Kč.",
+    "delivery_time": "1–2 pracovní dny",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "týž den po zaplacení",
+      "pricing": "139 Kč, zdarma při objednávce nad 1 200 Kč. Stálý zákazník 119 Kč, zdarma nad 1 000 Kč."
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Zásilkovna: 128 Kč (49 Kč for orders over 1200 Kč). Other providers (DPD, GLS, PPL, Balíkovna): 138 Kč (39 Kč for orders over 1200 Kč)."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "PPL",
+      "Zásilkovna",
+      "GLS",
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL Parcelshop: 39 Kč. DPD výdejní místo / Zásilkovna osobní odběr: 59 Kč. Zdarma nad 1200 Kč (1000 Kč pro stálé zákazníky).",
+    "free_delivery_limit": "Při nákupu nad 1 200 Kč máte dopravné zdarma, stálí zákazníci už nad 1 000 Kč.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Zásilkovna: 98 Kč (39 Kč for orders over 1200 Kč). DPD/PPL/GLS: 138 Kč (39 Kč for orders over 1200 Kč)."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (Z-Box)",
+      "DPD (DPD Pickup boxy)",
+      "PPL (PPL Parcelboxy)"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL Parcelbox: 39 Kč. Zásilkovna Z-Box / DPD Pickup box: 59 Kč. Zdarma nad 1200 Kč (1000 Kč pro stálé zákazníky).",
+    "free_delivery_limit": "Při nákupu nad 1 200 Kč máte dopravné zdarma, stálí zákazníci už nad 1 000 Kč.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Zásilkovna Z-Box: 98 Kč (39 Kč for orders over 1200 Kč). DPD/PPL: 138 Kč (39 Kč for orders over 1200 Kč)."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Havířov",
+      "Praha 1 (OC Quadrio)",
+      "Praha 4 (Westfield Chodov)",
+      "Praha 8 (Centrum Krakov)",
+      "Praha 10 (RP Štěrboholy)"
+    ],
+    "pricing": "Zdarma pro online zaplacené objednávky. 19 Kč při platbě na prodejně.",
+    "free_delivery_limit": "Zdarma pro online zaplacené objednávky.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Havířov: týž den po zaplacení. Praha: 1 pracovní den po zaplacení.",
+      "pricing": "Zdarma"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "19 Kč for payment in store (cash or card)."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Ruzovyslon.cz provides comprehensive shipping options including Home Delivery, Parcel Shops, Parcel Lockers, and In-Store Pickup. PROVIDERS: Major carriers like DPD, Zásilkovna, GLS, PPL, and Balíkovna are used. PRICING: Home delivery costs 89-99 Kč. Parcel points are cheaper, starting at 39 Kč (PPL) and 59 Kč (DPD, Zásilkovna). Free shipping is offered on orders over 1200 Kč (or 1000 Kč for loyal customers). In-store pickup is free for prepaid orders. NOTABLE FEATURES: The store is known for its extremely fast dispatch, often sending out orders the same day even when placed late in the evening (e.g., up to 9 PM for DPD), ensuring next-day delivery. Same-day express delivery is available in Ostrava. In-store pickup is available in Havířov and four Prague locations. All shipments are guaranteed to be 100% discreetly packaged. WEBSITE ASSESSMENT: The shipping information page is exceptionally detailed, clear, and well-organized. It provides a complete breakdown of costs, delivery times, COD fees, and specific dispatch cut-off times for each carrier, making it one of the most transparent and user-friendly shipping info pages."
+}

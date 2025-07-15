@@ -1,0 +1,97 @@
+{
+  "website": "nabytekzakacku.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "VLASTNÍ DOPRAVA"
+    ],
+    "pricing": "Do vybraných regionů je doprava zdarma již při nákupu nad 300 Kč.",
+    "free_delivery_limit": "300 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "VLASTNÍ DOPRAVA"
+    ],
+    "pricing": "Do vybraných regionů je doprava zdarma již při nákupu nad 300 Kč. Služba \"VÝNOS DO PATRA\" je k dispozici.",
+    "free_delivery_limit": "300 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only mentioned delivery method is the company's own transport service (\"VLASTNÍ DOPRAVA\"), which handles both standard and bulky items. No third-party couriers, parcel shops, parcel lockers, or in-store pickup options are mentioned.\nPRICING: Free shipping is offered on purchases over 300 Kč, but only to unspecified \"selected regions\". No other pricing information is available.\nNOTABLE FEATURES: An additional service for carrying furniture upstairs (\"VÝNOS DO PATRA\") is available.\nWEBSITE ASSESSMENT: The shipping information on the provided page is extremely limited. Key details like standard shipping costs, delivery timeframes, the specific regions eligible for free delivery, and COD options are missing. More complete information is likely available on the \"Dodací podmínky\" (Delivery Conditions) page, which was not provided for analysis."
+}

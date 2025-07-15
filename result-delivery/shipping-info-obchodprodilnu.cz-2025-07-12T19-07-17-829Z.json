@@ -1,0 +1,110 @@
+{
+  "website": "obchodprodilnu.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "PPL",
+      "DPD"
+    ],
+    "pricing": "Ceny jsou odstupňované podle hmotnosti.\nGLS: 99 Kč - 379 Kč\nPPL: 109 Kč - 399 Kč\nDPD: 119 Kč - 439 Kč\nExistují také příplatky za nadrozměrné/neskladné zboží (PPL extra, DPD extra/speciál).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GEIS",
+      "Doprava autem prodávajícího"
+    ],
+    "pricing": "Paletová přeprava GEIS: od 549 Kč do 3299 Kč v závislosti na hmotnosti.\nDoprava autem prodávajícího (DAP): od 549 Kč do 2499 Kč v závislosti na hmotnosti.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "do 1 týdne od Vaší objednávky (pro závoz vlastními vozy)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS ParcelShop",
+      "PPL ParcelShop",
+      "DPD PickupShop"
+    ],
+    "locations_count": "not available",
+    "pricing": "Ceny jsou odstupňované podle hmotnosti.\nGLS ParcelShop: 49 Kč - 199 Kč\nPPL ParcelShop: 79 Kč - 349 Kč\nDPD PickupShop: 79 Kč - 119 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "Dle otevírací doby výdejního místa."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS ParcelBox",
+      "PPL ParcelBox",
+      "DPD PickupBox"
+    ],
+    "locations_count": "not available",
+    "pricing": "Ceny jsou odstupňované podle hmotnosti.\nGLS ParcelBox: 49 Kč - 199 Kč\nPPL ParcelBox: 79 Kč - 349 Kč\nDPD PickupBox: 79 Kč - 119 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Výhodou Parcelboxů je nepřetržitý provoz."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "České Budějovice"
+    ],
+    "pricing": "0 Kč",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Otevřeno Po - Pá"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers a wide range of delivery methods including standard home delivery, parcel shops, parcel lockers, bulky/pallet delivery, and free in-store pickup. PROVIDERS: Main parcel carriers are GLS, PPL, and DPD. Bulky items are handled by GEIS or the seller's own van. PRICING: All shipping costs are calculated based on the weight of the order, with detailed price tables available for each service. There is no general free shipping threshold mentioned. RESTRICTIONS: A small order fee of 109 Kč is charged for orders under 299 Kč, but this is waived for registered customers or for in-store pickup.\nNOTABLE FEATURES: Free in-store pickup is available in České Budějovice. The store offers specialized shipping for oversized or irregularly shaped items (PPL/DPD extra/speciál). For very heavy orders (over 600 kg), delivery by the seller's own van is an option. Pallet shipping is available for bulky goods. COD is available with a surcharge of 39 Kč for parcels and 49 Kč for pallets.\nWEBSITE ASSESSMENT: The shipping information is exceptionally detailed and transparent. Prices are clearly broken down by provider and weight in comprehensive tables. The different shipping categories (standard, parcel shop, pallet) are well-explained, helping customers choose the best option. The only missing piece of information is the standard delivery timeframe (e.g., D+1, D+2) for parcel services."
+}

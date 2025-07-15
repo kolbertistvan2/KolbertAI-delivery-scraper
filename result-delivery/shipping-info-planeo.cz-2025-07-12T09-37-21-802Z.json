@@ -1,0 +1,97 @@
+{
+  "website": "planeo.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "99 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "349 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "49 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "49 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available at PLANEO stores",
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Planeo.cz offers several delivery methods in Czechia. Standard home delivery costs 99 Kč, and delivery for bulky items is 349 Kč. Customers can also opt for pickup, with free collection available at any PLANEO store. Alternatively, delivery to Zásilkovna pickup points and Z-Boxes is available for 49 Kč. A premium delivery service including carrying items upstairs and basic installation is offered starting from 649 Kč. NOTABLE FEATURES: Key services include free in-store pickup and a combined delivery and installation service for large appliances. WEBSITE ASSESSMENT: The shipping information page is visually clear but lacks important details. It does not specify the courier companies for home delivery, expected delivery timeframes, free shipping thresholds, or information regarding express delivery, weekend delivery, or cash on delivery options. This information is likely provided during the checkout process."
+}

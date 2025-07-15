@@ -1,0 +1,109 @@
+{
+  "website": "blackcomb.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "PPL"
+    ],
+    "pricing": "From 99 Kč. Free for orders over 1990 Kč.",
+    "free_delivery_limit": "1990 Kč",
+    "delivery_time": "1-2 business days",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Saturday",
+      "pricing": "From 169 Kč (Česká pošta - Balík Do ruky - sobotní doručení)"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Česká pošta"
+    ],
+    "pricing": "100 Kč (prepaid), 130 Kč (COD)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta (Balíkovna)",
+      "PPL (PPL ParcelShop)",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "From 79 Kč. Free for orders over 1990 Kč.",
+    "free_delivery_limit": "1990 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "PPL (PPL ParcelBOX)"
+    ],
+    "locations_count": "not available",
+    "pricing": "From 79 Kč. Free for orders over 1990 Kč.",
+    "free_delivery_limit": "1990 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Třinec"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, Parcel Shops/Lockers, and In-Store Pickup are available. PROVIDERS: Česká pošta, PPL, and Zásilkovna. PRICING: Starts at 79 Kč for pickup points and 99 Kč for home delivery. Free shipping is offered on orders over 1990 Kč, excluding bulky items. In-store pickup in Třinec is free. NOTABLE FEATURES: Saturday delivery is available via Česká pošta and PPL. COD is available for a surcharge (39 Kč for standard, 30 Kč for bulky). Bulky items like snowboards have specific shipping rules and costs (100-130 Kč) and cannot be sent to Zásilkovna points. In-store pickup is restricted to items in stock at the warehouse. WEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page with a detailed price table and explanations for each service. It is comprehensive, easy to understand, and covers all necessary details like delivery times, payment options, and special conditions for bulky goods."
+}

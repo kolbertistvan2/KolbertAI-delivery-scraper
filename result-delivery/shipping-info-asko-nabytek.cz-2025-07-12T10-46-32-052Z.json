@@ -1,0 +1,93 @@
+{
+  "website": "asko-nabytek.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "Osobní odběry vždy zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Do pár minut",
+      "pricing": "zdarma"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers its own home delivery service ('dovážka') for all items, including bulky furniture, and free in-store pickup. There is no mention of delivery to third-party parcel shops or lockers.\nPRICING: In-store pickup is always free. Pricing for home delivery is not specified on the provided page.\nPROVIDERS: No specific external courier companies (like PPL, DPD) are mentioned for home delivery; it appears to be an in-house service.\nNOTABLE FEATURES: The 'Expreska' service allows for in-store pickup within minutes of placing an online order. Payment upon pickup is an option. A van rental service ('Půjč si mě') is available at select stores.\nWEBSITE ASSESSMENT: The 'Services' page provides a good overview of the types of delivery available but lacks crucial details such as shipping costs, delivery timeframes, and specific courier partners. This information is likely available during the checkout process."
+}

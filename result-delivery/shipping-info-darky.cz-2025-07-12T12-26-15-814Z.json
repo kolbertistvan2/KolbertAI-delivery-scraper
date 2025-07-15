@@ -1,0 +1,101 @@
+{
+  "website": "darky.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "Zásilkovna.cz"
+    ],
+    "pricing": "od 69 Kč, doprava zdarma při objednávce nad 1 999 Kč",
+    "free_delivery_limit": "1 999 Kč",
+    "delivery_time": "Při objednávce do 13:00 je zásilka zpravidla doručena následující pracovní den.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč (nad 1 999 Kč zdarma)"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Česká pošta Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "od 49 Kč, doprava zdarma při objednávce nad 1 999 Kč",
+    "free_delivery_limit": "1 999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč (nad 1 999 Kč zdarma)"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Alzaboxy"
+    ],
+    "locations_count": "not available",
+    "pricing": "49 Kč, doprava zdarma při objednávce nad 1 999 Kč",
+    "free_delivery_limit": "1 999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč (nad 1 999 Kč zdarma)"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, Parcel Shops, and Parcel Lockers are available. PROVIDERS: Česká pošta, Zásilkovna, and AlzaBox. PRICING: Shipping costs range from 49 Kč to 69 Kč. Free shipping is offered on all orders over 1,999 Kč. COD is available for a 30 Kč fee, which is waived for orders over 1,999 Kč. DELIVERY SPEED: Orders placed by 13:00 are typically delivered the next business day. NOTABLE FEATURES: Fast same-day dispatch for orders placed before 13:00. Generous free shipping and free COD threshold at 1,999 Kč. WEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page. Prices and payment options are listed for each delivery method. However, it lacks specific details on weekend delivery, express options, and any information regarding bulky item shipping. Some delivery types like Parcel Shops and Parcel Lockers are grouped together."
+}

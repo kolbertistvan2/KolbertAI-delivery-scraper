@@ -1,0 +1,106 @@
+{
+  "website": "nejlevnejsi-knihy.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna na adresu (Česká pošta)",
+      "GLS",
+      "PPL"
+    ],
+    "pricing": "Doručení Balíkovnou na adresu domů: 69 Kč. Kurýrní služba GLS: 74 Kč. PPL kurýr: 74 Kč. A mandatory packing fee of 9 Kč is added to every order.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "GLS: 1-2 pracovních dní. PPL: do 24 hodin. Balíkovna na adresu: not specified.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "PPL Parcel Shop",
+      "Výdejní místo GLS",
+      "Balíkovna (Česká pošta)"
+    ],
+    "locations_count": "26413",
+    "pricing": "Vyzvednutí v Zásilkovně: 49 Kč. PPL Parcel Shop: 49 Kč. Výdejní místo GLS: 54 Kč. Balíkovna: 54 Kč. Free delivery for orders over 1 499 Kč. A mandatory packing fee of 9 Kč is added to every order.",
+    "free_delivery_limit": "1 499 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (Z-BOX)",
+      "PPL (PPL Parcelbox)",
+      "Balíkovna (Balíkovna-BOX)"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna (Z-BOX): 49 Kč. PPL Parcelbox: 49 Kč. Balíkovna-BOX: 54 Kč. Free delivery for orders over 1 499 Kč. A mandatory packing fee of 9 Kč is added to every order.",
+    "free_delivery_limit": "1 499 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč (Note: For Balíkovna-BOX, payment must be made online before pickup)"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home Delivery, Parcel Shops, and Parcel Lockers are available. In-store pickup is not offered as a distinct service.\nPROVIDERS: Home delivery via Balíkovna na adresu, GLS, and PPL. Pickup points network includes Zásilkovna, PPL Parcel Shop, GLS, and Balíkovna.\nPRICING: Parcel pickup from 49 Kč. Home delivery from 69 Kč. A mandatory 9 Kč packing fee applies to all orders. Free shipping to pickup points for orders over 1 499 Kč. COD surcharge is 30 Kč.\nNOTABLE FEATURES: Extensive network of over 26,000 pickup points. Fast delivery times specified for PPL (24h) and GLS (1-2 days).\nLIMITATIONS: No express or weekend delivery options. No information on bulky item shipping. Free shipping is not available for home delivery.\nWEBSITE ASSESSMENT: Shipping information is well-organized and clear, presented in a comparative table. It is comprehensive for standard services but lacks details on special delivery types."
+}

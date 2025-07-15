@@ -1,0 +1,97 @@
+{
+  "website": "trendhim.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "69 Kč (4 Kč for orders over 1 199 Kč)",
+    "free_delivery_limit": "not available",
+    "delivery_time": "3 - 4 pracovní dny",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "1 - 2 pracovní dny",
+      "pricing": "189 Kč (124 Kč for orders over 1 199 Kč)"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "20 Kč (Total price for COD delivery is 89 Kč, or 24 Kč for orders over 1 199 Kč)"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "65 Kč. Free for orders over 1 199 Kč.",
+    "free_delivery_limit": "1 199 Kč",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "1 - 2 pracovní dny",
+      "pricing": "159 Kč (94 Kč for orders over 1 199 Kč)"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The website offers standard and express home delivery, as well as standard and express delivery to parcel shops/pickup points. \nPRICING: Standard parcel shop delivery costs 65 Kč and is free for orders over 1 199 Kč. Standard home delivery is 69 Kč (reduced to 4 Kč for orders over 1 199 Kč). Express delivery to a parcel shop is 159 Kč (94 Kč over 1 199 Kč), and express home delivery is 189 Kč (124 Kč over 1 199 Kč). \nDELIVERY TIME: Standard delivery takes 3-4 business days, while express delivery takes 1-2 business days. \nNOTABLE FEATURES: Cash on Delivery (COD) is available for home delivery for an additional 20 Kč. Free shipping is only applicable to standard parcel shop delivery for orders over 1 199 Kč. \nWEBSITE ASSESSMENT: The shipping information is clearly presented in a pop-up, making it easy to understand the options and costs. However, it lacks specific details about the delivery carriers used. There is no information provided regarding shipping for bulky items, parcel lockers as a distinct option, in-store pickup, or weekend delivery."
+}

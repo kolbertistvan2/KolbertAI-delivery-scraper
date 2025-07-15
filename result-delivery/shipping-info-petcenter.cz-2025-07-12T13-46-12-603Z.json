@@ -1,0 +1,103 @@
+{
+  "website": "petcenter.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "DODO"
+    ],
+    "pricing": "DPD doručení na adresu (do 50kg): 99 Kč pro objednávky do 1499 Kč, ZDARMA nad 1499 Kč.",
+    "free_delivery_limit": "1499 Kč",
+    "delivery_time": "Standardní dodací lhůta je 1-2 pracovní dny (platí pro objednávky vytvořené do 12:00). Pro objednávky přijaté o víkendu je doručení v úterý.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "doručení Vaší objednávky již do 2h po objednání",
+      "pricing": "199 Kč, ZDARMA pro objednávky nad 1499 Kč. Pouze pro Prahu a nejbližší okolí. Platba pouze kartou online."
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD výdejní místa",
+      "Česká pošta - Balíkovna",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "DPD výdejní místa (do 20kg): 65 Kč. Česká pošta - Balíkovna (do 15kg): 79 Kč. Zásilkovna (do 15kg): 79 Kč. ZDARMA pro objednávky nad 1499 Kč.",
+    "free_delivery_limit": "1499 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta - Balíkovna",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Česká pošta - Balíkovna (do 15kg): 79 Kč. Zásilkovna (do 15kg): 79 Kč. ZDARMA pro objednávky nad 1499 Kč.",
+    "free_delivery_limit": "1499 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Seznam prodejen dostupný na webu.",
+    "pricing": "Dodání na pobočku PetCenter: 49 Kč (ZDARMA nad 1499 Kč). Expresní vyzvednutí na pobočce: ZDARMA.",
+    "free_delivery_limit": "1499 Kč",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "do 2 hodin od objednání",
+      "pricing": "ZDARMA"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Závisí na otevírací době konkrétní prodejny."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, Express home delivery (Prague), Parcel Shops/Lockers, and In-store pickup (standard and express).\nPROVIDERS: DPD, DODO, Zásilkovna, Česká pošta (Balíkovna).\nPRICING: Prices range from 49 Kč (in-store) to 199 Kč (express home). Free shipping is available for all methods on orders over 1499 Kč. Express in-store pickup is always free. COD surcharge is 40 Kč.\nNOTABLE FEATURES: Very fast delivery options available, including 2-hour express home delivery in Prague via DODO and 2-hour express in-store pickup. Free shipping threshold is consistent across all methods. Weight limits apply (15-50kg depending on service).\nWEBSITE ASSESSMENT: The shipping information is excellent. It is located on a dedicated, easy-to-find page ('Doprava a platba'). The details are presented in a clear table, making it easy to compare options, prices, and weight limits. All necessary information is present and well-organized."
+}

@@ -1,0 +1,97 @@
+{
+  "website": "tchibo.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD CZ s.r.o."
+    ],
+    "pricing": "89 Kč",
+    "free_delivery_limit": "Free for orders over 999 Kč, or over 499 Kč for TchiboCard members.",
+    "delivery_time": "4 to 7 business days, for selected products 1 to 2 weeks",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Rhenus Home Delivery s.r.o."
+    ],
+    "pricing": "Standard shipping fee of 89 Kč applies, but the site notes that in exceptional cases a higher fee may be charged.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "4 to 7 business days, for selected products 1 to 2 weeks",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Tchibo brick-and-mortar stores",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Tchibo.cz provides home delivery and in-store pickup. Home delivery is handled by DPD for standard parcels and Rhenus Home Delivery for bulky items. In-store pickup is available at all Tchibo physical stores. The company does not offer delivery to third-party parcel shops or lockers. Delivery is restricted to the Czech Republic.\nPRICING: Standard home delivery costs 89 Kč. Shipping is free for orders over 999 Kč, or over 499 Kč for TchiboCard loyalty program members. In-store pickup is always free. Cash on delivery (COD) incurs a 29 Kč surcharge for home delivery; payment upon pickup in-store is free.\nDELIVERY TIMES: The standard delivery time for both home delivery and in-store pickup is 4-7 business days, though some items may take 1-2 weeks. No express or weekend delivery options are available.\nNOTABLE FEATURES: A key feature is the TchiboCard, which provides a lower free shipping threshold (499 Kč vs. 999 Kč). Bulky items like furniture are explicitly excluded from in-store pickup and must be delivered to a home address. The website allows customers to track their DPD shipments.\nWEBSITE ASSESSMENT: The shipping information is consolidated on a single 'Doručení' (Delivery) page, which is clearly structured and easy to understand. It covers costs, delivery times, providers, and different methods. However, it lacks information on parcel shops/lockers and does not offer any expedited shipping services."
+}

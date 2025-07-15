@@ -1,0 +1,97 @@
+{
+  "website": "drmax.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Česká pošta",
+      "PPL"
+    ],
+    "pricing": "Information is available on the 'Doprava a platba' page, which was not provided.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "up to 3 working days from order acceptance",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available at Dr. Max pharmacies",
+    "pricing": "Information is available on the 'Doprava a platba' page, which was not provided.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Dr. Max offers home delivery and in-store pickup at their pharmacies. Information regarding parcel shops or lockers is not available in the provided Terms & Conditions.\nPROVIDERS: Home delivery partners include DPD, Česká pošta, and PPL.\nPRICING: Specific shipping costs, free shipping thresholds, and COD surcharges are not detailed in the T&C; this information is located on a separate 'Doprava a platba' (Shipping and Payment) page.\nDELIVERY TIME & RESTRICTIONS: Standard delivery is within 3 working days. Shipping is restricted to the Czech Republic.\nNOTABLE FEATURES: No express or weekend delivery options are mentioned. In-store pickup is available across the Dr. Max pharmacy network.\nWEBSITE ASSESSMENT: The provided Terms & Conditions page contains only general shipping policies. Crucial details like pricing are absent, requiring users to visit another page ('Doprava a platba'), which was not available for this analysis. The information is therefore incomplete for a customer assessing shipping costs."
+}

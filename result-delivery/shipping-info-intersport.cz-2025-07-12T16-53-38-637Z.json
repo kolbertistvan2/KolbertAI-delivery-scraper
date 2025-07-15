@@ -1,0 +1,100 @@
+{
+  "website": "intersport.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL"
+    ],
+    "pricing": "Free for orders over 1,500 Kč, 85 Kč for orders up to 1,500 Kč.",
+    "free_delivery_limit": "1500 Kč",
+    "delivery_time": "PPL usually delivers packages within 24 hours of handing over the shipment. Deliveries take place on working days from 8:00 a.m. to 6:00 p.m.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "Bikes and skis can only be delivered to INTERSPORT stores for pickup.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelshop"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for orders over 1,500 Kč, 55 Kč for orders up to 1,500 Kč.",
+    "free_delivery_limit": "1500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelbox",
+      "AlzaBox"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for orders over 1,500 Kč, 55 Kč for orders up to 1,500 Kč.",
+    "free_delivery_limit": "1500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Any INTERSPORT store in the Czech Republic.",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Intersport.cz provides home delivery, parcel shop/locker delivery, and in-store pickup. PROVIDERS: The primary carrier is PPL for both home and pickup point deliveries, with AlzaBox as a partner for parcel lockers. PRICING: Home delivery costs 85 Kč, and parcel point delivery costs 55 Kč. Free shipping is offered on all orders over 1,500 Kč. In-store pickup is always free. RESTRICTIONS: Shipping is only available within the Czech Republic. Bulky items like bicycles and skis cannot be delivered to a home address and must be picked up at an Intersport store. NOTABLE FEATURES: In-store pickup for bikes and skis is free and includes initial setup and service. PPL drivers are equipped with payment terminals, allowing for card payment upon delivery. WEBSITE ASSESSMENT: The shipping information is located on a single, well-organized page. It clearly outlines the available methods, providers, and costs. However, it lacks specific details regarding COD surcharges, express options, and weekend delivery capabilities."
+}

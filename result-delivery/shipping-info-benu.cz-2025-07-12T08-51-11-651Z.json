@@ -1,0 +1,105 @@
+{
+  "website": "benu.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna",
+      "GLS",
+      "Liftago (BENU Expres)"
+    ],
+    "pricing": "PPL: 79,- Kč\nZásilkovna na adresu: 79,- Kč\nGLS: 99,- Kč",
+    "free_delivery_limit": "Free for orders over 999,- Kč. Promotional free delivery with Zásilkovna and PPL for orders over 399 Kč.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Delivery in selected time slots",
+      "pricing": "99,- Kč. Free for orders over 2 499,- Kč. Available only in Prague for selected postal codes."
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39,-Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "PPL Parcelshop"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna výdejní místo: 49,- Kč\nPPL Parcelshop: 79,- Kč",
+    "free_delivery_limit": "Free for orders over 999,- Kč. Promotional free delivery with Zásilkovna and PPL for orders over 399 Kč.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39,- Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "BENU výdejní boxy"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for orders with a minimum value of 99,- Kč. Prepayment is required.",
+    "free_delivery_limit": "Free for orders over 99,- Kč.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Over 426 pharmacies across the Czech Republic.",
+    "pricing": "Free for orders with a minimum value of 99,- Kč.",
+    "free_delivery_limit": "Free for orders over 99,- Kč.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Benu.cz provides a comprehensive range of delivery options within the Czech Republic. Customers can choose from home delivery via PPL, Zásilkovna, and GLS, with prices from 79 Kč to 99 Kč. Express delivery in Prague is available through Liftago for 99 Kč. Pickup options include PPL Parcelshops (79 Kč), Zásilkovna pickup points (49 Kč), the pharmacy's own network of 'BENU výdejní boxy' (free over 99 Kč, requires prepayment), and personal pickup at over 426 BENU pharmacies (free for orders over 99 Kč). A standard free shipping threshold is set at 999 Kč, with a promotional offer for free delivery via PPL and Zásilkovna on orders over 399 Kč. The cash on delivery surcharge is a uniform 39 Kč where applicable. NOTABLE FEATURES: The service includes express delivery in Prague, a proprietary network of temperature-controlled parcel lockers (BENU výdejní boxy), and Saturday delivery through PPL. WEBSITE ASSESSMENT: The shipping information is presented clearly on a dedicated page, covering providers, pricing, and various service types. The details are comprehensive, though a standard delivery timeframe for courier services is not specified."
+}

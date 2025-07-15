@@ -1,0 +1,109 @@
+{
+  "website": "autokseft.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DPD",
+      "Balíkovna na adresu"
+    ],
+    "pricing": "119,-",
+    "free_delivery_limit": "nad 5000,-",
+    "delivery_time": "obvykle následující pracovní den",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+ 50,-"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Toptrans"
+    ],
+    "pricing": "299,-. Příplatky: EXTRA balné - PLASTOVÉ NADKOLÍ: 79,-, Extra balné - AUTOSKLA: 149,-",
+    "free_delivery_limit": "nad 5000,-",
+    "delivery_time": "do 48 hodin od expedice z našeho skladu",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+ 100,-"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL - ParcelShop",
+      "DPD - Pickup",
+      "Balíkovna"
+    ],
+    "locations_count": "DPD Pickup: více než 170, Balíkovna: více jak 400",
+    "pricing": "99,-",
+    "free_delivery_limit": "nad 5000,-",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Vybraná výdejní místa DPD Pickup jsou otevřena o víkendu."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+ 50,-"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "99,-",
+    "free_delivery_limit": "nad 5000,-",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+ 50,-"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Autokšeft, s.r.o., V. Hálka 39, 543 01 Vrchlabí"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop provides a comprehensive range of delivery methods in the Czech Republic, including home delivery, bulky item delivery, parcel shop/locker pickup, and in-store pickup.\nPROVIDERS: Key providers are PPL, DPD, Česká pošta (Balíkovna), and Toptrans for oversized goods.\nPRICING: Standard home delivery costs 119 Kč, while parcel shop/locker delivery is 99 Kč. Bulky item delivery via Toptrans is 299 Kč. Free shipping is offered on all options for orders over 5,000 Kč. The cash on delivery (COD) surcharge is 50 Kč for standard services and 100 Kč for Toptrans.\nNOTABLE FEATURES: In-store pickup is available in Vrchlabí, including on Saturday mornings. Select DPD Pickup points offer weekend collection. There are specific surcharges for bulky items like plastic wheel arches (79 Kč) and car glass (149 Kč). Size and weight restrictions apply to parcel shop/locker services.\nWEBSITE ASSESSMENT: The shipping information is presented very clearly on a dedicated 'Doprava a platba' page. A well-structured table details the costs, providers, and free shipping threshold, followed by descriptive paragraphs for each service. The information is complete, easy to find, and transparent."
+}

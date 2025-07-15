@@ -1,0 +1,102 @@
+{
+  "website": "auto-doplnky.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL Kurýr",
+      "GLS Kurýr",
+      "Balíkovna na adresu"
+    ],
+    "pricing": "PPL | GLS | Balíkovna v rámci ČR: 99 Kč",
+    "free_delivery_limit": "nad 1 999 Kč",
+    "delivery_time": "Obvykle 24 hodin od předání zásilky dopravci. Zásilka Vám bude doručena do 48 hodin od data expedice.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Saturday (PPL in some larger cities)"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "Free shipping over 1 999 Kč does not apply to car batteries and roof boxes. No other specific pricing is mentioned.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "GLS Parcelshop",
+      "PPL Parcelshop",
+      "Balíkovna"
+    ],
+    "locations_count": "Zásilkovna: přes 4000 výdejních míst",
+    "pricing": "Zásilkovna: 59 Kč\nGLS Parcelshop: 49 Kč\nPPL Parcelshop: 69 Kč\nBalíkovna: 59 Kč",
+    "free_delivery_limit": "nad 1 999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "PPL ParcelShop and GLS ParcelShop can be visited on weekends, depending on the opening hours of the specific location."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Prodejna Ostrava - Vítkovicích",
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "So: 08:00 - 12:00"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is available via PPL, GLS, and Balíkovna. Parcel shop delivery is offered through Zásilkovna, GLS ParcelShop, PPL ParcelShop, and Balíkovna. Free personal pickup is available at their store in Ostrava. \nPRICING: Home delivery costs 99 Kč. Parcel shop prices are 49 Kč (GLS), 59 Kč (Zásilkovna, Balíkovna), and 69 Kč (PPL). In-store pickup is free. Cash on delivery (COD) surcharge is 29 Kč. Free shipping is offered on orders over 1,999 Kč. \nNOTABLE FEATURES: Standard delivery is fast, typically within 24-48 hours of dispatch. Saturday delivery is possible for PPL home delivery (in some cities) and at PPL/GLS parcel shops. The free shipping offer excludes bulky items like car batteries and roof boxes. Zásilkovna has size and weight limitations (max 5 kg, sum of sides 120 cm). \nWEBSITE ASSESSMENT: The shipping information is presented clearly on a dedicated page. It details providers, pricing, and payment options effectively. However, it lacks specific details for bulky item shipping and does not differentiate between parcel shops and parcel lockers."
+}

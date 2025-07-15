@@ -1,0 +1,107 @@
+{
+  "website": "xzone.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna (Česká pošta)",
+      "PPL",
+      "GLS"
+    ],
+    "pricing": "Balíkovna na adresu: 89 Kč\nPPL: 89 Kč\nGLS: 89 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Balíkovna na adresu: 1-2 days\nPPL: 24 hours on business days\nGLS: 24 hours on business days\n(Same-day dispatch for orders placed before 12:00 for in-stock items)",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "1-2 business days",
+      "pricing": "Included in standard pricing"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Balíkovna na adresu: 39 Kč\nPPL: 39 Kč\nGLS: 35 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna",
+      "Balíkovna",
+      "GLS"
+    ],
+    "locations_count": "Thousands of locations across Czechia ('tisíce míst').",
+    "pricing": "PPL: 49 Kč\nZásilkovna: 59 Kč\nBalíkovna: 39 Kč\nGLS: 39 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "PPL: 39 Kč\nZásilkovna: 40 Kč\nBalíkovna: 35 Kč\nGLS: 35 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (úložné boxy)"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: 59 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha",
+      "Brno"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Immediate pickup available for items marked as 'ihned k odběru' (in stock at the store).",
+      "pricing": "Free"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Xzone.cz offers home delivery, parcel shop/locker pickup, and in-store pickup. PROVIDERS: Main carriers are Balíkovna (Česká pošta), PPL, Zásilkovna, and GLS. PRICING: Home delivery is a flat 89 Kč. Parcel shop prices range from 39 Kč (Balíkovna, GLS) to 59 Kč (Zásilkovna). In-store pickup is free. COD surcharges range from 35 Kč to 40 Kč. A free shipping threshold is not mentioned. DELIVERY SPEED: Most services aim for delivery within 1-2 business days, with same-day dispatch for orders of in-stock items placed before 12:00. NOTABLE FEATURES: Free in-store pickup at physical stores in Prague and Brno. A wide variety of parcel shop providers are available. Multiple payment options are offered, including deferred payment via Klarna. WEBSITE ASSESSMENT: The shipping information is consolidated on a single, easy-to-find page. It clearly outlines the available services, providers, and associated costs. However, it lacks details on free shipping thresholds, weekend delivery options, and any specific policies for bulky or oversized items."
+}

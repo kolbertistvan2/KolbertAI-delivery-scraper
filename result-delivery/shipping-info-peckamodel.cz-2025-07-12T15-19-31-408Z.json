@@ -1,0 +1,101 @@
+{
+  "website": "peckamodel.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Geis Parcel CZ, s.r.o.",
+      "Česká pošta, s.p."
+    ],
+    "pricing": "95 Kč - 107 Kč. Free shipping for orders over 2500 Kč.",
+    "free_delivery_limit": "2500 Kč",
+    "delivery_time": "Dispatch within 2-3 business days. Delivery time not specified.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Geis Parcel CZ, s.r.o.",
+      "Česká pošta, s.p."
+    ],
+    "locations_count": "not available",
+    "pricing": "68 Kč - 71 Kč. Free shipping for orders over 2500 Kč.",
+    "free_delivery_limit": "2500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "3x Praha"
+    ],
+    "pricing": "zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Delivery options include Home Delivery (Geis, Česká pošta), Parcel Shops (inferred from pricing), and In-Store Pickup at 3 locations in Prague. Home delivery costs 95-107 Kč, while parcel shop delivery costs 68-71 Kč. In-store pickup is free. Free shipping is provided for all orders over 2,500 Kč. Payment methods include card, bank transfer, and cash on delivery (COD). NOTABLE FEATURES: A flat 30 Kč surcharge applies to all COD orders. Dispatch is stated to be within 2-3 business days, but final delivery times are not specified. WEBSITE ASSESSMENT: The shipping information is somewhat incomplete. While prices are listed in a table, they are not clearly assigned to specific carriers or delivery methods (e.g., home vs. parcel shop), which can be confusing for the user. Information on express or weekend delivery is missing."
+}

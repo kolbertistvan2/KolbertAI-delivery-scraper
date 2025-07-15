@@ -1,0 +1,97 @@
+{
+  "website": "mouser.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "FedEx",
+      "UPS",
+      "DHL"
+    ],
+    "pricing": "A flat rate of 20 € applies to all orders that do not qualify for free delivery.",
+    "free_delivery_limit": "50 € (excluding VAT)",
+    "delivery_time": "Typically 2-3 business days",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Typically 2-3 business days",
+      "pricing": "Included in the standard shipping fee"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Mouser.com offers express home delivery to the Czech Republic. No options for parcel shops, parcel lockers, or in-store pickup are available.\nPROVIDERS: Shipments are handled by major international carriers: FedEx, UPS, and DHL.\nPRICING: Shipping is free for orders over 50 € (excluding VAT). For orders below this threshold, a flat shipping fee of 20 € is applied. Cash on Delivery (COD) is not an option.\nDELIVERY TIME: Delivery is typically within 2-3 business days, as all shipments are sent via international express services.\nNOTABLE FEATURES: The key feature is fast, reliable international shipping with a clear free shipping threshold. The service is geared towards business customers and does not utilize local Czech delivery networks for last-mile options like parcel shops or lockers.\nWEBSITE ASSESSMENT: The shipping information is clearly stated, easy to find, and provides all necessary details regarding costs and carriers for a business-to-business transaction. The terms are simple and transparent."
+}

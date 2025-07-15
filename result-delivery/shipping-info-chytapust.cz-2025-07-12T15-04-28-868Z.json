@@ -1,0 +1,108 @@
+{
+  "website": "chytapust.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta - Balíkovna na adresu",
+      "DPD",
+      "PPL",
+      "Zásilkovna domů"
+    ],
+    "pricing": "99 Kč. Free for orders over 1400 Kč.",
+    "free_delivery_limit": "1400 Kč",
+    "delivery_time": "Next day delivery for orders placed before 14:00.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Výdejny PPL Parcel shop",
+      "Zásilkovna.cz"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 58 Kč, Zásilkovna.cz: 58 Kč, Výdejny PPL Parcel shop: 69 Kč. Free for orders over 1400 Kč.",
+    "free_delivery_limit": "1400 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "PPL Parcel shop",
+      "Zásilkovna.cz"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 58 Kč, Zásilkovna.cz: 58 Kč, PPL Parcel shop: 69 Kč. Free for orders over 1400 Kč.",
+    "free_delivery_limit": "1400 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč (COD not available at all self-service lockers)"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Chyť a pusť, Rokycanská 1337/64, 312 00 Plzeň"
+    ],
+    "pricing": "Zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, pickup at parcel shops/lockers, and free personal pickup at their store in Plzeň. PROVIDERS: Key providers for the Czech Republic include Česká pošta (Balíkovna), DPD, PPL, and Zásilkovna. PRICING: Home delivery costs a flat rate of 99 Kč. Parcel shop/locker delivery starts at 58 Kč. Shipping is free for all orders over 1400 Kč within the Czech Republic. The cash on delivery (COD) surcharge is 39 Kč. NOTABLE FEATURES: The store offers next-day delivery for orders placed by 14:00. Delivery to Slovakia is also available. There is no specific information regarding bulky item delivery or weekend delivery. WEBSITE ASSESSMENT: Shipping information is clearly presented on a dedicated 'Doprava a platba' page. The layout is user-friendly, with prices and providers for each method clearly listed. The free shipping threshold is prominently displayed. The information is comprehensive and easy to find, though it lacks details on weekend delivery and doesn't explicitly separate parcel lockers from parcel shops."
+}

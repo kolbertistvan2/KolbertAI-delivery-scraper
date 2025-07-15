@@ -1,0 +1,106 @@
+{
+  "website": "superzoo.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Balíkovna",
+      "GLS",
+      "PPL kurýrní služba",
+      "Expresní rozvoz"
+    ],
+    "pricing": "DPD, Balíkovna, Expresní rozvoz: 99 Kč for orders up to 1 500 Kč, free for orders over 1 500 Kč. GLS, PPL: 99 Kč.",
+    "free_delivery_limit": "1 500 Kč",
+    "delivery_time": "Orders placed by 12:00 are dispatched the same day. Specific delivery timeframe not mentioned.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "99 Kč for orders up to 1 500 Kč, free for orders over 1 500 Kč."
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "For aquariums and terrariums: 399 Kč for orders up to 3 900 Kč, free for orders over 3 900 Kč.",
+    "free_delivery_limit": "3 900 Kč",
+    "delivery_time": "Orders placed by 12:00 are dispatched the same day. Specific delivery timeframe not mentioned.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "99 Kč for orders up to 1 500 Kč, free for orders over 1 500 Kč.",
+    "free_delivery_limit": "1 500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "99 Kč for orders up to 1 500 Kč, free for orders over 1 500 Kč.",
+    "free_delivery_limit": "1 500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "206 stores nationwide",
+    "pricing": "Free if item is in stock at the store. 59 Kč if shipped from central warehouse (free for orders over 1 500 Kč).",
+    "free_delivery_limit": "1 500 Kč",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "60 minutes if item is in stock at the selected store.",
+      "pricing": "Free"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Superzoo.cz provides several delivery methods in Czechia. These include standard home delivery, express home delivery, special delivery for bulky items (aquariums/terrariums), parcel shop/locker delivery via Balíkovna, and in-store pickup at their 206 stores.\nPROVIDERS: Home delivery is handled by DPD, GLS, and PPL. Balíkovna is used for parcel shop and locker services, though it is also listed under home delivery options.\nPRICING: Standard delivery costs 99 Kč, with free shipping on orders over 1 500 Kč for DPD, Balíkovna, and Express delivery. Bulky item delivery is 399 Kč, free over 3 900 Kč. In-store pickup is free if the item is in stock locally, otherwise it's 59 Kč for transfer from the central warehouse (free for orders over 1 500 Kč). Cash on delivery (COD) has a surcharge of 39 Kč.\nNOTABLE FEATURES: A fast in-store pickup option (60 minutes) is available if the item is in stock at the chosen store. Weekend pickup is also possible for store orders. A key restriction is that if an order contains items from different locations (e.g., different stores or a store and the central warehouse), it may be split into multiple orders, with shipping fees applied to each part individually.\nWEBSITE ASSESSMENT: The shipping information is consolidated on a single page, which is convenient. However, the structure could be clearer, particularly regarding the classification of Balíkovna. A significant omission is the lack of specific delivery timeframes (e.g., 2-3 business days); only the same-day dispatch time for orders before noon is mentioned."
+}

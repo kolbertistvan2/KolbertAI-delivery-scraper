@@ -1,0 +1,111 @@
+{
+  "website": "parfemy.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "GLS",
+      "Česká pošta",
+      "Zásilkovna"
+    ],
+    "pricing": "89 Kč. Free for orders over 2 500 Kč. A packing fee of 25 Kč is charged for orders under 350 Kč.",
+    "free_delivery_limit": "2 500 Kč",
+    "delivery_time": "Next business day if ordered by 10:00.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "GLS - výdejní místa",
+      "PPL výdejní místa",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 59 Kč, GLS - výdejní místa: 59 Kč, PPL výdejní místa: 59 Kč, Zásilkovna: 64 Kč. All are free for orders over 2 500 Kč.",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS - výdejní boxy",
+      "PPL Alzaboxy",
+      "PPL Parcelboxy",
+      "Zásilkovna ZBox"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS - výdejní boxy: 59 Kč, PPL Alzaboxy: 59 Kč, PPL Parcelboxy: 59 Kč, Zásilkovna ZBox: 64 Kč. All are free for orders over 2 500 Kč.",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha",
+      "Chrudim"
+    ],
+    "pricing": "Praha: 39 Kč, Chrudim: 15 Kč. Free for orders over 2 500 Kč.",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Same business day (order by 08:30 for Prague, by 12:00 for Chrudim).",
+      "pricing": "Included in standard pickup price."
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, parcel shop/locker pickup, and in-store pickup.\nPROVIDERS: Carriers include PPL, GLS, Zásilkovna, and Česká pošta (Balíkovna).\nPRICING: Delivery costs range from 15 Kč (in-store pickup in Chrudim) to 89 Kč (home delivery). Free shipping is available for all methods on orders over 2,500 Kč. A packing fee of 25 Kč applies to orders under 350 Kč.\nNOTABLE FEATURES: Most delivery options offer next-business-day delivery if the order is placed before the specified cut-off time. Same-day pickup is available at the store's own pickup points in Prague and Chrudim. No information is provided for COD surcharges, weekend delivery, or bulky item shipping.\nWEBSITE ASSESSMENT: The shipping information is presented on a dedicated, well-structured page. Each delivery method is clearly detailed with its price, delivery timeframe, and order deadline. The main omission is the lack of information on payment-related surcharges (like COD) and weekend delivery options."
+}

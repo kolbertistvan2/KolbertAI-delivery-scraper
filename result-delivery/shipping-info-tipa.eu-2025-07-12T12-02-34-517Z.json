@@ -1,0 +1,109 @@
+{
+  "website": "tipa.eu",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "PPL"
+    ],
+    "pricing": "DPD: 99 Kč s DPH\nPPL: 99 Kč s DPH",
+    "free_delivery_limit": "1 999 Kč",
+    "delivery_time": "Orders for in-stock items placed Monday to Thursday by 11:00 are usually dispatched the same day. Friday and weekend orders are typically delivered on Tuesday.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč s DPH"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "FOFR"
+    ],
+    "pricing": "399 Kč s DPH",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Delivered on working days until 17:00. After 3 unsuccessful delivery attempts, the shipment is returned.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč s DPH"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: 69 Kč s DPH\nDPD výdejní místa: 69 Kč s DPH",
+    "free_delivery_limit": "1 999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč s DPH"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "69 Kč s DPH",
+    "free_delivery_limit": "1 999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ostrava (Záhumenní)",
+      "Opava (Sadová)",
+      "2 other unspecified locations"
+    ],
+    "pricing": "29 Kč s DPH at the Ostrava warehouse location.\n39 Kč s DPH at other locations.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store provides a comprehensive range of shipping methods including standard home delivery, bulky item delivery, parcel shops, parcel lockers, and personal in-store pickup.\nPROVIDERS: Delivery partners include DPD, PPL, Zásilkovna, and FOFR for oversized shipments.\nPRICING: Standard home delivery via DPD or PPL costs 99 Kč. Delivery to parcel shops (Zásilkovna, DPD) and parcel lockers (DPD) is priced at 69 Kč. Bulky item delivery via FOFR is 399 Kč. In-store pickup is available for 29 Kč (Ostrava warehouse) or 39 Kč (other locations). Free shipping is available for all orders over 1,999 Kč. A cash on delivery (COD) surcharge of 39 Kč applies to relevant orders.\nNOTABLE FEATURES: A clear free shipping threshold is offered. The company uses a specialized carrier (FOFR) for bulky goods. There are 4 physical pickup locations, with pricing varying by location. Weekend pickup is possible on Saturdays at the main Opava store.\nWEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated 'Doprava a platba' page. All costs, providers, and conditions are explicitly stated, making it easy for customers to understand their options. The information is complete and well-organized."
+}

@@ -1,0 +1,100 @@
+{
+  "website": "avenberg.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta - balík do ruky",
+      "DPD"
+    ],
+    "pricing": "Přepravné od 159,- Kč s DPH, výše přepravného závisí jednak na velikosti a hmotnosti, ale také samozřejmě na množství - počtu objednaných kusů v objednávce.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "obvyklé odeslání do 7 pracovních dnů, doručení dle vytíženosti přepravce, nejčastěji do 24h od převzetí zásilky",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29,- Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta-paleta",
+      "TOPTRANS",
+      "FOFR"
+    ],
+    "pricing": "Přepravné od 399,- Kč s DPH. Cena přepravy je opět závislá na velikosti a hmotnosti zásilky, ale také na celkovém objemu.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "obvyklé odeslání do 7 pracovních dnů, doručení dle vytíženosti přepravce, nejčastěji do 24h od převzetí zásilky",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39,- Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery for standard and bulky/pallet items. No parcel shop, parcel locker, or in-store pickup options are mentioned.\nPROVIDERS: Standard delivery is handled by Česká pošta (Balík do ruky) and DPD. Bulky items are delivered by Česká pošta (paleta), TOPTRANS, and FOFR.\nPRICING: Standard delivery starts from 159 Kč, and bulky item delivery starts from 399 Kč. The final price depends on the size, weight, and quantity of items. Cash on delivery (COD) is available for a surcharge of 29 Kč for standard parcels and 39 Kč for bulky items. No free shipping threshold is specified.\nDELIVERY TIME: Orders are typically dispatched within 7 working days, with delivery usually taking place within 24 hours after dispatch. Deliveries are made on working days only.\nNOTABLE FEATURES: The store specializes in home delivery, including for large and heavy goods. There are no alternative delivery methods like pickup points or lockers. The final shipping cost is only calculated in the shopping cart.\nWEBSITE ASSESSMENT: The shipping information is consolidated on a single 'Doprava' page. It clearly outlines the available services and providers for standard and bulky goods. However, it lacks information on free shipping, express options, and a detailed price list, requiring customers to add items to the cart to see the final shipping cost."
+}

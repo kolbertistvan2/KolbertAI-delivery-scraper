@@ -1,0 +1,98 @@
+{
+  "website": "oleje.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna"
+    ],
+    "pricing": "Doprava nad 3500 Kč zdarma",
+    "free_delivery_limit": "3500 Kč",
+    "delivery_time": "Doručení probíhá standardně do druhého pracovního dne.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Doprava nad 3500 Kč zdarma",
+    "free_delivery_limit": "3500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Pražákova 10, 619 00 Brno-jih",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "Osobní odběr je možný v pracovní dny od 8:00 do 17:00 hodin."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is provided by PPL and Zásilkovna. Parcel shop delivery is available via Zásilkovna. In-store pickup is an option at their Brno location.\nPRICING: Shipping is free for orders over 3500 Kč. Specific costs for orders below this threshold are not provided. The cost for cash on delivery is not mentioned.\nDELIVERY TIMES: Standard delivery is stated as the next working day for PPL.\nNOTABLE FEATURES: The primary features are free shipping over a certain amount and the option for personal collection in Brno. No express or weekend delivery options are mentioned.\nWEBSITE ASSESSMENT: The shipping information page is very basic. It lists the available carriers but lacks crucial details like specific shipping costs for different order values or delivery methods. Information on COD surcharges and other special delivery services is also missing, making it difficult for a customer to know the exact shipping cost before checkout."
+}

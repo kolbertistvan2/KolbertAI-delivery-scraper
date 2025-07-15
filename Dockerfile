@@ -18,5 +18,4 @@ RUN mkdir -p result
 # Set environment variables
 ENV NODE_ENV=production
 
-# Default parancs: extract-shipping.ts (csak a domaint várja)
-ENTRYPOINT ["npx", "tsx", "extract-shipping.ts"] 
+# ENTRYPOINT eltávolítva, hogy bármilyen parancsot lehessen futtatni 

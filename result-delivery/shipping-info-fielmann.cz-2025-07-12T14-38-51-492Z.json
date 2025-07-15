@@ -1,0 +1,93 @@
+{
+  "website": "fielmann.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "U objednávek z vybrané skupiny produktů a u zboží v hodnotě od 600 kč je doprava zdarma. Pokud je hodnota objednávky nižší než 600kč účtujeme si za dopravu 59kč.",
+    "free_delivery_limit": "600 kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "při této platbě neplatíte žádné další poplatky."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only delivery method mentioned is standard home delivery within the Czech Republic. No other options like parcel shops, lockers, or in-store pickup for online orders are specified. PROVIDERS: No specific shipping carriers are named. PRICING: Shipping costs 59 Kč for orders under 600 Kč. Shipping is free for orders valued at 600 Kč or more. Cash on delivery (COD) is available and does not incur any additional fees. NOTABLE FEATURES: The shipping policy is straightforward with a clear free shipping threshold. Offering COD without a surcharge is a customer-friendly feature. WEBSITE ASSESSMENT: Shipping information is minimal and only found within the General Terms and Conditions (VOP). There is no dedicated, easily accessible shipping page. Crucial details such as delivery providers and estimated delivery times are missing, making the information incomplete for customers."
+}

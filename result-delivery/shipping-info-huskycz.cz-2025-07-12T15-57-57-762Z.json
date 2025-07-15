@@ -1,0 +1,103 @@
+{
+  "website": "huskycz.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "DPD",
+      "GLS",
+      "PPL"
+    ],
+    "pricing": "Zásilkovna: 49 Kč. DPD: 99 Kč. GLS: 99 Kč. PPL: 99 Kč. Free over 1499 Kč (or 999 Kč for club members).",
+    "free_delivery_limit": "Free over 1499 Kč, for HUSKY club members free over 999 Kč.",
+    "delivery_time": "The delivery date stated on the e-shop is an indicative date. Delivery is made during the working day.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39,- Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "DPD výdejní místa",
+      "GLS výdejní místa",
+      "PPL výdejní místa"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: 49 Kč. DPD výdejní místa: 49 Kč. GLS výdejní místa: 49 Kč. PPL výdejní místa: 49 Kč. Free over 1499 Kč (or 999 Kč for club members).",
+    "free_delivery_limit": "Free over 1499 Kč, for HUSKY club members free over 999 Kč.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39,- Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Husky stores",
+    "pricing": "zdarma",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, parcel shop delivery, and in-store pickup. PROVIDERS: Delivery partners include Zásilkovna, DPD, GLS, and PPL for both home and parcel shop delivery. PRICING: Home delivery costs 99 Kč (49 Kč for Zásilkovna), and parcel shop delivery costs 49 Kč. Shipping is free for orders over 1499 Kč, or over 999 Kč for Husky club members. In-store pickup is free. A cash on delivery (COD) surcharge of 39 Kč applies. NOTABLE FEATURES: The key feature is the lower free shipping threshold for members of the 'HUSKY klub'. Delivery to Slovakia is available via DPD for 149 Kč. WEBSITE ASSESSMENT: Shipping information is consolidated on a single 'Doprava a platba' page. The pricing structure is clear, but the page lacks specific delivery timeframes (e.g., 2-3 days) and does not mention express or weekend delivery options. Information for home delivery and parcel shops is grouped under the same provider headings, which could be slightly confusing."
+}

@@ -1,0 +1,97 @@
+{
+  "website": "timestore.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL"
+    ],
+    "pricing": "69 Kč for orders up to 2,500 Kč. 49 Kč for orders over 2,500 Kč.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Next working day after dispatch.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Packeta"
+    ],
+    "locations_count": "Over 9000",
+    "pricing": "69 Kč for orders up to 2,500 Kč. 49 Kč for orders over 2,500 Kč.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery via PPL and parcel shop delivery via Packeta. PRICING: Shipping costs are 69 Kč for orders up to 2,500 Kč and 49 Kč for orders over 2,500 Kč for both delivery methods. There is no free shipping. Cash on delivery (COD) is available for a 30 Kč surcharge. DELIVERY TIME: Delivery is typically the next working day after dispatch. NOTABLE FEATURES: Orders for in-stock items placed by 12:00 on workdays are dispatched the same day. Packeta provides access to over 9,000 pickup points in the Czech Republic. WEBSITE ASSESSMENT: The shipping information is presented clearly in a table, making costs easy to understand. However, details on express or weekend delivery are not provided, and there is no specific information about parcel lockers as a distinct option."
+}

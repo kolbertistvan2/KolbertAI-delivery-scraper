@@ -1,0 +1,109 @@
+{
+  "website": "svet-svitidel.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DPD",
+      "Česká pošta"
+    ],
+    "pricing": "PPL - Soukromá adresa: 99 Kč, DPD - Private: 99 Kč, Česká pošta - Balík Do ruky: 109 Kč. Při nákupu nad 500 Kč doprava ZDARMA.",
+    "free_delivery_limit": "500 Kč",
+    "delivery_time": "Doručení do 24 hodin od expedice.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Toptrans"
+    ],
+    "pricing": "od 299 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Doručení do 24 hodin od expedice.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "PPL ParcelShop",
+      "Česká pošta - Balík Na poštu",
+      "Česká pošta Balíkovna"
+    ],
+    "locations_count": "Zásilkovna: Více než 10 000, PPL ParcelShop: Více než 3 500, Česká pošta - Balík Na poštu: Více než 2 600, Česká pošta Balíkovna: Více než 6 000.",
+    "pricing": "Zásilkovna: 69 Kč, PPL ParcelShop: 69 Kč, Česká pošta - Balík Na poštu: 89 Kč, Česká pošta Balíkovna: 69 Kč. Při nákupu nad 500 Kč doprava ZDARMA.",
+    "free_delivery_limit": "500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (Z-BOX)",
+      "Česká pošta Balíkovna (Balíkovna-BOX)"
+    ],
+    "locations_count": "Zásilkovna: Více než 10 000 výdejních míst a Z-BOXů, Česká pošta Balíkovna: Více než 6 000 výdejních míst a Balíkovna-BOXů.",
+    "pricing": "Zásilkovna (Z-BOX): 69 Kč, Česká pošta Balíkovna (Balíkovna-BOX): 69 Kč. Při nákupu nad 500 Kč doprava ZDARMA.",
+    "free_delivery_limit": "500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Brno, Březina 291, 666 01"
+    ],
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "ZDARMA"
+  },
+  "SUMMARY": "SUMMARY: E-shop nabízí doručení na adresu (PPL, DPD, Česká pošta od 99 Kč), výdejní místa a boxy (Zásilkovna, PPL, Česká pošta od 69 Kč), osobní odběr v Brně (zdarma) a přepravu nadrozměrného zboží (Toptrans od 299 Kč). Doprava je zdarma pro objednávky nad 500 Kč. Dobírka je zpoplatněna 39 Kč. Standardní doručení je do 24 hodin od expedice.\nNOTABLE FEATURES: Velmi nízký limit pro dopravu zdarma (500 Kč). Široká nabídka dopravců pro doručení na adresu i na výdejní místa. Možnost osobního odběru. Specializovaná doprava pro nadrozměrné zboží.\nWEBSITE ASSESSMENT: Informace o dopravě jsou přehledně a jasně uvedeny na dedikované stránce. Ceny, dopravci i podmínky jsou snadno dohledatelné. Chybí informace o víkendovém doručení a nejsou nabízeny explicitní expresní služby za příplatek."
+}

@@ -1,0 +1,100 @@
+{
+  "website": "luxusnipradlo.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta - Balík Do ruky",
+      "PPL - doručení na adresu",
+      "Zásilkovna - doručení na adresu"
+    ],
+    "pricing": "Česká pošta - Balík Do ruky: 119 Kč, PPL - doručení na adresu: 119 Kč, Zásilkovna - doručení na adresu: 109 Kč. Při nákupu nad 2000 Kč je doprava ZDARMA.",
+    "free_delivery_limit": "2000 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta - Balík Na poštu",
+      "Zásilkovna - výdejní místa"
+    ],
+    "locations_count": "not available",
+    "pricing": "Česká pošta - Balík Na poštu: 109 Kč, Zásilkovna - výdejní místa: 79 Kč. Při nákupu nad 2000 Kč je doprava ZDARMA.",
+    "free_delivery_limit": "2000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery and delivery to parcel shops/pickup points.\nPROVIDERS: Main providers are Česká pošta, PPL, and Zásilkovna.\nPRICING: Home delivery costs range from 109 Kč to 119 Kč. Parcel shop delivery is cheaper, from 79 Kč to 109 Kč.\nNOTABLE FEATURES: Free shipping is available for all orders over 2000 Kč. A cash on delivery (COD) option is available for a surcharge of 40 Kč. No express or weekend delivery options are mentioned.\nWEBSITE ASSESSMENT: The shipping information is presented in a simple list, making it easy to understand the basic options and costs. However, it lacks important details such as estimated delivery times, specific information about parcel lockers (vs. general pickup points), and in-store pickup options."
+}

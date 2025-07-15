@@ -1,0 +1,101 @@
+{
+  "website": "huramobil.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "Zásilkovna domů: 89 Kč\nGLS: 99 Kč\nDPD: 139 Kč\nDoprava ZDARMA pro objednávky nad 5 000 Kč.",
+    "free_delivery_limit": "5000 Kč",
+    "delivery_time": "Zpravidla do 24 hodin (následující pracovní den) po expedici.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "69 Kč. Doprava ZDARMA pro objednávky nad 5 000 Kč.",
+    "free_delivery_limit": "5000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Bělehradská 68, Praha 2, 120 00"
+    ],
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Huramobil.cz offers home delivery, parcel shop delivery, and in-store pickup. Home delivery is handled by Zásilkovna, GLS, and DPD. Parcel shop delivery is available through Zásilkovna. In-store pickup is possible at their Prague location.\nPRICING: Home delivery costs range from 89 Kč to 139 Kč. Zásilkovna parcel shop delivery is 69 Kč. In-store pickup is free. Free shipping is provided for all orders over 5,000 Kč.\nDELIVERY SPEED: Standard delivery for all methods is typically the next business day (within 24 hours of dispatch). Deliveries are made Monday to Friday.\nNOTABLE FEATURES: Free shipping threshold at 5,000 Kč. Free personal pickup in Prague. Standard delivery is fast (next business day). No specific options for bulky items, express, or weekend delivery are mentioned.\nWEBSITE ASSESSMENT: The shipping information is presented on a single, easy-to-find page. It clearly outlines the available providers, their prices, and standard delivery times. However, it lacks information on cash-on-delivery surcharges, parcel locker options (despite offering Zásilkovna), and any special handling for bulky goods."
+}

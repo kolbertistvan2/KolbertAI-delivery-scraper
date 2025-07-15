@@ -1,0 +1,103 @@
+{
+  "website": "rohlik.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Rohlík.cz (in-house)"
+    ],
+    "pricing": "The delivery price is not explicitly stated and depends on the address and order value. The minimum order value for home delivery is 749 Kč.",
+    "free_delivery_limit": "Free delivery is available through subscription clubs like Rohlík Xtra and Rohlíček.",
+    "delivery_time": "Dependent on the delivery address. Same-day delivery in specific time slots is available after entering an address.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Rohlík Point"
+    ],
+    "locations_count": "not available",
+    "pricing": "The delivery price is not specified. The minimum order value for delivery to a Rohlík Point locker is 500 Kč.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Rohlík.cz offers home delivery and pickup from their proprietary 'Rohlík Point' parcel lockers. The service is focused on fast, same-day grocery delivery within specific time slots.\nPROVIDERS: The company uses its own in-house delivery service and network of Rohlík Point lockers. No third-party couriers are mentioned.\nPRICING: Delivery fees are dynamic and shown only after the customer enters a delivery address. The minimum order for home delivery is 749 Kč, and for Rohlík Point pickup, it is 500 Kč. Free delivery is a key benefit of their subscription clubs (Rohlík Xtra, Rohlíček).\nNOTABLE FEATURES: The core feature is rapid, same-day delivery, available 7 days a week. The service is highly personalized based on location. There are no separate options for bulky or express delivery as the standard service is already fast. No cash on delivery option is mentioned.\nWEBSITE ASSESSMENT: The website is designed as a hyperlocal service, requiring an address upfront to display precise delivery times and costs. While this provides tailored information, it makes it difficult to find general shipping price information without logging in or providing an address. A consolidated, static page with delivery pricing tiers is not available."
+}

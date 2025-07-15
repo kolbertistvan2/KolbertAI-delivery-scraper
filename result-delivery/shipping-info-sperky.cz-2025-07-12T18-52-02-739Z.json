@@ -1,0 +1,110 @@
+{
+  "website": "sperky.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "PPL",
+      "Česká pošta"
+    ],
+    "pricing": "89 Kč (ZDARMA od 2 000 Kč)",
+    "free_delivery_limit": "2 000 Kč",
+    "delivery_time": "doručení následující pracovní den (Při objednání v pracovních dnech do 10:00)",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "GLS - výdejní místa",
+      "PPL výdejní místa",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 59 Kč, GLS - výdejní místa: 59 Kč, PPL výdejní místa: 59 Kč, Zásilkovna: 64 Kč. Vše zdarma od 2 000 Kč.",
+    "free_delivery_limit": "2 000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS - výdejní boxy",
+      "PPL Alzaboxy",
+      "PPL Parcelboxy",
+      "Zásilkovna ZBox"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS - výdejní boxy: 59 Kč, PPL Alzaboxy: 59 Kč, PPL Parcelboxy: 59 Kč, Zásilkovna ZBox: 64 Kč. Vše zdarma od 2 000 Kč.",
+    "free_delivery_limit": "2 000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha",
+      "Chrudim"
+    ],
+    "pricing": "Praha: 39 Kč, Chrudim: 15 Kč (ZDARMA od 2 000 Kč)",
+    "free_delivery_limit": "2 000 Kč",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "doručení ještě týž pracovní den (Praha: při objednání do 08:30, Chrudim: při objednání do 12:00)",
+      "pricing": "Standardní cena dopravy"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Sperky.cz offers a wide range of delivery methods in the Czech Republic, including home delivery, extensive parcel shop and parcel locker networks, and in-store pickup in Prague and Chrudim.\nPROVIDERS: Carriers include Česká pošta (Balíkovna), PPL (Parcelshops, Parcelboxy, Alzaboxy), GLS (Parcel Shops, Parcel Boxes), and Zásilkovna (Pickup Points, Z-Boxes).\nPRICING: Prices range from 15 Kč (in-store pickup in Chrudim) to 89 Kč (home delivery). Free shipping is available for all delivery methods on orders over 2 000 Kč. A packing fee of 25 Kč is charged for orders under 350 Kč.\nNOTABLE FEATURES: The store offers very fast delivery, including next-day delivery for most options if ordered by the cut-off time, and same-day in-store pickup in Prague and Chrudim. Information about COD surcharges, weekend delivery, or bulky item shipping is not available.\nWEBSITE ASSESSMENT: The shipping information is presented very clearly and is well-structured on a dedicated page. Each delivery option has its own section with details on pricing, delivery time, and order cut-off times, making it easy for customers to compare and choose."
+}

@@ -1,0 +1,105 @@
+{
+  "website": "rpishop.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DPD",
+      "GLS",
+      "Balíkovna"
+    ],
+    "pricing": "PPL: 99 Kč\nDPD: 99 Kč\nGLS: 89 Kč\nBalíkovna na adresu: 99 Kč",
+    "free_delivery_limit": "při nákupu nad 2000 Kč",
+    "delivery_time": "1 – 2 dny",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna",
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL výdejní místo: 49 Kč\nZásilkovna – Výdejní místo: 79 Kč\nBalíkovna na pobočku: 69 Kč",
+    "free_delivery_limit": "při nákupu nad 2000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL BOX: 49 Kč\nZásilkovna Z-BOX: 79 Kč",
+    "free_delivery_limit": "při nákupu nad 2000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Plavká silnice 490, 370 07 Roudné, Česká republika",
+    "pricing": "Zdarma",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery, parcel shop/locker delivery, and in-store pickup. PROVIDERS: Delivery partners include PPL, DPD, GLS, Zásilkovna, and Balíkovna (Česká pošta). PRICING: Standard delivery costs range from 49 Kč (PPL Parcel Shop/Box) to 99 Kč (Home Delivery). Free shipping is available for orders over 2000 Kč. A cash on delivery (COD) surcharge of 30 Kč applies. DELIVERY TIME: Standard delivery time for all options is 1-2 business days. \nNOTABLE FEATURES: Free shipping threshold at 2000 Kč. Free personal pickup at their warehouse in Roudné. A wide range of common Czech carriers is available. No express or weekend delivery options are mentioned. \nWEBSITE ASSESSMENT: The shipping information is presented very clearly on a dedicated 'Doprava a platba' page. All costs, providers, and delivery times are explicitly stated and easy to understand, making for a high-quality user experience."
+}

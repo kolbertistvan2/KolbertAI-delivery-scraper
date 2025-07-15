@@ -1,0 +1,110 @@
+{
+  "website": "expedo.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "119 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Expedo"
+    ],
+    "pricing": "Standardní doručení (za první uzamykatelné dveře): 499 Kč. Komfortní doručení (výnos do bytu): 999 Kč. Komfortní doručení s montáží: 2 499 Kč.",
+    "free_delivery_limit": "10 000 Kč",
+    "delivery_time": "Zákazník si volí konkrétní termín doručení v kalendáři při objednávce.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD Pickup",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "DPD Pickup: 79 Kč, Zásilkovna: 89 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna Z-BOX"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha 9 – Vysočany",
+      "Brno",
+      "Ostrava",
+      "Hradec Králové",
+      "Plzeň",
+      "Liberec",
+      "České Budějovice"
+    ],
+    "pricing": "Zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "SUMMARY": "SUMMARY: Expedo.cz primarily uses its own transport service, 'Expedo', for bulky furniture delivery, with prices from 499 Kč. Smaller items are handled by DPD for home delivery (119 Kč), or DPD Pickup (79 Kč) and Zásilkovna (89 Kč) for parcel shops and lockers. Free personal pickup is available at 7 physical stores across Czechia. A flat 40 Kč fee is charged for all cash-on-delivery payments.\nNOTABLE FEATURES: Free shipping is offered for orders over 10,000 Kč when using the Expedo transport service. They provide tiered delivery options for bulky items: Standard (curbside), Comfort (in-home), and Comfort with assembly. Customers can schedule a specific delivery date for bulky items via an online calendar.\nWEBSITE ASSESSMENT: The shipping information is well-organized and clearly detailed on a dedicated page. Pricing for each service is transparent. The distinction between their own bulky item delivery and standard parcel services is clear. The only missing detail is the standard delivery timeframe for DPD and Zásilkovna."
+}

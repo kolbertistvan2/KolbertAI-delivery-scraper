@@ -1,0 +1,108 @@
+{
+  "website": "pompo.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DPD",
+      "GLS",
+      "Česká pošta/Balíkovna na adresu"
+    ],
+    "pricing": "PPL: 95 Kč (platba kartou online), 135 Kč (dobírka)\nDPD: 89 Kč (platba kartou online), 129 Kč (dobírka)\nGLS: 95 Kč (platba kartou online), 135 Kč (dobírka)\nČeská pošta/Balíkovna na adresu: od 85 Kč (platba kartou online), od 125 Kč (dobírka)",
+    "free_delivery_limit": "od 1499 Kč (platí pro vybrané přepravce)",
+    "delivery_time": "pokud objednáte do 12:00 odesíláme ještě tentýž den",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Schenker"
+    ],
+    "pricing": "od 499 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "U nadměrných zásilek (velké domečky, velké skluzavky) se doba doručení pohybuje kolem 1 týdne.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL výdejní místa",
+      "GLS Parcelshop",
+      "Balíkovna",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL výdejní místa: 65 Kč (platba kartou online), 105 Kč (dobírka)\nGLS Parcelshop: 49 Kč (platba kartou online), 89 Kč (dobírka)\nBalíkovna: 65 Kč (platba kartou online), 105 Kč (dobírka)\nZásilkovna: 69 Kč (platba kartou online), 109 Kč (dobírka)",
+    "free_delivery_limit": "od 1499 Kč (pouze GLS Parcelshop)",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 65 Kč (platba kartou online), 105 Kč (dobírka)\nZásilkovna: 69 Kč (platba kartou online), 109 Kč (dobírka)",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "73x prodejen v ČR",
+    "pricing": "Dodání na prodejnu: manipulační poplatek - 39 Kč. Rezervace na prodejně (pokud je zboží skladem na prodejně): zdarma.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Pompo.cz provides a wide range of delivery methods including home delivery, bulky item delivery, parcel shop/locker pickup, and in-store pickup/reservation. PROVIDERS: Home delivery is handled by PPL, DPD, GLS, and Česká pošta. Parcel points are served by PPL, GLS, Balíkovna, and Zásilkovna. Bulky items are delivered by Schenker. PRICING: Parcel shop delivery is the cheapest, starting at 49 Kč (GLS Parcelshop). Home delivery starts from 85 Kč. Free shipping is offered on orders over 1499 Kč for home delivery via Česká pošta and for pickup at GLS Parcelshop. The cash on delivery (COD) surcharge is a standard 40 Kč across all applicable services. In-store pickup costs 39 Kč, while in-store reservation of available items is free. Bulky item delivery starts at 499 Kč. NOTABLE FEATURES: The store offers same-day dispatch for orders placed before 12:00 on weekdays (not guaranteed). A unique service allows customers to have items transferred between any of their 73 stores for a 49 Kč fee. WEBSITE ASSESSMENT: Shipping information is clearly presented on a dedicated 'Doprava a platba' page. The table format is helpful for comparing prices. The distinction between 'delivery to store' (paid) and 'in-store reservation' (free) is a key detail. While comprehensive, the information could be slightly better structured by explicitly separating parcel shops from parcel lockers. Overall, the shipping details are complete and easy to locate."
+}

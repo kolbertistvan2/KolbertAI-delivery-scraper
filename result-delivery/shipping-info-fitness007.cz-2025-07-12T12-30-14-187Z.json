@@ -1,0 +1,113 @@
+{
+  "website": "fitness007.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "PPL",
+      "GLS"
+    ],
+    "pricing": "Česká pošta: 79 Kč, PPL: 89 Kč, GLS: 69 Kč",
+    "free_delivery_limit": "Nad 1500Kč ZDARMA",
+    "delivery_time": "obvykle následující pracovní den od podání zásilky",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "Objednávky s hmotností 20 kg a výše jsou automaticky posílány službou GLS. Cena za GLS je 69 Kč, nad 1500 Kč zdarma.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Doručení následující den po odeslání.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna",
+      "Česká pošta - Balíkovna"
+    ],
+    "locations_count": "PPL: více než 5500 výdejními místy",
+    "pricing": "PPL Parcel Smart: 59 Kč, Zásilkovna: 59 kč, Česká pošta - Balíkovna: 59 Kč",
+    "free_delivery_limit": "Nad 1500Kč ZDARMA",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč (PPL, Balíkovna). Zásilkovna nelze platit na dobírku."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelbox",
+      "Zásilkovna (Z-BOX)",
+      "Česká pošta - Balíkovna",
+      "AlzaBox"
+    ],
+    "locations_count": "PPL: více než 5500 výdejními místy (včetně Parcelshopů)",
+    "pricing": "PPL Parcel Smart: 59 Kč, Zásilkovna: 59 kč, Česká pošta - Balíkovna: 59 Kč",
+    "free_delivery_limit": "Nad 1500Kč ZDARMA",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč (PPL, Balíkovna). Zásilkovna nelze platit na dobírku."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Fitness shop Újezd 414/13 Malá Strana",
+      "Centrální sklad - Emporium Ruzyně, U Prioru 804/3, praha 6"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Sobota"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers a wide range of delivery methods in the Czech Republic, including Home Delivery, Parcel Shops, Parcel Lockers, and In-store Pickup.\nPROVIDERS: Home delivery is handled by Česká pošta, PPL, and GLS. Parcel shop and locker services are provided by PPL (Parcel Smart), Zásilkovna, and Česká pošta (Balíkovna). In-store pickup is available at two locations in Prague.\nPRICING: Home delivery costs range from 69 Kč to 89 Kč. Parcel shop/locker delivery is priced at 59 Kč. All delivery options are free for orders over 1500 Kč. The standard cash on delivery (COD) surcharge is 39 Kč.\nNOTABLE FEATURES: Orders weighing 20 kg or more are automatically shipped via GLS. Zásilkovna pickup points do not accept COD payments. One of the Prague pickup locations (Újezd) is open on Saturdays. The e-shop warns that heat-sensitive products like chocolate may melt during transit in hot weather, especially when delivered to non-air-conditioned parcel lockers.\nWEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page ('Způsob a ceny dopravy'). The details for each carrier are well-organized in tables, making it easy to compare prices, free shipping limits, and COD fees. The information is comprehensive and sufficient for customers to make an informed decision."
+}

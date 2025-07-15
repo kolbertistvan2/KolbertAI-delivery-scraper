@@ -1,0 +1,105 @@
+{
+  "website": "skibi.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "DOPRAVA OD 1990 ZDARMA",
+    "free_delivery_limit": "1990",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "SKIBI KIDS REPUBLIKA, Praha",
+      "SKIBI KIDS PRAHA RADOTÍN, Praha 5 - Radotín",
+      "SKIBI KIDS ANDĚL, Praha",
+      "SKIBI KIDS BRNO, Brno",
+      "SKIBI KIDS DEJVICE, Praha 6 - Bubeneč",
+      "SKIBI KIDS KARLOVO NÁMĚSTÍ, Praha 1 - Staré Město",
+      "SKIBI KIDS OC DBK, Praha 4",
+      "SKIBI KIDS PLZEŇ, Plzeň 2 - Slovany"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "The website offers home delivery, which is free for orders over 1990 CZK. In-store pickup is available at eight physical locations across Prague, Brno, and Plzeň, with some stores offering weekend pickup. NOTABLE FEATURES: The free shipping threshold is clearly advertised on the homepage. The company has a strong physical presence with multiple stores. WEBSITE ASSESSMENT: The homepage provides very limited shipping information. Key details such as shipping carriers, standard delivery costs, delivery times, and options for parcel shops or lockers are not available and would require navigating to a dedicated shipping page."
+}

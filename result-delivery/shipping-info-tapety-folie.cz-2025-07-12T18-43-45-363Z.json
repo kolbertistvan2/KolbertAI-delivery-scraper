@@ -1,0 +1,108 @@
+{
+  "website": "tapety-folie.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Česká pošta (Balík Do ruky)",
+      "PPL"
+    ],
+    "pricing": "GLS: od 99 Kč, Česká pošta (Balík Do ruky): od 97 Kč, PPL: od 109 Kč. Zdarma doprava při nákupu od 1500 Kč.",
+    "free_delivery_limit": "1500 Kč",
+    "delivery_time": "Doručení zásilky proběhne následující pracovní den od obdržení potvrzení o vyřízení Vaší objednávky.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "GLS: 40 Kč, Česká pošta: 40 Kč, PPL: 30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Nadrozměrná doprava"
+    ],
+    "pricing": "590Kč + platba kartou nebo na účet předem",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS ParcelShop",
+      "Balíkovna",
+      "PPL ParcelShop"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS ParcelShop: od 39 Kč, Balíkovna: 69 Kč, PPL ParcelShop: od 87 Kč. Zdarma doprava při nákupu od 1500 Kč.",
+    "free_delivery_limit": "1500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "GLS ParcelShop: 30 Kč, PPL ParcelShop: 12 Kč, Balíkovna: not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS ParcelBox",
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS ParcelBox: od 39 Kč, Balíkovna: 69 Kč. Zdarma doprava při nákupu od 1500 Kč.",
+    "free_delivery_limit": "1500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "GLS ParcelBox: 30 Kč, Balíkovna: not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Lidická 886/43, 736 01 Havířov"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop provides multiple delivery methods. Home delivery is handled by GLS, PPL, and Česká pošta (Balík Do ruky), with prices starting from 97 Kč. Delivery to pickup points is available via GLS ParcelShop/Box, PPL ParcelShop, and Česká pošta Balíkovna, with a promotional price for GLS starting at 39 Kč. Personal pickup at their Havířov location is also an option. For oversized items, a dedicated delivery service is used for a flat fee of 590 Kč. Free shipping is offered on all standard orders over 1500 Kč. Delivery is typically the next business day after dispatch. \nNOTABLE FEATURES: A significant promotional discount is available for GLS ParcelShop/Box delivery (39 Kč). Cash on delivery (COD) is an option for most services but is not available for Balíkovna, personal pickup, or oversized item delivery. Balíkovna has specific size and weight restrictions (max 15kg, 50x50x70cm). \nWEBSITE ASSESSMENT: The shipping information is consolidated on a single 'Doprava a platba' page. It clearly lists all providers, pricing structures for different payment methods (card, bank transfer, COD), and the free shipping threshold. The presentation is slightly cluttered due to repetitive icons but contains all essential information. Details regarding express or weekend delivery services are not provided."
+}

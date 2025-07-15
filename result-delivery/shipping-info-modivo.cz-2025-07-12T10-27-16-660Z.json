@@ -1,0 +1,98 @@
+{
+  "website": "modivo.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL"
+    ],
+    "pricing": "99 Kč for orders up to 1500 Kč. Free for prepaid orders over 1500 Kč.",
+    "free_delivery_limit": "1500 Kč (for prepaid orders)",
+    "delivery_time": "2-3 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "The total price with cash on delivery is 99 Kč."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč for prepaid orders up to 1500 Kč. Free for prepaid orders over 1500 Kč.",
+    "free_delivery_limit": "1500 Kč (for prepaid orders)",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "The total price with cash on delivery is 119 Kč."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Modivo.cz offers home delivery via PPL and pickup point delivery via PPL and Zásilkovna. The standard delivery time for all options is 2-3 business days.\nPRICING: Shipping is free for prepaid orders over 1500 Kč. For orders under this amount, home delivery costs 99 Kč and pickup point delivery costs 89 Kč. Cash on delivery (COD) is available; the total price for home delivery with COD is 99 Kč, and for pickup points, it is 119 Kč.\nNOTABLE FEATURES: No express or weekend delivery services are mentioned. Information on shipping bulky items, delivery to parcel lockers, or in-store pickup is not provided in the delivery options table.\nWEBSITE ASSESSMENT: The shipping information is presented in a clear and easy-to-understand table. However, it lacks details regarding parcel lockers (vs. general pickup points) and the availability of in-store pickup is ambiguous, as it's mentioned in the text but not offered as a delivery method."
+}

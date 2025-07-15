@@ -1,0 +1,107 @@
+{
+  "website": "skoda-dily.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta - balík do ruky",
+      "Přepravní služba DPD",
+      "Přepravní služba GLS"
+    ],
+    "pricing": "Česká pošta - balík do ruky: 69 Kč\nPřepravní služba DPD: 69 Kč\nPřepravní služba GLS: 69 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1 den",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not specified"
+    ],
+    "pricing": "U zásilek s obvodovou mírou (2x nejkratší strana + 2x střední strana + nejdelší strana) větší než 250cm nebo zásilek delších než 160cm mohou být dodatečné příplatky za nadrozměr.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Balíkovna",
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "Výdejní místa a boxy GLS: 57 Kč\nVýdejní místa Balíkovna: 69 Kč\nVýdejní místa a boxy DPD: 80 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Balíkovna",
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "Výdejní místa a boxy GLS: 57 Kč\nVýdejní místa Balíkovna: 69 Kč\nVýdejní místa a boxy DPD: 80 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop provides home delivery and delivery to parcel shops/lockers within the Czech Republic. Home delivery is handled by Česká pošta, DPD, and GLS. Parcel shop and locker services are available through GLS, Balíkovna, and DPD. In-store pickup is not offered.\nPRICING: Home delivery costs a flat 69 Kč regardless of the provider. Parcel shop/locker prices are 57 Kč for GLS, 69 Kč for Balíkovna, and 80 Kč for DPD. There is no mention of a free shipping threshold.\nDELIVERY TIME: All listed delivery methods have an estimated delivery time of 1 day.\nNOTABLE FEATURES: Additional surcharges may apply for oversized items (circumference > 250cm or length > 160cm), but the exact cost is not specified. Information regarding express delivery, weekend delivery, and cash on delivery (COD) surcharges is not available.\nWEBSITE ASSESSMENT: The shipping information is presented in a clear table, making it easy to compare basic options and prices. However, it lacks crucial details such as free shipping limits, COD fees, and specific services like express or weekend delivery, which diminishes the overall completeness of the information."
+}

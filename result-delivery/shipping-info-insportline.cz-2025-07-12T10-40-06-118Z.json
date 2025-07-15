@@ -1,0 +1,117 @@
+{
+  "website": "insportline.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "PPL",
+      "DHL",
+      "DPD",
+      "Česká Pošta"
+    ],
+    "pricing": "Česká pošta – Balík do ruky: 89 Kč s DPH; GLS: 89 Kč s DPH; PPL: 99 Kč s DPH; DPD: 119 Kč s DPH",
+    "free_delivery_limit": "not available",
+    "delivery_time": "do 5 pracovních dnů",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč s DPH"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL (dříve PPL Sprint)",
+      "DHL Výnos do patra",
+      "DHL Nadrozměr",
+      "Prémiová doprava inSPORTline"
+    ],
+    "pricing": "DHL (dříve PPL Sprint) 290 Kč s DPH; DHL Výnos do patra 390 Kč s DPH; DHL Nadrozměr 139 Kč s DPH; Prémiová doprava inSPORTline: 0 Kč / 1990 Kč / 2490 Kč / 2990 Kč / 3490 Kč dle vybraného produktu",
+    "free_delivery_limit": "not available",
+    "delivery_time": "do 5 pracovních dnů",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč s DPH"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Česká pošta – Balík do Balíkovny",
+      "PPL Parcelshop"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: 59 Kč s DPH; Česká pošta – Balík do Balíkovny: 63 Kč s DPH; PPL Parcelshop: 63 Kč s DPH.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Česká pošta: 30 Kč s DPH; PPL Parcelshop: 30 Kč s DPH; Zásilkovna: not available."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Česká pošta – Balík do Balíkovny"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: 59 Kč s DPH; Česká pošta – Balík do Balíkovny: 63 Kč s DPH.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Česká pošta: 30 Kč s DPH. Zásilkovna: not available."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha 5",
+      "Praha 10",
+      "Brno",
+      "Ostrava",
+      "Vítkov u Opavy"
+    ],
+    "pricing": "Praha 5, Praha 10, Brno a Ostrava: 29 Kč (s platností od 19.8.2024). Vítkov u Opavy: zdarma.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers a wide range of delivery methods, including standard Home Delivery, specialized Bulky Product Home Delivery, Parcel Shops/Lockers, and In-Store Pickup.\nPROVIDERS: Key providers are PPL, DHL, GLS, DPD, Česká pošta, and Zásilkovna. The store also offers its own 'Prémiová doprava inSPORTline' for select items.\nPRICING: Standard home delivery costs range from 89 Kč to 119 Kč. Parcel shop/locker delivery is priced between 59 Kč and 63 Kč. Bulky item delivery ranges from 139 Kč to 390 Kč, with premium services costing up to 3490 Kč. In-store pickup is 29 Kč in major cities and free in Vítkov. A flat COD surcharge of 30 Kč applies to most delivery services.\nDELIVERY TIME: The standard delivery timeframe for all methods is up to 5 business days.\nNOTABLE FEATURES: The store provides specialized delivery services for heavy and oversized items, such as 'DHL Výnos do patra' (delivery to a specific floor with customer assistance) and 'Prémiová doprava inSPORTline', which can include assembly. There is no mention of free shipping thresholds or express/weekend delivery options.\nWEBSITE ASSESSMENT: All shipping information is comprehensively detailed within section 6 of the Terms and Conditions page. While the information is clear and covers various scenarios, its placement within a legal document rather than a dedicated, easily accessible 'Shipping' page might make it harder for some users to find."
+}

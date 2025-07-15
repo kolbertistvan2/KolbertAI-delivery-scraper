@@ -1,0 +1,103 @@
+{
+  "website": "expert.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "PPL"
+    ],
+    "pricing": "Česká pošta (do 25kg): 99 Kč. PPL (do 25kg): 99 Kč.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Česká pošta: 30 Kč. PPL: 30 Kč."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Gebrüder Weiss",
+      "Expertní doprava"
+    ],
+    "pricing": "Gebrüder Weiss (from 25kg): 399 Kč. Expertní doprava (premium service): 699 Kč (1 499 Kč for American fridges).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Gebrüder Weiss: Mon-Fri 8:00-17:00. Expertní doprava: Date and time arranged by phone.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Gebrüder Weiss: 50 Kč. Expertní doprava: zdarma."
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL - ParcelShop",
+      "Zásilkovna",
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: 65 Kč. Balíkovna (do 5kg): 55 Kč. PPL ParcelShop: 99 Kč.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "PPL ParcelShop: Most branches have weekend opening hours. Others: not available."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "PPL ParcelShop: 30 Kč. Zásilkovna: 15 Kč. Balíkovna: 30 Kč."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Over 25 stores across the Czech Republic and the central warehouse in Klíčany u Prahy.",
+    "pricing": "zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Next business day for orders placed on a business day before 16:00.",
+      "pricing": "zdarma"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Expert.cz offers home delivery for standard parcels (up to 25kg) and bulky items (over 25kg), delivery to parcel shops/pickup points, and free in-store pickup.\nPROVIDERS: Delivery partners include Česká pošta, PPL, Zásilkovna, Balíkovna, and Gebrüder Weiss for bulky goods. They also offer a premium 'Expertní doprava' service.\nPRICING: In-store pickup is free. Parcel shop delivery starts at 55 Kč (Balíkovna). Standard home delivery is 99 Kč. Bulky item delivery starts at 399 Kč. COD surcharges range from 15 Kč to 50 Kč depending on the carrier.\nNOTABLE FEATURES: Free in-store pickup is available, with next-day collection for orders placed by 16:00. A premium 'Expertní doprava' service (699 Kč) includes delivery to the apartment, basic installation, and packaging removal. Free removal of old appliances is offered with Gebrüder Weiss delivery.\nWEBSITE ASSESSMENT: The shipping information is detailed, presented in both a table and descriptive text. However, the table's structure is slightly unclear, and there is a contradiction regarding the PPL ParcelShop COD surcharge between the table and the text. The site lacks information on standard delivery timeframes (e.g., 2-3 days) and does not explicitly mention parcel lockers as a separate option."
+}

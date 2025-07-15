@@ -1,0 +1,114 @@
+{
+  "website": "ikea.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "From 129 Kč for parcels up to 30 kg.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "2-4 business days",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "IKEA delivery service"
+    ],
+    "pricing": "Price is based on order value: up to 5,000 Kč for 499 Kč; 5,001-10,000 Kč for 899 Kč; 10,001-20,000 Kč for 1,299 Kč; over 20,000 Kč for 1,699 Kč.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Delivery date is selected during checkout, typically within several business days.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD Pickup"
+    ],
+    "locations_count": "Over 1,500 locations",
+    "pricing": "99 Kč. Promotional price of 1 Kč for IKEA Family members.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Depends on the specific pickup point's opening hours."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "DPD Pickup"
+    ],
+    "locations_count": "Part of the DPD Pickup network",
+    "pricing": "99 Kč. Promotional price of 1 Kč for IKEA Family members.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha-Černý Most",
+      "Praha-Zličín",
+      "Brno",
+      "Ostrava"
+    ],
+    "pricing": "From 200 Kč. Promotional price of 1 Kč for IKEA Family members.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Within a few hours, depending on the time of order.",
+      "pricing": "Included in the standard pickup fee."
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: IKEA Czechia provides a full suite of delivery services, including standard parcel delivery ('Balík'), home delivery for bulky items with in-home service ('Doprava s výnosem'), pickup at external parcel shops and lockers ('Výdejní místa'), and in-store pickup ('Klikni a vyzvedni').\nPROVIDERS: DPD handles standard parcels and the parcel point network. Bulky item deliveries are managed by a dedicated IKEA logistics service.\nPRICING: Standard parcel delivery starts at 129 Kč. Bulky delivery uses a tiered pricing model based on order value, ranging from 499 Kč to 1,699 Kč. Pickup at DPD points costs 99 Kč, and in-store pickup starts at 200 Kč. A cash-on-delivery surcharge of 30 Kč applies where available.\nNOTABLE FEATURES: IKEA frequently runs promotions for its IKEA Family members, such as 'Vyzvednutí za 1 Kč' (Pickup for 1 CZK) for both in-store and parcel point pickup. The bulky delivery service includes carrying items into the customer's chosen room.\nWEBSITE ASSESSMENT: The homepage clearly indicates the availability of different delivery and pickup methods through text and promotional banners. However, specific details like pricing tiers, providers, and delivery times are located on dedicated service pages, which is a common and acceptable practice. Once located, the information is well-structured and clear."
+}

@@ -1,0 +1,104 @@
+{
+  "website": "booktook.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Balíkovna",
+      "Zásilkovna"
+    ],
+    "pricing": "PPL – Doručení na adresu: 79 Kč\nBalíkovna na adresu: 69 Kč\nZásilkovna – Doručení na adresu: 69 Kč",
+    "free_delivery_limit": "999 Kč",
+    "delivery_time": "In-stock items are usually dispatched on the second working day. Items from suppliers are dispatched within a few working days.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Balíkovna",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL - Výdejní místa: 39 Kč\nBalíkovna: 55 Kč\nZásilkovna – Výdejní místo: 55 Kč",
+    "free_delivery_limit": "999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL - Parcelbox: 25 Kč\nZásilkovna – Z-BOX: 55 Kč",
+    "free_delivery_limit": "999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "38 stores in the Czech Republic",
+    "pricing": "0 Kč",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč (Payment in cash or by card upon receipt)"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop provides a comprehensive range of delivery methods in the Czech Republic, including Home Delivery, Parcel Shops, Parcel Lockers, and free In-store Pickup.\nPROVIDERS: Key delivery partners are PPL, Zásilkovna, and Balíkovna (Česká pošta).\nPRICING: Prices are competitive, starting at 0 Kč for in-store pickup, 25 Kč for parcel lockers (PPL), 39 Kč for parcel shops (PPL), and 69 Kč for home delivery. Free shipping is offered for all orders with a value of 999 Kč or more. The cash on delivery (COD) surcharge is a flat 30 Kč.\nNOTABLE FEATURES: A key advantage is the completely free in-store pickup option available at 38 locations. The free shipping threshold of 999 Kč is clearly stated. The website also mentions delivery to Slovakia via Česká pošta.\nWEBSITE ASSESSMENT: The shipping and payment information is presented on a single, easy-to-understand page. All options and their corresponding prices are clearly listed. However, the page lacks specific information regarding delivery timeframes (only dispatch times are provided), and there is no mention of express or weekend delivery services."
+}

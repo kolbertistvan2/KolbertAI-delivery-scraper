@@ -1,0 +1,93 @@
+{
+  "website": "myprotein.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "129 Kč for orders under 1500 Kč. Free for orders from 1500 Kč.",
+    "free_delivery_limit": "1500 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "400 Kč"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The website offers Standard and Express home delivery. No information is provided for parcel shops, parcel lockers, or in-store pickup.\nPROVIDERS: Delivery providers are not specified.\nPRICING: Standard delivery costs 129 Kč for orders below 1500 Kč and is free for orders of 1500 Kč or more. Express delivery is available for a flat fee of 400 Kč.\nNOTABLE FEATURES: The site mentions a potential 48-hour dispatch delay due to high order volumes. No details on delivery times, weekend delivery, or Cash on Delivery (COD) are available.\nWEBSITE ASSESSMENT: The shipping information is very basic and lacks key details such as delivery partners and estimated delivery times. While the pricing structure is clear, the overall information is incomplete compared to typical e-commerce standards in the Czech Republic."
+}

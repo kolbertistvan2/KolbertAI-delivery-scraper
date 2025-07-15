@@ -1,0 +1,103 @@
+{
+  "website": "oriondomacipotreby.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Česká pošta"
+    ],
+    "pricing": "kurýrní službou DPD 99 Kč, Česká pošta/balík Do ruky 99 Kč",
+    "free_delivery_limit": "999 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "Balíkovna",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Česká pošta/balík Na poštu 89 Kč, Balíkovna 59 Kč, Zásilkovna 59 Kč",
+    "free_delivery_limit": "999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna 59 Kč, Zásilkovna 59 Kč",
+    "free_delivery_limit": "999 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available across the Czech Republic, specific locations not listed on this page.",
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "ZDARMA"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery via DPD (99 Kč) and Česká pošta - Balík do ruky (99 Kč). Parcel shop/locker delivery via Zásilkovna (59 Kč), Balíkovna (59 Kč), and Česká pošta - Balík na poštu (89 Kč). Free in-store pickup is also available.\nPRICING: Shipping costs range from 59 Kč to 99 Kč. Free shipping is offered on all orders over 999 Kč. Cash on delivery (dobírka) has a surcharge of 29 Kč.\nRESTRICTIONS: No information on delivery times, express or weekend delivery. No specific service for bulky items is mentioned.\nNOTABLE FEATURES: Free shipping threshold of 999 Kč. Free in-store pickup. The company covers the cost of additional packages if an order needs to be split.\nWEBSITE ASSESSMENT: The shipping information is consolidated on a single, easy-to-find page. The pricing is clear and simple. However, the page lacks crucial details like delivery timeframes and express/weekend options, which diminishes its completeness."
+}

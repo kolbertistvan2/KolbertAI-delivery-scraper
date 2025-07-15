@@ -1,0 +1,101 @@
+{
+  "website": "autodoc.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "235,00 CZK for orders below 2800 CZK. Free for orders over 2800 CZK. Free delivery does not apply to bulky items.",
+    "free_delivery_limit": "2800 CZK",
+    "delivery_time": "In-stock items are dispatched within 1-2 working days after payment. Total delivery time is not specified.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "Free delivery does not apply to doručení na ostrovy (delivery to islands).",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "517,00 CZK per item",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Autodoc.cz offers home delivery for standard and bulky items to the Czech Republic. Parcel shop, parcel locker, and in-store pickup options are not available.\nPROVIDERS: DPD is the only specified delivery company.\nPRICING: Standard delivery costs 235 CZK, with free shipping on orders over 2800 CZK. Tires are delivered for free. Bulky items incur a surcharge of 517 CZK per item and are excluded from the free shipping offer.\nRESTRICTIONS: Free delivery does not apply to bulky goods, delivery to islands, or international shipments. Deliveries are not made on public holidays.\nNOTABLE FEATURES: The 'Bezpečná objednávka' (Safe Order) service is available for 89.99 CZK, extending the standard 14-day return period to 200 days.\nWEBSITE ASSESSMENT: Shipping information is available on a dedicated 'Doručení' page and is generally clear regarding pricing for standard and bulky items. However, it lacks specific delivery timeframes (only dispatch time is provided), information on express or weekend delivery, and details about payment options like Cash on Delivery. The information could be improved by providing a more precise delivery window and explicitly stating all available couriers."
+}

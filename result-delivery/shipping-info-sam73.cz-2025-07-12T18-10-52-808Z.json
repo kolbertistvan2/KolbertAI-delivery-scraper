@@ -1,0 +1,103 @@
+{
+  "website": "sam73.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "PPL",
+      "Česká pošta"
+    ],
+    "pricing": "DPD 99 kč, PPL 79 kč, Česká pošta 99 kč. Doprava zdarma nad 1 000 Kč (u vybraných dopravců).",
+    "free_delivery_limit": "1000 Kč",
+    "delivery_time": "2-5 pracovních dnů",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna",
+      "Česká pošta Balíkovna"
+    ],
+    "locations_count": "Zásilkovna: více než 350, PPL Parcelshop: více než 4000 (spolu s Parcelboxy)",
+    "pricing": "PPL Smart 69 kč, Zásilkovna 75 kč, Česká pošta Balíkovna 79 kč. Doprava zdarma nad 1 000 Kč.",
+    "free_delivery_limit": "1000 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelbox"
+    ],
+    "locations_count": "více než 4000 (PPL Parcelbox a Parcelshop dohromady)",
+    "pricing": "PPL Smart (Parcelbox/Parcelshop): 69 kč. Doprava zdarma nad 1 000 Kč.",
+    "free_delivery_limit": "1000 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "32 prodejen (locations not listed on page)",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers Home Delivery, Parcel Shops/Lockers, and In-Store Pickup. No options for bulky items are mentioned.\nPROVIDERS: Home delivery is handled by DPD, PPL, and Česká pošta. Parcel points include Zásilkovna, PPL Parcelshop/Parcelbox, and Česká pošta Balíkovna.\nPRICING: Prices range from 69 Kč (PPL Smart) to 99 Kč (DPD, Česká pošta). Free shipping is available for orders over 1,000 Kč with selected carriers. Cash on delivery (COD) has a surcharge of 39 Kč.\nDELIVERY TIME: Standard delivery time is 2-5 business days. No specific faster express options are detailed.\nNOTABLE FEATURES: PPL is described as an 'express' service, but without a specified faster delivery time or extra cost. The store offers a 'buy now, pay later' option through Twisto. Weekend delivery is not available.\nWEBSITE ASSESSMENT: Shipping information is consolidated on a single 'Doprava a platba' page. While most key details are present, the structure could be clearer; pricing is listed separately from the detailed descriptions of each service. Information on pricing for in-store pickup is missing."
+}

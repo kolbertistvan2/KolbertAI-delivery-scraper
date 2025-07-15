@@ -1,0 +1,104 @@
+{
+  "website": "rodinnebaleni.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "DPD",
+      "PPL",
+      "GLS"
+    ],
+    "pricing": "Balíkovna na adresu: 89,- Kč\nDPD - Balík na adresu: 89,- Kč\nPPL: 89,- kč\nGLS: 89,- kč",
+    "free_delivery_limit": "Při objednávce zboží nad 1599,-Kč máte od nás dopravu ZDARMA.",
+    "delivery_time": "Následující pracovní den po podání.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39,-Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balík Do Balíkovny",
+      "Zásilkovna",
+      "DPD",
+      "PPL",
+      "GLS"
+    ],
+    "locations_count": "PPL: více než 4000 výdejních míst\nGLS: více než 4000 výdejních míst",
+    "pricing": "Balík Do Balíkovny: 69,- Kč\nZásilkovna: 89,- Kč\nDPD - Výdejní místo: 69,- Kč\nPPL - Výdejní místa: 69,- kč\nGLS - Výdejní místa: 69,- kč",
+    "free_delivery_limit": "Při objednávce zboží nad 1599,-Kč máte od nás dopravu ZDARMA.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39,-Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers Home Delivery and Parcel Shop/Pickup Point delivery within the Czech Republic. In-store pickup is not available.\nPROVIDERS: Carriers include Česká pošta (Balíkovna), DPD, PPL, GLS, and Zásilkovna.\nPRICING: Home delivery costs a flat rate of 89 Kč. Parcel shop delivery is 69 Kč for most providers, with Zásilkovna being 89 Kč. Free shipping is offered for all orders over 1599 Kč.\nDELIVERY TIME: Standard delivery time for most services is the next business day after dispatch.\nNOTABLE FEATURES: Cash on delivery (COD) is available for a surcharge of 39 Kč. There are no specific options for express delivery, weekend delivery, or bulky item delivery mentioned.\nWEBSITE ASSESSMENT: The shipping information is consolidated on a single, easy-to-find page ('Způsoby dopravy a platby zboží'). The details on providers, pricing, and the free shipping threshold are clear and straightforward. However, the information could be improved by explicitly differentiating parcel lockers from parcel shops and providing details on potential size/weight limits."
+}

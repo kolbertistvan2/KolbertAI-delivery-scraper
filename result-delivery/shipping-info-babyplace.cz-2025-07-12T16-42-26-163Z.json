@@ -1,0 +1,103 @@
+{
+  "website": "babyplace.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Česká pošta",
+      "Ostrava rozvoz"
+    ],
+    "pricing": "GLS: 89 Kč for orders up to 1 899 Kč, free for orders from 1 899 Kč.\nOstrava rozvoz: 100 Kč.",
+    "free_delivery_limit": "1 899 Kč",
+    "delivery_time": "Doručení proběhne v pracovní dny.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS ParcelShop",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS ParcelShop: 59 Kč for orders up to 1 899 Kč, free for orders from 1 899 Kč.\nZásilkovna: 69 Kč for orders up to 1 899 Kč, free for orders from 1 899 Kč.",
+    "free_delivery_limit": "1 899 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ostrava",
+      "Zlín"
+    ],
+    "pricing": "Ostrava: 0 Kč, zdarma.\nZlín: 19 Kč for orders up to 1 899 Kč, 0 Kč for orders from 1 899 Kč.",
+    "free_delivery_limit": "1 899 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, parcel shop delivery, and in-store pickup. PROVIDERS: Main carriers are GLS, Zásilkovna, and Česká pošta, with a local delivery service in Ostrava. PRICING: Home delivery with GLS costs 89 Kč. Parcel shop delivery costs 59 Kč (GLS) or 69 Kč (Zásilkovna). In-store pickup is free in Ostrava and 19 Kč in Zlín. FREE SHIPPING: Free shipping is available for all main delivery methods on orders from 1 899 Kč. NOTABLE FEATURES: The cash on delivery (COD) surcharge is 30 Kč. Deliveries are made on business days only. No express or weekend delivery options are mentioned. Payment by bank transfer or cash in-store may provide a discount of up to 1%. There is no specific information for bulky item delivery. WEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page with a pricing table, making it easy to understand. However, it lacks specific delivery timeframes (e.g., 2-3 days) and information on parcel lockers."
+}

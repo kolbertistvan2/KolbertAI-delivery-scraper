@@ -1,0 +1,110 @@
+{
+  "website": "mroauto.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD",
+      "PPL",
+      "WE|DO",
+      "Zásilkovna"
+    ],
+    "pricing": "119 Kč",
+    "free_delivery_limit": "2500 Kč",
+    "delivery_time": "Next business day for in-stock items ordered before 13:00.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Next business day for orders before 13:00.",
+      "pricing": "Included in standard shipping cost."
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD",
+      "PPL",
+      "WE|DO"
+    ],
+    "pricing": "299 Kč",
+    "free_delivery_limit": "Free shipping does not apply to bulky items.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč",
+    "free_delivery_limit": "2500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Bohumín",
+      "Ostrava",
+      "Havířov"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, Parcel Shop (Zásilkovna), and In-store pickup are available.\nPROVIDERS: GLS, DPD, PPL, WE|DO, and Zásilkovna.\nPRICING: Home delivery costs 119 Kč, Zásilkovna pickup points cost 89 Kč. In-store pickup is free. Free shipping is offered on orders over 2500 Kč, but this does not apply to bulky items.\nRESTRICTIONS: Bulky items incur a fixed shipping charge of 299 Kč.\nNOTABLE FEATURES: Very fast dispatch, with orders of in-stock items placed before 13:00 being delivered the next business day. Three physical pickup locations are available (Bohumín, Ostrava, Havířov). COD is available for a 39 Kč fee.\nWEBSITE ASSESSMENT: The shipping information is presented clearly on a dedicated page. It is comprehensive, covering costs, providers, delivery speed, and exceptions for bulky goods. The information is easy to understand."
+}

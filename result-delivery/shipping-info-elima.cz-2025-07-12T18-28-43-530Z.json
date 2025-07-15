@@ -1,0 +1,103 @@
+{
+  "website": "elima.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "PPL",
+      "DPD"
+    ],
+    "pricing": "Price not available. A notice states that from 30.6.2025 the shipping price will be 59,29 Kč with VAT for every purchase.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelshop"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "ELIMA Jičín, Hradecká 506 (central warehouse)",
+      "ELIMA Jičín, Šafaříkova 140",
+      "ELIMA Děčín, Zelená 333/25"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, parcel shop delivery, and in-store pickup. PROVIDERS: Home delivery is handled by Česká pošta, PPL, and DPD. Parcel shop delivery is available via PPL Parcelshop. In-store pickup is possible at three locations in Jičín and Děčín. PRICING: Specific shipping costs are not provided, except for a notice about a future price of 59,29 Kč starting from June 2025. Information on free shipping thresholds or COD surcharges is missing. NOTABLE FEATURES: Multiple home delivery carriers are available. In-store pickup has specified internal transfer times (next day for one Jičín branch, weekly for Děčín). Payment by card to the courier is possible with all carriers. WEBSITE ASSESSMENT: The shipping information is very basic and incomplete. While it lists the available carriers and methods, it critically lacks essential details like current pricing, delivery timeframes, and COD fees. This makes it difficult for customers to make an informed choice without proceeding to checkout."
+}

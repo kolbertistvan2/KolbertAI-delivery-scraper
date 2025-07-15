@@ -1,0 +1,108 @@
+{
+  "website": "hadex.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Česká pošta"
+    ],
+    "pricing": "Balíkovna na adresu 85,– Kč\nČeská pošta – Balík na poštu 109,– Kč\nPPL přepravné 115,– Kč",
+    "free_delivery_limit": "Free for orders over 1500 Kč without VAT.",
+    "delivery_time": "Expedited within 3 working days, delivery time by carrier is 1-2 working days.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "35,– Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Paletová přeprava",
+      "Balík Nadrozměr"
+    ],
+    "pricing": "Paletová přeprava 1420,– Kč\nBalík Nadrozměr 300,– Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "35,– Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL ParcelShop",
+      "Zásilkovna",
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna 59,– Kč\nZásilkovna 63,– Kč\nPPL Parcel Shop 59,– Kč",
+    "free_delivery_limit": "Free for orders over 1500 Kč without VAT.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Balíkovna: 35,– Kč, Zásilkovna: 30,– Kč, PPL Parcel Shop: 35,– Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna 59,– Kč\nZásilkovna 63,– Kč",
+    "free_delivery_limit": "Free for orders over 1500 Kč without VAT.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Balíkovna: 35,– Kč, Zásilkovna: 30,– Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Hadex stores"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery, bulky/pallet delivery, parcel shop/locker pickup, and free in-store pickup.\nPROVIDERS: Main carriers are PPL, Česká pošta (Balíkovna), and Zásilkovna.\nPRICING: Parcel shop/locker delivery starts at 59 Kč. Home delivery starts at 85 Kč. Free shipping is available for orders over 1500 Kč (excl. VAT). COD surcharges range from 30 Kč to 35 Kč.\nNOTABLE FEATURES: Free in-store pickup at Hadex stores. Special delivery service for solar panels, batteries, and inverters to select cities for 250 Kč. Carrier-specific weight and size limits are clearly stated.\nWEBSITE ASSESSMENT: The shipping information is consolidated on a single, easy-to-find 'Doprava' page. It clearly outlines providers, pricing structures, COD costs, and the free shipping threshold. However, it lacks details on express or weekend delivery options and does not differentiate between parcel shops and parcel lockers, grouping them under 'výdejní místa' (pickup points)."
+}

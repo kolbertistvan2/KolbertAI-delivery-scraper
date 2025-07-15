@@ -1,0 +1,101 @@
+{
+  "website": "svetbot.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta, a.s.",
+      "DPD CZ s.r.o."
+    ],
+    "pricing": "zdarma",
+    "free_delivery_limit": "Doprava je zdarma.",
+    "delivery_time": "Zboží bude kupujícímu v naprosté většině případů odesláno během dvou pracovních dnů od vytvoření objednávky.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Česká pošta: zdarma. DPD: 39 Kč."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna, s.r.o.",
+      "DPD CZ s.r.o."
+    ],
+    "locations_count": "not available",
+    "pricing": "zdarma",
+    "free_delivery_limit": "Doprava je zdarma.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta, a.s."
+    ],
+    "locations_count": "not available",
+    "pricing": "zdarma",
+    "free_delivery_limit": "Doprava je zdarma.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "zdarma"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: The e-shop provides several delivery options within the Czech Republic, all of which are free of charge. Customers can choose home delivery through Česká pošta (Balíkovna na adresu) or DPD. Alternatively, they can opt for pickup at various locations, including Zásilkovna and DPD parcel shops, as well as Česká pošta's Balíkovna network (which includes parcel lockers and shops). Orders are typically dispatched within two working days. \nNOTABLE FEATURES: The most significant feature is completely free shipping for all orders within the Czech Republic, regardless of the chosen method. Cash on delivery (COD) is available; it is free with Česká pošta but incurs a 39 Kč fee with DPD and Zásilkovna. \nWEBSITE ASSESSMENT: The shipping information is presented very clearly in two tables on a dedicated page, making it easy to compare services and costs. The page explicitly states that all delivery within the Czech Republic is free. However, it lacks details on estimated delivery transit times after dispatch, and there is no information about express or weekend delivery options."
+}

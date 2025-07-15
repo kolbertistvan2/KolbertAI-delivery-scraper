@@ -1,0 +1,98 @@
+{
+  "website": "eppi.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "DOPRAVA ZDARMA NA VŠECHNY OBJEDNÁVKY",
+    "free_delivery_limit": "DOPRAVA ZDARMA NA VŠECHNY OBJEDNÁVKY",
+    "delivery_time": "Zboží skladem k vám dorazí do druhého pracovního dne, a to při objednání ve všední den do 12:00. U šperků na objednávku se standardní doručení pohybuje mezi 3-4 týdny.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "příplatek 15 - 30 % z ceny šperku"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Národní 28, 110 00 Praha 1"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery method is home delivery, which is free for all orders. Personal pickup is also available at their Prague showroom. There is no mention of parcel shops or lockers.\nPRICING: Shipping is free on all orders. Express production/delivery is available for a surcharge of 15-30% of the item's price.\nPROVIDERS: No specific shipping carriers are mentioned on the FAQ page.\nDELIVERY TIMES: In-stock items ordered by 12:00 on a business day are delivered the next business day. On-order items take 3-4 weeks.\nNOTABLE FEATURES: Free shipping on all orders is a major benefit. Personal pickup is available 7 days a week in Prague. Express service is offered as a percentage-based surcharge.\nWEBSITE ASSESSMENT: The website clearly states that shipping is free. However, it lacks a dedicated, comprehensive shipping information page. Key details such as the names of the courier companies used are missing. Information is found in a banner and within the general FAQ, which is not ideal for user experience."
+}

@@ -1,0 +1,109 @@
+{
+  "website": "hodinky-365.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "Česká pošta (balík do ruky): 119 Kč\nGLS: 99 Kč\nDPD: 99 Kč",
+    "free_delivery_limit": "Při objednávce nad 3 000 Kč je vždy doprava zdarma.",
+    "delivery_time": "Téměř ve 100% případů je balík doručen následující pracovní den po expedování zásilky. Zboží, které je skladem, bude při objednávce vytvořené do 13h, doručeno již následující pracovní den.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta balíkovna",
+      "GLS",
+      "DPD",
+      "Zásilkovna"
+    ],
+    "locations_count": "Česká pošta balíkovna: více jak 120 výdejních míst.\nGLS výdejny: 1100 výdejních míst.\nDPD výdejny: 3200 výdejních míst.\nZásilkovna: 2647 výdejních míst.",
+    "pricing": "Česká pošta balíkovna: 99 Kč\nGLS výdejny: 49 Kč\nDPD výdejny: 79 Kč\nZásilkovna: 79 Kč",
+    "free_delivery_limit": "Při objednávce nad 3 000 Kč je vždy doprava zdarma.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "DPD"
+    ],
+    "locations_count": "DPD: více než 1400 samoobslužných boxů. GLS: Count not specified separately from Parcel Shops.",
+    "pricing": "GLS boxy: 49 Kč\nDPD boxy: 79 Kč",
+    "free_delivery_limit": "Při objednávce nad 3 000 Kč je vždy doprava zdarma.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Sirotčí 605/10, 703 00 Ostrava-Vítkovice"
+    ],
+    "pricing": "zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Zboží označené SKLADEM je možné vyzvednou po objednání okamžitě v otevírací dobu prodejny.",
+      "pricing": "zdarma"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "zdarma"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, parcel shop/locker pickup, and in-store pickup. PROVIDERS: Delivery partners include Česká pošta, GLS, DPD, and Zásilkovna. PRICING: Home delivery starts at 99 Kč, parcel shop/locker pickup starts at 49 Kč. Free shipping is available for all orders over 3,000 Kč. In-store pickup in Ostrava is free. The cash on delivery (COD) surcharge is a flat 39 Kč for all applicable methods. NOTABLE FEATURES: Standard delivery is very fast, typically the next business day for in-stock items ordered by 13:00. In-store pickup in Ostrava is available immediately for in-stock items and the store is open on Saturdays. WEBSITE ASSESSMENT: The shipping information is exceptionally clear, comprehensive, and easy to locate on a dedicated page. Each delivery method is detailed with its provider, price, delivery time, COD options, and specific advantages. The free shipping threshold is prominently displayed."
+}

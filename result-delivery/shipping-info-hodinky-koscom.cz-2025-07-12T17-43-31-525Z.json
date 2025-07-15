@@ -1,0 +1,103 @@
+{
+  "website": "hodinky-koscom.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Zásilkovna"
+    ],
+    "pricing": "Free for orders over 1 000,- Kč. Otherwise, the price is based on the current price list on the day of the order.",
+    "free_delivery_limit": "1000 Kč",
+    "delivery_time": "The carrier guarantees delivery within 24 hours on business days for orders placed by 12:00 PM (if the item is in stock).",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for orders over 1 000,- Kč. Otherwise, the price is based on the current price list on the day of the order.",
+    "free_delivery_limit": "1000 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Na Poříčí 30, 110 00 Praha 1"
+    ],
+    "pricing": "zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, parcel shop delivery, and in-store pickup. PROVIDERS: Delivery is handled by PPL and Zásilkovna. PRICING: Shipping is free for orders over 1,000 CZK within the Czech Republic. For orders below this amount, the price is determined by the carrier's current price list. In-store pickup is free. DELIVERY TIME: Standard delivery is guaranteed within 24 hours on business days for orders placed by noon. NOTABLE FEATURES: Key features include a low free shipping threshold of 1,000 CZK, very fast 24-hour delivery, and the option for free in-store pickup in Prague, which is available 7 days a week. WEBSITE ASSESSMENT: Shipping information is located within the general Terms & Conditions (Obchodní podmínky) rather than a dedicated, easily accessible page. While the free shipping threshold and delivery speed are clearly stated, specific shipping costs for orders under the threshold are not provided, directing the customer to the carrier's price list. The information is sufficient but could be presented in a more user-friendly manner."
+}

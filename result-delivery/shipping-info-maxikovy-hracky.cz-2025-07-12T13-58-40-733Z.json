@@ -1,0 +1,106 @@
+{
+  "website": "maxikovy-hracky.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Geis"
+    ],
+    "pricing": "from 69 Kč",
+    "free_delivery_limit": "Free shipping on orders over 1499 Kč for selected carriers",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Geis"
+    ],
+    "pricing": "299 Kč",
+    "free_delivery_limit": "Free shipping on orders over 1499 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+39 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Zásilkovna",
+      "PPL"
+    ],
+    "locations_count": "32 411",
+    "pricing": "from 59 Kč",
+    "free_delivery_limit": "Free shipping on orders over 1499 Kč for selected carriers",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Zásilkovna",
+      "PPL"
+    ],
+    "locations_count": "32 411 (combined with parcel shops)",
+    "pricing": "from 59 Kč",
+    "free_delivery_limit": "Free shipping on orders over 1499 Kč for selected carriers",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery, bulky item delivery, and delivery to parcel shops/lockers. In-store pickup is not available. PROVIDERS: Delivery partners include PPL, Geis, Zásilkovna, and Balíkovna. PRICING: Parcel shop/locker delivery starts from 59 Kč. Standard home delivery starts from 69 Kč. Bulky item delivery is 299 Kč. A cash on delivery (COD) surcharge of 39 Kč applies to all relevant options. FREE SHIPPING: Free shipping is offered on orders over 1499 Kč for selected carriers, and this offer also applies to oversized shipments. NOTABLE FEATURES: The store highlights a large network of over 32,000 pickup points. The free shipping threshold also covers bulky items, which is a significant benefit. WEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page. Providers and pricing are easy to understand. However, the site lacks specific information on delivery timeframes, express options, and weekend delivery."
+}

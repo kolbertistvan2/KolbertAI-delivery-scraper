@@ -1,0 +1,105 @@
+{
+  "website": "houseland.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "PPL",
+      "Balíkovna"
+    ],
+    "pricing": "Kurýr GLS: ZDARMA nebo 99 - 149 Kč\nKurýr PPL: 109 - 159 Kč\nBalíkovna na adresu: 115 - 165 Kč",
+    "free_delivery_limit": "Free shipping on orders over 3 000 Kč.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Nadrozměrná přeprava",
+      "Geis Cargo Premium",
+      "Houseland kurýr"
+    ],
+    "pricing": "Nadrozměrná přeprava: podle hmotnosti\nGeis Cargo Premium: podle hmotnosti\nHouseland kurýr: od 799 Kč",
+    "free_delivery_limit": "Free shipping over 3000 Kč does not apply to bulky products.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "PPL",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Výdejní místa GLS: ZDARMA nebo 59 Kč\nVýdejní místa PPL: ZDARMA nebo 65 Kč\nVýdejní místa Zásilkovna: ZDARMA nebo 70 Kč",
+    "free_delivery_limit": "Free shipping on orders over 3 000 Kč.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Lihovarská 690, 718 00 Ostrava-Kunčičky",
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery, bulky item delivery, parcel shop delivery, and personal in-store pickup. Parcel lockers are not explicitly mentioned. PROVIDERS: Delivery partners include GLS, PPL, Balíkovna (Česká pošta), Zásilkovna, Geis Cargo, and the store's own 'Houseland kurýr'. PRICING: Standard home delivery costs between 99 Kč and 165 Kč. Parcel shop delivery costs between 59 Kč and 70 Kč. Free shipping is available for orders over 3,000 Kč, but this does not apply to bulky items. Bulky item shipping is priced based on weight or starts at 799 Kč. In-store pickup is free. RESTRICTIONS: The availability of a specific carrier depends on the weight and dimensions of the order. NOTABLE FEATURES: A wide range of delivery options and carriers is available. A flat COD surcharge of 39 Kč applies to all carrier deliveries. Free in-store pickup is offered at their warehouse in Ostrava. Optional services like shipment insurance (39 Kč) are available. WEBSITE ASSESSMENT: The shipping information is clearly laid out on a dedicated page, with prices and providers for each method clearly stated. The exception for bulky items regarding free shipping is also clearly noted. The main missing piece of information is the estimated delivery time for any of the services."
+}

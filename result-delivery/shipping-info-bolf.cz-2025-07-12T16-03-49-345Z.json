@@ -1,0 +1,103 @@
+{
+  "website": "bolf.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "GLS",
+      "DPD",
+      "Česká pošta",
+      "WEDO"
+    ],
+    "pricing": "From 69 Kč. Free for orders over 1500 Kč (pre-paid).",
+    "free_delivery_limit": "1500 Kč",
+    "delivery_time": "Odeslání do 24 hodin",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "89 Kč - 119 Kč, depending on the provider and order value."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč. Free for orders over 1500 Kč (pre-paid).",
+    "free_delivery_limit": "1500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "119 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: Bolf.cz provides home delivery and parcel shop options for customers in Czechia. Home delivery is handled by PPL, GLS, DPD, Česká pošta, and WEDO, with prices starting at 69 Kč. Parcel shop delivery is available through Zásilkovna for 89 Kč. A free shipping threshold is set at 1500 Kč for all pre-paid orders. Cash on delivery (COD) is an option for all methods, with surcharges ranging from 89 Kč to 119 Kč. \nNOTABLE FEATURES: PPL offers Saturday delivery. Dispatch is guaranteed within 24 hours. \nWEBSITE ASSESSMENT: The shipping information is well-structured in a comparison table, making it easy to understand pricing and options. The free shipping limit is clearly stated. However, the site lacks information on estimated delivery times (beyond dispatch), parcel lockers, and policies for bulky items."
+}

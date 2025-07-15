@@ -1,0 +1,102 @@
+{
+  "website": "siko.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL"
+    ],
+    "pricing": "Doprava expresní balíkovou službou je zpoplatněna částkou 99 Kč. V ceně dopravy není zahrnut výnos zásilky. Ta Vám bude složena k prvním uzamykatelným dveřím.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Zpravidla následující pracovní den od předání zásilky z našeho skladu. Zásilky jsou doručovány mezi 8:00 - 17:00.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL",
+      "Toptrans"
+    ],
+    "pricing": "Doprava spediční službou je zpoplatněna částkou 499 Kč. V ceně dopravy není zahrnut výnos zásilky. Přepravní služba doručuje zásilku na chodník, případně na místo, kam je možno zajet nákladním vozidlem. Po individuální domluvě s řidičem je možný závoz po zpevněné cestě za vrata/do garáže. Objednávky, které obsahují obklady a dlažby v množství nad 10m2 a ostatní zboží s celkovou hmotností nad 300 kg odesíláme na paletách. Služba „Výnos do patra s pomocí příjemce“ za 300 Kč (max 80kg, 1 kus max 50kg).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "více jak 10 000 výdejních míst a boxů (společně s boxy)",
+    "pricing": "Zboží do hmotnosti 4 kg za 59 Kč. Zboží do hmotnosti 9 kg za 89 Kč.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "více jak 10 000 výdejních míst a boxů (společně s výdejními místy)",
+    "pricing": "Zboží do hmotnosti 4 kg za 59 Kč. Zboží do hmotnosti 9 kg za 89 Kč.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "26 prodejen SIKO KOUPELNY & KUCHYNĚ (Neplatí pro partnerské prodejny a SIKO studia Vsetín a Třebíč.)",
+    "pricing": "Rezervace zboží na prodejně je zpoplatněna částkou 40 Kč.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Siko.cz offers several delivery methods in the Czech Republic, including standard home delivery, bulky item delivery, pickup at Zásilkovna points/lockers, and in-store pickup. All e-shop orders are dispatched from a central distribution center in Čimelice.\nPROVIDERS: PPL for standard parcels, DHL and Toptrans for bulky/palletized shipments, and Zásilkovna for parcel shops and lockers.\nPRICING: Standard home delivery costs 99 Kč. Bulky item delivery is 499 Kč. Zásilkovna costs 59 Kč (up to 4 kg) or 89 Kč (up to 9 kg). In-store pickup has a 40 Kč reservation fee. No free shipping thresholds are mentioned.\nRESTRICTIONS: Zásilkovna is limited to parcels up to 9 kg and smaller dimensions. Bulky delivery is used for orders over 300 kg or containing over 10m² of tiles.\nNOTABLE FEATURES: An optional 'lift to floor' service is available for bulky items for 300 Kč, with weight limitations. The company uses recycled cardboard boxes for packaging. Cash on delivery is an option, but a specific surcharge is not stated.\nWEBSITE ASSESSMENT: The shipping information is consolidated on one page and is generally clear. However, it lacks details on free shipping, specific COD surcharges, and express or weekend delivery options, which do not appear to be offered."
+}

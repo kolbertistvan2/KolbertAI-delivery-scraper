@@ -1,0 +1,98 @@
+{
+  "website": "gigacomputer.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL"
+    ],
+    "pricing": "PPL: 129 Kč",
+    "free_delivery_limit": "Free shipping is mentioned, but the specific order value threshold is not provided.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "PPL Parcel Shop"
+    ],
+    "locations_count": "Více než 3 000 odběrných míst po celé ČR",
+    "pricing": "Zásilkovna: 89 Kč\nPPL Parcel Shop: 129 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Available at all GIGA stores, but specific locations are not listed on this page.",
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery via PPL, pickup at Zásilkovna or PPL Parcel Shop locations, and free personal pickup at their GIGA stores. \nPRICING: Home delivery with PPL costs 129 Kč. Parcel shop delivery costs 89 Kč for Zásilkovna and 129 Kč for PPL Parcel Shop. In-store pickup is free. Free shipping is advertised, but the spending threshold is not specified. \nNOTABLE FEATURES: Free in-store pickup is a key benefit. The network includes over 3,000 pickup points across the Czech Republic. \nWEBSITE ASSESSMENT: The shipping information is presented on a single, easy-to-find page. The options and base prices are clear. However, the page lacks crucial details such as delivery timeframes, COD surcharges, express delivery options, and the specific conditions for free shipping. There is no distinction made between parcel shops and parcel lockers."
+}

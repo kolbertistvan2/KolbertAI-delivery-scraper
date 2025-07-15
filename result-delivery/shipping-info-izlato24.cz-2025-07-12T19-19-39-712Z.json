@@ -1,0 +1,101 @@
+{
+  "website": "izlato24.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Česká pošta"
+    ],
+    "pricing": "DPD: 99 Kč for orders up to 2 500 Kč, 49 Kč for orders over 2 500 Kč. Česká pošta: 69 Kč for orders up to 1 000 Kč, 49 Kč for orders over 1 000 Kč.",
+    "free_delivery_limit": "A banner mentions a temporary free delivery promotion, but the pricing table does not reflect a free shipping threshold.",
+    "delivery_time": "Usually within 48 hours from dispatch. Česká pošta: 48-72 hours.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "from 29 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Pickup DPD",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Pickup DPD: 99 Kč for orders up to 2 500 Kč, 49 Kč for orders over 2 500 Kč. Zásilkovna: 99 Kč for orders up to 1 000 Kč, 49 Kč for orders over 1 000 Kč.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "from 29 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: 99 Kč for orders up to 1 000 Kč, 49 Kč for orders over 1 000 Kč.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "from 29 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop provides home delivery via DPD and Česká pošta, as well as parcel shop/locker delivery through Pickup DPD and Zásilkovna. Delivery time is typically within 48-72 hours from dispatch.\nPRICING: Shipping costs are tiered based on order value and vary by provider. DPD costs 99 Kč (up to 2,500 Kč) or 49 Kč (over 2,500 Kč). Česká pošta is 69 Kč (up to 1,000 Kč) or 49 Kč (over 1,000 Kč). Zásilkovna is 99 Kč (up to 1,000 Kč) or 49 Kč (over 1,000 Kč). Cash on delivery is available for a surcharge starting from 29 Kč.\nNOTABLE FEATURES: A banner advertises a temporary free delivery promotion, which conflicts with the detailed pricing table. All shipments are insured. No express, weekend, or in-store pickup options are mentioned.\nWEBSITE ASSESSMENT: The shipping information is presented in a structured table, but the conflicting 'free delivery' message creates confusion. The page lacks details on specific services like express delivery or a clear distinction between Zásilkovna's parcel shops and lockers. Information is generally sufficient but could be clearer and more comprehensive."
+}

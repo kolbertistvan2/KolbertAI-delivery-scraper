@@ -1,0 +1,100 @@
+{
+  "website": "notino.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Balíkovna"
+    ],
+    "pricing": "Kurýr DPD 69 Kč, Balíkovna na adresu 79 Kč",
+    "free_delivery_limit": "Doprava zdarma na vybrané způsoby dopravy na vybrané produkty",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "Expresní doručení po Brně 89 Kč, Večerní doručení Brno 99 Kč, Večerní doručení Ostrava 99 Kč, Večerní doručení Praha 99 Kč"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "20 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "DPD",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna 49 Kč, DPD výdejní místa 54 Kč, Zásilkovna 59 Kč",
+    "free_delivery_limit": "Doprava zdarma na vybrané způsoby dopravy na vybrané produkty",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "20 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "Notino odběrná místa (specific locations not listed on this page)",
+    "pricing": "35 Kč",
+    "free_delivery_limit": "Doprava zdarma na vybrané způsoby dopravy na vybrané produkty",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč (Hotově či kartou na pobočce)"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Notino.cz offers home delivery, parcel shop delivery, and in-store pickup. PROVIDERS: Delivery partners include DPD, Balíkovna (Česká pošta), and Zásilkovna. PRICING: Prices range from 35 Kč for in-store pickup to 79 Kč for home delivery. Free shipping is available on selected products. The cash on delivery (COD) surcharge is 20 Kč. NOTABLE FEATURES: Special express and evening delivery services are available in Brno, Ostrava, and Prague for a fee of 89-99 Kč. A wide variety of parcel shop providers are available. WEBSITE ASSESSMENT: The shipping information is presented on a clear, dedicated page with prices for each option listed upfront. However, standard delivery timeframes are not specified, and there is no information regarding shipping for bulky or oversized items."
+}

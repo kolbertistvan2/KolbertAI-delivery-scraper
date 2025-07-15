@@ -1,0 +1,105 @@
+{
+  "website": "koupelny-cz.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD"
+    ],
+    "pricing": "Free for orders over 2,000 Kč. For orders up to 250 Kč: 109 Kč. For orders between 250 Kč and 2,000 Kč: 99 Kč. All orders over 5,000 Kč have free shipping.",
+    "free_delivery_limit": "2000 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč vč. DPH"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Raben",
+      "Emons"
+    ],
+    "pricing": "349 Kč vč. DPH. Free for orders over 5,000 Kč.",
+    "free_delivery_limit": "5000 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Delivery by 8:00, 10:00, 12:00, or 16:00. Delivery on a specified day, or on a specified day and time is also available.",
+      "pricing": "Doručení do 8:00: 939 Kč, Doručení do 10:00: 799 Kč, Doručení do 12:00: 649 Kč, Doručení do 16:00: 109 Kč, Doručení v určený den: 269 Kč, Doručení v určený den a čas: 1119 Kč"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč vč. DPH"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "DPD Pickup",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for orders over 5,000 Kč. DPD Pickup: 99 Kč for orders up to 250 Kč, 79 Kč for orders over 250 Kč. Zásilkovna: 99 Kč for orders up to 250 Kč, 59 Kč for orders over 250 Kč.",
+    "free_delivery_limit": "5000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč vč. DPH"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (Z-BOX, AlzaBox)"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for orders over 5,000 Kč. For orders under 5,000 Kč: 99 Kč for orders up to 250 Kč, 59 Kč for orders over 250 Kč.",
+    "free_delivery_limit": "5000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč vč. DPH (must be paid online via Zásilkovna app or website, not at the locker)"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Brno"
+    ],
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "ZDARMA"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery for standard parcels (DPD) and bulky/pallet goods (Raben, Emons), delivery to parcel shops (DPD Pickup, Zásilkovna), parcel lockers (Zásilkovna Z-BOX/AlzaBox), and free in-store pickup in Brno.\nPRICING: Free shipping is available for all orders over 5,000 Kč. For standard parcels with DPD, shipping is free for orders over 2,000 Kč. Below this threshold, prices are tiered based on order value. Bulky item delivery costs 349 Kč for orders under 5,000 Kč. COD surcharges are 29 Kč for parcels and 49 Kč for pallets.\nNOTABLE FEATURES: Extensive express delivery options are available for bulky items via Raben, including timed and specific-day delivery for an extra fee. There are specific weight and size restrictions for parcel shop/locker deliveries (DPD Pickup: max 20kg, Zásilkovna: max 5kg). In-store pickup in Brno is free of charge.\nWEBSITE ASSESSMENT: The shipping information is very detailed and well-organized into sections based on order value. It clearly outlines providers, costs, COD fees, and specific conditions for each delivery method. The only significant missing information is the standard delivery timeframe for non-express services. Overall, the information is comprehensive and easy to understand."
+}

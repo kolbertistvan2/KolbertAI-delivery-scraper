@@ -1,0 +1,97 @@
+{
+  "website": "mirjan24.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "vlastní doprava Mirjan24"
+    ],
+    "pricing": "Doprava zdarma při nákupu od 10000 Kč",
+    "free_delivery_limit": "10000 Kč",
+    "delivery_time": "do 5 dnů",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "do 5 dnů",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "vlastní doprava Mirjan24"
+    ],
+    "pricing": "Doprava zdarma při nákupu od 10000 Kč",
+    "free_delivery_limit": "10000 Kč",
+    "delivery_time": "do 5 dnů",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "do 5 dnů",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DOPRAVA: Mirjan24.cz doručuje zboží po celé ČR výhradně vlastní dopravou. Nejsou nabízeny žádné jiné přepravní společnosti, výdejní místa ani samoobslužné boxy. Osobní odběr není možný. CENY: Doprava je zdarma pro objednávky v hodnotě nad 10 000 Kč. Cena dopravy pro objednávky pod touto hodnotou není na stránce uvedena. ČAS DORUČENÍ: U vybraných produktů je doručení do 5 dnů, což je označováno jako 'Expresní doprava'. Žádné další informace o rychlejším doručení nebo víkendovém doručování nejsou k dispozici. DOBÍRKA: Informace o poplatku za dobírku není uvedena. NOTABLE FEATURES: Společnost se spoléhá na vlastní velký vozový park, což je hlavní a jediný způsob doručení. WEBSITE ASSESSMENT: Stránka s informacemi o dopravě je obecná a marketingově zaměřená. Chybí přehledná tabulka cen a služeb. Klíčové detaily, jako je cena dopravy pro menší objednávky nebo poplatek za dobírku, nejsou uvedeny."
+}

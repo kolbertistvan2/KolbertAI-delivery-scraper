@@ -1,0 +1,103 @@
+{
+  "website": "akoupelnyatopeni.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Balíkovna na adresu",
+      "DPD"
+    ],
+    "pricing": "Starts at 109 Kč. The price is based on the order value, increasing in tiers. Examples: 1–1,000 Kč = 109 Kč; 1,001–2,000 Kč = 149 Kč; 15,001–20,000 Kč = 549 Kč. Orders over 150,001 Kč have individual pricing.",
+    "free_delivery_limit": "Free shipping available for selected products marked with a 'doprava zdarma' label.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Kurýrní přeprava"
+    ],
+    "pricing": "Starts at 109 Kč and increases with order value (e.g., order value 1-1,000 Kč = 109 Kč; 15,001-20,000 Kč = 549 Kč). Additional surcharges apply for specific items: Kotel na tuhá paliva (749 Kč/ks), Akumulační nádrže (399 Kč/ks), Ohřívač vody (199-349 Kč/ks), Křehké zboží (399 Kč/ks), Radiátory (69 Kč/ks), KG trubky (69-89 Kč/ks).",
+    "free_delivery_limit": "Free shipping available for selected products marked with a 'doprava zdarma' label.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna"
+    ],
+    "locations_count": "9000",
+    "pricing": "75 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Rumburk"
+    ],
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "zdarma"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store provides home delivery via PPL, DPD, and Balíkovna, delivery to Balíkovna pickup points, and personal pickup at their store in Rumburk. Bulky item delivery is also available.\nPRICING: Home delivery pricing is complex, starting at 109 Kč and increasing in tiers based on the total order value. Bulky and fragile items incur significant additional surcharges per piece (e.g., +749 Kč for a boiler). Balíkovna pickup points cost a flat 75 Kč, and in-store pickup is free. Free shipping is offered only on select, marked items.\nPAYMENT: Cash on delivery (COD) is available for a 49 Kč fee. Payment by card is explicitly not accepted, either online or upon delivery.\nNOTABLE FEATURES: The pricing model is a key feature, combining order value tiers with item-specific surcharges. The complete absence of card payment options is a major limitation. No information is provided on delivery times, express services, or weekend delivery.\nWEBSITE ASSESSMENT: The shipping information is available on a single page but is complex to interpret due to the multi-layered pricing structure. The lack of crucial details like delivery timeframes makes it difficult for customers to estimate arrival dates. The information is clear about what is offered, but incomplete."
+}

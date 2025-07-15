@@ -1,0 +1,104 @@
+{
+  "website": "designovynabytek.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL"
+    ],
+    "pricing": "129 Kč",
+    "free_delivery_limit": "2 500 Kč",
+    "delivery_time": "Skladové zboží odesíláme do 24 hodin.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "TOPTRANS"
+    ],
+    "pricing": "499 Kč. Výnos do patra za 999 Kč.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha",
+      "Plzeň"
+    ],
+    "pricing": "Zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "SUMMARY": "The store offers several delivery methods in the Czech Republic. Standard home delivery is handled by PPL for 129 Kč, and parcel shop/locker delivery by Zásilkovna for 89 Kč. Both options are free for orders over 2,500 Kč. Bulky items are delivered by TOPTRANS for 499 Kč. Free personal pickup is available at showrooms in Prague and Plzeň. Cash on delivery (COD) is available for a 49 Kč surcharge.\nNOTABLE FEATURES: Key features include free shipping over 2,500 Kč for standard items, an in-home delivery service for bulky goods for an extra fee (999 Kč), and free in-store pickup at two locations. In-stock items are dispatched within 24 hours.\nWEBSITE ASSESSMENT: Shipping information is not directly available on the homepage but is expected to be found under the 'Vše o nákupu' link in the footer. The homepage provides helpful clues about bulky delivery and fast dispatch, but detailed pricing and provider information require navigating to a separate page. The structure is standard for a Czech e-shop."
+}

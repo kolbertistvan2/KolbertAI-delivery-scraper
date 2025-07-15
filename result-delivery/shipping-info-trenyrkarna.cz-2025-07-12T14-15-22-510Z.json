@@ -1,0 +1,108 @@
+{
+  "website": "trenyrkarna.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "GLS",
+      "DPD"
+    ],
+    "pricing": "PPL - doručení domů: 89 Kč\nGLS - kurýr: 89 Kč\nDPD - doručení domů: 89 Kč",
+    "free_delivery_limit": "zdarma při objednávce nad 1 499 Kč",
+    "delivery_time": "1-2 dny od objednání. Doručení následující pracovní den od expedování objednávky.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Zásilkovna",
+      "PPL",
+      "GLS",
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 69 Kč\nZásilkovna - výdejní místo: 69 Kč\nPPL - výdejní místo: 69 Kč\nGLS - výdejní místo: 59 Kč\nDPD - výdejní místo: 69 Kč",
+    "free_delivery_limit": "GLS - výdejní místo: Zdarma při objednávce nad 999 Kč\nOstatní: zdarma při objednávce nad 1 499 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Zásilkovna",
+      "PPL",
+      "DPD"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 69 Kč\nZásilkovna: 69 Kč\nPPL: 69 Kč\nDPD: 69 Kč",
+    "free_delivery_limit": "zdarma při objednávce nad 1 499 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop provides home delivery and delivery to pickup points/lockers. Home delivery is handled by PPL, GLS, and DPD. Pickup point and locker services are available through Balíkovna, Zásilkovna, PPL, GLS, and DPD. In-store pickup and bulky item delivery are not offered.\nPRICING: Home delivery costs a flat rate of 89 Kč. Pickup point delivery costs range from 59 Kč (GLS) to 69 Kč (all others). Free shipping is offered on orders over 999 Kč for GLS pickup points and over 1,499 Kč for all other delivery methods. Cash on delivery (COD) incurs a 39 Kč surcharge.\nDELIVERY SPEED: The standard delivery time is 1-2 business days from ordering. Orders placed on workdays before 13:00 are typically dispatched the same day for next-business-day delivery.\nNOTABLE FEATURES: Fast dispatch for orders placed by 13:00 on workdays. A wide range of carriers for both home and pickup point delivery. Multiple free online payment options are available (Card, Google/Apple Pay, Bank Transfer).\nWEBSITE ASSESSMENT: The shipping information is excellent. It is located on a dedicated 'Doprava a platba' page, presented in a clear and easy-to-read table format. All costs, providers, and free shipping thresholds are explicitly stated. Detailed information for each carrier is also provided, making the terms very transparent for the customer."
+}

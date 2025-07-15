@@ -1,0 +1,102 @@
+{
+  "website": "gentlemanstore.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Zásilkovna"
+    ],
+    "pricing": "GLS: 99 Kč. Zásilkovna – večerní doručení: 130 Kč. Při objednávce nad 2000 Kč doprava zdarma.",
+    "free_delivery_limit": "Při objednávce nad 2000 Kč doprava zdarma.",
+    "delivery_time": "GLS: do 24 hodin od odeslání. Zásilkovna večerní doručení (Praha): tentýž den při objednání do 10:00.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Na území Prahy při objednání do 10:00 doručení tentýž den kurýrem.",
+      "pricing": "130 Kč"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "69 Kč. Při objednávce nad 2000 Kč doprava zdarma.",
+    "free_delivery_limit": "Při objednávce nad 2000 Kč doprava zdarma.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha Karlínské náměstí 9, Karlín, Praha 8"
+    ],
+    "pricing": "zdarma",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "zdarma"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery is available via GLS (99 Kč) and Zásilkovna evening delivery in Prague (130 Kč). Parcel shop delivery is offered through Zásilkovna (69 Kč). In-store pickup is available at their Prague location. Free shipping is provided for all options on orders over 2000 Kč. Standard delivery time is 24 hours for GLS and up to 3 days for Zásilkovna parcel shops. Orders placed on workdays before 11:00 are shipped the same day.\nNOTABLE FEATURES: Same-day evening delivery in Prague for orders placed by 10:00. Free shipping threshold of 2000 Kč applies to all delivery methods. In-store pickup in Prague is completely free, including cash on delivery. The store is open for pickup on Saturdays.\nWEBSITE ASSESSMENT: The shipping information is clearly laid out on a dedicated page. Pricing, providers, and delivery times are easy to understand. However, information about COD surcharges for courier services is missing, and there is no explicit mention of parcel lockers as a distinct option from parcel shops."
+}

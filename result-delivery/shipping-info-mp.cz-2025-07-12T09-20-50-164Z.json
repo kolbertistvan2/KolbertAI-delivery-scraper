@@ -1,0 +1,103 @@
+{
+  "website": "mp.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Česká pošta",
+      "Liftago"
+    ],
+    "pricing": "PPL: 99 Kč, Česká pošta: 109 Kč. Free for orders over 2000 Kč.",
+    "free_delivery_limit": "2000 Kč",
+    "delivery_time": "Next business day",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Within 60 minutes in selected cities (Prague, Brno, Ostrava, and 8 others)",
+      "pricing": "From 149 Kč"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Česká pošta (Na poštu)"
+    ],
+    "locations_count": "Over 5000 (Zásilkovna)",
+    "pricing": "Zásilkovna: 69 Kč, Česká pošta (Na poštu): 89 Kč. Free for orders over 2000 Kč.",
+    "free_delivery_limit": "2000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (Z-BOX)",
+      "Česká pošta (Balíkovna)"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna Z-BOX: 69 Kč, Česká pošta Balíkovna: 65 Kč. Free for orders over 2000 Kč.",
+    "free_delivery_limit": "2000 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "40 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "13 stores across the Czech Republic (e.g., Prague, Brno, Ostrava, Plzeň, Liberec, etc.)",
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Within 30 minutes if the item is in stock at the selected store.",
+      "pricing": "Free"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "Opening hours vary by store, many are open on Saturday and Sunday."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Mobil Pohotovost provides a wide array of delivery services in the Czech Republic, including standard Home Delivery, Parcel Shops, Parcel Lockers, and In-Store Pickup. There is no specific option for bulky items.\nPROVIDERS: The main carriers are PPL, Česká pošta, and Zásilkovna. Express city delivery is handled by Liftago.\nPRICING: Delivery costs range from 65 Kč to 109 Kč. Free shipping is offered on orders exceeding 2,000 Kč for most methods. In-store pickup is always free. The cash on delivery (COD) surcharge is a standard 40 Kč where available.\nNOTABLE FEATURES: The standout service is the 'Kurýr do 1 hodiny' (Courier within 1 hour) express delivery available in 11 major cities. Additionally, they offer a very fast 30-minute in-store pickup for items in stock at the branch.\nWEBSITE ASSESSMENT: The shipping information is comprehensive and clearly presented on a dedicated 'Doprava' page. All costs, delivery times, and special services are easy to find, making for a transparent customer experience."
+}

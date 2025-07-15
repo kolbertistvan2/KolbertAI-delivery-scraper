@@ -1,0 +1,109 @@
+{
+  "website": "oveckarna.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta (Balíkovna na adresu)",
+      "PPL",
+      "GLS"
+    ],
+    "pricing": "Balíkovna na adresu: od 89 Kč. PPL: od 99 Kč. GLS: od 109 Kč. Doprava zdarma od 1 999 Kč.",
+    "free_delivery_limit": "1 999 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "PPL",
+      "GLS"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "1 999 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta (Balíkovna)",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balík do Balíkovny: od 59 Kč. Zásilkovna: od 69 Kč. Doprava zdarma od 1 999 Kč.",
+    "free_delivery_limit": "1 999 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta (Balíkovna)",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balík do Balíkovny: od 59 Kč. Zásilkovna: od 69 Kč. Doprava zdarma od 1 999 Kč.",
+    "free_delivery_limit": "1 999 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Zlín"
+    ],
+    "pricing": "Zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "0 Kč (platba hotově)"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers Home Delivery, Parcel Shops/Lockers, and In-store Pickup. PROVIDERS: Delivery partners include Česká pošta (Balíkovna), PPL, GLS, and Zásilkovna. PRICING: Prices start at 59 Kč for Balíkovna pickup points and 89 Kč for home delivery. Free shipping is available for orders of 1,999 Kč and above. The cash on delivery (COD) surcharge is 39 Kč. In-store pickup in Zlín is free. NOTABLE FEATURES: Zásilkovna cannot be used for bulky items (max side 50 cm, sum of sides 120 cm). WEBSITE ASSESSMENT: The shipping information is clearly presented on a dedicated page, outlining providers, starting prices, the free shipping threshold, and COD fees. However, details regarding delivery timeframes, express options, or weekend delivery are not provided."
+}

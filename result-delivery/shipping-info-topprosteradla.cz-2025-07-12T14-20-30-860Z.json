@@ -1,0 +1,98 @@
+{
+  "website": "topprosteradla.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "Zásilkovna"
+    ],
+    "pricing": "Free shipping on orders over 777 Kč. Standard pricing not available.",
+    "free_delivery_limit": "777 Kč",
+    "delivery_time": "Average expedition time is 2.4 days from payment receipt.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Available, surcharge not specified."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free shipping on orders over 777 Kč. Standard pricing not available.",
+    "free_delivery_limit": "777 Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Available, surcharge not specified."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery and Parcel Shop delivery are available. PROVIDERS: The website mentions GLS and Zásilkovna for deliveries to Slovakia, implying they are likely used for Czechia as well. PRICING: Free shipping is provided for all orders over 777 Kč. Standard shipping costs for orders below this amount are not specified. Cash on delivery is available, but the associated fee is not mentioned. DELIVERY TIME: Orders are typically dispatched within an average of 2.4 days after payment receipt. NOTABLE FEATURES: The store offers a relatively low free shipping threshold and provides free returns via Zásilkovna. WEBSITE ASSESSMENT: Shipping information is sparse and not located on a dedicated page, requiring users to piece it together from the FAQ section. Key details such as standard shipping prices, a definitive list of domestic carriers, and COD fees are missing, making the information incomplete."
+}

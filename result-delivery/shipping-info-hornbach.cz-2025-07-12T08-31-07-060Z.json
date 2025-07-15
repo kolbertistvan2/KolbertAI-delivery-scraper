@@ -1,0 +1,107 @@
+{
+  "website": "hornbach.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Geis",
+      "PPL"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Geis",
+      "PPL"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "HORNBACH Box"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for 'Reserve & Collect' service.",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "as early as 2 hours after reservation",
+      "pricing": "Free"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not applicable",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "All Hornbach stores, specific availability of pickup methods (e.g., Drive-In) varies by location.",
+    "pricing": "Free for 'Reserve & Collect' service.",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "as early as 2 hours after reservation",
+      "pricing": "Free"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not applicable",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Hornbach.cz provides home delivery for standard and bulky goods, delivery to a Hornbach store, and a 'Reserve & Collect' service with several pickup methods (in-store, HORNBACH Box, curbside, Drive-In). Third-party parcel shops are not offered. PROVIDERS: Home delivery is handled by Geis and PPL, with the carrier assigned automatically based on order size. PRICING: Specific costs for home delivery are not stated on the page. All 'Reserve & Collect' pickup options, including at the HORNBACH Box, are free. NOTABLE FEATURES: The 'Reserve & Collect' service can be ready in as little as 2 hours. HORNBACH Box lockers are accessible 24/7 for contactless pickup. Customers can also arrange for a Liftago courier to pick up their reserved orders. Not all pickup methods are available at every store location. WEBSITE ASSESSMENT: The website clearly outlines the available delivery and pickup methods. However, it lacks crucial details for home delivery, such as pricing, free shipping thresholds, and standard delivery timeframes. Information about carriers is only present in the footer. The overall quality is moderate, as it explains the services well but omits key cost and time information for shipped orders."
+}

@@ -1,0 +1,116 @@
+{
+  "website": "fitham.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DHL",
+      "Balíkovna na adresu (Česká pošta)"
+    ],
+    "pricing": "Free for orders over 2 000,- Kč. Otherwise, PPL/DHL is 95,- Kč and Balíkovna na adresu is 90,- Kč.",
+    "free_delivery_limit": "2 000,- Kč",
+    "delivery_time": "Next business day for orders placed by 15:00 (PPL/DHL) or 12:00 (Balíkovna).",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "25,- Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL (for items over 50 kg)",
+      "GEIS Home Delivery Premium",
+      "FITHAM technician (for delivery with assembly)"
+    ],
+    "pricing": "GEIS Home Delivery Premium (carry-in service): 390 - 990 Kč. Delivery with assembly by technician: 2,490 - 5,490 Kč depending on the machine. Additional fees for carrying items upstairs without an elevator (150 - 600 Kč per floor depending on weight).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "GEIS: 48 - 72 hours. Delivery with assembly: scheduled by phone 1-2 days in advance.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (Packeta)",
+      "PPL Parcelshop",
+      "PPL Depo",
+      "Balíkovna (Pošta)"
+    ],
+    "locations_count": "not available",
+    "pricing": "Free for orders over 2 000,- Kč. Otherwise, PPL Parcelshop is 45,- Kč, Zásilkovna is 69,- Kč, and PPL Depo is 95,- Kč.",
+    "free_delivery_limit": "2 000,- Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "25,- Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna (Packeta)",
+      "Balíkovna (Box)"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: Free for orders over 2 000,- Kč, otherwise 69,- Kč. Balíkovna: Free for orders over 2 000,- Kč, otherwise 90,- Kč (as part of home delivery service).",
+    "free_delivery_limit": "2 000,- Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "25,- Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Liberec",
+      "Praha",
+      "Brno",
+      "Plzeň"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not applicable"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers a wide range of delivery methods including standard home delivery, specialized bulky item delivery, parcel shop/locker services, and in-store pickup.\nPROVIDERS: Key providers are PPL, DHL, Balíkovna (Česká pošta), Zásilkovna (Packeta), and GEIS for bulky items.\nPRICING: Most standard delivery options are free for orders over 2,000 Kč. Below this amount, fees range from 45 Kč to 95 Kč. The COD surcharge is a flat 25 Kč. In-store pickup is free.\nNOTABLE FEATURES: The store provides specialized services for its fitness equipment, including a 'Home Delivery Premium' service by GEIS that includes carrying the item into the customer's apartment (390-990 Kč) and a full delivery and assembly service by an in-house technician (2,490-5,490 Kč). There are four physical stores for personal pickup (Liberec, Praha, Brno, Plzeň), which are open on Saturdays.\nWEBSITE ASSESSMENT: The shipping information is exceptionally clear, detailed, and consolidated on a single, easy-to-find page. It effectively distinguishes between different types of delivery services, their costs, providers, and specific conditions, making it very user-friendly."
+}

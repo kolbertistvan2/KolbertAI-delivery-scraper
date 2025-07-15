@@ -1,0 +1,109 @@
+{
+  "website": "prozdravi.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "PPL",
+      "Zásilkovna"
+    ],
+    "pricing": "89 Kč (ZDARMA od 2 500 Kč)",
+    "free_delivery_limit": "2 500 Kč",
+    "delivery_time": "následující pracovní den (Při objednání v pracovních dnech do 10:00)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "GLS",
+      "PPL",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Balíkovna: 59 Kč\nGLS - výdejní místa: 59 Kč\nPPL výdejní místa: 59 Kč\nZásilkovna: 64 Kč\n(Vše ZDARMA od 2 500 Kč)",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS",
+      "PPL",
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS - výdejní boxy: 59 Kč\nPPL Alzaboxy: 59 Kč\nPPL Parcelboxy: 59 Kč\nZásilkovna ZBox: 64 Kč\n(Vše ZDARMA od 2 500 Kč)",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha",
+      "Chrudim"
+    ],
+    "pricing": "Praha: 39 Kč (ZDARMA od 2 500 Kč)\nChrudim: 15 Kč (ZDARMA od 2 500 Kč)",
+    "free_delivery_limit": "2 500 Kč",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Praha: ještě týž pracovní den (při objednání do 08:30)\nChrudim: ještě týž pracovní den (při objednání do 12:00)",
+      "pricing": "No extra charge"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery, parcel shop/locker pickup, and in-store pickup. PROVIDERS: Carriers include Česká pošta (Balíkovna), PPL, GLS, and Zásilkovna. PRICING: Home delivery costs 89 Kč. Parcel shop/locker prices range from 59 Kč to 64 Kč. In-store pickup is 15 Kč in Chrudim and 39 Kč in Prague. Free shipping is available for all methods on orders over 2,500 Kč. A packing fee of 25 Kč applies to orders under 350 Kč. NOTABLE FEATURES: Same-day in-store pickup is available in Prague and Chrudim if ordered by the morning cut-off time. Most other delivery methods offer next-day delivery for orders placed before the specified cut-off time. No information is provided for bulky item delivery, weekend delivery, or COD surcharges. WEBSITE ASSESSMENT: The shipping information is well-structured and easy to find on a dedicated page. It clearly outlines the costs, delivery times, and providers for each available option. The main omissions are details on COD fees and weekend services. A notable discrepancy is that the provided page belongs to Vivantis.cz, not prozdravi.cz."
+}

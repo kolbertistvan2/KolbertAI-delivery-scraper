@@ -1,0 +1,108 @@
+{
+  "website": "kamody.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "PPL"
+    ],
+    "pricing": "99 Kč for parcels up to 31.5 kg. 199 Kč for parcels from 31.5 kg to 50 kg.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DHL / PPL Sprint",
+      "TopTrans"
+    ],
+    "pricing": "DHL / PPL Sprint: from 159 Kč (5 kg) to 4,999 Kč (3000 kg). TopTrans: from 170 Kč (5 kg) to 6,000 Kč (3000 kg). Prices are based on weight.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "60 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "PPL ParcelShop"
+    ],
+    "locations_count": "not available",
+    "pricing": "59 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "59 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Sokolská 217, Kerhartice, 56204, Ústí nad Orlicí"
+    ],
+    "pricing": "ZDARMA",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Sunday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Kamody.cz offers several delivery options in the Czech Republic. Standard home delivery is handled by Česká pošta and PPL, with prices starting at 99 Kč based on weight. For bulky and palletized goods over 50 kg, delivery is provided by DHL/PPL Sprint and TopTrans, with detailed weight-based pricing. Customers can also choose delivery to pickup points via Balíkovna and PPL ParcelShop for a flat fee of 59 Kč. Free personal pickup is available at their warehouse in Kerhartice. Cash on delivery (COD) is available with a surcharge of 30 Kč for standard parcels and 60 Kč for bulky items. \nNOTABLE FEATURES: Free in-store pickup option. The pickup location in Kerhartice is open on Sundays. Very detailed pricing tables for bulky/pallet shipments. Clear separation of shipping conditions and damage claim procedures for each carrier. \nWEBSITE ASSESSMENT: The shipping information is consolidated on a single, easy-to-find 'Dopravní služby' page. The pricing is transparent and well-structured, especially for heavy goods. However, the page lacks information on standard delivery timeframes, free shipping thresholds, and express delivery options."
+}

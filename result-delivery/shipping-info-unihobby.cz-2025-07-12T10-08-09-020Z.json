@@ -1,0 +1,105 @@
+{
+  "website": "unihobby.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DPD"
+    ],
+    "pricing": "The specific shipping cost is communicated to the buyer before completing the order.",
+    "free_delivery_limit": "Only for items marked with the 'doprava ZDARMA' (free shipping) label.",
+    "delivery_time": "Up to 30 days from the conclusion of the purchase contract. An indicative date is shown during the order process.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Determined at checkout. Not available for orders over 20,000 Kč."
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "TOPTRANS",
+      "Geis CZ"
+    ],
+    "pricing": "The specific shipping cost is communicated to the buyer before completing the order.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Up to 30 days from the conclusion of the purchase contract. An indicative date is shown during the order process.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Determined at checkout. Not available for orders over 20,000 Kč."
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL (PPL Parcelshop)",
+      "DPD (DPD Pickup)"
+    ],
+    "locations_count": "not available",
+    "pricing": "The specific shipping cost is communicated to the buyer before completing the order.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Determined at checkout. Not available for orders over 20,000 Kč."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "PPL (PPL Parcelbox)",
+      "DPD (DPD box)"
+    ],
+    "locations_count": "not available",
+    "pricing": "The specific shipping cost is communicated to the buyer before completing the order.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Determined at checkout. Not available for orders over 20,000 Kč."
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "10 stores across the Czech Republic and a central warehouse in Prague.",
+    "pricing": "Free if the item is in stock at the selected store. A fee may apply for transferring goods between stores. Pickup at the central warehouse in Prague is 59 Kč if paying on pickup.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Payment is made on pickup. A 59 Kč fee applies for pickup at the central warehouse in Prague (Tomíčkova 2287/9) if paying on pickup."
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery for standard and bulky items, delivery to parcel shops and lockers, and in-store pickup.\nPROVIDERS: Standard home delivery and pickup points are handled by PPL and DPD. Bulky items are delivered by TOPTRANS and Geis CZ.\nPRICING: Shipping costs are calculated and displayed at checkout. Free shipping is available only for items explicitly marked 'doprava ZDARMA'. In-store pickup is free if the item is in stock at the chosen location; otherwise, a transfer fee may apply.\nRESTRICTIONS: Cash on delivery (COD) is not an option for purchases exceeding 20,000 Kč. Bulky and heavy items cannot be delivered to parcel shops or lockers.\nNOTABLE FEATURES: Customers can pick up orders at any of the 10 UNI HOBBY market stores in the Czech Republic.\nWEBSITE ASSESSMENT: Shipping information is not located on a dedicated page but is detailed within the general Terms and Conditions (Obchodní podmínky). While comprehensive, finding the information requires navigating a lengthy legal document, which is not user-friendly."
+}

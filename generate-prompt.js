@@ -16,7 +16,13 @@ const countryData = {
     shippingPages: ["/versand", "/lieferung", "/shipping", "/delivery"],
     footerLinks: ["versand", "lieferung", "shipping", "informationen zur lieferung", "versandkosten"],
     islands: "German islands like Sylt, Rügen, Usedom, etc.",
-    hasIslands: true
+    hasIslands: true,
+    // Return fields
+    returnFooterLinks: ["rückgabe", "umtausch", "widerruf", "reklamation", "return", "exchange", "refund"],
+    returnPages: ["/rueckgabe", "/umtausch", "/widerruf", "/reklamation", "/return", "/exchange", "/refund"],
+    returnHomeCollectionProviders: ["DHL", "Hermes", "DPD", "UPS", "GLS", "Deutsche Post"],
+    returnParcelShops: ["DHL Paketshop", "Hermes Paketshop", "UPS Access Point", "DPD Pickup", "GLS Parcel Shop"],
+    returnParcelLockers: ["DHL Packstation", "MyFlexBox", "UPS Access Point"]
   },
   france: {
     name: "France",
@@ -28,7 +34,12 @@ const countryData = {
     shippingPages: ["/livraison", "/expedition", "/shipping", "/delivery"],
     footerLinks: ["livraison", "expédition", "shipping", "informations de livraison", "frais de livraison"],
     islands: "French islands like Corsica, overseas territories, etc.",
-    hasIslands: true
+    hasIslands: true,
+    returnFooterLinks: ["retour", "échange", "remboursement", "rétractation", "return", "exchange", "refund"],
+    returnPages: ["/retour", "/echange", "/remboursement", "/retractation", "/return", "/exchange", "/refund"],
+    returnHomeCollectionProviders: ["Colissimo", "Chronopost", "DPD", "GLS", "UPS", "Colis Privé", "DHL", "La Poste"],
+    returnParcelShops: ["Mondial Relay (InPost)", "Chronopost", "Colissimo", "La Poste branches", "DPD Pickup", "Relais Colis", "GLS Parcel Shop"],
+    returnParcelLockers: ["Mondial Relay (InPost)", "Chronopost", "Colissimo"]
   },
   italy: {
     name: "Italy",
@@ -163,6 +174,15 @@ const countryData = {
     hasIslands: true
   }
 };
+
+const addReturnFieldsIfMissing = (country) => {
+  if (!country.returnFooterLinks) country.returnFooterLinks = [];
+  if (!country.returnPages) country.returnPages = [];
+  if (!country.returnHomeCollectionProviders) country.returnHomeCollectionProviders = [];
+  if (!country.returnParcelShops) country.returnParcelShops = [];
+  if (!country.returnParcelLockers) country.returnParcelLockers = [];
+};
+Object.values(countryData).forEach(addReturnFieldsIfMissing);
 
 // --- Prompt template ---
 const promptTemplate = country => `Stagehand tool használatával:
@@ -324,12 +344,130 @@ Only extract information that is explicitly visible on the pages. Do not assume 
 
 IMPORTANT: The SUMMARY field should be formatted as a single text string that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.`;
 
+// --- Return prompt template ---
+const returnPromptTemplate = country => `Stagehand tool használatával:
+
+1. Navigate to the homepage of the website: \${website}
+2. Search for return information in these locations in ${country.language} for ${country.name}:
+    * Footer links: "${country.returnFooterLinks.join('", "')}"
+    * FAQ section: search for return/refund/exchange keywords in ${country.language}
+    * Terms & Conditions page for return terms
+    * Customer service pages for return procedures
+    * Dedicated return info pages (${country.returnPages.join(', ')})
+3. Extract return information from all relevant pages
+
+EXTRACT EXACTLY THESE RETURN CATEGORIES AND DO NOT EXTRACT DELIVERY INFORMATION. DO NOT VISIT LINKS ON EXTERNAL PAGES (e.g. logistics websites) EXTRACT ONLY CONFIRMED INFORMATION:
+
+IN-STORE RETURN:
+* Available: yes/no
+* Locations: [store locations/cities if available]
+* Time limit: [return period - e.g., 14 days, 30 days]
+* Conditions: [any specific conditions or requirements]
+
+HOME COLLECTION:
+* Available: yes/no
+* Providers: [list of courier companies that collect returns such as: ${country.returnHomeCollectionProviders.join(', ')}, etc.]
+* Cost: [price information or free collection details]
+* Time limit: [return period]
+* Conditions: [booking requirements, packaging conditions]
+
+DROP OFF VIA PARCEL SHOP:
+* Available: yes/no
+* Providers: [such as: ${country.returnParcelShops.join(', ')}, etc.]
+* Cost: [price information or free drop-off details]
+* Time limit: [return period]
+
+DROP OFF VIA PARCEL LOCKER:
+* Available: yes/no
+* Providers: [such as: ${country.returnParcelLockers.join(', ')}, etc.]
+* Cost: [price information or free drop-off details]
+* Time limit: [return period]
+
+FREE RETURN:
+* Available: yes/no
+* Conditions: [minimum order value, specific product categories, time limits]
+* Methods: [which return methods are free]
+
+QR CODE/BARCODE OR PIN CODE:
+* Available: yes/no
+* Usage: [how codes are used - for parcel lockers, return portals, etc.]
+* Providers: [which services support this feature]
+
+EXTERNAL RETURN PORTAL:
+* Available: yes/no
+* URL: [return portal website if available]
+* Features: [return label generation, status tracking, etc.]
+
+Website: \${website} Country: ${country.code}
+
+Response Format: Return exactly this JSON structure. If a field is unavailable, write "not available". Strings should be human-readable.
+{
+  "website": "\${website}",
+  "IN_STORE_RETURN": {
+    "available": "yes/no/not available",
+    "locations": ["city1", "city2"] or "not available",
+    "time_limit": "period or not available",
+    "conditions": "conditions or not available"
+  },
+  "HOME_COLLECTION": {
+    "available": "yes/no/not available",
+    "providers": ["provider1", "provider2"] or "not available",
+    "cost": "price info or not available",
+    "time_limit": "period or not available",
+    "conditions": "conditions or not available"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "yes/no/not available",
+    "providers": ["provider1", "provider2"] or "not available",
+    "cost": "price info or not available",
+    "time_limit": "period or not available"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "yes/no/not available",
+    "providers": ["provider1", "provider2"] or "not available",
+    "cost": "price info or not available",
+    "time_limit": "period or not available"
+  },
+  "FREE_RETURN": {
+    "available": "yes/no/not available",
+    "conditions": "conditions or not available",
+    "methods": "methods or not available"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "yes/no/not available",
+    "usage": "usage description or not available",
+    "providers": ["provider1", "provider2"] or "not available"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes/no/not available",
+    "url": "URL or not available",
+    "features": "features or not available"
+  },
+  "SUMMARY": "[Brief summary of return options, providers, costs, and restrictions]. NOTABLE FEATURES: [Key features, limitations, and special services]. WEBSITE ASSESSMENT: [Overall evaluation of return information quality and completeness]."
+}
+
+If something is not available or not found, write "not available".
+Only extract information that is explicitly visible on the pages. Do not assume or guess.
+
+IMPORTANT: The SUMMARY field should be formatted as a single text string that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.`;
+
 // --- Fő generálás ---
 (async () => {
+  console.log('Generating shipping prompts...');
   for (const [key, country] of Object.entries(countryData)) {
-    const prompt = promptTemplate(country);
-    const outPath = path.join(process.cwd(), `prompts/prompt.${key}.txt`);
-    await fs.writeFile(outPath, prompt, 'utf-8');
+    const shippingPrompt = promptTemplate(country);
+    const shippingOutPath = path.join(process.cwd(), `prompts/prompt.${key}.txt`);
+    await fs.writeFile(shippingOutPath, shippingPrompt, 'utf-8');
     console.log(`Generated: prompts/prompt.${key}.txt`);
   }
+  
+  console.log('Generating return prompts...');
+  for (const [key, country] of Object.entries(countryData)) {
+    const returnPrompt = returnPromptTemplate(country);
+    const returnOutPath = path.join(process.cwd(), `prompts/prompt-returns.${key}.txt`);
+    await fs.writeFile(returnOutPath, returnPrompt, 'utf-8');
+    console.log(`Generated: prompts/prompt-returns.${key}.txt`);
+  }
+  
+  console.log('All prompts generated successfully!');
 })(); 

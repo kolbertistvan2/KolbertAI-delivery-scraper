@@ -1,0 +1,95 @@
+{
+  "website": "botovo.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS"
+    ],
+    "pricing": "79 Kč pro objednávky do 1200 Kč. Zdarma pro objednávky nad 1200 Kč.",
+    "free_delivery_limit": "1200 Kč",
+    "delivery_time": "do 2 pracovních dnů od expedování zásilky",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The only shipping method offered is home delivery via the GLS courier service. No other options like parcel shops, parcel lockers, or in-store pickup are mentioned. PRICING: Delivery costs 79 Kč for orders up to 1200 Kč and is free for orders over 1200 Kč. DELIVERY TIME: Standard delivery time is within 2 working days from dispatch. NOTABLE FEATURES: The service is limited to GLS home delivery on business days. There is no information about express delivery, weekend delivery, or Cash on Delivery (COD) options. WEBSITE ASSESSMENT: The shipping information is very basic and easy to find on a dedicated 'Doprava' page. However, it is incomplete as it lacks details on common services like COD and alternative delivery methods (parcel shops/lockers), which are standard for many e-shops in the Czech Republic."
+}

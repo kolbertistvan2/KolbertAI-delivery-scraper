@@ -1,0 +1,110 @@
+{
+  "website": "top-armyshop.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "GLS",
+      "PPL",
+      "Česká pošta - Balík Do ruky"
+    ],
+    "pricing": "DPD: 95 Kč (předem), 134 Kč (dobírka)\nGLS: 99 Kč (předem), 138 Kč (dobírka)\nČeská pošta - Balík Do ruky: 95 Kč (předem), 134 Kč (dobírka)\nDoprava zdarma u objednávky nad 2500 Kč (nevztahuje se na doběrečné).",
+    "free_delivery_limit": "2500 Kč",
+    "delivery_time": "Zpravidla následující pracovní den od odeslání.",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Česká pošta - Balíkovna",
+      "Česká pošta - Balík Na poštu",
+      "GLS - Výdejní místo",
+      "DPD - Výdejní místo"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS - Výdejní místo: 59 Kč (předem), 98 Kč (dobírka)\nDPD - Výdejní místo: 75 Kč (předem), 114 Kč (dobírka)\nZásilkovna: 75 Kč (pouze předem)\nČeská pošta - Balíkovna: 69 Kč (předem), 99 Kč (dobírka)\nDoprava zdarma u objednávky nad 2500 Kč (nevztahuje se na doběrečné).",
+    "free_delivery_limit": "2500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "GLS: 39 Kč, DPD: 39 Kč, Česká pošta - Balíkovna: 30 Kč. Zásilkovna: dobírka není možná."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta - Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "Česká pošta - Balíkovna: 69 Kč (předem), 99 Kč (dobírka). Doprava zdarma u objednávky nad 2500 Kč (nevztahuje se na doběrečné).",
+    "free_delivery_limit": "2500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Olomouc",
+      "Ostrava",
+      "Semily"
+    ],
+    "pricing": "Zdarma",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Zdarma"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: E-shop nabízí doručení na adresu, na výdejní místa a osobní odběr na prodejnách. \nPROVIDERS: Mezi přepravce patří DPD, GLS, PPL, Česká pošta (Balík do ruky, Balíkovna, Balík na poštu) a Zásilkovna. \nPRICING: Ceny za dopravu začínají na 59 Kč (GLS výdejní místo). Doprava je zdarma pro objednávky nad 2500 Kč, sleva se však nevztahuje na poplatek za dobírku. Poplatek za dobírku se pohybuje od 30 Kč do 39 Kč v závislosti na dopravci. Osobní odběr na prodejnách v Olomouci, Ostravě a Semilech je zdarma. \nDELIVERY TIME: Standardní doba doručení je obvykle následující pracovní den po odeslání. \nNOTABLE FEATURES: Široký výběr dopravců a výdejních míst. Možnost bezplatného osobního odběru na třech prodejnách. Jasně definovaná hranice pro dopravu zdarma. \nWEBSITE ASSESSMENT: Informace o dopravě jsou prezentovány velmi přehledně a srozumitelně. K dispozici je podrobný popis jednotlivých služeb a jasná tabulka s kombinacemi dopravy, plateb a cen, což zákazníkovi usnadňuje orientaci a výběr."
+}

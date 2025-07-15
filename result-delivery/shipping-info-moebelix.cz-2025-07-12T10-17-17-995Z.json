@@ -1,0 +1,93 @@
+{
+  "website": "moebelix.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Delivery costs are added to the order, indicated by \"plus náklady na dodání\" next to product prices.",
+    "free_delivery_limit": "Over 4000 online-only items are available with free delivery.",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [],
+    "pricing": "Delivery costs are added to the order. The website mentions a service for \"Doručení, montáž a výnos\" (Delivery, assembly and carrying up).",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "20 stores in Czechia",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The primary delivery methods are home delivery for standard and bulky goods, and free in-store pickup. Parcel shop or locker delivery is not mentioned.\nPRICING: In-store pickup is free at 20 locations across Czechia. Home delivery costs are calculated at checkout, though a selection of over 4,000 online-only products qualifies for free delivery.\nPROVIDERS: Specific courier companies for home delivery are not listed on the provided pages.\nNOTABLE FEATURES: The store offers additional services for bulky items, including assembly and carrying the items into the home. A van rental service is also available for customers who wish to transport their purchases themselves.\nWEBSITE ASSESSMENT: The availability of core delivery services is clear, but the information is scattered. Key details such as specific delivery costs, delivery timeframes, and courier partners are not readily available, which could be improved by a dedicated, comprehensive shipping information page."
+}

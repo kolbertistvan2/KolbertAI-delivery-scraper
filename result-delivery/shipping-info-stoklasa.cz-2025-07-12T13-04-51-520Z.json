@@ -1,0 +1,120 @@
+{
+  "website": "stoklasa.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna na adresu",
+      "DPD Classic",
+      "GLS"
+    ],
+    "pricing": "Balíkovna na adresu: 70,- s DPH. DPD Classic: 77,- s DPH. GLS: 97,- s DPH.",
+    "free_delivery_limit": "Free shipping on orders over 2,000 CZK without VAT for retail customers, with a selected carrier.",
+    "delivery_time": "Processing time is 1-2 business days. Delivery time is not specified.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Balíkovna na adresu: 36,- s DPH, DPD Classic: 30,- s DPH, GLS: 30,- s DPH"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Balíkovna",
+      "GLS Parcel Shop"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna: 53,- s DPH. Balíkovna: 52,- s DPH. GLS Parcel Shop: 30,- s DPH.",
+    "free_delivery_limit": "Free shipping on orders over 2,000 CZK without VAT for retail customers, with a selected carrier.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Zásilkovna: 42,- s DPH, Balíkovna: 36,- s DPH. GLS Parcel Shop does not offer COD."
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Brno-Bystrc",
+      "Brno Česká",
+      "Jihlava",
+      "Opava Ostrožná",
+      "Avion",
+      "Kuří rynek",
+      "Nová Karolina",
+      "Háje",
+      "Holešovice",
+      "Senovážné náměstí",
+      "Skalka",
+      "Smíchov",
+      "Olomouc OC HANÁ",
+      "Olomouc OC City",
+      "Smluvní prodejna Nové Butovice",
+      "Dejvice",
+      "Zlín",
+      "Warehouse in Bolatice"
+    ],
+    "pricing": "20,- s DPH for online payment. 40,- s DPH for payment upon receipt (cash or card). Minimum order value is 50,- CZK with VAT.",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "20,- s DPH (for payment in cash or by card upon receipt at the store)"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Stoklasa.cz offers home delivery, parcel shop delivery, and in-store pickup in the Czech Republic. Home delivery is handled by Balíkovna na adresu, DPD, and GLS. Parcel shop options include Zásilkovna, Balíkovna, and GLS Parcel Shop. In-store pickup is available at their own stores, partner stores, and the main warehouse. PRICING: Parcel shop delivery is the cheapest, starting at 30 CZK for GLS Parcel Shop. Home delivery starts at 70 CZK. In-store pickup costs 20-40 CZK depending on the payment method. Free shipping is available for retail customers on orders over 2,000 CZK (excl. VAT) via a selected carrier. COD is available for most services with surcharges ranging from 30 to 42 CZK. NOTABLE FEATURES: Extensive network of physical pickup locations, including their own stores and partner locations. Clear and detailed pricing tables for each delivery and payment combination. A minimum order value of 50 CZK applies to in-store pickups. Zásilkovna cannot be used for oversized items. WEBSITE ASSESSMENT: The shipping information is comprehensive, transparent, and well-organized. The breakdown of costs by carrier and payment method is excellent. The only significant missing detail is the specific estimated delivery timeframe for each carrier, beyond the general 1-2 day processing time."
+}

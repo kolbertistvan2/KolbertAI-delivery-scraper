@@ -1,0 +1,99 @@
+{
+  "website": "airsoftpro.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Czech post",
+      "GLS"
+    ],
+    "pricing": "Shipping cost depends on the order weight and destination. Light parcels up to 2kgs are shipped by Czech post registered letter with a low cost. Final shipping cost is calculated at checkout.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1-2 weeks for GLS and 2-6 weeks for Czech post registered letters.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Czech post",
+      "GLS"
+    ],
+    "pricing": "Orders with the total weight of over 2kgs must be shipped as a standard economy parcel, or by the most common GLS courrier. Shipping fee is much higher. Final shipping cost is calculated at checkout.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "1-2 weeks for GLS",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: The store offers home delivery via Czech Post and GLS. Shipping costs are variable and calculated at checkout, depending on order weight and destination. A cheaper rate is available for parcels under 2kg via Czech Post registered letter. Delivery times are stated as 1-2 weeks for GLS and 2-6 weeks for Czech Post letters. No information is available for parcel shops, parcel lockers, or in-store pickup.\nNOTABLE FEATURES: No specific pricing is listed on the information page; customers must go to checkout to see the final cost. The stated delivery times are unusually long for domestic shipping. No express or weekend delivery options are mentioned.\nWEBSITE ASSESSMENT: The shipping information provided is very general and lacks specific details on pricing, COD options, and alternative delivery methods. To get a concrete shipping price, a customer must add items to the cart and begin the checkout process."
+}

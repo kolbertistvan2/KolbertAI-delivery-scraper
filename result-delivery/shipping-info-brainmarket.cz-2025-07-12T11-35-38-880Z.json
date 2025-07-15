@@ -1,0 +1,111 @@
+{
+  "website": "brainmarket.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "GLS ČR",
+      "Balíkovna na adresu",
+      "Zásilkovna domů",
+      "PPL doručení na adresu"
+    ],
+    "pricing": "GLS ČR: 89 Kč, Balíkovna na adresu: 80 Kč, Zásilkovna domů (max 15 kg): 89 Kč, PPL doručení na adresu: 99 Kč. Zdarma pro objednávky nad 1 500 Kč.",
+    "free_delivery_limit": "1 500 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "GLS výdejní místo",
+      "Balíkovna",
+      "Zásilkovna",
+      "PPL parcelshop"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS výdejní místo: 40 Kč, Balíkovna: 65 Kč, Zásilkovna (do 5 kg): 65 Kč, PPL parcelshop: 65 Kč. Zdarma pro objednávky nad 1 500 Kč.",
+    "free_delivery_limit": "1 500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "GLS (Alza Boxy)",
+      "Balíkovna (Alza Boxy)",
+      "BrainMarket box"
+    ],
+    "locations_count": "not available",
+    "pricing": "GLS (Alza Boxy): 40 Kč, Balíkovna (Alza Boxy): 65 Kč, BrainMarket box – Ostrava: 1 Kč. Zdarma pro objednávky nad 1 500 Kč.",
+    "free_delivery_limit": "1 500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "BrainMarket box – Ostrava, Hladnovská 83/93 (dostupné 24/7)"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Ostrava, Gate Nová Karolina",
+      "Ostrava, Cihelní 3286",
+      "BRNO – BJP Store (Lazaretní 1)"
+    ],
+    "pricing": "1 Kč. Zdarma pro objednávky nad 1 500 Kč.",
+    "free_delivery_limit": "1 500 Kč",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "Express Osobní odběr – Ostrava, Cihelní 3286: 1 Kč, zdarma nad 1 500 Kč."
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: BrainMarket.cz offers home delivery, parcel shop/locker pickup, and in-store pickup in Ostrava and Brno. PROVIDERS: Main carriers are GLS, Balíkovna, Zásilkovna, and PPL. PRICING: Home delivery costs range from 80 Kč to 99 Kč. Parcel shop/locker pickup ranges from 40 Kč to 65 Kč. In-store pickup is 1 Kč. Free shipping is available for all delivery methods on orders over 1,500 Kč. The cash on delivery (COD) surcharge is 39 Kč. NOTABLE FEATURES: The store offers its own 24/7 'BrainMarket box' locker in Ostrava for 1 Kč. Express in-store pickup is available at one Ostrava location. Some services have weight limits (e.g., Zásilkovna parcel shop up to 5 kg, Zásilkovna home delivery up to 15 kg). WEBSITE ASSESSMENT: The shipping information is presented very clearly in a table, making it easy to compare prices and the free shipping threshold. However, standard delivery timeframes are not mentioned for any of the services."
+}

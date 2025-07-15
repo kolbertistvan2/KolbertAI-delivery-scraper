@@ -1,0 +1,110 @@
+{
+  "website": "grizly.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Balíkovna",
+      "GLS",
+      "PPL"
+    ],
+    "pricing": "Zásilkovna na adresu: od 89 Kč (Pro členy: 79 Kč)\nBalíkovna na adresu: od 79 Kč (Pro členy: 69 Kč)\nGLS: od 89 Kč (Pro členy: 79 Kč)\nPPL: od 89 Kč (Pro členy: 79 Kč)",
+    "free_delivery_limit": "Doprava zdarma od 2000 Kč (Pro členy od 1 000 Kč zdarma)",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "not available",
+      "pricing": "PPL - Express: 199 Kč (Pro členy: 149 Kč)"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Balíkovna",
+      "PPL",
+      "GLS"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna - Výdejní místa: od 69 Kč (Pro členy: 69 Kč)\nBalíkovna: od 59 Kč (Pro členy: 59 Kč)\nPPL výdejní místa: od 69 Kč (Pro členy: 69 Kč)\nGLS výdejní místa: od 69 Kč (Pro členy: 69 Kč)",
+    "free_delivery_limit": "Doprava zdarma od 2000 Kč (Pro členy od 1 000 Kč zdarma)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna Z-boxy",
+      "PPL boxy",
+      "GLS boxy"
+    ],
+    "locations_count": "not available",
+    "pricing": "Zásilkovna - Z-boxy: od 69 Kč (Pro členy: 69 Kč)\nPPL boxy: od 69 Kč (Pro členy: 69 Kč)\nGLS boxy: od 69 Kč (Pro členy: 69 Kč)",
+    "free_delivery_limit": "Doprava zdarma od 2000 Kč (Pro členy od 1 000 Kč zdarma)",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Prodejna Grizly Olomouc Omega centrum",
+      "Osobní odběr centrála Olomouc Chválkovice"
+    ],
+    "pricing": "Prodejna Grizly Olomouc Omega centrum: od 29 Kč (Pro členy: zdarma)\nOsobní odběr centrála Olomouc Chválkovice: od 29 Kč (Pro členy: zdarma)",
+    "free_delivery_limit": "Pro členy: zdarma",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, parcel shops, parcel lockers, and in-store pickup are available. PROVIDERS: Zásilkovna, Balíkovna, PPL, and GLS. PRICING: Parcel shop/locker delivery starts from 59 Kč. Home delivery starts from 79 Kč. In-store pickup in Olomouc starts from 29 Kč. Free shipping is offered on orders over 2000 Kč. The cash on delivery (COD) surcharge is a flat 49 Kč for all carriers. NOTABLE FEATURES: The 'Moje Grizly' loyalty program offers significant benefits, including a lower free shipping threshold (1000 Kč), discounted shipping rates, and free in-store pickup. PPL Express home delivery is available for a premium. WEBSITE ASSESSMENT: The shipping information is well-organized and easy to find on a dedicated page. Pricing is transparent, with clear distinctions for loyalty members. The main areas for improvement are the lack of specific delivery timeframes and information on weekend delivery."
+}

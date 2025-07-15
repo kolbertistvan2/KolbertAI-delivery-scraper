@@ -1,0 +1,113 @@
+{
+  "website": "tlamagames.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DPD",
+      "GLS",
+      "Česká pošta",
+      "Wolt"
+    ],
+    "pricing": "PPL na adresu ČR: 85 Kč\nDPD na adresu ČR: 99 Kč\nGLS ČR: 85 Kč\nBalík do ruky ČR (Česká pošta): 119 Kč",
+    "free_delivery_limit": "Při nákupu nad 2000 Kč doprava zdarma (s výjimkou kurýra a DPD).",
+    "delivery_time": "následující pracovní den (při objednání do 12 hodin)",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "dodání během 2 hodin (při objednání 8-16 h v pracovní den)",
+      "pricing": "od 99 Kč (cena dle vzdálenosti od naší prodejny)"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "35 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DPD",
+      "Zásilkovna",
+      "GLS",
+      "Balíkovna"
+    ],
+    "locations_count": "více než 10 tis. (Zásilkovna)",
+    "pricing": "PPL pobočky: 49 Kč\nDPD pobočky: 79 Kč\nZásilkovna ČR: 45 Kč\nGLS pobočky: 45 Kč\nBalíkovna ČR: 75 Kč",
+    "free_delivery_limit": "Při nákupu nad 2000 Kč doprava zdarma.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "35 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "DPD",
+      "Zásilkovna",
+      "GLS",
+      "Balíkovna"
+    ],
+    "locations_count": "více než 10 tis. (Zásilkovna)",
+    "pricing": "PPL boxy: 49 Kč\nDPD boxy: 79 Kč\nZásilkovna: 45 Kč\nGLS boxy: 45 Kč\nBalíkovna: 75 Kč",
+    "free_delivery_limit": "Při nákupu nad 2000 Kč doprava zdarma.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "35 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha 10, Třebohostická 2"
+    ],
+    "pricing": "zdarma",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "ihned (po obdržení výzvy k odběru)",
+      "pricing": "zdarma"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers a wide range of delivery methods in the Czech Republic. This includes home delivery via PPL, DPD, GLS, and Česká pošta. Parcel shop and locker services are available through PPL, DPD, Zásilkovna, GLS, and Balíkovna. Free personal pickup is also an option at their Prague store.\nPRICING: Home delivery starts from 85 Kč. Parcel shop/locker delivery is cheaper, starting from 45 Kč. Free shipping is offered on orders over 2000 Kč for most services, with the notable exception of DPD and Wolt courier.\nNOTABLE FEATURES: Express delivery within 2 hours is available in Prague via Wolt courier. Most standard shipping services offer next-business-day delivery for orders placed before 12:00. Cash on delivery (COD) is available for a 35 Kč surcharge.\nWEBSITE ASSESSMENT: The shipping information is presented very clearly and comprehensively on a dedicated 'Doprava a platba' page. A detailed table outlines all options, providers, prices, and delivery times, making it easy for customers to compare and choose. All necessary details are readily available."
+}

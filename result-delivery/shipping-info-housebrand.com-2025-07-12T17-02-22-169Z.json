@@ -1,0 +1,97 @@
+{
+  "website": "housebrand.com",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL"
+    ],
+    "pricing": "119 Kč",
+    "free_delivery_limit": "1200 Kč",
+    "delivery_time": "2-5 business days",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "89 Kč",
+    "free_delivery_limit": "1200 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "29 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "Free",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "3-7 business days",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Housebrand.com provides three shipping methods for customers in Czechia: home delivery, delivery to a pickup point, and in-store collection. DELIVERY OPTIONS & PROVIDERS: Home delivery is handled by PPL. Pickup points are operated by Zásilkovna. PRICING & FREE SHIPPING: Home delivery costs 119 Kč, and delivery to a Zásilkovna point is 89 Kč. Free shipping is offered on orders exceeding 1200 Kč. In-store pickup is always free of charge. DELIVERY TIMES: Both home delivery and pickup point delivery are estimated to take 2-5 business days. In-store pickup takes slightly longer, at 3-7 business days. PAYMENT: A cash on delivery (COD) option is available for PPL and Zásilkovna deliveries for an additional fee of 29 Kč. COD is not an option for in-store pickups. NOTABLE FEATURES: The site does not mention any options for express delivery, weekend delivery, or special handling for bulky items. Parcel lockers are not listed as a distinct option from general parcel shops. WEBSITE ASSESSMENT: The shipping information is presented clearly and concisely on a dedicated 'Doprava' page. It covers all essential details like costs, delivery times, and the free shipping threshold, making it easy for customers to understand their options. The lack of information on express services or bulky item shipping is the only minor omission."
+}

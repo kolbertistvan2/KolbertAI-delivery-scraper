@@ -1,0 +1,46 @@
+{
+  "website": "rohlik.cz",
+  "IN_STORE_RETURN": {
+    "available": "no",
+    "locations": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "HOME_COLLECTION": {
+    "available": "yes",
+    "providers": [
+      "Rohlik.cz courier"
+    ],
+    "cost": "Free for complaints.",
+    "time_limit": "Up to 72 hours for perishable goods, 14 days for non-perishable goods.",
+    "conditions": "Returns are initiated online as a complaint ('reklamace') through the customer's account. The courier then collects the goods."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "Applies to complaints (reklamace) for unsatisfactory goods.",
+    "methods": "Home Collection"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no",
+    "usage": "not available",
+    "providers": "not available"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "no",
+    "url": "not available",
+    "features": "not available"
+  },
+  "SUMMARY": "Return Options: The primary return method is Home Collection by a Rohlik.cz courier, initiated as a 'complaint' (reklamace) via the customer's online account. In-store, parcel shop, and parcel locker returns are not available.\nProviders: Returns are handled by the Rohlik.cz courier service.\nCosts: Returns are free for complaints regarding product quality.\nRestrictions: Complaints for perishable items must be made within 72 hours of delivery. Non-perishable goods can be returned within the statutory 14-day period.\nNOTABLE FEATURES: A convenient online complaint system is integrated into the customer account for quick resolution without needing to call customer service. The courier picks up the returned items, often during a subsequent delivery.\nWEBSITE ASSESSMENT: Return information is not located on a single page but is found within the FAQ, Terms and Conditions, and Complaints Procedure (Reklamační řád). The practical process is made very simple for the user via the online claim system in their account."
+}

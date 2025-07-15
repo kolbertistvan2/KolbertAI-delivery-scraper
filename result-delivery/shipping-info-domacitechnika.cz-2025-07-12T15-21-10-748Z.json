@@ -1,0 +1,109 @@
+{
+  "website": "domacitechnika.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "DPD",
+      "Česká pošta"
+    ],
+    "pricing": "DPD: 0 - 199 Kč, Česká pošta - Balík do ruky: 0 - 299 Kč",
+    "free_delivery_limit": "Cena dopravy 0 - 299 Kč",
+    "delivery_time": "obvykle do druhého dne po potvrzení objednávky",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "TOPTRANS",
+      "Česká pošta"
+    ],
+    "pricing": "Cena dopravy 0 - 990 Kč",
+    "free_delivery_limit": "Cena dopravy 0 - 990 Kč",
+    "delivery_time": "obvykle do druhého dne po potvrzení objednávky",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč - 49 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta - Balík na poštu nebo do Balíkovny"
+    ],
+    "locations_count": "not available",
+    "pricing": "Cena 0 - 99 Kč",
+    "free_delivery_limit": "Cena 0 - 99 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday (at selected locations)"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "49 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Prodejna ELEKTROCHRÁM, Náchodská 464, 541 01 Trutnov",
+      "Prodejna ELEKTROCHRÁM, Horská 884, 541 01 Trutnov",
+      "Prodejna ELEKTROCHRÁM, Polská 356, 541 01 Trutnov"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The e-shop offers home delivery for standard and bulky goods, pickup at Česká pošta branches (Balík na poštu/Balíkovna), and personal pickup at three store locations in Trutnov. PROVIDERS: Delivery is handled by DPD, Česká pošta, and TOPTRANS for bulky items. The specific carrier is automatically selected by the system based on order parameters. PRICING: Standard home delivery costs 0-299 Kč. Bulky item delivery is 0-990 Kč. Parcel shop delivery is 0-99 Kč. Pricing for in-store pickup is not stated. Free shipping is available for over 10,000 products, but a specific order value threshold is not mentioned. COD surcharge is between 39-49 Kč. NOTABLE FEATURES: Delivery is generally next business day. Weekend delivery is limited to Saturdays at select post offices and one of the Trutnov pickup locations. WEBSITE ASSESSMENT: The shipping information is detailed on a dedicated page, covering providers, pricing ranges, and delivery times. However, it lacks information on a clear free shipping threshold based on order value and does not mention pricing for in-store pickup. The automatic selection of the carrier means the customer cannot choose their preferred service."
+}

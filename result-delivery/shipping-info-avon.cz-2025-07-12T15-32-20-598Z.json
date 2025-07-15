@@ -1,0 +1,98 @@
+{
+  "website": "avon.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "kurýrní služba"
+    ],
+    "pricing": "Doručena zdarma pro objednávky v hodnotě nad 900 Kč. Do 14. 7. platí akce na dopravu zdarma s nákupem nad 700 Kč s kódem DOPRAVA07.",
+    "free_delivery_limit": "900 Kč",
+    "delivery_time": "běžně do dvou dnů od fakturace",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Balíkovna",
+      "Česká pošta"
+    ],
+    "locations_count": "not available",
+    "pricing": "Doručena zdarma pro objednávky v hodnotě nad 900 Kč. Do 14. 7. platí akce na dopravu zdarma s nákupem nad 700 Kč s kódem DOPRAVA07.",
+    "free_delivery_limit": "900 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Avon.cz offers home delivery via an unspecified courier service and pickup at Parcel Shops (Balíkovna, Česká pošta). Delivery is typically within two days of invoicing. Shipping is free for orders over 900 Kč, with a temporary promotion for free shipping on orders over 700 Kč. Standard shipping costs for orders below the threshold are not mentioned.\nNOTABLE FEATURES: The business model is based on Avon representatives. The first order for a new representative can only be delivered to a post office. Cash on delivery is mentioned as mandatory for representatives under 18, but the surcharge is not specified.\nWEBSITE ASSESSMENT: Shipping information is not located on a dedicated page but is embedded within the FAQ section for Avon representatives. The information is basic and lacks key details such as standard shipping fees, the name of the courier company, and options for express or weekend delivery."
+}

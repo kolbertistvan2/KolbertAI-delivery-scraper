@@ -1,0 +1,100 @@
+{
+  "website": "casnaboty.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "GLS"
+    ],
+    "pricing": "Česká pošta: 99 Kč (předem), 129 Kč (dobírka). GLS: 80 Kč (předem), 120 Kč (dobírka).",
+    "free_delivery_limit": "od 1099Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "Česká pošta: 30 Kč, GLS: 40 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "no",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta Balíkovna"
+    ],
+    "locations_count": "not available",
+    "pricing": "99 Kč (předem), 129 Kč (dobírka)",
+    "free_delivery_limit": "od 1099Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "AlzaBox"
+    ],
+    "locations_count": "not available",
+    "pricing": "99 Kč (předem), 129 Kč (dobírka)",
+    "free_delivery_limit": "od 1099Kč",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "30 Kč"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "no",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: Home delivery, Parcel Shops, and Parcel Lockers are available. PROVIDERS: Česká pošta, GLS, and AlzaBox. PRICING: Prices start from 80 Kč for GLS home delivery. Free shipping is available for prepaid orders over 1099 Kč. Cash on delivery (COD) is an option for an additional fee (30-40 Kč), but it is not eligible for the free shipping offer. RESTRICTIONS: There is a limit on the number of items per package: 10 for home delivery and 7 for parcel shops/lockers. NOTABLE FEATURES: The website presents shipping costs in clear tables, distinguishing between prepayment and COD. WEBSITE ASSESSMENT: The shipping information is easy to find and understand on a dedicated page. However, it lacks details on delivery timeframes, express shipping, and weekend delivery."
+}

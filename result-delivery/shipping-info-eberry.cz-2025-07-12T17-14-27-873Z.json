@@ -1,0 +1,105 @@
+{
+  "website": "eberry.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "GLS",
+      "Zásilkovna",
+      "Geis"
+    ],
+    "pricing": "Česká pošta: 79 Kč doručení na adresu Balíkovna na adresu do 15 kg - do 1 000 Kč. GLS: 79 Kč doručení na adresu do 10 kg, 108 Kč doručení na adresu od 10 kg do 20 kg. Zásilkovna: 79 Kč doručení na adresu do 5 kg, 108 Kč doručení na adresu od 5 kg do 15 kg.",
+    "free_delivery_limit": "Doručení zboží nad 1 000 Kč je a do 50 kg u nás zdarma, u zásilek do 10 kg dopravce GLS výdejní místa Parcel Shop, od 10 kg do 15 kg Balíkovna, od 15 kg do 50 kg Česká pošta Balíkovna na adresu.",
+    "delivery_time": "U dopravy Českou poštou, GLS, Geis, Zásilkovna je zboží s avizovanou dostupnosti Skladem expedicí ihned doručeno zpravidla do druhého dne od expedice zboží. U zboží a avizovanou dostupností Skladem a expedicí 2-3 dny je doba doručení do pěti dnů. U zboží a avizovanou dostupností Skladem a expedicí 3-5 dnů je doba doručení do sedmi dnů. U zboží s avizovanou dostupností Skladem u dodavatele a expedicí 7-10 dní je doba doručení do čtrnácti dnů. U zboží a avizovanou expedicí 14-21 dní je doba doručení do měsíce.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "yes",
+      "days": "99 Kč doručení na adresu Sobotní doručení do 30 kg."
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Geis",
+      "eberry Comfort"
+    ],
+    "pricing": "Geis: 299 Kč u nadrozměrných zásilek nad 50 kg. Prémiová doprava Geis: 359 Kč u nadrozměrných zásilek od 30 kg do 90 kg s doručením až domů a odvozem starého spotřebiče. eberry Comfort pro východní Čechy: 129 Kč standardní doručení, 249 Kč vynesení až do bytu, rozbalení a odvoz obalu, 299 Kč komplexní doručení + odvoz starého spotřebiče.",
+    "free_delivery_limit": "not available",
+    "delivery_time": "Přeprava nadrozměrných zásilek(chladnička, pračka apod.) bývá obvykle do 72 hodin.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "GLS",
+      "Zásilkovna"
+    ],
+    "locations_count": "19.000 výdejních míst",
+    "pricing": "Česká pošta: 29 Kč výdejní místa Balíkovna - do 10 kg nad 1 000 Kč, 52 Kč výdejní místa Balíkovna - do 15 kg do 1 000 Kč. GLS: 39 Kč výdejní místa Parcel Shop do 20 kg - do 1 000 Kč. Zásilkovna: 59 Kč výdejní místa do 5 kg, 108 Kč výdejní místa od 5 kg do 15 kg.",
+    "free_delivery_limit": "Doručení zboží nad 1 000 Kč je a do 50 kg u nás zdarma, u zásilek do 10 kg dopravce GLS výdejní místa Parcel Shop, od 10 kg do 15 kg Balíkovna.",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "39 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "7 kamenných prodejen",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "no",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "SUMMARY: Eberry.cz offers home delivery, parcel shop pickup, and in-store pickup within the Czech Republic. Free shipping is available for orders over 1,000 Kč, with specific conditions based on the carrier and package weight/dimensions. Delivery partners include Česká pošta, GLS, Zásilkovna, and Geis for bulky items. A specialized 'eberry Comfort' delivery service is available in Eastern Bohemia.\nNOTABLE FEATURES: Saturday delivery is an option with Česká pošta for a fee. Bulky item delivery services include value-added options like in-home placement and removal of old appliances. Cash on delivery (COD) is available for a 39 Kč surcharge for most delivery methods.\nWEBSITE ASSESSMENT: The shipping information on the 'Doprava a platba' page is detailed and consolidated. Pricing is clearly broken down by provider and weight. However, the conditions for free shipping can be complex, and the site does not explicitly differentiate between parcel shops and parcel lockers. Overall, the information provided is comprehensive and sufficient for customers."
+}

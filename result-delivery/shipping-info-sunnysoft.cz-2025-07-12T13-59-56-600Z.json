@@ -1,0 +1,102 @@
+{
+  "website": "sunnysoft.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "DPD",
+      "Balíkovna"
+    ],
+    "pricing": "From 79 Kč to 99 Kč for prepaid delivery. Free shipping for orders with 3 or more items.",
+    "free_delivery_limit": "Free shipping for orders with 3 or more items.",
+    "delivery_time": "Next business day for DPD and Balíkovna, up to 2 business days for Zásilkovna.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Next business day for DPD and Balíkovna, up to 2 business days for Zásilkovna.",
+      "pricing": "Included in standard price. DPD Classic: 88 Kč, DPD Private: 99 Kč, Balíkovna na adresu: 79 Kč, Zásilkovna kurýr: 89 Kč."
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "50 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Balíkovna"
+    ],
+    "locations_count": "9394 Zásilkovna locations. Total of 19,540 pickup points mentioned on the site.",
+    "pricing": "59 Kč. Free shipping for orders with 3 or more items.",
+    "free_delivery_limit": "Free shipping for orders with 3 or more items.",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Next business day",
+      "pricing": "Included in standard price of 59 Kč."
+    },
+    "weekend_delivery": {
+      "available": "no",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "50 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "no",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": [
+      "Praha 9, Kovanecká 2390/1a (Vysočany)"
+    ],
+    "pricing": "Free",
+    "free_delivery_limit": "not applicable",
+    "express_delivery": {
+      "available": "yes",
+      "delivery_time": "Same day for items in stock at the store.",
+      "pricing": "Free"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Sunnysoft.cz offers several delivery options within the Czech Republic. Home delivery is provided by DPD, Zásilkovna, and Balíkovna, with prices from 79 Kč and next-day delivery for most services. Pickup at parcel shops is available through Zásilkovna and Balíkovna for 59 Kč, also with next-day delivery. Free in-store pickup is available at their Prague 9 location, with same-day pickup possible for in-stock items. \nNOTABLE FEATURES: A key feature is free shipping on all orders containing 3 or more items. Express next-day delivery is standard for most shipping methods at no extra cost. A flat 50 Kč surcharge is applied for Cash on Delivery (COD) payments across all services. The cut-off time for same-day dispatch is 16:45 on business days. \nWEBSITE ASSESSMENT: The shipping information is presented very clearly on a dedicated 'Způsoby dodání' page. A detailed table allows for easy comparison of services, prices (prepaid vs. COD), and dispatch times. The terms for free shipping and express delivery are prominently displayed and easy to understand. The information is comprehensive and user-friendly."
+}

@@ -1,0 +1,107 @@
+{
+  "website": "eva.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Česká pošta",
+      "Zásilkovna.cz",
+      "DPD"
+    ],
+    "pricing": "PPL (do 30 kg): 89 Kč\nČeská pošta - Balík Do ruky (do 30 kg): 89 Kč\nZásilkovna.cz (do 15 kg): 99 Kč\nDPD (do 30 kg): 89 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+30 Kč"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Česká pošta",
+      "DHL"
+    ],
+    "pricing": "PPL (objemné zásilky do 50 kg): 160 Kč\nČeská pošta (Velký balík do ruky do 60 kg): 180 Kč\nDHL (rozměrné zásilky):\ndo 29 kg: 299 Kč\n30 – 49 kg: 399 Kč\n50 – 100 kg: 499 Kč\n100 – 150 kg: 799 Kč\n150 – 299 kg: 1100 Kč\n300 – 499 kg: 1700 Kč\n500 – 699 kg: 2500 Kč\n700 – 999 kg: 2900 Kč\n1000 – 2000 kg: 3500 Kč\nnad 2000 kg: 4500 Kč",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+30 Kč"
+  },
+  "PARCEL_SHOPS": {
+    "available": "yes",
+    "providers": [
+      "PPL Smart",
+      "Česká pošta - Balíkovna",
+      "Zásilkovna.cz",
+      "DPD Pickup"
+    ],
+    "locations_count": "not available",
+    "pricing": "PPL Smart (do 30 kg): 49 Kč\nČeská pošta - Balíkovna (do 15 kg): 49 Kč\nZásilkovna.cz (do 15 kg): 59 Kč\nDPD Pickup (do 20 kg): 49 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "+30 Kč"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "not available",
+    "providers": [],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "yes",
+    "locations": "not available",
+    "pricing": "29 Kč",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "DELIVERY OPTIONS: The store offers home delivery for standard and bulky items, delivery to parcel shops/pickup points, and personal in-store pickup. PROVIDERS: Delivery partners include PPL, Česká pošta, Zásilkovna, DPD, and DHL for oversized items. PRICING: Parcel shop delivery starts from 49 Kč. Standard home delivery starts from 89 Kč. Bulky item delivery ranges from 160 Kč to 4,500 Kč depending on weight. In-store pickup costs 29 Kč. A flat 30 Kč surcharge applies to all cash on delivery (COD) orders. NOTABLE FEATURES: A wide range of carriers is available for different parcel sizes and weights. The store encourages online payments by offering a 30 Kč saving compared to COD. WEBSITE ASSESSMENT: Shipping information is well-structured in a table, clearly outlining prices and weight limits for each carrier. However, it lacks crucial details such as delivery timeframes, express options, and weekend delivery availability. The information does not differentiate between parcel shops and parcel lockers."
+}
