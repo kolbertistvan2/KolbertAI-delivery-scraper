@@ -5,6 +5,17 @@ IMAGE="kolbertai-shipping-extractor:latest"
 RESULT_DIR="$(pwd)/result-delivery"
 MAX_RETRIES=3
 BATCH_SIZE=${BATCH_SIZE:-1}
+TIMEOUT_PER_DOMAIN=10m
+
+# Timeout parancs detektálása (macOS: gtimeout, Linux: timeout)
+if command -v timeout >/dev/null 2>&1; then
+  TIMEOUT_CMD="timeout"
+elif command -v gtimeout >/dev/null 2>&1; then
+  TIMEOUT_CMD="gtimeout"
+else
+  echo "HIBA: timeout (vagy gtimeout) parancs nem található! Telepítsd: brew install coreutils"
+  exit 1
+fi
 
 if [ ! -f "$WEBSITES_FILE" ]; then
   echo "websites.txt not found!"
@@ -42,7 +53,7 @@ for ((i=0; i<total; i+=BATCH_SIZE)); do
       attempt=1
       while [ $attempt -le $MAX_RETRIES ]; do
         echo "[${domain}] Attempt $attempt of $MAX_RETRIES"
-        docker run --rm --env-file .env -v "$RESULT_DIR:/app/result-delivery" $IMAGE "$domain"
+        $TIMEOUT_CMD $TIMEOUT_PER_DOMAIN docker run --rm --env-file .env -v "$RESULT_DIR:/app/result-delivery" $IMAGE "$domain"
         exit_code=$?
         if [ $exit_code -eq 0 ]; then
           echo "[${domain}] Success."
@@ -67,4 +78,22 @@ for ((i=0; i<total; i+=BATCH_SIZE)); do
 
 done
 
-echo "All domains processed." 
+echo "All domains processed."
+
+# Batch summary
+success_count=$(ls $RESULT_DIR/shipping-info-*.json 2>/dev/null | wc -l)
+fail_count=$(ls $RESULT_DIR/failed-*.log 2>/dev/null | wc -l)
+echo ""
+echo "Batch summary:"
+echo "  Sikeres: $success_count"
+echo "  Hibás:   $fail_count"
+if [ $fail_count -gt 0 ]; then
+  echo "Hibás domainek:"
+  for f in $RESULT_DIR/failed-*.log; do
+    [ -e "$f" ] || continue
+    domain=$(basename "$f" | sed 's/failed-\(.*\)-[0-9T:-]*.log/\1/')
+    echo "  $domain"
+  done
+fi
+
+exit 0 
