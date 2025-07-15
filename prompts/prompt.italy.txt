@@ -62,97 +62,98 @@ IN-STORE PICKUP:
 
 Website: ${website} Country: IT
 
-Response Format: Return exactly this JSON structure. If a field is unavailable, write "not available". Strings should be human-readable.
+Response Format: Return exactly this JSON structure in ENGLISH. If a field is unavailable, write "not available". All strings should be human-readable in English, but preserve original company names and specific terms where relevant.
 {
   "website": "${website}",
   "HOME_DELIVERY": {
     "available": "yes/no/not available",
     "providers": ["provider1", "provider2"],
-    "pricing": "price info or not available",
-    "delivery_time": "timeframe or not available",
+    "pricing": "price info in English or not available",
+    "delivery_time": "timeframe in English or not available",
     "express_delivery": {
       "available": "yes/no/not available",
-      "delivery_time": "timeframe or not available",
-      "pricing": "price info or not available"
+      "delivery_time": "timeframe in English or not available",
+      "pricing": "price info in English or not available"
     },
     "weekend_delivery": {
       "available": "yes/no/not available",
       "days": ["Saturday", "Sunday"] or "not available"
     },
-    "island_surcharge": "extra cost or delivery restrictions to Italian islands like Sicily, Sardinia, etc., or not available",
-    "cod_surcharge": "exact surcharge or not available"
+    "island_surcharge": "extra cost or delivery restrictions to Italian islands like Sicily, Sardinia, etc. in English, or not available",
+    "cod_surcharge": "exact surcharge in English or not available"
   },
   "BULKY_PRODUCT_HOME_DELIVERY": {
     "available": "yes/no/not available",
     "providers": ["provider1", "provider2"],
-    "pricing": "price info or not available",
-    "delivery_time": "timeframe or not available",
+    "pricing": "price info in English or not available",
+    "delivery_time": "timeframe in English or not available",
     "express_delivery": {
       "available": "yes/no/not available",
-      "delivery_time": "timeframe or not available",
-      "pricing": "price info or not available"
+      "delivery_time": "timeframe in English or not available",
+      "pricing": "price info in English or not available"
     },
     "weekend_delivery": {
       "available": "yes/no/not available",
       "days": ["Saturday", "Sunday"] or "not available"
     },
-    "island_surcharge": "extra cost or delivery restrictions to islands or not available",
-    "cod_surcharge": "exact surcharge or not available"
+    "island_surcharge": "extra cost or delivery restrictions to islands in English or not available",
+    "cod_surcharge": "exact surcharge in English or not available"
   },
   "PARCEL_SHOPS": {
     "available": "yes/no/not available",
     "providers": ["provider1", "provider2"],
     "locations_count": "number or not available",
-    "pricing": "price info or not available",
+    "pricing": "price info in English or not available",
     "express_delivery": {
       "available": "yes/no/not available",
-      "delivery_time": "timeframe or not available",
-      "pricing": "price info or not available"
+      "delivery_time": "timeframe in English or not available",
+      "pricing": "price info in English or not available"
     },
     "weekend_delivery": {
       "available": "yes/no/not available",
       "days": ["Saturday", "Sunday"] or "not available"
     },
-    "island_surcharge": "extra cost or delivery restrictions to islands or not available",
-    "cod_surcharge": "exact surcharge or not available"
+    "island_surcharge": "extra cost or delivery restrictions to islands in English or not available",
+    "cod_surcharge": "exact surcharge in English or not available"
   },
   "PARCEL_LOCKERS": {
     "available": "yes/no/not available",
     "providers": ["provider1", "provider2"],
     "locations_count": "number or not available",
-    "pricing": "price info or not available",
+    "pricing": "price info in English or not available",
     "express_delivery": {
       "available": "yes/no/not available",
-      "delivery_time": "timeframe or not available",
-      "pricing": "price info or not available"
+      "delivery_time": "timeframe in English or not available",
+      "pricing": "price info in English or not available"
     },
     "weekend_delivery": {
       "available": "yes/no/not available",
       "days": ["Saturday", "Sunday"] or "not available"
     },
-    "island_surcharge": "extra cost or delivery restrictions to islands or not available",
-    "cod_surcharge": "exact surcharge or not available"
+    "island_surcharge": "extra cost or delivery restrictions to islands in English or not available",
+    "cod_surcharge": "exact surcharge in English or not available"
   },
   "IN_STORE_PICKUP": {
     "available": "yes/no/not available",
     "locations": ["city1", "city2"] or "not available",
-    "pricing": "price info or not available",
+    "pricing": "price info in English or not available",
     "express_delivery": {
       "available": "yes/no/not available",
-      "delivery_time": "timeframe or not available",
-      "pricing": "price info or not available"
+      "delivery_time": "timeframe in English or not available",
+      "pricing": "price info in English or not available"
     },
     "weekend_delivery": {
       "available": "yes/no/not available",
       "days": ["Saturday", "Sunday"] or "not available"
     },
-    "island_surcharge": "extra cost or delivery restrictions to islands or not available",
-    "cod_surcharge": "exact surcharge or not available"
+    "island_surcharge": "extra cost or delivery restrictions to islands in English or not available",
+    "cod_surcharge": "exact surcharge in English or not available"
   },
-  "SUMMARY": "[Brief summary of delivery options, providers, pricing, and restrictions]. NOTABLE FEATURES: [Key features, limitations, and special services]. WEBSITE ASSESSMENT: [Overall evaluation of shipping information quality and completeness]."
+  "SUMMARY": "[Brief summary of delivery options, providers, pricing, and restrictions in ENGLISH]. NOTABLE FEATURES: [Key features, limitations, and special services in ENGLISH]. WEBSITE ASSESSMENT: [Overall evaluation of shipping information quality and completeness in ENGLISH]."
 }
 
 If something is not available or not found, write "not available".
 Only extract information that is explicitly visible on the pages. Do not assume or guess.
+All responses must be in ENGLISH for international analysis purposes.
 
-IMPORTANT: The SUMMARY field should be formatted as a single text string that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.
+IMPORTANT: The SUMMARY field should be formatted as a single text string in ENGLISH that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.
