@@ -1,6 +1,11 @@
-# KolbertAI-delivery-scraper v1.0.0
+# KolbertAI-delivery-scraper v2.0.2
 
 Shipping info extraction for Croatian and international webshops.
+
+## What's new in 2.0.2
+
+- Return promptok minden országban lokalizált, ország-specifikus kulcsszavakat és példákat tartalmaznak (footer, FAQ, T&C, customer service, dedikált return oldalak, tipikus URL-ek, jogi hivatkozások)
+- A prompt generálás teljesen dinamikus, minden ország saját nyelvén és példáival működik
 
 ## Setup
 

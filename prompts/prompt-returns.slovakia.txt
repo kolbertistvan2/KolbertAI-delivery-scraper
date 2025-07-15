@@ -2,39 +2,52 @@ Stagehand tool használatával:
 
 1. Navigate to the homepage of the website: ${website}
 2. Search for return information in these locations in Slovak for Slovakia:
-    * Footer links: ""
-    * FAQ section: search for return/refund/exchange keywords in Slovak
-    * Terms & Conditions page for return terms
-    * Customer service pages for return procedures
-    * Dedicated return info pages ()
-3. Extract return information from all relevant pages
+    * Footer links: "odstúpenie", "výmena", "reklamácia", "vrátenie", "return", "refund", "exchange"
+    * FAQ section: search for return/refund/exchange keywords in Slovak: odstúpenie, výmena, reklamácia, vrátenie, záruka
+    * Terms & Conditions: "obchodné podmienky", "podmienky", "pravidlá", "ustanovenia"
+    * Customer service: "zákaznícky servis", "kontakt", "pomoc", "služby"
+    * Dedicated return pages: /odstapenie, /vymena, /reklamacia, /vracenie, /return, /refund, /exchange
+
+3. Check these common Slovak return page URLs if direct links don't work:
+   - /faq, /obchodne-podmienky, /kontakt, /pomoc
+
+4. Search strategy:
+   - First check homepage for obvious return links in footer/header
+   - Navigate to FAQ and search for return-related questions
+   - Check dedicated return pages using common URL patterns
+   - Look in Terms & Conditions for return policies
+   - If no dedicated pages found, check customer service/contact pages
+   - If return page returns 404, check FAQ section for return information
+   - Try variations of URLs (with/without dashes, different endings)
+
+5. Extract return information from all relevant pages
 
 EXTRACT EXACTLY THESE RETURN CATEGORIES AND DO NOT EXTRACT DELIVERY INFORMATION. DO NOT VISIT LINKS ON EXTERNAL PAGES (e.g. logistics websites) EXTRACT ONLY CONFIRMED INFORMATION:
 
 IN-STORE RETURN:
 * Available: yes/no
 * Locations: [store locations/cities if available]
-* Time limit: [return period - e.g., 14 days, 30 days]
+* Time limit: [return period - specify in days, e.g., "14 days", "30 days"]
 * Conditions: [any specific conditions or requirements]
 
 HOME COLLECTION:
 * Available: yes/no
 * Providers: [list of courier companies that collect returns such as: GLS, DPD, SPS/Slovak Parcel Service, Slovenska Posta, Packeta, DHL, UPS, etc.]
-* Cost: [price information or free collection details]
-* Time limit: [return period]
+* Cost: [price information or free collection details - specify who pays: customer or store]
+* Time limit: [return period in days]
 * Conditions: [booking requirements, packaging conditions]
 
 DROP OFF VIA PARCEL SHOP:
 * Available: yes/no
 * Providers: [such as: GLS, DPD, SPS/Slovak Parcel Service, Slovenska Posta, Packeta, DHL, UPS, DEPO, etc.]
-* Cost: [price information or free drop-off details]
-* Time limit: [return period]
+* Cost: [price information or free drop-off details - specify who pays]
+* Time limit: [return period in days]
 
 DROP OFF VIA PARCEL LOCKER:
 * Available: yes/no
 * Providers: [such as: Packeta (Z-Box), Balíkovo/SPS, Slovenska Posta/BalíkoBOX, GLS Locker (AlzaBox), DPD (AlzaBox), AlzaBox, DEPO, etc.]
-* Cost: [price information or free drop-off details]
-* Time limit: [return period]
+* Cost: [price information or free drop-off details - specify who pays]
+* Time limit: [return period in days]
 
 FREE RETURN:
 * Available: yes/no
@@ -53,53 +66,62 @@ EXTERNAL RETURN PORTAL:
 
 Website: ${website} Country: SK
 
-Response Format: Return exactly this JSON structure. If a field is unavailable, write "not available". Strings should be human-readable.
+Response Format: Return exactly this JSON structure in ENGLISH. If a field is unavailable, write "not available". All strings should be human-readable in English, but preserve original company names and specific terms where relevant.
 {
   "website": "${website}",
   "IN_STORE_RETURN": {
     "available": "yes/no/not available",
     "locations": ["city1", "city2"] or "not available",
-    "time_limit": "period or not available",
-    "conditions": "conditions or not available"
+    "time_limit": "period in days or not available",
+    "conditions": "conditions in English or not available"
   },
   "HOME_COLLECTION": {
     "available": "yes/no/not available",
     "providers": ["provider1", "provider2"] or "not available",
-    "cost": "price info or not available",
-    "time_limit": "period or not available",
-    "conditions": "conditions or not available"
+    "cost": "price info in English or not available",
+    "time_limit": "period in days or not available",
+    "conditions": "conditions in English or not available"
   },
   "DROP_OFF_PARCEL_SHOP": {
     "available": "yes/no/not available",
     "providers": ["provider1", "provider2"] or "not available",
-    "cost": "price info or not available",
-    "time_limit": "period or not available"
+    "cost": "price info in English or not available",
+    "time_limit": "period in days or not available"
   },
   "DROP_OFF_PARCEL_LOCKER": {
     "available": "yes/no/not available",
     "providers": ["provider1", "provider2"] or "not available",
-    "cost": "price info or not available",
-    "time_limit": "period or not available"
+    "cost": "price info in English or not available",
+    "time_limit": "period in days or not available"
   },
   "FREE_RETURN": {
     "available": "yes/no/not available",
-    "conditions": "conditions or not available",
-    "methods": "methods or not available"
+    "conditions": "conditions in English or not available",
+    "methods": "methods in English or not available"
   },
   "QR_CODE_BARCODE_PIN": {
     "available": "yes/no/not available",
-    "usage": "usage description or not available",
+    "usage": "usage description in English or not available",
     "providers": ["provider1", "provider2"] or "not available"
   },
   "EXTERNAL_RETURN_PORTAL": {
     "available": "yes/no/not available",
     "url": "URL or not available",
-    "features": "features or not available"
+    "features": "features in English or not available"
   },
-  "SUMMARY": "[Brief summary of return options, providers, costs, and restrictions]. NOTABLE FEATURES: [Key features, limitations, and special services]. WEBSITE ASSESSMENT: [Overall evaluation of return information quality and completeness]."
+  "SUMMARY": "RETURN METHODS: [List available methods in English]. TIMEFRAME: [Return period]. COSTS: [Who pays and how much]. PROVIDERS: [Logistics partners]. LOCATIONS: [Physical return points]. RESTRICTIONS: [Product exclusions and conditions]. LEGAL BASIS: [Reference to consumer law if mentioned]. WEBSITE QUALITY: [Assessment of information completeness and accessibility]."
 }
+
+Additional validation rules:
+- For time_limit: Always specify in days (e.g., "14 days", "30 days")
+- For cost: Be specific about who pays (e.g., "customer pays", "free of charge")
+- For conditions: Include specific packaging requirements in English
+- For providers: List actual company names found on site
+- Ensure currency is mentioned in EUR if applicable
+- Translate legal terms to English but preserve original company names
 
 If something is not available or not found, write "not available".
 Only extract information that is explicitly visible on the pages. Do not assume or guess.
+All responses must be in English for international analysis purposes.
 
-IMPORTANT: The SUMMARY field should be formatted as a single text string that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.
+IMPORTANT: The SUMMARY field should be formatted as a single text string in English that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.
