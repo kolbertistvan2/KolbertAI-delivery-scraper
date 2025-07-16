@@ -1,13 +1,15 @@
 {
-  "alza.cz": {
+  "bonprix.cz": {
     "HOME_DELIVERY": {
-      "available": "not available",
-      "providers": [],
-      "pricing": "not available",
+      "available": "yes",
+      "providers": [
+        "Česká pošta"
+      ],
+      "pricing": "99 Kč (platba kartou/online), 129 Kč (dobírka)",
       "free_delivery_limit": "not available",
-      "delivery_time": "not available",
+      "delivery_time": "2-4 pracovních dnů",
       "express_delivery": {
-        "available": "not available",
+        "available": "no",
         "delivery_time": "not available",
         "pricing": "not available"
       },
@@ -16,7 +18,7 @@
         "days": "not available"
       },
       "island_surcharge": "not available",
-      "cod_surcharge": "not available"
+      "cod_surcharge": "30 Kč (rozdíl mezi dobírkou 129 Kč a kartou/online 99 Kč)"
     },
     "BULKY_PRODUCT_HOME_DELIVERY": {
       "available": "not available",
@@ -37,10 +39,12 @@
       "cod_surcharge": "not available"
     },
     "PARCEL_SHOPS": {
-      "available": "not available",
-      "providers": [],
+      "available": "yes",
+      "providers": [
+        "Zásilkovna"
+      ],
       "locations_count": "not available",
-      "pricing": "not available",
+      "pricing": "99 Kč (platba kartou/online), 129 Kč (dobírka)",
       "free_delivery_limit": "not available",
       "express_delivery": {
         "available": "not available",
@@ -52,13 +56,15 @@
         "days": "not available"
       },
       "island_surcharge": "not available",
-      "cod_surcharge": "not available"
+      "cod_surcharge": "30 Kč (rozdíl mezi dobírkou 129 Kč a kartou/online 99 Kč)"
     },
     "PARCEL_LOCKERS": {
-      "available": "not available",
-      "providers": [],
+      "available": "yes",
+      "providers": [
+        "Zásilkovna (Z-BOX)"
+      ],
       "locations_count": "not available",
-      "pricing": "not available",
+      "pricing": "99 Kč (platba kartou/online), 129 Kč (dobírka)",
       "free_delivery_limit": "not available",
       "express_delivery": {
         "available": "not available",
@@ -70,10 +76,10 @@
         "days": "not available"
       },
       "island_surcharge": "not available",
-      "cod_surcharge": "not available"
+      "cod_surcharge": "30 Kč (rozdíl mezi dobírkou 129 Kč a kartou/online 99 Kč)"
     },
     "IN_STORE_PICKUP": {
-      "available": "not available",
+      "available": "no",
       "locations": "not available",
       "pricing": "not available",
       "free_delivery_limit": "not available",
@@ -89,9 +95,9 @@
       "island_surcharge": "not available",
       "cod_surcharge": "not available"
     },
-    "SUMMARY": "WEBSITE ACCESS BLOCKED: The website alza.cz is currently protected by Cloudflare security and showing a verification page that requires human confirmation. The page displays \"Prosím, potvrďte, že jste z masa a kostí\" (Please confirm that you are made of flesh and bone) with a security check. NOTABLE FEATURES: Unable to access shipping information due to security protection. WEBSITE ASSESSMENT: Cannot evaluate shipping information quality as the main website content is inaccessible due to Cloudflare protection requiring manual verification."
+    "SUMMARY": "DELIVERY OPTIONS: bonprix.cz offers three main delivery methods in Czech Republic. HOME DELIVERY: Available through Česká pošta with Balíkovna na adresu service, delivered to customer address in 2-4 business days, costs 99 Kč with card/online payment or 129 Kč with cash on delivery. If recipient not found, package stored at nearest post office for 14 days. PARCEL PICKUP: Balíkovna service allows pickup at nearest post office based on postal code, 7 days pickup window, same pricing as home delivery. PARCEL LOCKERS & SHOPS: Zásilkovna network with pickup points and Z-BOX automated lockers, same pricing structure, SMS notifications available with mobile number. PAYMENT OPTIONS: Card payment, online payment (PayU), or cash on delivery. COD SURCHARGE: 30 Kč extra for cash on delivery vs card/online payment. DELIVERY TIME: Standard 2-4 business days, may extend to 3-4 weeks during high demand periods. NOTABLE FEATURES: No express delivery options, no weekend delivery mentioned, delivery limited to Czech Republic territory, packages sent from Eurex station. WEBSITE ASSESSMENT: Good basic information with clear pricing table and delivery options, but lacks details on express delivery, weekend services, and free shipping thresholds."
   },
-  "mall.cz": {
+  "drmax.cz": {
     "HOME_DELIVERY": {
       "available": "not available",
       "providers": [],
@@ -181,107 +187,116 @@
       "island_surcharge": "not available",
       "cod_surcharge": "not available"
     },
-    "SUMMARY": "Unable to extract shipping information from mall.cz. The website appears to be blocked by a DataDome CAPTCHA system, preventing access to the main content and shipping information pages. No delivery options, providers, pricing, or shipping terms could be retrieved. NOTABLE FEATURES: Website access is restricted by anti-bot protection. WEBSITE ASSESSMENT: Cannot assess shipping information quality due to CAPTCHA blocking access to the site content."
+    "SUMMARY": "WEBSITE ACCESS BLOCKED: The website drmax.cz is currently protected by Cloudflare security verification and cannot be accessed to extract shipping information. The page shows only a security check message stating \"Verifying you are human. This may take a few seconds\" and \"drmax.cz needs to review the security of your connection before proceeding.\" NOTABLE FEATURES: Unable to assess due to access restrictions. WEBSITE ASSESSMENT: Cannot evaluate shipping information quality and completeness due to Cloudflare security barrier preventing access to the actual website content."
+  },
+  "kosik.cz": {
+    "HOME_DELIVERY": {
+      "available": "yes",
+      "providers": [
+        "not available"
+      ],
+      "pricing": "od 29 Kč podle vzdálenosti, doprava zdarma při velkém nákupu",
+      "free_delivery_limit": "při velkém nákupu",
+      "delivery_time": "not available",
+      "express_delivery": {
+        "available": "yes",
+        "delivery_time": "půlhodinové termíny doručení",
+        "pricing": "za malý příplatek"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "BULKY_PRODUCT_HOME_DELIVERY": {
+      "available": "not available",
+      "providers": [
+        "not available"
+      ],
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "delivery_time": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "PARCEL_SHOPS": {
+      "available": "not available",
+      "providers": [
+        "not available"
+      ],
+      "locations_count": "not available",
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "PARCEL_LOCKERS": {
+      "available": "not available",
+      "providers": [
+        "not available"
+      ],
+      "locations_count": "not available",
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "IN_STORE_PICKUP": {
+      "available": "not available",
+      "locations": "not available",
+      "pricing": "not available",
+      "free_delivery_limit": "not available",
+      "express_delivery": {
+        "available": "not available",
+        "delivery_time": "not available",
+        "pricing": "not available"
+      },
+      "weekend_delivery": {
+        "available": "not available",
+        "days": "not available"
+      },
+      "island_surcharge": "not available",
+      "cod_surcharge": "not available"
+    },
+    "SUMMARY": "DELIVERY OPTIONS: Košík.cz offers home delivery starting from 29 Kč based on distance with free delivery for large orders. EXPRESS DELIVERY: Available with precise 30-minute delivery windows for a small surcharge. TRACKING: Real-time courier tracking available through app and website. ECO DELIVERY: Green delivery options available at reduced prices when courier is already in the area. NOTABLE FEATURES: Precise delivery timing, real-time tracking, eco-friendly options, free delivery on first 60 days promotion. WEBSITE ASSESSMENT: Limited shipping information on this page - appears to be a general delivery overview page rather than comprehensive shipping terms. More detailed information would likely be found in checkout process or dedicated shipping terms pages."
+  },
+  "alza.cz": {
+    "error": "No result or error log found for this domain."
   },
   "rohlik.cz": {
-    "HOME_DELIVERY": {
-      "available": "yes",
-      "providers": [
-        "not available"
-      ],
-      "pricing": "749 Kč minimum order for home delivery",
-      "free_delivery_limit": "749 Kč",
-      "delivery_time": "not available",
-      "express_delivery": {
-        "available": "not available",
-        "delivery_time": "not available",
-        "pricing": "not available"
-      },
-      "weekend_delivery": {
-        "available": "not available",
-        "days": "not available"
-      },
-      "island_surcharge": "not available",
-      "cod_surcharge": "not available"
-    },
-    "BULKY_PRODUCT_HOME_DELIVERY": {
-      "available": "not available",
-      "providers": [
-        "not available"
-      ],
-      "pricing": "not available",
-      "free_delivery_limit": "not available",
-      "delivery_time": "not available",
-      "express_delivery": {
-        "available": "not available",
-        "delivery_time": "not available",
-        "pricing": "not available"
-      },
-      "weekend_delivery": {
-        "available": "not available",
-        "days": "not available"
-      },
-      "island_surcharge": "not available",
-      "cod_surcharge": "not available"
-    },
-    "PARCEL_SHOPS": {
-      "available": "not available",
-      "providers": [
-        "not available"
-      ],
-      "locations_count": "not available",
-      "pricing": "not available",
-      "free_delivery_limit": "not available",
-      "express_delivery": {
-        "available": "not available",
-        "delivery_time": "not available",
-        "pricing": "not available"
-      },
-      "weekend_delivery": {
-        "available": "not available",
-        "days": "not available"
-      },
-      "island_surcharge": "not available",
-      "cod_surcharge": "not available"
-    },
-    "PARCEL_LOCKERS": {
-      "available": "yes",
-      "providers": [
-        "Rohlik Point"
-      ],
-      "locations_count": "not available",
-      "pricing": "500 Kč minimum order for Rohlik Point delivery",
-      "free_delivery_limit": "500 Kč",
-      "express_delivery": {
-        "available": "not available",
-        "delivery_time": "not available",
-        "pricing": "not available"
-      },
-      "weekend_delivery": {
-        "available": "not available",
-        "days": "not available"
-      },
-      "island_surcharge": "not available",
-      "cod_surcharge": "not available"
-    },
-    "IN_STORE_PICKUP": {
-      "available": "not available",
-      "locations": "not available",
-      "pricing": "not available",
-      "free_delivery_limit": "not available",
-      "express_delivery": {
-        "available": "not available",
-        "delivery_time": "not available",
-        "pricing": "not available"
-      },
-      "weekend_delivery": {
-        "available": "not available",
-        "days": "not available"
-      },
-      "island_surcharge": "not available",
-      "cod_surcharge": "not available"
-    },
-    "SUMMARY": "Rohlik.cz offers home delivery with a minimum order of 749 Kč and delivery to Rohlik Points (parcel lockers) with a minimum order of 500 Kč. The website mentions they are available daily from 7:00 to 23:00 for customer service. NOTABLE FEATURES: Rohlik Points appear to be their own branded pickup locations with lower minimum order requirements than home delivery. The site offers various customer clubs including Rohlík Xtra with free delivery benefits. WEBSITE ASSESSMENT: Limited shipping information is visible on the homepage. Detailed delivery terms, providers, timing, and pricing information would likely be found on dedicated shipping pages that are not accessible from the current homepage view."
+    "error": "No result or error log found for this domain."
+  },
+  "mall.cz": {
+    "error": "No result or error log found for this domain."
   },
   "datart.cz": {
     "error": "No result or error log found for this domain."

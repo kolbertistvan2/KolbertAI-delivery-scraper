@@ -1,6 +1,6 @@
 {
   "name": "Generated Workflow Script",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Stagehand workflow project",
   "type": "module",
   "main": "index.js",

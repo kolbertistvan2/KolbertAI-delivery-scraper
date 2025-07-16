@@ -1,7 +1,9 @@
-alza.cz
-rohlik.cz
-mall.cz
-datart.cz
-notino.cz
-ikea.com
-lidl.cz
+drmax.cz
+hm.com
+zalando.cz
+kosik.cz
+itesco.cz
+bonprix.cz
+hornbach.cz
+lekarna.cz
+sportisimo.cz

@@ -1,15 +1,17 @@
 {
-  "website": "alza.cz",
+  "website": "kosik.cz",
   "HOME_DELIVERY": {
-    "available": "not available",
-    "providers": [],
-    "pricing": "not available",
-    "free_delivery_limit": "not available",
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "od 29 Kč podle vzdálenosti, doprava zdarma při velkém nákupu",
+    "free_delivery_limit": "při velkém nákupu",
     "delivery_time": "not available",
     "express_delivery": {
-      "available": "not available",
-      "delivery_time": "not available",
-      "pricing": "not available"
+      "available": "yes",
+      "delivery_time": "půlhodinové termíny doručení",
+      "pricing": "za malý příplatek"
     },
     "weekend_delivery": {
       "available": "not available",
@@ -20,7 +22,9 @@
   },
   "BULKY_PRODUCT_HOME_DELIVERY": {
     "available": "not available",
-    "providers": [],
+    "providers": [
+      "not available"
+    ],
     "pricing": "not available",
     "free_delivery_limit": "not available",
     "delivery_time": "not available",
@@ -38,7 +42,9 @@
   },
   "PARCEL_SHOPS": {
     "available": "not available",
-    "providers": [],
+    "providers": [
+      "not available"
+    ],
     "locations_count": "not available",
     "pricing": "not available",
     "free_delivery_limit": "not available",
@@ -56,7 +62,9 @@
   },
   "PARCEL_LOCKERS": {
     "available": "not available",
-    "providers": [],
+    "providers": [
+      "not available"
+    ],
     "locations_count": "not available",
     "pricing": "not available",
     "free_delivery_limit": "not available",
@@ -89,5 +97,5 @@
     "island_surcharge": "not available",
     "cod_surcharge": "not available"
   },
-  "SUMMARY": "WEBSITE ACCESS BLOCKED: The website alza.cz is currently protected by Cloudflare security and showing a verification page that requires human confirmation. The page displays \"Prosím, potvrďte, že jste z masa a kostí\" (Please confirm that you are made of flesh and bone) with a security check. NOTABLE FEATURES: Unable to access shipping information due to security protection. WEBSITE ASSESSMENT: Cannot evaluate shipping information quality as the main website content is inaccessible due to Cloudflare protection requiring manual verification."
+  "SUMMARY": "DELIVERY OPTIONS: Košík.cz offers home delivery starting from 29 Kč based on distance with free delivery for large orders. EXPRESS DELIVERY: Available with precise 30-minute delivery windows for a small surcharge. TRACKING: Real-time courier tracking available through app and website. ECO DELIVERY: Green delivery options available at reduced prices when courier is already in the area. NOTABLE FEATURES: Precise delivery timing, real-time tracking, eco-friendly options, free delivery on first 60 days promotion. WEBSITE ASSESSMENT: Limited shipping information on this page - appears to be a general delivery overview page rather than comprehensive shipping terms. More detailed information would likely be found in checkout process or dedicated shipping terms pages."
 }

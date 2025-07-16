@@ -9,3 +9,8 @@
 - extract-shipping.ts és extract-returns.ts Stagehand config módosítva
 - Batch scriptek (run-batches.sh, run-returns-batches.sh) javítva, hogy mindig a megfelelő TS szkriptet hívják
 - Docker image rebuild szükséges
+
+## [2.2.1] - 2025-07-11
+- ALL-SITES aggregáció mostantól websites.txt sorrendben
+- Minden domain kap sorszámot ('order')
+- Failed domainek is bekerülnek az összesítő JSON-ba

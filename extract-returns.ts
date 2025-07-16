@@ -244,7 +244,7 @@ async function retryProcessDomain(domain: string, maxRetries = 3) {
 async function aggregateResults() {
   const files = await fs.readdir(RESULT_DIR);
   const result: Record<string, any> = {};
-  const allDomains = new Set<string>();
+  const allDomains: Set<string> = new Set();
   // Collect all successful JSONs
   for (const file of files) {
     if (file.startsWith('return-info-') && file.endsWith('.json') && !file.startsWith('return-info-ALL-SITES')) {
@@ -283,8 +283,9 @@ async function aggregateResults() {
   }
   // Ensure all domains from input are present (even if missing result/log)
   const websitesFile = path.join(process.cwd(), 'websites.txt');
+  let lines: string[] = [];
   try {
-    const lines = (await fs.readFile(websitesFile, 'utf-8')).split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+    lines = (await fs.readFile(websitesFile, 'utf-8')).split(/\r?\n/).map(l => l.trim()).filter(Boolean);
     for (const domain of lines) {
       if (!allDomains.has(domain)) {
         result[domain] = { error: 'No result or error log found for this domain.' };
@@ -293,8 +294,13 @@ async function aggregateResults() {
   } catch (e) {
     console.warn('Could not read websites.txt for domain completeness:', e);
   }
+  // --- ORDERED OUTPUT ---
+  const orderedResult: Record<string, any> = {};
+  lines.forEach((domain, idx) => {
+    orderedResult[domain] = { order: idx + 1, ...result[domain] };
+  });
   const outPath = path.join(RESULT_DIR, `return-info-ALL-SITES.json`);
-  await fs.writeFile(outPath, JSON.stringify(result, null, 2), 'utf-8');
+  await fs.writeFile(outPath, JSON.stringify(orderedResult, null, 2), 'utf-8');
   console.log(`Aggregated all site results to ${outPath}`);
 }
 
