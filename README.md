@@ -1,12 +1,15 @@
-# KolbertAI-delivery-scraper v2.1.0
+# KolbertAI-delivery-scraper v2.2.1
 
 Shipping info extraction for international webshops in Europe.
 
-## What's new in 2.1.0
+## What's new in 2.2.1
 
-- Delivery promptok minden országban angol nyelvű kitöltési elvárásokat tartalmaznak (minden mezőnél és a végső instrukciókban is)
-- Return promptok továbbra is teljesen lokalizáltak, de minden válasz angolul elvárt
-- A prompt generálás teljesen dinamikus, minden ország saját nyelvén és példáival működik, de a válaszok egységesen angolul készülnek
+- Stagehand dependency frissítve a legújabb (2.4.0) verzióra
+- Alapértelmezett LLM modell: Anthropic Claude 4 Sonnet (anthropic/claude-sonnet-4-20250514)
+- ALL-SITES aggregáció mostantól websites.txt sorrendben, minden domain kap sorszámot ('order'), failed domainek is bekerülnek
+- extract-shipping.ts és extract-returns.ts Stagehand config módosítva
+- Batch scriptek (run-batches.sh, run-returns-batches.sh) javítva, hogy mindig a megfelelő TS szkriptet hívják
+- Docker image rebuild szükséges
 
 ## Setup
 
