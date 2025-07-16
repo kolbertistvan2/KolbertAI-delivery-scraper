@@ -1,6 +1,6 @@
 # KolbertAI-delivery-scraper v2.1.0
 
-Shipping info extraction for Croatian and international webshops.
+Shipping info extraction for international webshops in Europe.
 
 ## What's new in 2.1.0
 
