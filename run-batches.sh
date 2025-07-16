@@ -53,7 +53,7 @@ for ((i=0; i<total; i+=BATCH_SIZE)); do
       attempt=1
       while [ $attempt -le $MAX_RETRIES ]; do
         echo "[${domain}] Attempt $attempt of $MAX_RETRIES"
-        $TIMEOUT_CMD $TIMEOUT_PER_DOMAIN docker run --rm --env-file .env -v "$RESULT_DIR:/app/result-delivery" $IMAGE "$domain"
+        $TIMEOUT_CMD $TIMEOUT_PER_DOMAIN docker run --rm --env-file .env -v "$RESULT_DIR:/app/result-delivery" $IMAGE npx tsx extract-shipping.ts "$domain"
         exit_code=$?
         if [ $exit_code -eq 0 ]; then
           echo "[${domain}] Success."

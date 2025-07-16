@@ -1,0 +1,101 @@
+{
+  "website": "rohlik.cz",
+  "HOME_DELIVERY": {
+    "available": "yes",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "749 Kč minimum order for home delivery",
+    "free_delivery_limit": "749 Kč",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "BULKY_PRODUCT_HOME_DELIVERY": {
+    "available": "not available",
+    "providers": [
+      "not available"
+    ],
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "delivery_time": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_SHOPS": {
+    "available": "not available",
+    "providers": [
+      "not available"
+    ],
+    "locations_count": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "PARCEL_LOCKERS": {
+    "available": "yes",
+    "providers": [
+      "Rohlik Point"
+    ],
+    "locations_count": "not available",
+    "pricing": "500 Kč minimum order for Rohlik Point delivery",
+    "free_delivery_limit": "500 Kč",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "IN_STORE_PICKUP": {
+    "available": "not available",
+    "locations": "not available",
+    "pricing": "not available",
+    "free_delivery_limit": "not available",
+    "express_delivery": {
+      "available": "not available",
+      "delivery_time": "not available",
+      "pricing": "not available"
+    },
+    "weekend_delivery": {
+      "available": "not available",
+      "days": "not available"
+    },
+    "island_surcharge": "not available",
+    "cod_surcharge": "not available"
+  },
+  "SUMMARY": "Rohlik.cz offers home delivery with a minimum order of 749 Kč and delivery to Rohlik Points (parcel lockers) with a minimum order of 500 Kč. The website mentions they are available daily from 7:00 to 23:00 for customer service. NOTABLE FEATURES: Rohlik Points appear to be their own branded pickup locations with lower minimum order requirements than home delivery. The site offers various customer clubs including Rohlík Xtra with free delivery benefits. WEBSITE ASSESSMENT: Limited shipping information is visible on the homepage. Detailed delivery terms, providers, timing, and pricing information would likely be found on dedicated shipping pages that are not accessible from the current homepage view."
+}

@@ -81,9 +81,9 @@ const stagehandConfig = (): ConstructorParams => {
   return {
     env: 'BROWSERBASE',
     verbose: 1,
-    modelName: 'google/gemini-2.5-pro',
+    modelName: 'anthropic/claude-sonnet-4-20250514',
     modelClientOptions: {
-      apiKey: process.env.GOOGLE_API_KEY,
+      apiKey: process.env.ANTHROPIC_API_KEY,
     },
   };
 };
