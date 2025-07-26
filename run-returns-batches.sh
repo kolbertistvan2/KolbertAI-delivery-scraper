@@ -2,7 +2,7 @@
 
 WEBSITES_FILE="websites.txt"
 IMAGE="kolbertai-shipping-extractor:latest"
-RESULT_DIR="$(pwd)/result-returns"
+RESULT_DIR="$(pwd)/result-returns-v2"
 MAX_RETRIES=3
 BATCH_SIZE=${BATCH_SIZE:-1}
 TIMEOUT_PER_DOMAIN=10m
@@ -53,7 +53,7 @@ for ((i=0; i<total; i+=BATCH_SIZE)); do
       attempt=1
       while [ $attempt -le $MAX_RETRIES ]; do
         echo "[${domain}] Attempt $attempt of $MAX_RETRIES"
-        $TIMEOUT_CMD $TIMEOUT_PER_DOMAIN docker run --rm --env-file .env -v "$RESULT_DIR:/app/result-returns" $IMAGE npx tsx extract-returns.ts "$domain"
+        $TIMEOUT_CMD $TIMEOUT_PER_DOMAIN docker run --rm --env-file .env -v "$RESULT_DIR:/app/result-returns-v2" $IMAGE "$domain"
         exit_code=$?
         if [ $exit_code -eq 0 ]; then
           echo "[${domain}] Success."
@@ -79,6 +79,10 @@ for ((i=0; i<total; i+=BATCH_SIZE)); do
 done
 
 echo "All domains processed using prompt-return.txt."
+
+# Run aggregation to create ALL-SITES file
+echo "Running aggregation to create ALL-SITES file..."
+docker run --rm --env-file .env -v "$RESULT_DIR:/app/result-returns-v2" $IMAGE aggregate
 
 # Batch summary
 success_count=$(ls $RESULT_DIR/return-info-*.json 2>/dev/null | wc -l)

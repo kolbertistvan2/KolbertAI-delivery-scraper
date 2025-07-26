@@ -1,0 +1,50 @@
+{
+  "website": "lidl.cz",
+  "IN_STORE_RETURN": {
+    "available": "no",
+    "locations": "not available",
+    "time_limit": "30 dní",
+    "conditions": "not available"
+  },
+  "HOME_COLLECTION": {
+    "available": "no",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "Professional Parcel Logistic"
+    ],
+    "cost": "zdarma",
+    "time_limit": "30 dní"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "yes",
+    "providers": [
+      "Česká pošta",
+      "Professional Parcel Logistic"
+    ],
+    "cost": "zdarma",
+    "time_limit": "30 dní"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "not available",
+    "methods": "Drop-off via parcel shop, Drop-off via parcel locker"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "not available",
+    "usage": "not available",
+    "providers": "not available"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "not available",
+    "url": "not available",
+    "features": "not available"
+  },
+  "SUMMARY": "Lidl.cz offers free returns within 30 days. Returns can be made by dropping off parcels via parcel shops or parcel lockers. The shipping partners for returns are Česká pošta and Professional Parcel Logistic. Home collection, in-store returns for online purchases, QR code/barcode/PIN usage, and an external return portal are not explicitly mentioned as available. NOTABLE FEATURES: Free returns are available for all standard parcel drop-off methods. A 30-day return window is provided. WEBSITE ASSESSMENT: Basic return information is available in the footer, providing key details on time limit, cost, and carriers. However, more detailed conditions or specific procedures for each return method are not immediately visible on the homepage."
+}

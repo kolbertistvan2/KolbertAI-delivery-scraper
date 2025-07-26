@@ -1,0 +1,44 @@
+{
+  "website": "datart.cz",
+  "IN_STORE_RETURN": {
+    "available": "not available",
+    "locations": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "HOME_COLLECTION": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "FREE_RETURN": {
+    "available": "not available",
+    "conditions": "not available",
+    "methods": "not available"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "not available",
+    "usage": "not available",
+    "providers": "not available"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "not available",
+    "url": "not available",
+    "features": "not available"
+  },
+  "SUMMARY": "Return information is indicated by a dedicated link 'Vrácení zboží a reklamace' and 'Všeobecné obchodní podmínky' in the footer. Specific details regarding return methods, providers, costs, time limits, and conditions are not available on the homepage. NOTABLE FEATURES: No specific return features are visible on the homepage. WEBSITE ASSESSMENT: The homepage provides links to relevant return policy pages, but no direct return information is present, requiring further navigation to gather details."
+}

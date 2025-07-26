@@ -1,15 +1,23 @@
+Target Country: Czechia
+
 Stagehand tool használatával:
 
 1. Navigate to the homepage of the website: ${website}
-2. Search for return information in Czechia in these website locations in Czech:
-    * Footer links: ""
-    * FAQ section: search for return/refund/exchange keywords in Czech
+2. Search for return information in these website locations:
+    * Footer links: look for return/refund/exchange links
+    * FAQ section: search for return/refund/exchange keywords
     * Terms & Conditions page for return terms
     * Customer service pages for return procedures
-    * Dedicated return info pages ()
+    * Dedicated return info pages
 3. Extract return information from all relevant pages
 
-EXTRACT EXACTLY THESE RETURN CATEGORIES AND DO NOT EXTRACT DELIVERY INFORMATION. DO NOT VISIT LINKS ON EXTERNAL PAGES (e.g. logistics websites) EXTRACT ONLY CONFIRMED INFORMATION:
+EXTRACT EXACTLY THESE RETURN CATEGORIES AND DO NOT EXTRACT DELIVERY INFORMATION. DO NOT VISIT LINKS ON EXTERNAL PAGES (e.g. logistics websites). 
+
+CRITICAL: ALL EXTRACTED INFORMATION MUST BE WRITTEN IN ENGLISH ONLY, REGARDLESS OF THE WEBSITE'S LANGUAGE. TRANSLATE ANY LOCAL LANGUAGE CONTENT TO ENGLISH. 
+
+EXCEPTION: Company names (e.g., Zásilkovna, Česká Pošta, PPL), brand names, and place names should remain in their original language. Only translate descriptive text, conditions, and procedures to English.
+
+EXTRACT ONLY CONFIRMED INFORMATION:
 
 IN-STORE RETURN:
 * Available: yes/no
@@ -51,9 +59,16 @@ EXTERNAL RETURN PORTAL:
 * URL: [return portal website if available]
 * Features: [return label generation, status tracking, etc.]
 
-Website: ${website} Country: CZ
+Website: ${website} 
+Target Country: ${country}
 
-Response Format: Return exactly this JSON structure. If a field is unavailable, write "not available". Strings should be human-readable.
+IMPORTANT: Extract return information specifically for ${country}. Focus on return policies, methods, and conditions that apply to customers in ${country}, even if the website serves multiple countries.
+
+Response Format: Return exactly this JSON structure. If a field is unavailable, write "not available". 
+
+MANDATORY: All text values in the JSON response MUST be in ENGLISH ONLY. Translate any local language content to English. 
+
+EXCEPTION: Company names (e.g., Zásilkovna, Česká Pošta, PPL), brand names, and place names should remain in their original language. Only translate descriptive text, conditions, and procedures to English.
 {
   "website": "${website}",
   "IN_STORE_RETURN": {
@@ -103,3 +118,5 @@ If something is not available or not found, write "not available".
 Only extract information that is explicitly visible on the pages. Do not assume or guess.
 
 IMPORTANT: The SUMMARY field should be formatted as a single text string that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.
+
+FINAL REMINDER: ALL RESPONSES MUST BE IN ENGLISH ONLY. TRANSLATE ANY LOCAL LANGUAGE CONTENT TO ENGLISH. EXCEPTION: Company names, brand names, and place names should remain in their original language.

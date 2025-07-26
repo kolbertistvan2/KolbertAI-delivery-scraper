@@ -1,6 +1,8 @@
 
+Target Country: Czechia
+
 1. Navigate to homepage of the website: ${website}
-2. Search for shipping information to Czechia in these locations:
+2. Search for shipping information to ${country} in these locations:
 * Dedicated shipping info pages (/doprava, /dostava, /shipping, /delivery)
 * Footer links: "doprava", "dostava", "shipping", "informace o dopravě", "poštovné"
 * FAQ section: search for shipping/delivery keywords in Czech
@@ -54,7 +56,10 @@ IN-STORE PICKUP:
 * Weekend delivery: [availability, which days]
 * COD surcharge: [cash on delivery surcharge]
 
-Website: ${website} Country: CZ
+Website: ${website} 
+Target Country: ${country}
+
+IMPORTANT: Extract shipping information specifically for ${country}. Focus on shipping policies, methods, and conditions that apply to customers in ${country}, even if the website serves multiple countries.
 
 Response Format: Return exactly this JSON structure. If a field is unavailable, write "not available". Strings should be human-readable.
 {

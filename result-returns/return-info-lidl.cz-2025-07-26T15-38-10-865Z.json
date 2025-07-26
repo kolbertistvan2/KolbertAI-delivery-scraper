@@ -1,0 +1,44 @@
+{
+  "website": "lidl-shop.cz",
+  "IN_STORE_RETURN": {
+    "available": "",
+    "locations": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "HOME_COLLECTION": {
+    "available": "",
+    "providers": "",
+    "cost": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "",
+    "providers": "",
+    "cost": "",
+    "time_limit": ""
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "",
+    "providers": "",
+    "cost": "",
+    "time_limit": ""
+  },
+  "FREE_RETURN": {
+    "available": "",
+    "conditions": "",
+    "methods": ""
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "",
+    "usage": "",
+    "providers": ""
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "",
+    "url": "",
+    "features": ""
+  },
+  "SUMMARY": "The page 'Vrácení zboží a reklamace' (Returns and Complaints) on lidl-shop.cz lists several frequently asked questions regarding product returns, refunds, withdrawal from purchase agreements, returning foam mattresses, handling complaints, and product exchanges. However, the detailed procedures, conditions, costs, or time limits for these return methods are not provided in the current document."
+}

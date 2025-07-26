@@ -1,0 +1,44 @@
+{
+  "website": "N/A",
+  "IN_STORE_RETURN": {
+    "available": "N/A",
+    "locations": "N/A",
+    "time_limit": "N/A",
+    "conditions": "N/A"
+  },
+  "HOME_COLLECTION": {
+    "available": "N/A",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A",
+    "conditions": "N/A"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "N/A",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "N/A",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A"
+  },
+  "FREE_RETURN": {
+    "available": "N/A",
+    "conditions": "N/A",
+    "methods": "N/A"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "N/A",
+    "usage": "N/A",
+    "providers": "N/A"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "N/A",
+    "url": "N/A",
+    "features": "N/A"
+  },
+  "SUMMARY": "No specific return information was found on this page. The page appears to be a security check or CAPTCHA."
+}

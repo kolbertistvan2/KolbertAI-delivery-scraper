@@ -1,0 +1,44 @@
+{
+  "website": "mall.cz",
+  "IN_STORE_RETURN": {
+    "available": "yes",
+    "locations": "partnerské obchody MALL",
+    "time_limit": "14 dnů",
+    "conditions": "bez udání důvodů"
+  },
+  "HOME_COLLECTION": {
+    "available": "no",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "pouze se Smart! programem",
+    "methods": "not available"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no",
+    "usage": "not available",
+    "providers": "not available"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "no",
+    "url": "not available",
+    "features": "not available"
+  },
+  "SUMMARY": "Return options: In-store returns are available at MALL partner stores. Free returns are offered for customers with the \"Smart!\" program. Providers: In-store returns are handled by \"partnerské obchody MALL\". No other specific return providers are mentioned. Costs: Returns are free with the \"Smart!\" program. Other return costs are not specified. Restrictions: A 14-day return period is available for returns without stating a reason. NOTABLE FEATURES: 14-day return window without needing to state a reason. Free returns for \"Smart!\" program members. WEBSITE ASSESSMENT: The website provides limited and fragmented return information. Details on specific return methods (like home collection or parcel drop-offs) are missing. Information is primarily focused on in-store returns and the \"Smart!\" program benefit."
+}

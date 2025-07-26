@@ -1,0 +1,55 @@
+{
+  "website": "zalando.cz",
+  "IN_STORE_RETURN": {
+    "available": "No",
+    "locations": "null",
+    "time_limit": "null",
+    "conditions": "null"
+  },
+  "HOME_COLLECTION": {
+    "available": "No",
+    "providers": [
+      "PPL",
+      "DPD"
+    ],
+    "cost": "Free",
+    "time_limit": "100 days from the date you received them.",
+    "conditions": "Items must be unworn, unwashed, with all original tags attached, and in their original packaging. Package must be ready for pick-up."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Yes",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna"
+    ],
+    "cost": "Free",
+    "time_limit": "30 days"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "No",
+    "providers": [
+      "Z-BOX",
+      "AlzaBox"
+    ],
+    "cost": "Free",
+    "time_limit": "100 days from the date you received them."
+  },
+  "FREE_RETURN": {
+    "available": "Yes",
+    "conditions": "Unused goods",
+    "methods": "All available methods (PPL Parcelshop, Zásilkovna drop-off)"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "Yes",
+    "usage": "Generating a return code in your account",
+    "providers": [
+      "Zásilkovna"
+    ]
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "Yes",
+    "url": "0-3351",
+    "features": "Online return registration, generating return labels/codes"
+  },
+  "SUMMARY": "Unused goods can be returned for free within 30 days. Refunds are processed within 14 days of handing over the return package to the carrier. Returns can be made via PPL Parcelshop or Zásilkovna drop-off points. Returns via Z-BOX self-service parcel lockers are not possible."
+}

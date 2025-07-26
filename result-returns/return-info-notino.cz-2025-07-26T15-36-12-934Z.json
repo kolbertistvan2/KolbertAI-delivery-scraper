@@ -1,0 +1,44 @@
+{
+  "website": "notino.cz",
+  "IN_STORE_RETURN": {
+    "available": "Yes",
+    "locations": "VLASTNÍ PRODEJNY A VÝDEJNÍ MÍSTA",
+    "time_limit": "90 dnů",
+    "conditions": "bez udání důvodu"
+  },
+  "HOME_COLLECTION": {
+    "available": "No",
+    "providers": "",
+    "cost": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "No",
+    "providers": "",
+    "cost": "",
+    "time_limit": ""
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "No",
+    "providers": "",
+    "cost": "",
+    "time_limit": ""
+  },
+  "FREE_RETURN": {
+    "available": "No",
+    "conditions": "",
+    "methods": ""
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "No",
+    "usage": "",
+    "providers": ""
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "Yes",
+    "url": "5429",
+    "features": "Registrovaní zákazníci mají možnost využít vráceni produktů přímo v zákaznickém účtu."
+  },
+  "SUMMARY": "Nevybrali jste si správně? S námi se výběru parfémů a kosmetiky bát nemusíte. Odstoupit od smlouvy bez udání důvodu je u nás možné do 90 dnů."
+}

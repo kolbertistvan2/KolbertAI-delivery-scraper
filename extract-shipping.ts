@@ -3,6 +3,27 @@ import { z } from 'zod';
 import fs from 'fs/promises';
 import path from 'path';
 import util from 'util';
+import { extractCountryFromDomain, getOptimalRegion } from './region-mapping';
+
+// Handle uncaught exceptions to prevent crashes from shared_worker errors
+process.on('uncaughtException', (error) => {
+  if (error.message.includes('shared_worker') || error.message.includes('targetInfo')) {
+    console.warn('Ignoring shared_worker error:', error.message);
+    return;
+  }
+  console.error('Uncaught Exception:', error);
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  const message = reason instanceof Error ? reason.message : String(reason);
+  if (message.includes('shared_worker') || message.includes('targetInfo')) {
+    console.warn('Ignoring shared_worker rejection:', message);
+    return;
+  }
+  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
+});
 
 if (!process.env.BROWSERBASE_API_KEY) {
   throw new Error('BROWSERBASE_API_KEY is missing! Cloud session cannot start.');
@@ -126,14 +147,66 @@ const shippingSchema = z.object({
   SUMMARY: z.string(),
 });
 
-const stagehandConfig = (): ConstructorParams => {
+const stagehandConfig = (domain: string): ConstructorParams => {
+  // Extract country from domain and get optimal region
+  const country = extractCountryFromDomain(domain);
+  const region = getOptimalRegion(country);
+  
+  console.log(`[${domain}] Using Browserbase region: ${region} for country: ${country}`);
+  
+  // Map country to optimal proxy geolocation
+  const proxyGeolocationMap: Record<string, { country: string; city: string }> = {
+    // Eastern Europe - Use local proxies
+    'czechia': { country: 'CZ', city: 'PRAGUE' },      // Csehország - Prága
+    'hungary': { country: 'HU', city: 'BUDAPEST' },    // Magyarország - Budapest
+    'poland': { country: 'PL', city: 'WARSAW' },       // Lengyelország - Varsó
+    'slovakia': { country: 'SK', city: 'BRATISLAVA' }, // Szlovákia - Pozsony
+    'slovenia': { country: 'SI', city: 'LJUBLJANA' },  // Szlovénia - Ljubljana
+    'croatia': { country: 'HR', city: 'ZAGREB' },      // Horvátország - Zágráb
+    'serbia': { country: 'RS', city: 'BELGRADE' },     // Szerbia - Belgrád
+    'romania': { country: 'RO', city: 'BUCHAREST' },   // Románia - Bukarest
+    
+    // Western Europe
+    'germany': { country: 'DE', city: 'BERLIN' },      // Németország - Berlin
+    'france': { country: 'FR', city: 'PARIS' },        // Franciaország - Párizs
+    'italy': { country: 'IT', city: 'ROME' },          // Olaszország - Róma
+    'spain': { country: 'ES', city: 'MADRID' },        // Spanyolország - Madrid
+    'uk': { country: 'GB', city: 'LONDON' },           // Egyesült Királyság - London
+    'ireland': { country: 'IE', city: 'DUBLIN' },      // Írország - Dublin
+    
+    // North America
+    'us': { country: 'US', city: 'NEW_YORK' },         // USA - New York
+    'canada': { country: 'CA', city: 'TORONTO' },      // Kanada - Toronto
+    
+    // Fallback
+    'default': { country: 'DE', city: 'BERLIN' },      // Alapértelmezett - Berlin
+  };
+  
+  const proxyLocation = proxyGeolocationMap[country] || proxyGeolocationMap['default'];
+  
+  console.log(`[${domain}] Using proxy geolocation: ${proxyLocation.country}, ${proxyLocation.city}`);
+  
   return {
     env: 'BROWSERBASE',
     verbose: 1,
-    modelName: 'google/gemini-2.5-pro',
+    modelName: 'google/gemini-2.5-flash-preview-05-20',
     modelClientOptions: {
       apiKey: process.env.GOOGLE_API_KEY,
     },
+    // Set Browserbase session parameters with optimal proxy geolocation
+    browserbaseSessionCreateParams: {
+      projectId: process.env.BROWSERBASE_PROJECT_ID!,
+      region: region as "us-west-2" | "us-east-1" | "eu-central-1" | "ap-southeast-1",
+      proxies: [
+        {
+          type: "browserbase",
+          geolocation: {
+            country: proxyLocation.country,
+            city: proxyLocation.city
+          }
+        }
+      ]
+    }
   };
 };
 
@@ -169,7 +242,7 @@ async function robustGoto(stagehandRef: { stagehand: Stagehand }, url: string, d
         console.warn(`[${domain}] Error closing Stagehand during restart:`, closeErr);
       }
       // Recreate Stagehand (proxy support: TODO if needed)
-      const newStagehand = new Stagehand(stagehandConfig());
+      const newStagehand = new Stagehand(stagehandConfig(domain));
       console.warn(`🔄 [${domain}] Restarting Stagehand (attempt ${attempt + 1})...`);
       await newStagehand.init();
       stagehandRef.stagehand = newStagehand;
@@ -182,8 +255,14 @@ async function robustGoto(stagehandRef: { stagehand: Stagehand }, url: string, d
 async function processDomain(domain: string) {
   let stagehand: Stagehand | null = null;
   try {
-    console.log(`[${domain}] Initializing Stagehand...`);
-    stagehand = new Stagehand(stagehandConfig());
+    // Set region before creating Stagehand instance
+    const country = extractCountryFromDomain(domain);
+    const region = getOptimalRegion(country);
+    process.env.BROWSERBASE_REGION = region;
+    console.log(`[${domain}] Set BROWSERBASE_REGION to: ${region}`);
+    
+    console.log(`[${domain}] Initializing Stagehand with fresh session...`);
+    stagehand = new Stagehand(stagehandConfig(domain));
     await stagehand.init();
     console.log(`[${domain}] Stagehand initialized successfully.`);
     const page = stagehand.page;
@@ -192,7 +271,7 @@ async function processDomain(domain: string) {
     // Load and process prompt template
     console.log(`[${domain}] Loading prompt template from prompt.txt...`);
     const promptTemplate = await loadPromptTemplate('prompt.txt');
-    const variables = { website: domain };
+    const variables = { website: domain, country: 'Czechia' };
     const prompt = replacePromptVariables(promptTemplate, variables);
     const hasIslandSurcharge = prompt.includes('island_surcharge');
     
@@ -206,56 +285,128 @@ async function processDomain(domain: string) {
     const pageAfter = stagehand.page;
     if (!pageAfter) throw new Error("Failed to get page instance from Stagehand after restart");
 
-    // Step 2: Multi-stage observe fallback with dynamic prompts
-    const fallbackPrompts = [
-      prompt,
-      replacePromptVariables(`Find and return the selector for a footer link related to shipping or delivery on the homepage of ${domain}.`, { website: domain }),
-      replacePromptVariables(`Find and return the selector for a FAQ section or link related to shipping or delivery on the homepage of ${domain}.`, { website: domain }),
-      replacePromptVariables(`Find and return the selector for a Terms and Conditions link on the homepage of ${domain}.`, { website: domain }),
+    // Step 2: Enhanced multi-stage navigation and extraction (inspired by Director.ai)
+    console.log(`[${domain}] Starting enhanced shipping information extraction...`);
+    
+    // First, try to find and click on shipping-related links
+    const shippingLinkPrompts = [
+      `Find and return the selector for a footer link related to shipping, delivery, or shipping information on ${domain}`,
+      `Find and return the selector for a FAQ section or link related to shipping or delivery on ${domain}`,
+      `Find and return the selector for a "Shipping" or "Delivery" link in the main navigation or footer of ${domain}`,
+      `Find and return the selector for a Terms and Conditions or Customer Service link on ${domain}`,
     ];
     
-    let observed = null;
+    let shippingPageData = null;
     let usedPromptIndex = -1;
-    for (let i = 0; i < fallbackPrompts.length; i++) {
-      const obsPrompt = fallbackPrompts[i];
-      console.log(`[${domain}] Observing (stage ${i+1}) with prompt:`, obsPrompt);
-      const obsResult = await page.observe({ instruction: obsPrompt });
-      if (obsResult && Array.isArray(obsResult) && obsResult.length > 0 && obsResult[0]?.selector) {
-        observed = obsResult[0];
-        usedPromptIndex = i;
-        break;
+    
+    // Try to navigate to shipping-specific pages
+    for (let i = 0; i < shippingLinkPrompts.length; i++) {
+      try {
+        console.log(`[${domain}] Attempting to find shipping link (attempt ${i + 1})...`);
+        const obsResult = await page.observe({ instruction: shippingLinkPrompts[i] });
+        
+        if (obsResult && Array.isArray(obsResult) && obsResult.length > 0 && obsResult[0]?.selector) {
+          const observed = obsResult[0];
+          console.log(`[${domain}] Found shipping link, clicking...`);
+          
+          // Click the shipping link
+          await page.act({
+            description: `Click the shipping/delivery link for ${domain}`,
+            method: 'click',
+            arguments: [],
+            selector: observed.selector
+          });
+          
+          // Wait a bit for page load
+          await page.waitForTimeout(3000);
+          
+          // Extract data from the shipping page
+          console.log(`[${domain}] Extracting shipping information from dedicated page...`);
+          shippingPageData = await page.extract({
+            instruction: `Extract all shipping information including delivery methods, costs, timeframes, and conditions for shipping to customers from ${domain}`,
+            schema: shippingSchema
+          });
+          
+          usedPromptIndex = i;
+          break;
+        }
+      } catch (err) {
+        console.warn(`[${domain}] Attempt ${i + 1} failed:`, err);
+        // Try to go back to homepage if we navigated away
+        try {
+          await page.goBack();
+          await page.waitForTimeout(2000);
+        } catch (backErr) {
+          console.warn(`[${domain}] Error going back:`, backErr);
+        }
       }
     }
     
-    if (observed) {
-      const fallbackNames = ['main', 'footer', 'faq', 'terms'];
-      console.log(`[${domain}] Observed selector (fallback: ${fallbackNames[usedPromptIndex]}):`, observed.selector);
-      
-      // Step 3: Act (click) on the observed link
-      console.log(`[${domain}] Clicking observed shipping/delivery link...`);
-      await page.act({
-        description: `Click the observed shipping/delivery link for ${domain}`,
-        method: 'click',
-        arguments: [],
-        selector: observed.selector
-      });
-      
-      // Step 4: Extract shipping info
-      console.log(`[${domain}] Extracting shipping information...`);
-      const extractedData = await page.extract({
-        instruction: prompt,
-        schema: shippingSchema
-      });
-      console.log(`[${domain}] Extraction completed successfully.`);
-      return extractedData;
+    // If we found shipping page data, use it
+    if (shippingPageData) {
+      console.log(`[${domain}] Successfully extracted from shipping page (method ${usedPromptIndex + 1})`);
+      return shippingPageData;
+    }
+    
+    // Step 3: Try to find additional shipping information on homepage
+    console.log(`[${domain}] No dedicated shipping page found, extracting from homepage...`);
+    
+    // Try to find and click on FAQ or Terms links for more info
+    const additionalPrompts = [
+      `Find and return the selector for a FAQ link on ${domain}`,
+      `Find and return the selector for Terms and Conditions link on ${domain}`,
+      `Find and return the selector for Customer Service or Help link on ${domain}`,
+    ];
+    
+    for (const additionalPrompt of additionalPrompts) {
+      try {
+        const obsResult = await page.observe({ instruction: additionalPrompt });
+        if (obsResult && Array.isArray(obsResult) && obsResult.length > 0 && obsResult[0]?.selector) {
+          console.log(`[${domain}] Found additional info link, clicking...`);
+          await page.act({
+            description: `Click additional info link for ${domain}`,
+            method: 'click',
+            arguments: [],
+            selector: obsResult[0].selector
+          });
+          
+          await page.waitForTimeout(3000);
+          
+          // Extract additional data
+          const additionalData = await page.extract({
+            instruction: `Extract any shipping-related information from this page for ${domain}`,
+            schema: shippingSchema
+          });
+          
+          // Go back to homepage
+          await page.goBack();
+          await page.waitForTimeout(2000);
+          
+          // Merge with homepage data
+          shippingPageData = additionalData;
+          break;
+        }
+      } catch (err) {
+        console.warn(`[${domain}] Additional info extraction failed:`, err);
+      }
+    }
+    
+    // Step 4: Final extraction from homepage
+    console.log(`[${domain}] Performing final extraction from homepage...`);
+    const homepageData = await page.extract({
+      instruction: `Extract all shipping information including delivery methods, costs, timeframes, and conditions for shipping to customers from ${domain}. If no specific shipping information is found, indicate this clearly.`,
+      schema: shippingSchema
+    });
+    
+    // Merge data if we have both
+    if (shippingPageData) {
+      // Merge the data, preferring shippingPageData for specific fields
+      const mergedData = { ...homepageData, ...shippingPageData };
+      console.log(`[${domain}] Shipping extraction completed with merged data.`);
+      return mergedData;
     } else {
-      // Fallback: extract directly from homepage
-      console.log(`[${domain}] No link found in any observe stage, extracting directly from homepage...`);
-      const extractedData = await page.extract({
-        instruction: prompt,
-        schema: shippingSchema
-      });
-      return extractedData;
+      console.log(`[${domain}] Shipping extraction completed from homepage only.`);
+      return homepageData;
     }
   } catch (err) {
     console.error(`[${domain}] Error processing:`, err);
@@ -283,7 +434,7 @@ async function processDomain(domain: string) {
 async function retryProcessDomain(domain: string, maxRetries = 3) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
-      console.log(`[${domain}] Attempt ${attempt} of ${maxRetries}`);
+      console.log(`[${domain}] Attempt ${attempt} of ${maxRetries} with fresh session`);
       const result = await processDomain(domain);
       if (result) return result;
     } catch (err) {
@@ -298,8 +449,9 @@ async function retryProcessDomain(domain: string, maxRetries = 3) {
 
 async function aggregateResults() {
   const files = await fs.readdir(RESULT_DIR);
-  const result: Record<string, any> = {};
+  const resultData: Record<string, any> = {};
   const allDomains = new Set<string>();
+  
   // Collect all successful JSONs
   for (const file of files) {
     if (file.startsWith('shipping-info-') && file.endsWith('.json') && !file.startsWith('shipping-info-ALL-SITES')) {
@@ -308,7 +460,7 @@ async function aggregateResults() {
         const data = JSON.parse(await fs.readFile(filePath, 'utf-8'));
         if (data && data.website) {
           const { website, ...rest } = data;
-          result[data.website] = rest;
+          resultData[data.website] = rest;
           allDomains.add(data.website);
         }
       } catch (e) {
@@ -316,6 +468,7 @@ async function aggregateResults() {
       }
     }
   }
+  
   // Add error and failed logs for missing domains
   for (const file of files) {
     if ((file.startsWith('error-') || file.startsWith('failed-')) && file.endsWith('.log')) {
@@ -327,8 +480,8 @@ async function aggregateResults() {
         if (match) {
           const domain = match[2];
           allDomains.add(domain);
-          if (!result[domain]) {
-            result[domain] = { error: logContent.trim() };
+          if (!resultData[domain]) {
+            resultData[domain] = { error: logContent.trim() };
           }
         }
       } catch (e) {
@@ -336,46 +489,62 @@ async function aggregateResults() {
       }
     }
   }
-  // Ensure all domains from input are present (even if missing result/log)
+  
+  // Read websites.txt to get the original order
   const websitesFile = path.join(process.cwd(), 'websites.txt');
+  const orderedResult: Record<string, any> = {};
+  
   try {
     const lines = (await fs.readFile(websitesFile, 'utf-8')).split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+    
+    // Build result in the order of websites.txt
     for (const domain of lines) {
-      if (!allDomains.has(domain)) {
-        result[domain] = { error: 'No result or error log found for this domain.' };
+      if (resultData[domain]) {
+        orderedResult[domain] = resultData[domain];
+      } else {
+        orderedResult[domain] = { error: 'No result or error log found for this domain.' };
       }
     }
   } catch (e) {
     console.warn('Could not read websites.txt for domain completeness:', e);
+    // Fallback to original result if websites.txt cannot be read
+    Object.assign(orderedResult, resultData);
   }
+  
   const outPath = path.join(RESULT_DIR, `shipping-info-ALL-SITES.json`);
-  await fs.writeFile(outPath, JSON.stringify(result, null, 2), 'utf-8');
+  await fs.writeFile(outPath, JSON.stringify(orderedResult, null, 2), 'utf-8');
   console.log(`Aggregated all site results to ${outPath}`);
 }
 
 async function main() {
-  await ensureResultDir();
+  const command = process.argv[2];
   
-  // Get domain from command line arguments (as passed by run-batches.sh)
-  const domains = process.argv.slice(2);
-  if (domains.length === 0) {
-    // Ha nincs argumentum, aggregáljunk!
-    console.log('No domain argument provided, aggregating all results...');
-    await aggregateResults();
-    return;
+  if (!command) {
+    console.error('Usage: node extract-shipping.js <domain> or node extract-shipping.js aggregate');
+    process.exit(1);
   }
   
-  // Process single domain (as called by run-batches.sh)
-  const domain = domains[0];
-  const outFile = path.join(RESULT_DIR, `shipping-info-${domain}-${getTimestamp()}.json`);
+  await ensureResultDir();
   
-  console.log(`Processing: ${domain}`);
-  const data = await retryProcessDomain(domain, 3);
-  await fs.writeFile(outFile, JSON.stringify(data, null, 2), 'utf-8');
-  console.log(`Result for ${domain} written to ${outFile}`);
-
-  // Minden domain után aggregálj!
-  await aggregateResults();
+  if (command === 'aggregate') {
+    console.log(`🚀 Starting aggregation of all results...`);
+    await aggregateResults();
+  } else {
+    const domain = command;
+    console.log(`🚀 Starting shipping information extraction for: ${domain}`);
+    
+    const result = await retryProcessDomain(domain, 3);
+    
+    if (result) {
+      const timestamp = getTimestamp();
+      const resultFile = path.join(RESULT_DIR, `shipping-info-${domain}-${timestamp}.json`);
+      await fs.writeFile(resultFile, JSON.stringify(result, null, 2), 'utf-8');
+      console.log(`✅ Results written to: ${resultFile}`);
+    } else {
+      console.error(`❌ Failed to extract shipping information for: ${domain}`);
+      process.exit(1);
+    }
+  }
 }
 
 main().catch(err => {

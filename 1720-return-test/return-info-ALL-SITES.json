@@ -1,0 +1,309 @@
+{
+  "alza.cz": {
+    "IN_STORE_RETURN": {
+      "available": "not available",
+      "locations": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "HOME_COLLECTION": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "FREE_RETURN": {
+      "available": "not available",
+      "conditions": "not available",
+      "methods": "not available"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "not available",
+      "usage": "not available",
+      "providers": "not available"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "not available",
+      "url": "not available",
+      "features": "not available"
+    },
+    "SUMMARY": "The content of the page is not available as it is blocked by a Cloudflare security check, preventing access to the return policy information."
+  },
+  "rohlik.cz": {
+    "IN_STORE_RETURN": {
+      "available": "no",
+      "locations": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "HOME_COLLECTION": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "FREE_RETURN": {
+      "available": "not available",
+      "conditions": "not available",
+      "methods": "not available"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "not available",
+      "usage": "not available",
+      "providers": "not available"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "yes",
+      "url": "2158",
+      "features": "Filing a complaint about goods or incorrect number of returned bags."
+    },
+    "SUMMARY": "The website provides very limited information regarding its return policy on the visible page. It primarily links to a full 'Reklamační řád' (Complaints Procedure) document, the content of which is not visible. The main way to handle issues appears to be an online system. NOTABLE FEATURES: An online portal is available to 'solve issues online', specifically for complaining about goods or discrepancies with returned bags. No other return methods, costs, or timeframes are specified. WEBSITE ASSESSMENT: The return information is not readily available or comprehensive on this page. Users must access separate legal documents or an online portal to understand the full process."
+  },
+  "mall.cz": {
+    "IN_STORE_RETURN": {
+      "available": "yes",
+      "locations": "partnerské obchody MALL",
+      "time_limit": "14 dnů",
+      "conditions": "bez udání důvodů"
+    },
+    "HOME_COLLECTION": {
+      "available": "no",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "no",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "no",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "FREE_RETURN": {
+      "available": "yes",
+      "conditions": "pouze se Smart! programem",
+      "methods": "not available"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "no",
+      "usage": "not available",
+      "providers": "not available"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "no",
+      "url": "not available",
+      "features": "not available"
+    },
+    "SUMMARY": "Return options: In-store returns are available at MALL partner stores. Free returns are offered for customers with the \"Smart!\" program. Providers: In-store returns are handled by \"partnerské obchody MALL\". No other specific return providers are mentioned. Costs: Returns are free with the \"Smart!\" program. Other return costs are not specified. Restrictions: A 14-day return period is available for returns without stating a reason. NOTABLE FEATURES: 14-day return window without needing to state a reason. Free returns for \"Smart!\" program members. WEBSITE ASSESSMENT: The website provides limited and fragmented return information. Details on specific return methods (like home collection or parcel drop-offs) are missing. Information is primarily focused on in-store returns and the \"Smart!\" program benefit."
+  },
+  "datart.cz": {
+    "IN_STORE_RETURN": {
+      "available": "not available",
+      "locations": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "HOME_COLLECTION": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "FREE_RETURN": {
+      "available": "not available",
+      "conditions": "not available",
+      "methods": "not available"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "not available",
+      "usage": "not available",
+      "providers": "not available"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "not available",
+      "url": "not available",
+      "features": "not available"
+    },
+    "SUMMARY": "Return information is indicated by a dedicated link 'Vrácení zboží a reklamace' and 'Všeobecné obchodní podmínky' in the footer. Specific details regarding return methods, providers, costs, time limits, and conditions are not available on the homepage. NOTABLE FEATURES: No specific return features are visible on the homepage. WEBSITE ASSESSMENT: The homepage provides links to relevant return policy pages, but no direct return information is present, requiring further navigation to gather details."
+  },
+  "notino.cz": {
+    "IN_STORE_RETURN": {
+      "available": "not available",
+      "locations": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "HOME_COLLECTION": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "FREE_RETURN": {
+      "available": "not available",
+      "conditions": "not available",
+      "methods": "not available"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "not available",
+      "usage": "not available",
+      "providers": "not available"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "not available",
+      "url": "not available",
+      "features": "not available"
+    },
+    "SUMMARY": "No return information could be extracted. The website displayed a Cloudflare security check page, preventing access to the actual content. Therefore, all return categories are marked as 'not available'."
+  },
+  "ikea.com": {
+    "IN_STORE_RETURN": {
+      "available": "not available",
+      "locations": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "HOME_COLLECTION": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "not available",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available"
+    },
+    "FREE_RETURN": {
+      "available": "not available",
+      "conditions": "not available",
+      "methods": "not available"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "not available",
+      "usage": "not available",
+      "providers": "not available"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "not available",
+      "url": "not available",
+      "features": "not available"
+    },
+    "SUMMARY": "Return options are indicated to be available via a dedicated 'Vrácení a výměna zboží' (Returns and exchanges) page. Specific details regarding return methods, providers, costs, time limits, and conditions are not available on the homepage. NOTABLE FEATURES: A direct link to return information is clearly provided under 'Služby a podpora' (Services and support) section. WEBSITE ASSESSMENT: The website appears to have a dedicated section for returns, which is a positive indicator for information completeness, although the details are not present on the homepage."
+  },
+  "lidl.cz": {
+    "IN_STORE_RETURN": {
+      "available": "no",
+      "locations": "not available",
+      "time_limit": "30 dní",
+      "conditions": "not available"
+    },
+    "HOME_COLLECTION": {
+      "available": "no",
+      "providers": "not available",
+      "cost": "not available",
+      "time_limit": "not available",
+      "conditions": "not available"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "yes",
+      "providers": [
+        "Česká pošta",
+        "Professional Parcel Logistic"
+      ],
+      "cost": "zdarma",
+      "time_limit": "30 dní"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "yes",
+      "providers": [
+        "Česká pošta",
+        "Professional Parcel Logistic"
+      ],
+      "cost": "zdarma",
+      "time_limit": "30 dní"
+    },
+    "FREE_RETURN": {
+      "available": "yes",
+      "conditions": "not available",
+      "methods": "Drop-off via parcel shop, Drop-off via parcel locker"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "not available",
+      "usage": "not available",
+      "providers": "not available"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "not available",
+      "url": "not available",
+      "features": "not available"
+    },
+    "SUMMARY": "Lidl.cz offers free returns within 30 days. Returns can be made by dropping off parcels via parcel shops or parcel lockers. The shipping partners for returns are Česká pošta and Professional Parcel Logistic. Home collection, in-store returns for online purchases, QR code/barcode/PIN usage, and an external return portal are not explicitly mentioned as available. NOTABLE FEATURES: Free returns are available for all standard parcel drop-off methods. A 30-day return window is provided. WEBSITE ASSESSMENT: Basic return information is available in the footer, providing key details on time limit, cost, and carriers. However, more detailed conditions or specific procedures for each return method are not immediately visible on the homepage."
+  }
+}

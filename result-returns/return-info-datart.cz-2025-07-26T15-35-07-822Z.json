@@ -1,0 +1,44 @@
+{
+  "website": "datart.cz",
+  "IN_STORE_RETURN": {
+    "available": "Yes",
+    "locations": "DATART stores",
+    "time_limit": "14 days from receipt",
+    "conditions": "without stating a reason"
+  },
+  "HOME_COLLECTION": {
+    "available": "No",
+    "providers": "",
+    "cost": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "No",
+    "providers": "",
+    "cost": "",
+    "time_limit": ""
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "No",
+    "providers": "",
+    "cost": "",
+    "time_limit": ""
+  },
+  "FREE_RETURN": {
+    "available": "No",
+    "conditions": "",
+    "methods": ""
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "No",
+    "usage": "",
+    "providers": ""
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "No",
+    "url": "",
+    "features": ""
+  },
+  "SUMMARY": "Zboží zakoupené na e-shopu DATART.cz nebo v prodejně DATART můžete bez udání důvodu vrátit do 14 dní od jeho převzetí."
+}

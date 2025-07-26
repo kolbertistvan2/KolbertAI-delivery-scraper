@@ -1,0 +1,44 @@
+{
+  "website": "rohlik.cz",
+  "IN_STORE_RETURN": {
+    "available": "no",
+    "locations": "null",
+    "time_limit": "null",
+    "conditions": "null"
+  },
+  "HOME_COLLECTION": {
+    "available": "no",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null",
+    "conditions": "null"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null"
+  },
+  "FREE_RETURN": {
+    "available": "no",
+    "conditions": "null",
+    "methods": "null"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no",
+    "usage": "null",
+    "providers": "null"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "2148",
+    "features": "Whether you want to complain about goods or, for example, the number of returnable bags does not match, you can solve it easily in a moment."
+  },
+  "SUMMARY": "The detailed return policy is available in a linked 'Reklamační řád' (Complaint Policy) document. Customers can also resolve complaints or issues with returnable bags online via a dedicated portal."
+}

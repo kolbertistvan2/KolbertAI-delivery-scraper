@@ -18,4 +18,10 @@ RUN mkdir -p result
 # Set environment variables
 ENV NODE_ENV=production
 
-# ENTRYPOINT eltávolítva, hogy bármilyen parancsot lehessen futtatni 
+# Create entrypoint script
+RUN echo '#!/bin/sh' > /app/entrypoint.sh && \
+    echo 'exec npx tsx extract-returns-v2.ts "$@"' >> /app/entrypoint.sh && \
+    chmod +x /app/entrypoint.sh
+
+# Use entrypoint script
+ENTRYPOINT ["/app/entrypoint.sh"] 

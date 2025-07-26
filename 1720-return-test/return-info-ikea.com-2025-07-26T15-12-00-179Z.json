@@ -1,0 +1,44 @@
+{
+  "website": "ikea.com",
+  "IN_STORE_RETURN": {
+    "available": "not available",
+    "locations": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "HOME_COLLECTION": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "FREE_RETURN": {
+    "available": "not available",
+    "conditions": "not available",
+    "methods": "not available"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "not available",
+    "usage": "not available",
+    "providers": "not available"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "not available",
+    "url": "not available",
+    "features": "not available"
+  },
+  "SUMMARY": "Return options are indicated to be available via a dedicated 'Vrácení a výměna zboží' (Returns and exchanges) page. Specific details regarding return methods, providers, costs, time limits, and conditions are not available on the homepage. NOTABLE FEATURES: A direct link to return information is clearly provided under 'Služby a podpora' (Services and support) section. WEBSITE ASSESSMENT: The website appears to have a dedicated section for returns, which is a positive indicator for information completeness, although the details are not present on the homepage."
+}

@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@browserbasehq/sdk": "^2.6.0",
-    "@browserbasehq/stagehand": "^2.2.1",
+    "@browserbasehq/stagehand": "^2.4.1",
     "dotenv": "^16.4.7",
     "playwright": "^1.53.2",
     "stagehand": "^1.0.1",

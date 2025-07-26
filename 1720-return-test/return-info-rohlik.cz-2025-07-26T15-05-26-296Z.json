@@ -1,0 +1,44 @@
+{
+  "website": "rohlik.cz",
+  "IN_STORE_RETURN": {
+    "available": "no",
+    "locations": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "HOME_COLLECTION": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available",
+    "conditions": "not available"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "not available",
+    "providers": "not available",
+    "cost": "not available",
+    "time_limit": "not available"
+  },
+  "FREE_RETURN": {
+    "available": "not available",
+    "conditions": "not available",
+    "methods": "not available"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "not available",
+    "usage": "not available",
+    "providers": "not available"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "2158",
+    "features": "Filing a complaint about goods or incorrect number of returned bags."
+  },
+  "SUMMARY": "The website provides very limited information regarding its return policy on the visible page. It primarily links to a full 'Reklamační řád' (Complaints Procedure) document, the content of which is not visible. The main way to handle issues appears to be an online system. NOTABLE FEATURES: An online portal is available to 'solve issues online', specifically for complaining about goods or discrepancies with returned bags. No other return methods, costs, or timeframes are specified. WEBSITE ASSESSMENT: The return information is not readily available or comprehensive on this page. Users must access separate legal documents or an online portal to understand the full process."
+}

@@ -1,0 +1,44 @@
+{
+  "website": "ikea.com",
+  "IN_STORE_RETURN": {
+    "available": "null",
+    "locations": "null",
+    "time_limit": "null",
+    "conditions": "null"
+  },
+  "HOME_COLLECTION": {
+    "available": "null",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null",
+    "conditions": "null"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "null",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "null",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null"
+  },
+  "FREE_RETURN": {
+    "available": "null",
+    "conditions": "null",
+    "methods": "null"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "null",
+    "usage": "null",
+    "providers": "null"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "null",
+    "url": "null",
+    "features": "null"
+  },
+  "SUMMARY": "No information about product returns, return periods, methods, costs, conditions, or procedures for returning products to ikea.com was found in the provided DOM."
+}
