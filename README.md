@@ -1,15 +1,31 @@
-# KolbertAI-delivery-scraper v2.2.1
+# KolbertAI-delivery-scraper v4.0.0
 
-Shipping info extraction for international webshops in Europe.
+Returns and shipping info extraction for international webshops in Europe.
 
-## What's new in 2.2.1
+## What's new in v4.0.0
 
-- Stagehand dependency frissítve a legújabb (2.4.0) verzióra
-- Alapértelmezett LLM modell: Anthropic Claude 4 Sonnet (anthropic/claude-sonnet-4-20250514)
-- ALL-SITES aggregáció mostantól websites.txt sorrendben, minden domain kap sorszámot ('order'), failed domainek is bekerülnek
-- extract-shipping.ts és extract-returns.ts Stagehand config módosítva
-- Batch scriptek (run-batches.sh, run-returns-batches.sh) javítva, hogy mindig a megfelelő TS szkriptet hívják
-- Docker image rebuild szükséges
+### 🚀 Major Features
+- **LLM-Powered Data Cleaning**: Intelligens adattisztítás Gemini 2.5 Flash Preview modellel
+- **Director.ai-Style Processing**: Összegyűjtött adatok feldolgozása egyetlen LLM hívással
+- **Enhanced Batch Processing**: Párhuzamos feldolgozás `BATCH_SIZE` támogatással (10-es batch size optimalizált)
+- **Union Merge Strategy**: Egyszerű union merge logika prioritás helyett
+
+### 🔧 Technical Enhancements
+- **Gemini 2.5 Flash Preview**: Minden LLM hívás frissítve a legújabb modelre
+- **Rate Limit Optimization**: 1,000 RPM limit támogatás
+- **Environment Variable Loading**: `dotenv` integráció `GOOGLE_API_KEY` betöltéshez
+- **Error Handling**: Fejlesztett TypeScript error handling
+
+### 📊 Data Quality Improvements
+- **Duplicate Removal**: LLM-alapú duplikátum eltávolítás
+- **Contradiction Resolution**: Intelligens ellentmondás feloldás
+- **Standardized Values**: Konzisztens "yes"/"no" és időformátumok
+- **Structured Output**: Pontos JSON struktúra fenntartása
+
+### 📦 Infrastructure
+- **Docker Image Updates**: Automatikus build és deployment
+- **Result Aggregation**: `ALL-SITES` fájl helyes sorrendben `websites.txt` alapján
+- **Missing Domain Handling**: Hiányzó domainek placeholder bejegyzésekkel
 
 ## Setup
 
