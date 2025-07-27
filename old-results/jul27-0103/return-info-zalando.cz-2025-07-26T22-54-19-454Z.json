@@ -1,0 +1,50 @@
+{
+  "website": "zalando.cz",
+  "IN_STORE_RETURN": {
+    "available": "Ne",
+    "locations": "N/A",
+    "time_limit": "N/A",
+    "conditions": "N/A"
+  },
+  "HOME_COLLECTION": {
+    "available": "Ne",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A",
+    "conditions": "N/A"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Ano",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna"
+    ],
+    "cost": "zdarma",
+    "time_limit": "30 dní"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "Ne",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A"
+  },
+  "FREE_RETURN": {
+    "available": "Ano",
+    "conditions": "Nepoužité zboží",
+    "methods": "Drop-off at PPL Parcelshop or Zásilkovna using a return label or return code."
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "Ano",
+    "usage": "Vygenerování vratného kódu ve svém účtu pro vrácení zboží.",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna"
+    ]
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "Ano",
+    "url": "0-3336",
+    "features": "Initiate return process, generate return label/code."
+  },
+  "SUMMARY": "Nepoužité zboží můžete zdarma vrátit do 30 dní. Pro vrácení zboží využijte podací místa dopravce PPL Parcelshop nebo Zásilkovnu. Můžete si také zvolit vygenerování vratného kódu ve svém účtu. Vrácení objednávek přes samoobslužná podací místa Z-BOXY není možné. Peníze obdržíte do 14 dní od předání vaší zásilky s vráceným zbožím přepravci."
+}

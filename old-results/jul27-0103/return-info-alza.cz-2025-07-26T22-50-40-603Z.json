@@ -1,0 +1,44 @@
+{
+  "website": "alza.cz",
+  "IN_STORE_RETURN": {
+    "available": "no",
+    "locations": "any Alza branch",
+    "time_limit": "14 days (30 days for Alza Premium members)",
+    "conditions": "enclose a copy of the purchase document (invoice or delivery note) and a completed return form; staff will check the goods."
+  },
+  "HOME_COLLECTION": {
+    "available": "no",
+    "providers": "Courier service arranged by Alza",
+    "cost": "may be subject to a fee",
+    "time_limit": "14 days (30 days for Alza Premium members)",
+    "conditions": "For larger or heavier goods; contact customer service to arrange pick-up; enclose a copy of the purchase document (invoice or delivery note) and a completed return form."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no",
+    "providers": "Any postal or courier service chosen by the customer",
+    "cost": "customer pays for postage",
+    "time_limit": "14 days (30 days for Alza Premium members)"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no",
+    "providers": "AlzaBox",
+    "cost": "free",
+    "time_limit": "14 days (30 days for Alza Premium members)"
+  },
+  "FREE_RETURN": {
+    "available": "no",
+    "conditions": "within 14 days without giving a reason (30 days for Alza Premium members); enclose a copy of the purchase document (invoice or delivery note) and a completed return form; for AlzaBox, goods must fit and a return code is needed.",
+    "methods": "In-store return, AlzaBox return"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no",
+    "usage": "A return code, generated in your customer account, is needed for AlzaBox returns.",
+    "providers": "AlzaBox"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "no",
+    "url": "Not specified, available on Alza's website",
+    "features": "For withdrawal from the contract, the buyer can use a sample form."
+  },
+  "SUMMARY": "Customers can return goods purchased from Alza.cz within 14 days without giving a reason, or 30 days if they are Alza Premium members. Returns can be made in person at any Alza branch, by post to the Alza.cz returns department, via AlzaBox for suitable items, or by arranging a courier pick-up for larger/heavier goods. A copy of the purchase document and a completed return form are required for all returns. In-store and AlzaBox returns are likely free, while postal returns require the customer to pay postage, and courier pick-ups may incur a fee. AlzaBox returns require a generated return code."
+}

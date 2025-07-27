@@ -1,0 +1,44 @@
+{
+  "website": "drmax.cz",
+  "IN_STORE_RETURN": {
+    "available": "Yes",
+    "locations": "Any Dr. Max store",
+    "time_limit": "do 14 dnů od převzetí",
+    "conditions": "Zboží musí být nepoškozené, kompletní a v původním obalu. Zboží nesmí být použité. K vrácení zboží je nutné předložit doklad o koupi."
+  },
+  "HOME_COLLECTION": {
+    "available": "Yes",
+    "providers": "kurýra",
+    "cost": "Customer bears the cost",
+    "time_limit": "do 14 dnů od převzetí",
+    "conditions": "Zboží musí být nepoškozené, kompletní a v původním obalu. Zboží nesmí být použité. K vrácení zboží je nutné předložit doklad o koupi."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Yes",
+    "providers": "Zásilkovny",
+    "cost": "Free",
+    "time_limit": "do 14 dnů od převzetí"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "Yes",
+    "providers": "Zásilkovna (Packeta)",
+    "cost": "Free",
+    "time_limit": "14 calendar days from receipt of goods"
+  },
+  "FREE_RETURN": {
+    "available": "Partially available",
+    "conditions": "Výjimkou jsou případy, kdy je zboží vadné nebo neodpovídá popisu.",
+    "methods": "In-store return, Drop-off at Zásilkovna (Packeta) point (including lockers)"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "Yes",
+    "usage": "Generating a return label in the Zásilkovna application.",
+    "providers": "Zásilkovna (Packeta)"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "Yes",
+    "url": "null",
+    "features": "Vyplňte formulář pro vrácení zboží"
+  },
+  "SUMMARY": "Zboží můžete vrátit do 14 dnů od převzetí. Vrácení je možné na jakékoli prodejně Dr.Max, prostřednictvím Zásilkovny nebo kurýra. Náklady na vrácení zboží hradí kupující, s výjimkou vadného zboží nebo zboží, které neodpovídá popisu. Zboží musí být nepoškozené, kompletní, v původním obalu a nesmí být použité. K vrácení je nutné předložit doklad o koupi. Formulář pro vrácení zboží je k dispozici na webových stránkách. Peníze budou vráceny do 14 dnů od převzetí vráceného zboží."
+}

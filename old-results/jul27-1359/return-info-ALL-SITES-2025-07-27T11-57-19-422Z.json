@@ -1,0 +1,225 @@
+{
+  "alza.cz": {
+    "IN_STORE_RETURN": {
+      "available": "Yes",
+      "locations": "any Alza branch",
+      "time_limit": "14 days from receipt to initiate withdrawal, then 14 days from withdrawal to return the goods.",
+      "conditions": "Goods must be returned complete, undamaged, in their original packaging (if possible) and with all accessories. In case of a reduction in the value of the goods due to handling them in a way other than what is necessary to familiarize oneself with the nature and properties of the goods, the buyer is responsible for this reduction in value. This right does not apply to goods that have been modified according to the buyer's wishes, perishable goods, goods in sealed packaging that the consumer has removed from the packaging and cannot be returned for hygienic reasons, audio or video recordings or computer programs if their original packaging has been broken, newspapers, periodicals or magazines, accommodation, transport, catering or leisure activities if the contract is concluded for a specific date or period, and goods that have been irrevocably mixed with other goods after delivery."
+    },
+    "HOME_COLLECTION": {
+      "available": "yes",
+      "providers": "Courier service arranged by Alza",
+      "cost": "may be subject to a fee",
+      "time_limit": "14 days (30 days for Alza Premium members)",
+      "conditions": "For larger or heavier goods; contact customer service to arrange pick-up; enclose a copy of the purchase document (invoice or delivery note) and a completed return form."
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "yes",
+      "providers": "Any postal or courier service chosen by the customer",
+      "cost": "customer pays for postage",
+      "time_limit": "14 days (30 days for Alza Premium members)"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "yes",
+      "providers": "AlzaBox",
+      "cost": "free",
+      "time_limit": "14 days (30 days for Alza Premium members)"
+    },
+    "FREE_RETURN": {
+      "available": "yes",
+      "conditions": "The costs of returning the goods are borne by the buyer.",
+      "methods": "In-store return, AlzaBox return"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "yes",
+      "usage": "A return code, generated in your customer account, is needed for AlzaBox returns.",
+      "providers": "AlzaBox"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "Yes",
+      "url": "Not specified, available on Alza's website",
+      "features": "For withdrawal from the contract, the buyer can use a sample form."
+    },
+    "SUMMARY": "Consumers have the right to withdraw from the contract within 14 days of receiving the goods without giving a reason. The goods must then be returned within 14 days of withdrawal. The buyer bears the cost of returning the goods. Returned goods must be complete, undamaged, in their original packaging (if possible), and with all accessories. Certain types of goods are excluded from this right of withdrawal. A sample withdrawal form is available on Alza's website. Refunds, including initial delivery costs (excluding additional costs for more expensive delivery methods chosen by the buyer), will be processed within 14 days of withdrawal, but Alza is not obliged to refund before receiving the goods or proof of shipment. The buyer is responsible for any reduction in the value of the goods due to handling beyond what is necessary to ascertain their nature and properties. In-store returns are implied as complaints can be made in person at any branch."
+  },
+  "notino.cz": {
+    "IN_STORE_RETURN": {
+      "available": "yes",
+      "locations": "Naše prodejny a výdejní místa",
+      "time_limit": "90 dní",
+      "conditions": "without giving a reason"
+    },
+    "HOME_COLLECTION": {
+      "available": "no",
+      "providers": "Not specified",
+      "cost": "Not specified",
+      "time_limit": "Not specified",
+      "conditions": "Not specified"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "yes",
+      "providers": "Not specified",
+      "cost": "Customer is responsible for return shipping costs.",
+      "time_limit": "90 DNŮ"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "yes",
+      "providers": "Not specified",
+      "cost": "Customer is responsible for return shipping costs.",
+      "time_limit": "90 DNŮ"
+    },
+    "FREE_RETURN": {
+      "available": "Yes",
+      "conditions": "without giving a reason",
+      "methods": "zašlete nám jej zpět"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "no",
+      "usage": "Not specified",
+      "providers": "Not specified"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "yes",
+      "url": "0-5424",
+      "features": "For registered customers to return products directly."
+    },
+    "SUMMARY": "Notino guarantees 90 days for returns. Returns can be made at Notino stores and pick-up points. Further details on other return methods, costs, and specific conditions are not available on this page."
+  },
+  "drmax.cz": {
+    "IN_STORE_RETURN": {
+      "available": "Yes",
+      "locations": "Any Dr. Max store",
+      "time_limit": "14 days from receipt of goods",
+      "conditions": "Goods must be returned in original state, undamaged, unworn, including all accessories and documentation. Exceptions apply for goods modified to consumer's wishes, perishable goods, goods irrevocably mixed with other goods after delivery, goods in a sealed package removed for hygienic reasons, and opened audio/video recordings or computer programs."
+    },
+    "HOME_COLLECTION": {
+      "available": "No",
+      "providers": "N/A",
+      "cost": "N/A",
+      "time_limit": "N/A",
+      "conditions": "N/A"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "Yes",
+      "providers": "Postal services",
+      "cost": "Consumer bears the cost of return",
+      "time_limit": "14 days from receipt of goods"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "No",
+      "providers": "N/A",
+      "cost": "N/A",
+      "time_limit": "N/A"
+    },
+    "FREE_RETURN": {
+      "available": "No",
+      "conditions": "Consumer bears the cost of return.",
+      "methods": "N/A"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "No",
+      "usage": "N/A",
+      "providers": "N/A"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "Likely available, as indicated by the 'Poučení o odstoupení od smlouvy' link.",
+      "url": "N/A",
+      "features": "N/A"
+    },
+    "SUMMARY": "Consumers have the right to withdraw from the contract within 14 days of receiving goods without giving a reason. Goods must be returned in their original, undamaged, and unworn condition, including all accessories and documentation. The consumer is responsible for the cost of return. Returns can be made in person at any Dr. Max store or by sending the goods by post to the company's registered office. Exceptions to the right of withdrawal apply for certain types of goods, such as those modified to consumer's wishes, perishable goods, goods removed from sealed hygienic packaging, or opened audio/video recordings/software."
+  },
+  "lidl.cz": {
+    "IN_STORE_RETURN": {
+      "available": "yes",
+      "locations": "jakékoli prodejně Lidl v České republice",
+      "time_limit": "90 dnů od převzetí zboží",
+      "conditions": "předložit doklad o koupi (fakturu, účtenku)"
+    },
+    "HOME_COLLECTION": {
+      "available": "yes",
+      "providers": "kurýra",
+      "cost": "zdarma",
+      "time_limit": "90 dnů od převzetí zboží",
+      "conditions": "kontaktujte na zákaznické lince nebo e-mailem"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "yes",
+      "providers": "Zásilkovnu",
+      "cost": "zdarma",
+      "time_limit": "90 dnů od převzetí zboží"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "yes",
+      "providers": "Zásilkovna",
+      "cost": "zdarma",
+      "time_limit": "90 dnů od převzetí zboží"
+    },
+    "FREE_RETURN": {
+      "available": "Yes",
+      "conditions": "Zboží zakoupené v e-shopu Lidl-shop.cz",
+      "methods": "na prodejně, přes Zásilkovnu, přes kurýra"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "yes",
+      "usage": "vygenerovat kód pro vrácení zboží v našem online portálu pro vrácení zboží. S kódem pak zboží odevzdáte na jakémkoli podacím místě Zásilkovny.",
+      "providers": "Zásilkovna"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "yes",
+      "url": "0-5277",
+      "features": "vygenerovat kód pro vrácení zboží"
+    },
+    "SUMMARY": "Lidl.cz offers a 30-day period for consideration and free returns. Specific return methods such as in-store returns, home collection, parcel shop drop-off, or parcel locker drop-off are not detailed in the provided text. A general customer service portal is available for inquiries."
+  },
+  "zalando.cz": {
+    "IN_STORE_RETURN": {
+      "available": "No",
+      "locations": "",
+      "time_limit": "",
+      "conditions": ""
+    },
+    "HOME_COLLECTION": {
+      "available": "No",
+      "providers": "",
+      "cost": "",
+      "time_limit": "",
+      "conditions": ""
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "Yes",
+      "providers": [
+        "Zásilkovna (Z-Point)",
+        "Česká pošta"
+      ],
+      "cost": "Free",
+      "time_limit": "100 days from receipt of shipment"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "Yes",
+      "providers": [
+        "Zásilkovna (Z-BOX)"
+      ],
+      "cost": "Free",
+      "time_limit": "100 days from receipt of shipment"
+    },
+    "FREE_RETURN": {
+      "available": "Yes",
+      "conditions": "Always free, provided goods meet return conditions (unworn, unwashed, original condition with tags; underwear, swimwear, cosmetics in unopened original packaging; footwear in original box).",
+      "methods": "All available return methods (Zásilkovna Z-Point, Česká pošta, Zásilkovna Z-BOX)"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "Yes",
+      "usage": "A return code is needed, received after completing online return. No printed label is required for Zásilkovna (Z-Point) and Z-BOX.",
+      "providers": [
+        "Zásilkovna (Z-Point)",
+        "Zásilkovna (Z-BOX)"
+      ]
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "yes",
+      "url": "3326",
+      "features": "Online registration of return, generation of return code or new return label."
+    },
+    "SUMMARY": "Customers can return goods to Zalando.cz within 100 days of receiving the shipment. All returns are free of charge. Available return methods include dropping off parcels at Zásilkovna Z-Points, Česká pošta branches, or Zásilkovna Z-BOX lockers. For Zásilkovna services (Z-Point and Z-BOX), a return code obtained after online return completion is sufficient, and no printed label is needed. For Česká pošta, a printed return label is required. Goods must be unworn, unwashed, and in original condition with tags. Specific conditions apply to underwear, swimwear, cosmetics (original unopened packaging), and footwear (original box). Refunds are processed within 14 days of receiving the returned goods, using the original payment method."
+  }
+}

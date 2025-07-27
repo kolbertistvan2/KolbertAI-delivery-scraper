@@ -1,0 +1,55 @@
+{
+  "website": "zalando.cz",
+  "IN_STORE_RETURN": {
+    "available": "no"
+  },
+  "HOME_COLLECTION": {
+    "available": "yes",
+    "providers": [
+      "PPL",
+      "Czech Post"
+    ],
+    "cost": "free",
+    "time_limit": "100 days",
+    "conditions": "Items must be unworn, unwashed, and in their original condition with all tags attached. Underwear, swimwear, and sealed items (e.g., cosmetics) can only be returned if the hygiene seal is intact. For hygiene reasons, earrings and piercing jewellery cannot be returned."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "yes",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna",
+      "DHL",
+      "Czech Post"
+    ],
+    "cost": "free",
+    "time_limit": "100 days"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "yes",
+    "providers": [
+      "Zásilkovna",
+      "Zásilkovna Z-BOX",
+      "AlzaBox"
+    ],
+    "cost": "free",
+    "time_limit": "100 days"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "Items must be unworn, unwashed, and in their original condition with all tags attached. Underwear, swimwear, and sealed items (e.g., cosmetics) can only be returned if the hygiene seal is intact. For hygiene reasons, earrings and piercing jewellery cannot be returned.",
+    "methods": "Drop-off at parcel shop or locker, Home collection"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "yes",
+    "usage": "Used for dropping off returns at some parcel shops and lockers.",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna"
+    ]
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "https://www.zalando.cz/returns",
+    "features": "Manage returns, print return labels"
+  }
+}

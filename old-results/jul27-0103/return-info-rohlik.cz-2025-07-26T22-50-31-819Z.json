@@ -1,0 +1,44 @@
+{
+  "website": "rohlik.cz",
+  "IN_STORE_RETURN": {
+    "available": "no",
+    "locations": "null",
+    "time_limit": "null",
+    "conditions": "null"
+  },
+  "HOME_COLLECTION": {
+    "available": "no",
+    "providers": "Rohlik.cz",
+    "cost": "Free for defective goods.",
+    "time_limit": "Not explicitly stated for collection, but within the warranty period for complaints.",
+    "conditions": "Only for defective goods (reklamace)."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "Na reklamaci online máte 72 hodin (3 dny) od doručení objednávky. Nestihli jste to? Ozvěte se naší zákaznické lince, aby se tomu mrkli na zoubek.",
+    "methods": "online reklamace"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no",
+    "usage": "null",
+    "providers": "null"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "0-2359",
+    "features": "Celý proces je plně ve vašich rukou a pod vaší kontrolou. Na reklamaci online máte 72 hodin (3 dny) od doručení objednávky. Sami vybíráte, co chcete reklamovat, a šetříte tak drahocenný čas. Kompenzaci v podobě kreditů vám obratem nahrajeme na váš zákaznický účet. Kredity jsou z naší strany samozřejmostí. Pokud však kompenzační kredity nechcete, můžete udělat dobrý skutek a darovat je potřebným! Prostřednictvím Rohlíku je věnujte nadaci Šatník, která se zabývá pomocí ukrajinským matkám s dětmi. Rozzáříte tak oči a potěšíte srdce těm, kteří to opravdu potřebují. Děkujeme!"
+  },
+  "SUMMARY": "V Rohlíku víme, že mezi to nejcennější, co vám můžeme ušetřit, patří čas. A i když se naše zákaznická podpora postará o každého z vás jako o vlastního, pohodlnější cestou je udělat pár kliků a mít hotovo. A přesně to umožňují naše online reklamace! Pokud se nám něco nepovede, nemusíte udělat nic jiného, než vše vyřešit přes náš web či aplikaci. My vám bez řečí vrátíme peníze ve formě kreditů. Bez ptaní, bez překážek. Na reklamaci online máte 72 hodin (3 dny) od doručení objednávky. Nestihli jste to? Ozvěte se naší zákaznické lince, aby se tomu mrkli na zoubek. Celý proces je plně ve vašich rukou a pod vaší kontrolou. Na reklamaci online máte 72 hodin (3 dny) od doručení objednávky. Sami vybíráte, co chcete reklamovat, a šetříte tak drahocenný čas. Kompenzaci v podobě kreditů vám obratem nahrajeme na váš zákaznický účet. Kredity jsou z naší strany samozřejmostí. Pokud však kompenzační kredity nechcete, můžete udělat dobrý skutek a darovat je potřebným! Prostřednictvím Rohlíku je věnujte nadaci Šatník, která se zabývá pomocí ukrajinským matkám s dětmi. Rozzáříte tak oči a potěšíte srdce těm, kteří to opravdu potřebují. Děkujeme!"
+}

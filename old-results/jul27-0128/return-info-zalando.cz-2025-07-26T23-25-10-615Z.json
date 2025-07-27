@@ -1,0 +1,54 @@
+{
+  "website": "zalando.cz",
+  "IN_STORE_RETURN": {
+    "available": "No",
+    "locations": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "HOME_COLLECTION": {
+    "available": "No",
+    "providers": [
+      "Dhl",
+      "Ppl",
+      "Zasilkovna"
+    ],
+    "cost": "zdarma",
+    "time_limit": "30 dní",
+    "conditions": "Není explicitně uvedeno na této stránce"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Yes",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna"
+    ],
+    "cost": "Free",
+    "time_limit": "30 days"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "No",
+    "providers": "Z-BOX",
+    "cost": "zdarma",
+    "time_limit": "30 dní"
+  },
+  "FREE_RETURN": {
+    "available": "Yes",
+    "conditions": "Nepoužité zboží",
+    "methods": "Drop-off at PPL Parcelshop or Zásilkovna"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "Yes",
+    "usage": "Generování vratného kódu ve svém účtu pro vrácení zboží.",
+    "providers": [
+      "PPL Parcelshop",
+      "Zásilkovna"
+    ]
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "Yes",
+    "url": "3333",
+    "features": "Online registration of returns, printing return labels, generating return codes."
+  },
+  "SUMMARY": "Nepoužité zboží můžete zdarma vrátit do 30 dní."
+}

@@ -3,45 +3,46 @@ import { z } from 'zod';
 import * as fs from 'fs/promises';
 import * as path from 'path';
 import * as util from 'util';
-import { config } from 'dotenv';
 import { extractCountryFromDomain, getOptimalRegion } from './region-mapping';
 import { executeNavigationStrategy, directNavigate } from './direct-navigation';
 
-// Load environment variables from .env file
-config();
-
 // Function to merge extracted data from multiple pages
-async function mergeExtractedData(extractedData: any[], domain: string): Promise<any> {
+function mergeExtractedData(extractedData: any[], domain: string): any {
   if (extractedData.length === 0) return null;
   
-  console.log(`[${domain}] Merging data from ${extractedData.length} pages with simple union approach...`);
+  console.log(`[${domain}] Merging data from ${extractedData.length} pages...`);
   
-  // Start with empty data structure
-  let mergedData: any = {
-    website: '',
-    IN_STORE_RETURN: { available: 'not available', locations: 'not available', time_limit: 'not available', conditions: 'not available' },
-    HOME_COLLECTION: { available: 'not available', providers: 'not available', cost: 'not available', time_limit: 'not available', conditions: 'not available' },
-    DROP_OFF_PARCEL_SHOP: { available: 'not available', providers: 'not available', cost: 'not available', time_limit: 'not available' },
-    DROP_OFF_PARCEL_LOCKER: { available: 'not available', providers: 'not available', cost: 'not available', time_limit: 'not available' },
-    FREE_RETURN: { available: 'not available', conditions: 'not available', methods: 'not available' },
-    QR_CODE_BARCODE_PIN: { available: 'not available', usage: 'not available', providers: 'not available' },
-    EXTERNAL_RETURN_PORTAL: { available: 'not available', url: 'not available', features: 'not available' },
-    SUMMARY: ''
+  // Sort pages by priority: terms > return > faq > homepage
+  const pagePriority = {
+    'terms': 4,
+    'terms-page': 4,
+    'return': 3,
+    'return-page': 3,
+    'faq': 2,
+    'faq-page': 2,
+    'homepage': 1
   };
   
-  // Simple union merge - collect all information from all sources
-  extractedData.forEach((data, index) => {
-    const pageData = data.data;
-    const pageType = data.page;
+  // Sort extracted data by priority
+  const sortedData = extractedData.sort((a, b) => {
+    const priorityA = pagePriority[a.page as keyof typeof pagePriority] || 0;
+    const priorityB = pagePriority[b.page as keyof typeof pagePriority] || 0;
+    return priorityB - priorityA; // Higher priority first
+  });
+  
+  console.log(`[${domain}] Sorted pages by priority:`, sortedData.map(d => d.page));
+  
+  // Start with the highest priority page's data as base
+  const mergedData = { ...sortedData[0].data };
+  
+  // Merge additional data from other pages (lower priority)
+  for (let i = 1; i < sortedData.length; i++) {
+    const pageData = sortedData[i].data;
+    const pageType = sortedData[i].page;
     
-    console.log(`[${domain}] Processing data from ${pageType} page...`);
+    console.log(`[${domain}] Merging data from ${pageType} page (priority ${pagePriority[pageType as keyof typeof pagePriority] || 0})...`);
     
-    // Set website from first source
-    if (index === 0) {
-      mergedData.website = pageData.website || '';
-    }
-    
-    // Merge each category - simple union approach
+    // Merge each field, preferring HIGHER PRIORITY pages and English over local language
     Object.keys(pageData).forEach(key => {
       if (key === 'website') return; // Skip website field
       
@@ -51,26 +52,23 @@ async function mergeExtractedData(extractedData: any[], domain: string): Promise
           const currentValue = mergedData[key]?.[nestedKey];
           const newValue = pageData[key][nestedKey];
           
-          // Skip if new value is empty
-          if (!newValue || newValue === 'null' || newValue === '' || newValue === 'not available') return;
+          // Prefer English values over local language
+          const isCurrentEnglish = isEnglishValue(currentValue);
+          const isNewEnglish = isEnglishValue(newValue);
           
-          // If merged value is empty, use new value
-          if (!currentValue || currentValue === 'null' || currentValue === '' || currentValue === 'not available') {
+          // Replace if new value exists and either:
+          // 1. Current value is empty/null, OR
+          // 2. New value is English and current is not, OR  
+          // 3. This is from the highest priority page (terms page only)
+          const isHighestPriorityPage = pagePriority[pageType as keyof typeof pagePriority] === 4; // terms page only
+          
+          if (newValue && newValue !== 'null' && newValue !== '' && 
+              (!currentValue || currentValue === 'null' || currentValue === '' || 
+               (isNewEnglish && !isCurrentEnglish) ||
+               isHighestPriorityPage)) {
             if (!mergedData[key]) mergedData[key] = {};
             mergedData[key][nestedKey] = newValue;
-            console.log(`[${domain}] Added ${key}.${nestedKey} from ${pageType}: "${newValue}"`);
-          } else if (Array.isArray(currentValue) && Array.isArray(newValue)) {
-            // Merge arrays, removing duplicates
-            const mergedArray = [...new Set([...currentValue, ...newValue])];
-            mergedData[key][nestedKey] = mergedArray;
-            console.log(`[${domain}] Merged arrays for ${key}.${nestedKey} from ${pageType}`);
-          } else if (typeof currentValue === 'string' && typeof newValue === 'string') {
-            // If both have content and different, combine them
-            if (currentValue !== newValue) {
-              const combined = `${currentValue}. ${newValue}`;
-              mergedData[key][nestedKey] = combined;
-              console.log(`[${domain}] Combined ${key}.${nestedKey} from ${pageType}`);
-            }
+            console.log(`[${domain}] Updated ${key}.${nestedKey} from ${pageType} (priority ${pagePriority[pageType as keyof typeof pagePriority] || 0}): "${newValue}"`);
           }
         });
       } else {
@@ -78,171 +76,32 @@ async function mergeExtractedData(extractedData: any[], domain: string): Promise
         const currentValue = mergedData[key];
         const newValue = pageData[key];
         
-        // Skip if new value is empty
-        if (!newValue || newValue === 'null' || newValue === '' || newValue === 'not available') return;
+        // Prefer English values over local language
+        const isCurrentEnglish = isEnglishValue(currentValue);
+        const isNewEnglish = isEnglishValue(newValue);
         
-        // If merged value is empty, use new value
-        if (!currentValue || currentValue === 'null' || currentValue === '' || currentValue === 'not available') {
+        // Replace if new value exists and either:
+        // 1. Current value is empty/null, OR
+        // 2. New value is English and current is not, OR  
+        // 3. This is from the highest priority page (terms page only)
+        const isHighestPriorityPage = pagePriority[pageType as keyof typeof pagePriority] === 4; // terms page only
+        
+        if (newValue && newValue !== 'null' && newValue !== '' && 
+            (!currentValue || currentValue === 'null' || currentValue === '' || 
+             (isNewEnglish && !isCurrentEnglish) ||
+             isHighestPriorityPage)) {
           mergedData[key] = newValue;
-          console.log(`[${domain}] Added ${key} from ${pageType}: "${newValue}"`);
-        } else if (typeof currentValue === 'string' && typeof newValue === 'string') {
-          // If both have content and different, combine them
-          if (currentValue !== newValue) {
-            const combined = `${currentValue}. ${newValue}`;
-            mergedData[key] = combined;
-            console.log(`[${domain}] Combined ${key} from ${pageType}`);
-          }
+          console.log(`[${domain}] Updated ${key} from ${pageType} (priority ${pagePriority[pageType as keyof typeof pagePriority] || 0}): "${newValue}"`);
         }
       }
     });
-  });
-  
-  console.log(`[${domain}] Simple union merge completed`);
-  
-  // Use LLM to clean and structure the merged data
-  console.log(`[${domain}] Using LLM to clean and structure data...`);
-  const cleanedData = await cleanDataWithLLM(mergedData, domain);
-  
-  return cleanedData;
-}
-
-// Function to clean and structure data using LLM
-async function cleanDataWithLLM(data: any, domain: string): Promise<any> {
-  console.log(`[${domain}] Cleaning data with LLM...`);
-  
-  try {
-    // Create a prompt for the LLM to clean the data
-    const cleaningPrompt = `You are a data cleaning expert. Clean and structure the following return policy data for ${domain}.
-
-CRITICAL REQUIREMENTS:
-1. Remove all duplicates and redundant information
-2. Resolve any contradictions (use the most common/reliable information)
-3. Standardize values (e.g., "yes"/"no", consistent time formats)
-4. Keep only confirmed, accurate information
-5. Maintain the exact JSON structure
-6. All text must be in English
-7. Remove any "not available" fields that have actual data
-
-DATA TO CLEAN:
-${JSON.stringify(data, null, 2)}
-
-Return a clean, structured JSON with the same format. Remove duplicates, resolve contradictions, and standardize the data.`;
-
-    // Use Google AI to clean the data with Gemini 2.5 Flash Preview
-    const { GoogleGenerativeAI } = await import('@google/generative-ai');
-    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-preview-05-20' });
-    
-    const result = await model.generateContent(cleaningPrompt);
-    const response = await result.response;
-    const cleanedText = response.text();
-    
-    // Extract JSON from the response
-    const jsonMatch = cleanedText.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) {
-      console.warn(`[${domain}] Could not extract JSON from LLM response, using original data`);
-      return data;
-    }
-    
-    const cleanedData = JSON.parse(jsonMatch[0]);
-    console.log(`[${domain}] Data cleaned successfully with LLM`);
-    
-    return cleanedData;
-    
-  } catch (error) {
-    console.warn(`[${domain}] Failed to clean data with LLM:`, (error as Error).message);
-    console.warn(`[${domain}] Using original merged data`);
-    return data;
-  }
-}
-
-// Helper function to fix invalid URLs
-function fixInvalidUrls(data: any): any {
-  const fixedData = { ...data };
-  
-  // Check EXTERNAL_RETURN_PORTAL.url field
-  if (fixedData.EXTERNAL_RETURN_PORTAL?.url) {
-    const url = fixedData.EXTERNAL_RETURN_PORTAL.url;
-    
-    // Check if it's an invalid URL (numbers, internal IDs, etc.)
-    if (typeof url === 'string' && (
-      /^\d+$/.test(url) || // Just numbers
-      /^0-\d+$/.test(url) || // "0-1234" format
-      /^link-\d+$/.test(url) || // "link-1" format
-      !url.includes('.') || // No domain extension
-      url.length < 10 // Too short to be a real URL
-    )) {
-      fixedData.EXTERNAL_RETURN_PORTAL.url = "not available";
-    }
   }
   
-  return fixedData;
+  console.log(`[${domain}] Data merging completed with priority-based approach`);
+  return mergedData;
 }
 
-// Director.ai approach: process all collected data with single LLM call
-async function processAllCollectedData(allData: any[], domain: string, prompt: string): Promise<any> {
-  console.log(`[${domain}] Processing all collected data with LLM...`);
-  
-  // Create a comprehensive prompt for the LLM to process all data
-  const comprehensivePrompt = `You have collected return information from multiple pages of ${domain}. 
 
-Here is all the collected data from different pages:
-${JSON.stringify(allData, null, 2)}
-
-Based on ALL this collected information, create a single, comprehensive JSON response that includes the most accurate and complete return information.
-
-IMPORTANT RULES:
-1. Use ALL available information from ALL pages
-2. Prefer more detailed information over less detailed
-3. If there are conflicts, choose the most specific/complete information
-4. All text must be in English (except company names, brand names, place names)
-5. For URLs: only include actual website URLs, not internal IDs or numbers
-6. Fill in missing information where possible based on context
-
-${prompt}`;
-
-  try {
-    // Use Google AI to process all data
-    const { GoogleGenerativeAI } = await import('@google/generative-ai');
-    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-preview-05-20' });
-    
-    const result = await model.generateContent(comprehensivePrompt);
-    const response = await result.response;
-    const processedText = response.text();
-    
-    // Try to parse the processed JSON
-    try {
-      const processedData = JSON.parse(processedText);
-      console.log(`[${domain}] Successfully processed all data with LLM`);
-      return processedData;
-    } catch (parseError) {
-      console.warn(`[${domain}] Failed to parse LLM response, using fallback merge`);
-      // Fallback to simple merge if LLM parsing fails
-      return mergeExtractedData(allData, domain);
-    }
-  } catch (error) {
-    console.warn(`[${domain}] LLM processing failed, using fallback merge:`, error);
-    // Fallback to simple merge if LLM fails
-    return mergeExtractedData(allData, domain);
-  }
-}
-
-// Helper function to check if a value is a valid URL
-function isValidUrlValue(value: any): boolean {
-  if (!value || typeof value !== 'string') return false;
-  
-  // Check if it's an invalid URL (numbers, internal IDs, etc.)
-  if (/^\d+$/.test(value) || // Just numbers
-      /^0-\d+$/.test(value) || // "0-1234" format
-      /^link-\d+$/.test(value) || // "link-1" format
-      !value.includes('.') || // No domain extension
-      value.length < 10) { // Too short to be a real URL
-    return false;
-  }
-  
-  return true;
-}
 
 // Helper function to check if a value is in English
 function isEnglishValue(value: any): boolean {
@@ -273,7 +132,7 @@ if (!process.env.BROWSERBASE_API_KEY) {
   throw new Error('BROWSERBASE_API_KEY is missing! Cloud session cannot start.');
 }
 
-const RESULT_DIR = 'result-returns-v2';
+const RESULT_DIR = 'result-returns-v2-director';
 
 // Return schema (same as original)
 const returnSchema = z.object({
@@ -494,69 +353,6 @@ async function handleCookieConsent(page: any, domain: string): Promise<void> {
   }
 }
 
-async function translateToEnglish(data: any, domain: string): Promise<any> {
-  console.log(`[${domain}] Translating data to English...`);
-  
-  // Check if data needs translation (contains non-English text)
-  const needsTranslation = JSON.stringify(data).match(/[áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]/);
-  if (!needsTranslation) {
-    console.log(`[${domain}] Data already appears to be in English, skipping translation`);
-    return data;
-  }
-  
-  // Create a universal translation prompt
-  const translationPrompt = `CRITICAL: Translate the following JSON data to English. Follow these strict rules:
-
-1. KEEP ORIGINAL: Company names, brand names, place names, URLs, phone numbers
-2. TRANSLATE TO ENGLISH: All descriptive text, conditions, procedures, time periods
-3. FIX EMPTY FIELDS: Replace empty strings "" with "not available"
-4. STANDARDIZE: Use "yes"/"no" consistently, not "Yes"/"no"
-5. PRESERVE JSON STRUCTURE: Return ONLY valid JSON, no explanations or markdown
-
-Translate all text values to English while preserving the JSON structure. Only company names, brand names, and place names should remain in their original language.
-
-JSON DATA TO TRANSLATE:
-${JSON.stringify(data, null, 2)}
-
-Return ONLY the translated JSON with the same structure. All text values must be in English except company names, brand names, and place names.`;
-
-  try {
-    // Use Google AI to translate
-    const { GoogleGenerativeAI } = await import('@google/generative-ai');
-    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-preview-05-20' });
-    
-    const result = await model.generateContent(translationPrompt);
-    const response = await result.response;
-    const translatedText = response.text();
-    
-    console.log(`[${domain}] Raw translation response:`, translatedText.substring(0, 200) + '...');
-    
-    // Try to parse the translated JSON
-    try {
-      // Clean up the response - remove markdown formatting if present
-      let cleanText = translatedText.trim();
-      if (cleanText.startsWith('```json')) {
-        cleanText = cleanText.replace(/^```json\s*/, '').replace(/\s*```$/, '');
-      } else if (cleanText.startsWith('```')) {
-        cleanText = cleanText.replace(/^```\s*/, '').replace(/\s*```$/, '');
-      }
-      
-      const translatedData = JSON.parse(cleanText);
-      console.log(`[${domain}] Translation completed successfully`);
-      return translatedData;
-    } catch (parseError) {
-      console.warn(`[${domain}] Failed to parse translated JSON:`, (parseError as Error).message);
-      console.warn(`[${domain}] Using original data instead`);
-      return data;
-    }
-  } catch (error) {
-    console.warn(`[${domain}] Translation failed:`, error);
-    console.warn(`[${domain}] Using original data instead`);
-    return data;
-  }
-}
-
 async function robustGoto(stagehandRef: { stagehand: Stagehand }, url: string, domain: string, maxRetries = 3): Promise<void> {
   let attempt = 0;
   let lastError: any = null;
@@ -589,8 +385,11 @@ async function robustGoto(stagehandRef: { stagehand: Stagehand }, url: string, d
 
 async function processDomain(domain: string) {
   let stagehand: Stagehand | null = null;
+  
   try {
-    // Set region before creating Stagehand instance
+    console.log(`[${domain}] Starting Director.ai-style return information extraction...`);
+    
+    // Set up region based on domain
     const country = extractCountryFromDomain(domain);
     const region = getOptimalRegion(country);
     process.env.BROWSERBASE_REGION = region;
@@ -609,7 +408,8 @@ async function processDomain(domain: string) {
     const variables = { website: domain, country: 'Czechia' };
     const prompt = replacePromptVariables(promptTemplate, variables);
     
-    // Step 1: Goto homepage (robust)
+    // Step 1: Navigate to homepage (Director.ai style)
+    console.log(`[${domain}] Step 1: Navigate to homepage...`);
     const homepage = `https://${domain}`;
     const stagehandRef = { stagehand };
     await robustGoto(stagehandRef, homepage, domain);
@@ -617,38 +417,22 @@ async function processDomain(domain: string) {
     const pageAfter = stagehand.page;
     if (!pageAfter) throw new Error("Failed to get page instance from Stagehand after restart");
 
-    // Step 2: Director.ai-style direct navigation strategy
-    console.log(`[${domain}] Starting Director.ai-style direct navigation strategy...`);
+    // Step 2: Search for return information in website locations (Director.ai style)
+    console.log(`[${domain}] Step 2: Searching for return information in website locations...`);
     
-    // First, scroll through the entire page to see all content
+    // Handle cookie consent first
+    await handleCookieConsent(page, domain);
+    
+    // Scroll through the entire page to see all content
     console.log(`[${domain}] Scrolling through entire page to see all content...`);
     await page.act("Scroll through the entire page from top to bottom to see all content including footer");
-    await page.waitForTimeout(3000); // Wait for content to load
+    await page.waitForTimeout(3000);
     
-    // Try the new direct navigation strategy first
-    console.log(`[${domain}] Attempting direct navigation strategy...`);
-    let navigationResult = await executeNavigationStrategy(page, domain, returnSchema);
+    // Collect all return-related pages to visit
+    const visitedPages: any[] = [];
     
-    if (navigationResult.success && navigationResult.data.length > 0) {
-      console.log(`[${domain}] Direct navigation strategy successful, processing extracted data...`);
-      
-      // Director.ai approach: collect all data and let LLM decide final JSON
-      const allCollectedData = navigationResult.data;
-      console.log(`[${domain}] Collected data from ${allCollectedData.length} pages, processing with LLM...`);
-      
-      // Process all collected data with a single LLM call
-      const finalData = await processAllCollectedData(allCollectedData, domain, prompt);
-      
-      if (finalData) {
-        console.log(`[${domain}] Successfully processed all collected data with LLM`);
-        return finalData;
-      }
-    }
-    
-    // Fallback: Try traditional observe-based navigation
-    console.log(`[${domain}] Direct navigation failed, trying traditional observe-based navigation...`);
-    
-    // Try to find return-related links with footer focus
+    // Step 2a: Find footer links for returns, refunds, exchanges
+    console.log(`[${domain}] Step 2a: Finding footer links for returns, refunds, exchanges...`);
     const footerLinkPrompts = [
       `Scroll to the footer and find links for returns, refunds, or complaints on ${domain}`,
       `Look at the bottom of the page for return policy or customer service links on ${domain}`,
@@ -656,17 +440,10 @@ async function processDomain(domain: string) {
       `Search the footer for links related to return policy, refunds, or customer service on ${domain}`,
     ];
     
-    let returnPageData = null;
-    let usedPromptIndex = -1;
-    
-    // Try to navigate to return-specific pages from footer
-    for (let i = 0; i < footerLinkPrompts.length; i++) {
+    for (const footerPrompt of footerLinkPrompts) {
       try {
-        console.log(`[${domain}] Attempting to find return link in footer (attempt ${i + 1})...`);
-        const obsResult = await page.observe(footerLinkPrompts[i]);
-        
+        const obsResult = await page.observe(footerPrompt);
         if (obsResult && Array.isArray(obsResult) && obsResult.length > 0 && obsResult[0]?.selector) {
-          const observed = obsResult[0];
           console.log(`[${domain}] Found return link in footer, clicking...`);
           
           // Click the return link
@@ -674,155 +451,147 @@ async function processDomain(domain: string) {
             description: `Click the return/refund link found in footer for ${domain}`,
             method: 'click',
             arguments: [],
-            selector: observed.selector
+            selector: obsResult[0].selector
           });
           
           // Wait for page load and scroll through it
-          await page.waitForTimeout(5000); // Longer wait like Director.ai
+          await page.waitForTimeout(5000);
           await page.act("Scroll through the entire page to see all return information");
           await page.waitForTimeout(2000);
           
-          // Extract data from the return page using V2 prompt
-          console.log(`[${domain}] Extracting return information from dedicated page...`);
-          returnPageData = await page.extract({
-            instruction: prompt,
-            schema: returnSchema
-          });
+          // Get page text for later extraction
+          const pageText = await page.extract({ instruction: "Get all text content from this page" });
+          visitedPages.push({ page: 'return-page', text: pageText });
           
-          usedPromptIndex = i;
+          // Go back to homepage
+          await page.goBack();
+          await page.waitForTimeout(3000);
+          await page.act("Scroll to the bottom of the page to see footer links");
+          await page.waitForTimeout(2000);
           break;
         }
       } catch (err) {
-        console.warn(`[${domain}] Footer attempt ${i + 1} failed:`, err);
-        // Try to go back to homepage if we navigated away
-        try {
-          await page.goBack();
-          await page.waitForTimeout(3000);
-          // Scroll back to footer
-          await page.act("Scroll to the bottom of the page to see footer links");
-          await page.waitForTimeout(2000);
-        } catch (backErr) {
-          console.warn(`[${domain}] Error going back:`, backErr);
-        }
+        console.warn(`[${domain}] Footer link attempt failed:`, err);
       }
     }
     
-    // If we found return page data, use it
-    if (returnPageData) {
-      console.log(`[${domain}] Successfully extracted from return page (method ${usedPromptIndex + 1})`);
-      return returnPageData;
-    }
-    
-    // Step 3: Try to find additional return information on homepage with better scrolling
-    console.log(`[${domain}] No dedicated return page found, extracting from homepage with enhanced scrolling...`);
-    
-    // Scroll to different sections of the homepage
-    const scrollPrompts = [
-      "Scroll to the footer and look for return information",
-      "Scroll to the middle of the page and look for customer service links",
-      "Scroll to the top navigation and look for help or support links"
+    // Step 2b: Find Terms & Conditions page
+    console.log(`[${domain}] Step 2b: Finding Terms & Conditions page...`);
+    const termsPrompts = [
+      `Find and click on terms and conditions links on ${domain}`,
+      `Find and click on obchodní podmínky or terms links on ${domain}`,
+      `Find and click on legal terms or conditions links on ${domain}`,
     ];
     
-    for (const scrollPrompt of scrollPrompts) {
+    for (const termsPrompt of termsPrompts) {
       try {
-        console.log(`[${domain}] ${scrollPrompt}...`);
-        await page.act(scrollPrompt);
-        await page.waitForTimeout(2000);
-        
-        // Try to find and click on additional info links
-        const additionalPrompts = [
-          `Find and click on FAQ or help links on ${domain}`,
-          `Find and click on terms and conditions links on ${domain}`,
-          `Find and click on customer service or contact links on ${domain}`,
-        ];
-        
-        for (const additionalPrompt of additionalPrompts) {
-          try {
-            const obsResult = await page.observe({ instruction: additionalPrompt });
-            if (obsResult && Array.isArray(obsResult) && obsResult.length > 0 && obsResult[0]?.selector) {
-              console.log(`[${domain}] Found additional info link, clicking...`);
-              await page.act({
-                description: `Click additional info link for ${domain}`,
-                method: 'click',
-                arguments: [],
-                selector: obsResult[0].selector
-              });
-              
-              await page.waitForTimeout(5000); // Longer wait
-              await page.act("Scroll through the entire page to see all information");
-              await page.waitForTimeout(2000);
-              
-              // Extract additional data
-              const additionalData = await page.extract({
-                instruction: `Extract any return-related information from this page for ${domain}`,
-                schema: returnSchema
-              });
-              
-              // Go back to homepage
-              await page.goBack();
-              await page.waitForTimeout(3000);
-              await page.act("Scroll to the bottom of the page to see footer links");
-              await page.waitForTimeout(2000);
-              
-              // Merge with homepage data
-              returnPageData = additionalData;
-              break;
-            }
-          } catch (err) {
-            console.warn(`[${domain}] Additional info extraction failed:`, err);
-          }
+        const obsResult = await page.observe(termsPrompt);
+        if (obsResult && Array.isArray(obsResult) && obsResult.length > 0 && obsResult[0]?.selector) {
+          console.log(`[${domain}] Found terms link, clicking...`);
+          
+          await page.act({
+            description: `Click the terms and conditions link for ${domain}`,
+            method: 'click',
+            arguments: [],
+            selector: obsResult[0].selector
+          });
+          
+          await page.waitForTimeout(5000);
+          await page.act("Scroll through the entire page to see all terms information");
+          await page.waitForTimeout(2000);
+          
+          // Get page text for later extraction
+          const pageText = await page.extract({ instruction: "Get all text content from this page" });
+          visitedPages.push({ page: 'terms-page', text: pageText });
+          
+          // Go back to homepage
+          await page.goBack();
+          await page.waitForTimeout(3000);
+          await page.act("Scroll to the bottom of the page to see footer links");
+          await page.waitForTimeout(2000);
+          break;
         }
-        
-        if (returnPageData) break;
       } catch (err) {
-        console.warn(`[${domain}] Scroll attempt failed:`, err);
+        console.warn(`[${domain}] Terms page attempt failed:`, err);
       }
     }
     
-    // Step 4: Final extraction from homepage with full page view
-    console.log(`[${domain}] Performing final extraction from homepage with full page view...`);
+    // Step 2c: Find FAQ or help pages
+    console.log(`[${domain}] Step 2c: Finding FAQ or help pages...`);
+    const faqPrompts = [
+      `Find and click on FAQ or help links on ${domain}`,
+      `Find and click on customer service or contact links on ${domain}`,
+      `Find and click on support or assistance links on ${domain}`,
+    ];
+    
+    for (const faqPrompt of faqPrompts) {
+      try {
+        const obsResult = await page.observe(faqPrompt);
+        if (obsResult && Array.isArray(obsResult) && obsResult.length > 0 && obsResult[0]?.selector) {
+          console.log(`[${domain}] Found FAQ link, clicking...`);
+          
+          await page.act({
+            description: `Click the FAQ or help link for ${domain}`,
+            method: 'click',
+            arguments: [],
+            selector: obsResult[0].selector
+          });
+          
+          await page.waitForTimeout(5000);
+          await page.act("Scroll through the entire page to see all FAQ information");
+          await page.waitForTimeout(2000);
+          
+          // Get page text for later extraction
+          const pageText = await page.extract({ instruction: "Get all text content from this page" });
+          visitedPages.push({ page: 'faq-page', text: pageText });
+          
+          // Go back to homepage
+          await page.goBack();
+          await page.waitForTimeout(3000);
+          await page.act("Scroll to the bottom of the page to see footer links");
+          await page.waitForTimeout(2000);
+          break;
+        }
+      } catch (err) {
+        console.warn(`[${domain}] FAQ page attempt failed:`, err);
+      }
+    }
+    
+    // Step 3: Final extraction from homepage with all collected context
+    console.log(`[${domain}] Step 3: Performing final extraction from homepage with all collected context...`);
     
     // Scroll through entire page one more time
     await page.act("Scroll through the entire page from top to bottom to see all content");
     await page.waitForTimeout(3000);
     
-    const homepageData = await page.extract({
-      instruction: prompt,
+    // Get homepage text
+    const homepageText = await page.extract({ instruction: "Get all text content from this homepage" });
+    visitedPages.push({ page: 'homepage', text: homepageText });
+    
+    // Step 4: Director.ai-style single extraction with all collected data
+    console.log(`[${domain}] Step 4: Performing Director.ai-style single extraction with all collected data...`);
+    console.log(`[${domain}] Visited ${visitedPages.length} pages: ${visitedPages.map(p => p.page).join(', ')}`);
+    
+    // Create comprehensive extraction prompt with all collected data
+    const comprehensivePrompt = `${prompt}
+
+COLLECTED DATA FROM VISITED PAGES:
+${visitedPages.map((page, index) => `
+PAGE ${index + 1} (${page.page}):
+${page.text}
+`).join('\n')}
+
+Based on ALL the collected data from the visited pages above, extract the complete return information for ${domain}. Use the information from all pages to provide the most comprehensive and accurate response.`;
+    
+    // Single extraction with all collected data
+    const finalData = await page.extract({
+      instruction: comprehensivePrompt,
       schema: returnSchema
     });
     
-    // Merge data if we have both
-    if (returnPageData) {
-      // Merge the data using priority-based approach (terms > return > faq > homepage)
-      const extractedDataArray = [
-        { data: homepageData, page: 'homepage' }, 
-        { data: returnPageData, page: 'return-page' }
-      ];
-      
-      // Check if we have terms page data (from navigation strategy)
-      if (navigationResult && navigationResult.success && navigationResult.data.length > 0) {
-        // Add terms page data with highest priority
-        console.log(`[${domain}] DEBUG: Adding ${navigationResult.data.length} pages from navigation strategy:`);
-        navigationResult.data.forEach((item, index) => {
-          console.log(`[${domain}] DEBUG: Page ${index + 1}: ${item.page} - has data: ${!!item.data}`);
-        });
-        extractedDataArray.push(...navigationResult.data);
-      } else {
-        console.log(`[${domain}] DEBUG: No navigation strategy data available`);
-      }
-      
-      console.log(`[${domain}] DEBUG: Total data sources for merge: ${extractedDataArray.length}`);
-      extractedDataArray.forEach((item, index) => {
-        console.log(`[${domain}] DEBUG: Source ${index + 1}: ${item.page}`);
-      });
-      
-      const mergedData = await mergeExtractedData(extractedDataArray, domain);
-      console.log(`[${domain}] Return extraction completed with priority-based merged data from ${extractedDataArray.length} sources.`);
-      return mergedData;
-    } else {
-      console.log(`[${domain}] Return extraction completed from homepage only.`);
-      return homepageData;
-    }
+    console.log(`[${domain}] Director.ai-style extraction completed with data from ${visitedPages.length} pages.`);
+    return finalData;
+    
   } catch (err) {
     console.error(`[${domain}] Error processing:`, err);
     // Log error to file
@@ -931,16 +700,10 @@ async function aggregateResults() {
   for (const domain of orderedDomains) {
     if (resultData[domain]) {
       orderedResult[domain] = resultData[domain];
-    } else {
-      // Add missing domains with error status to maintain order
-      orderedResult[domain] = { 
-        error: `No data found for ${domain}. Domain may not have been processed or failed.`,
-        status: "missing"
-      };
     }
   }
   
-  // Add any remaining domains not in websites.txt (should be rare)
+  // Add any remaining domains not in websites.txt
   for (const domain of Array.from(allDomains)) {
     if (!orderedResult[domain]) {
       orderedResult[domain] = resultData[domain];
@@ -1005,12 +768,9 @@ Output:
     const result = await retryProcessDomain(domain);
     
     if (result) {
-      // Translate to English before saving
-      const translatedResult = await translateToEnglish(result, domain);
-      
       const timestamp = getTimestamp();
       const resultFile = path.join(RESULT_DIR, `return-info-${domain}-${timestamp}.json`);
-      await fs.writeFile(resultFile, JSON.stringify(translatedResult, null, 2), 'utf-8');
+      await fs.writeFile(resultFile, JSON.stringify(result, null, 2), 'utf-8');
       console.log(`✅ Results written to: ${resultFile}`);
     } else {
       console.error(`❌ Failed to extract return information for: ${domain}`);
@@ -1020,7 +780,7 @@ Output:
 }
 
 // ES module main check
-if (process.argv[1] && process.argv[1].endsWith('extract-returns-v2.ts')) {
+if (process.argv[1] && process.argv[1].endsWith('extract-returns-v2-director.ts')) {
   // Handle uncaught exceptions to prevent crashes from shared_worker errors
   process.on('uncaughtException', (error) => {
     if (error.message.includes('shared_worker') || error.message.includes('targetInfo')) {

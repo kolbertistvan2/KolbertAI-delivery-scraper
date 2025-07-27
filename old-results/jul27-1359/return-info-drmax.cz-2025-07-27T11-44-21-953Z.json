@@ -1,0 +1,44 @@
+{
+  "website": "drmax.cz",
+  "IN_STORE_RETURN": {
+    "available": "Yes",
+    "locations": "Any Dr. Max store",
+    "time_limit": "14 days from receipt of goods",
+    "conditions": "Goods must be returned in original state, undamaged, unworn, including all accessories and documentation. Exceptions apply for goods modified to consumer's wishes, perishable goods, goods irrevocably mixed with other goods after delivery, goods in a sealed package removed for hygienic reasons, and opened audio/video recordings or computer programs."
+  },
+  "HOME_COLLECTION": {
+    "available": "No",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A",
+    "conditions": "N/A"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Yes",
+    "providers": "Postal services",
+    "cost": "Consumer bears the cost of return",
+    "time_limit": "14 days from receipt of goods"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "No",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A"
+  },
+  "FREE_RETURN": {
+    "available": "No",
+    "conditions": "Consumer bears the cost of return.",
+    "methods": "N/A"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "No",
+    "usage": "N/A",
+    "providers": "N/A"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "Likely available, as indicated by the 'Poučení o odstoupení od smlouvy' link.",
+    "url": "N/A",
+    "features": "N/A"
+  },
+  "SUMMARY": "Consumers have the right to withdraw from the contract within 14 days of receiving goods without giving a reason. Goods must be returned in their original, undamaged, and unworn condition, including all accessories and documentation. The consumer is responsible for the cost of return. Returns can be made in person at any Dr. Max store or by sending the goods by post to the company's registered office. Exceptions to the right of withdrawal apply for certain types of goods, such as those modified to consumer's wishes, perishable goods, goods removed from sealed hygienic packaging, or opened audio/video recordings/software."
+}

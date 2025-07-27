@@ -1,0 +1,28 @@
+{
+  "website": "lidl.cz",
+  "IN_STORE_RETURN": {
+    "available": "no"
+  },
+  "HOME_COLLECTION": {
+    "available": "no"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "30-day return period"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "Customer Service Portal (link unavailable)",
+    "features": "Provides answers to frequently asked questions and contact information for customer service."
+  },
+  "SUMMARY": "Lidl.cz offers free returns within a 30-day return period.  Further details are available on their customer service portal."
+}

@@ -1,0 +1,223 @@
+{
+  "alza.cz": {
+    "IN_STORE_RETURN": {
+      "available": "no",
+      "locations": "any Alza branch",
+      "time_limit": "14 days (30 days for Alza Premium members)",
+      "conditions": "enclose a copy of the purchase document (invoice or delivery note) and a completed return form; staff will check the goods."
+    },
+    "HOME_COLLECTION": {
+      "available": "no",
+      "providers": "Courier service arranged by Alza",
+      "cost": "may be subject to a fee",
+      "time_limit": "14 days (30 days for Alza Premium members)",
+      "conditions": "For larger or heavier goods; contact customer service to arrange pick-up; enclose a copy of the purchase document (invoice or delivery note) and a completed return form."
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "no",
+      "providers": "Any postal or courier service chosen by the customer",
+      "cost": "customer pays for postage",
+      "time_limit": "14 days (30 days for Alza Premium members)"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "no",
+      "providers": "AlzaBox",
+      "cost": "free",
+      "time_limit": "14 days (30 days for Alza Premium members)"
+    },
+    "FREE_RETURN": {
+      "available": "no",
+      "conditions": "within 14 days without giving a reason (30 days for Alza Premium members); enclose a copy of the purchase document (invoice or delivery note) and a completed return form; for AlzaBox, goods must fit and a return code is needed.",
+      "methods": "In-store return, AlzaBox return"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "no",
+      "usage": "A return code, generated in your customer account, is needed for AlzaBox returns.",
+      "providers": "AlzaBox"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "no",
+      "url": "Not specified, available on Alza's website",
+      "features": "For withdrawal from the contract, the buyer can use a sample form."
+    },
+    "SUMMARY": "Customers can return goods purchased from Alza.cz within 14 days without giving a reason, or 30 days if they are Alza Premium members. Returns can be made in person at any Alza branch, by post to the Alza.cz returns department, via AlzaBox for suitable items, or by arranging a courier pick-up for larger/heavier goods. A copy of the purchase document and a completed return form are required for all returns. In-store and AlzaBox returns are likely free, while postal returns require the customer to pay postage, and courier pick-ups may incur a fee. AlzaBox returns require a generated return code."
+  },
+  "rohlik.cz": {
+    "IN_STORE_RETURN": {
+      "available": "no",
+      "locations": "null",
+      "time_limit": "null",
+      "conditions": "null"
+    },
+    "HOME_COLLECTION": {
+      "available": "no",
+      "providers": "Rohlik.cz",
+      "cost": "Free for defective goods.",
+      "time_limit": "Not explicitly stated for collection, but within the warranty period for complaints.",
+      "conditions": "Only for defective goods (reklamace)."
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "no",
+      "providers": "null",
+      "cost": "null",
+      "time_limit": "null"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "no",
+      "providers": "null",
+      "cost": "null",
+      "time_limit": "null"
+    },
+    "FREE_RETURN": {
+      "available": "yes",
+      "conditions": "Na reklamaci online máte 72 hodin (3 dny) od doručení objednávky. Nestihli jste to? Ozvěte se naší zákaznické lince, aby se tomu mrkli na zoubek.",
+      "methods": "online reklamace"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "no",
+      "usage": "null",
+      "providers": "null"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "yes",
+      "url": "0-2359",
+      "features": "Celý proces je plně ve vašich rukou a pod vaší kontrolou. Na reklamaci online máte 72 hodin (3 dny) od doručení objednávky. Sami vybíráte, co chcete reklamovat, a šetříte tak drahocenný čas. Kompenzaci v podobě kreditů vám obratem nahrajeme na váš zákaznický účet. Kredity jsou z naší strany samozřejmostí. Pokud však kompenzační kredity nechcete, můžete udělat dobrý skutek a darovat je potřebným! Prostřednictvím Rohlíku je věnujte nadaci Šatník, která se zabývá pomocí ukrajinským matkám s dětmi. Rozzáříte tak oči a potěšíte srdce těm, kteří to opravdu potřebují. Děkujeme!"
+    },
+    "SUMMARY": "V Rohlíku víme, že mezi to nejcennější, co vám můžeme ušetřit, patří čas. A i když se naše zákaznická podpora postará o každého z vás jako o vlastního, pohodlnější cestou je udělat pár kliků a mít hotovo. A přesně to umožňují naše online reklamace! Pokud se nám něco nepovede, nemusíte udělat nic jiného, než vše vyřešit přes náš web či aplikaci. My vám bez řečí vrátíme peníze ve formě kreditů. Bez ptaní, bez překážek. Na reklamaci online máte 72 hodin (3 dny) od doručení objednávky. Nestihli jste to? Ozvěte se naší zákaznické lince, aby se tomu mrkli na zoubek. Celý proces je plně ve vašich rukou a pod vaší kontrolou. Na reklamaci online máte 72 hodin (3 dny) od doručení objednávky. Sami vybíráte, co chcete reklamovat, a šetříte tak drahocenný čas. Kompenzaci v podobě kreditů vám obratem nahrajeme na váš zákaznický účet. Kredity jsou z naší strany samozřejmostí. Pokud však kompenzační kredity nechcete, můžete udělat dobrý skutek a darovat je potřebným! Prostřednictvím Rohlíku je věnujte nadaci Šatník, která se zabývá pomocí ukrajinským matkám s dětmi. Rozzáříte tak oči a potěšíte srdce těm, kteří to opravdu potřebují. Děkujeme!"
+  },
+  "notino.cz": {
+    "IN_STORE_RETURN": {
+      "available": "no",
+      "locations": "VLASTNÍ PRODEJNY A VÝDEJNÍ MÍSTA",
+      "time_limit": "90 dnů",
+      "conditions": "bez udání důvodu"
+    },
+    "HOME_COLLECTION": {
+      "available": "no",
+      "providers": "N/A",
+      "cost": "N/A",
+      "time_limit": "N/A",
+      "conditions": "N/A"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "no",
+      "providers": "N/A",
+      "cost": "N/A",
+      "time_limit": "N/A"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "no",
+      "providers": "N/A",
+      "cost": "N/A",
+      "time_limit": "N/A"
+    },
+    "FREE_RETURN": {
+      "available": "no",
+      "conditions": "N/A",
+      "methods": "N/A"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "no",
+      "usage": "N/A",
+      "providers": "N/A"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "yes",
+      "url": "5504",
+      "features": "Form for withdrawal from the purchase contract; for registered customers, return products directly in the customer account in 'Moje objednávky' section."
+    },
+    "SUMMARY": "Notino offers a money-back guarantee. If you want to return unused goods, send them back and they will refund the full price. You have 90 days to return the goods. You can use a form for withdrawal from the purchase contract, or registered customers can return products directly in their customer account under 'Moje objednávky'."
+  },
+  "drmax.cz": {
+    "IN_STORE_RETURN": {
+      "available": "Yes",
+      "locations": "at any Dr. Max store",
+      "time_limit": "14 days from receipt without giving a reason. If you are a Dr. Max Club member, you have 30 days to return the goods.",
+      "conditions": "without giving a reason; Dr. Max Club members get 30 days; must include a copy of the invoice or other proof of purchase."
+    },
+    "HOME_COLLECTION": {
+      "available": "No",
+      "providers": "N/A",
+      "cost": "N/A",
+      "time_limit": "N/A",
+      "conditions": "N/A"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "Yes",
+      "providers": "Customer's choice of postal/courier service",
+      "cost": "The costs of returning the goods are borne by the buyer.",
+      "time_limit": "14 days from receipt without giving a reason. If you are a Dr. Max Club member, you have 30 days to return the goods."
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "Yes",
+      "providers": "Customer's choice of postal/courier service",
+      "cost": "The costs of returning the goods are borne by the buyer.",
+      "time_limit": "14 days from receipt without giving a reason. If you are a Dr. Max Club member, you have 30 days to return the goods."
+    },
+    "FREE_RETURN": {
+      "available": "No",
+      "conditions": "N/A",
+      "methods": "N/A"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "No",
+      "usage": "N/A",
+      "providers": "N/A"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "No",
+      "url": "N/A",
+      "features": "N/A"
+    },
+    "SUMMARY": "You can return goods within 14 days of receipt without giving a reason. If you are a Dr. Max Club member, you have 30 days to return the goods. Goods can be returned in person at any Dr. Max store, or sent back to our address. To return goods, please fill out the withdrawal form. Do not forget to attach a copy of the invoice or other proof of purchase. The costs of returning the goods are borne by the buyer."
+  },
+  "zalando.cz": {
+    "IN_STORE_RETURN": {
+      "available": "Ne",
+      "locations": "N/A",
+      "time_limit": "N/A",
+      "conditions": "N/A"
+    },
+    "HOME_COLLECTION": {
+      "available": "Ne",
+      "providers": "N/A",
+      "cost": "N/A",
+      "time_limit": "N/A",
+      "conditions": "N/A"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "Ano",
+      "providers": [
+        "PPL Parcelshop",
+        "Zásilkovna"
+      ],
+      "cost": "zdarma",
+      "time_limit": "30 dní"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "Ne",
+      "providers": "N/A",
+      "cost": "N/A",
+      "time_limit": "N/A"
+    },
+    "FREE_RETURN": {
+      "available": "Ano",
+      "conditions": "Nepoužité zboží",
+      "methods": "Drop-off at PPL Parcelshop or Zásilkovna using a return label or return code."
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "Ano",
+      "usage": "Vygenerování vratného kódu ve svém účtu pro vrácení zboží.",
+      "providers": [
+        "PPL Parcelshop",
+        "Zásilkovna"
+      ]
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "Ano",
+      "url": "0-3336",
+      "features": "Initiate return process, generate return label/code."
+    },
+    "SUMMARY": "Nepoužité zboží můžete zdarma vrátit do 30 dní. Pro vrácení zboží využijte podací místa dopravce PPL Parcelshop nebo Zásilkovnu. Můžete si také zvolit vygenerování vratného kódu ve svém účtu. Vrácení objednávek přes samoobslužná podací místa Z-BOXY není možné. Peníze obdržíte do 14 dní od předání vaší zásilky s vráceným zbožím přepravci."
+  }
+}

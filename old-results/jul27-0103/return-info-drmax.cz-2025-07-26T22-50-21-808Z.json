@@ -1,0 +1,44 @@
+{
+  "website": "drmax.cz",
+  "IN_STORE_RETURN": {
+    "available": "Yes",
+    "locations": "at any Dr. Max store",
+    "time_limit": "14 days from receipt without giving a reason. If you are a Dr. Max Club member, you have 30 days to return the goods.",
+    "conditions": "without giving a reason; Dr. Max Club members get 30 days; must include a copy of the invoice or other proof of purchase."
+  },
+  "HOME_COLLECTION": {
+    "available": "No",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A",
+    "conditions": "N/A"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Yes",
+    "providers": "Customer's choice of postal/courier service",
+    "cost": "The costs of returning the goods are borne by the buyer.",
+    "time_limit": "14 days from receipt without giving a reason. If you are a Dr. Max Club member, you have 30 days to return the goods."
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "Yes",
+    "providers": "Customer's choice of postal/courier service",
+    "cost": "The costs of returning the goods are borne by the buyer.",
+    "time_limit": "14 days from receipt without giving a reason. If you are a Dr. Max Club member, you have 30 days to return the goods."
+  },
+  "FREE_RETURN": {
+    "available": "No",
+    "conditions": "N/A",
+    "methods": "N/A"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "No",
+    "usage": "N/A",
+    "providers": "N/A"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "No",
+    "url": "N/A",
+    "features": "N/A"
+  },
+  "SUMMARY": "You can return goods within 14 days of receipt without giving a reason. If you are a Dr. Max Club member, you have 30 days to return the goods. Goods can be returned in person at any Dr. Max store, or sent back to our address. To return goods, please fill out the withdrawal form. Do not forget to attach a copy of the invoice or other proof of purchase. The costs of returning the goods are borne by the buyer."
+}

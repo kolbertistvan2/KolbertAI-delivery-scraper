@@ -1,0 +1,53 @@
+{
+  "website": "alza.cz",
+  "IN_STORE_RETURN": {
+    "available": "Yes",
+    "locations": "any Alza.cz branch",
+    "time_limit": "14 days from the date of receipt of the goods for withdrawal, and then 14 days from withdrawal to return the goods.",
+    "conditions": "Consumer must fill out the withdrawal form and hand it over in person. Consumer bears the costs associated with the return of the goods. Goods must be returned without undue delay, no later than 14 days from the date of withdrawal. Consumer is responsible for reduction in value due to improper handling. Certain goods (e.g., customized, perishable, unsealed hygienic items) cannot be returned. Gifts received with the purchase must also be returned."
+  },
+  "HOME_COLLECTION": {
+    "available": "Yes",
+    "providers": "PPL, DPD, GLS, Zásilkovna (collection service)",
+    "cost": "Charged according to the current price list.",
+    "time_limit": "14 days, with extended periods up to 365 days for specific products or services (e.g., AlzaPlus+ Premium)",
+    "conditions": "Goods must be properly packed for transport. It is necessary to attach a copy of the proof of purchase and a completed withdrawal form."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Yes",
+    "providers": [
+      "Zásilkovna",
+      "PPL ParcelShop"
+    ],
+    "cost": "Free for customers with active AlzaPlus+ or Alza Premium service; for others, charged according to the carrier's price list.",
+    "time_limit": "14 days, with extended periods up to 365 days for specific products or services (e.g., AlzaPlus+ Premium)"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "Yes",
+    "providers": [
+      "AlzaBox",
+      "Z-BOX (Zásilkovna)"
+    ],
+    "cost": "Free for customers with active AlzaPlus+ or Alza Premium service; for others, charged according to the carrier's price list.",
+    "time_limit": "14 days, with extended periods up to 365 days for specific products or services (e.g., AlzaPlus+ Premium)"
+  },
+  "FREE_RETURN": {
+    "available": "Yes",
+    "conditions": "Consumer bears the costs associated with the return of the goods.",
+    "methods": "Via Zásilkovna, PPL ParcelShop, AlzaBox, or Z-BOX."
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "Yes",
+    "usage": "To return goods to AlzaBox or Z-BOX, it is necessary to generate a return code in the online form. This code is then entered on the box's display.",
+    "providers": [
+      "AlzaBox",
+      "Z-BOX (Zásilkovna)"
+    ]
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "No",
+    "url": "null",
+    "features": "null"
+  },
+  "SUMMARY": "Consumers have 14 days from receiving goods to withdraw from the contract. The withdrawal form can be submitted electronically via email, by mail, or in person at any Alza.cz branch. Goods must be returned within 14 days of contract withdrawal. The consumer is responsible for all return shipping costs and any decrease in the goods' value due to improper handling. Alza.cz refunds all payments, including the cheapest delivery cost, within 14 days of withdrawal, provided the goods have been returned or proof of shipment is provided. Certain items, such as customized, perishable, or unsealed hygienic goods, are non-returnable. Any gifts received with the purchase must also be returned."
+}

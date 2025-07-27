@@ -1,0 +1,44 @@
+{
+  "website": "notino.cz",
+  "IN_STORE_RETURN": {
+    "available": "yes",
+    "locations": "Naše prodejny a výdejní místa",
+    "time_limit": "90 dní",
+    "conditions": "without giving a reason"
+  },
+  "HOME_COLLECTION": {
+    "available": "no",
+    "providers": "Not specified",
+    "cost": "Not specified",
+    "time_limit": "Not specified",
+    "conditions": "Not specified"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "yes",
+    "providers": "Not specified",
+    "cost": "Customer is responsible for return shipping costs.",
+    "time_limit": "90 DNŮ"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "yes",
+    "providers": "Not specified",
+    "cost": "Customer is responsible for return shipping costs.",
+    "time_limit": "90 DNŮ"
+  },
+  "FREE_RETURN": {
+    "available": "Yes",
+    "conditions": "without giving a reason",
+    "methods": "zašlete nám jej zpět"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no",
+    "usage": "Not specified",
+    "providers": "Not specified"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "0-5424",
+    "features": "For registered customers to return products directly."
+  },
+  "SUMMARY": "Notino guarantees 90 days for returns. Returns can be made at Notino stores and pick-up points. Further details on other return methods, costs, and specific conditions are not available on this page."
+}

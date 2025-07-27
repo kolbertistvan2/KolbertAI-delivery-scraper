@@ -1,0 +1,44 @@
+{
+  "website": "drmax.cz",
+  "IN_STORE_RETURN": {
+    "available": "Yes",
+    "locations": "Any Dr. Max store",
+    "time_limit": "14 days from receipt",
+    "conditions": "undamaged, in original packaging, with complete accessories and a copy of the invoice"
+  },
+  "HOME_COLLECTION": {
+    "available": "Yes",
+    "providers": "PPL",
+    "cost": "99 Kč",
+    "time_limit": "N/A",
+    "conditions": "N/A"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Yes",
+    "providers": "Zásilkovna",
+    "cost": "Free",
+    "time_limit": "14 days from receipt"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "Yes",
+    "providers": "Zásilkovna Balíkomat",
+    "cost": "Free",
+    "time_limit": "N/A"
+  },
+  "FREE_RETURN": {
+    "available": "Yes",
+    "conditions": "Consumer bears all costs of returning the goods.",
+    "methods": "Zásilkovna drop-off points, Zásilkovna Balíkomat"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "Yes",
+    "usage": "Generate a code online for free return at Zásilkovna drop-off points or Balíkomat. The code is valid for 14 days.",
+    "providers": "Zásilkovna"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "Yes",
+    "url": "1000",
+    "features": "N/A"
+  },
+  "SUMMARY": "Detailed return information, including specific periods, methods, costs, conditions, and procedures, is not directly available on this page. This information is likely contained within linked documents such as 'Poučení o odstoupení od smlouvy' (Instruction on withdrawal from contract), 'Reklamační řád' (Complaint procedure), and 'Všeobecné obchodní podmínky' (General Terms and Conditions) found in the footer."
+}

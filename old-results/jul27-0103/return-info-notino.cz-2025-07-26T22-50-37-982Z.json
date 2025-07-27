@@ -1,0 +1,44 @@
+{
+  "website": "notino.cz",
+  "IN_STORE_RETURN": {
+    "available": "no",
+    "locations": "VLASTNÍ PRODEJNY A VÝDEJNÍ MÍSTA",
+    "time_limit": "90 dnů",
+    "conditions": "bez udání důvodu"
+  },
+  "HOME_COLLECTION": {
+    "available": "no",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A",
+    "conditions": "N/A"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no",
+    "providers": "N/A",
+    "cost": "N/A",
+    "time_limit": "N/A"
+  },
+  "FREE_RETURN": {
+    "available": "no",
+    "conditions": "N/A",
+    "methods": "N/A"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no",
+    "usage": "N/A",
+    "providers": "N/A"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "5504",
+    "features": "Form for withdrawal from the purchase contract; for registered customers, return products directly in the customer account in 'Moje objednávky' section."
+  },
+  "SUMMARY": "Notino offers a money-back guarantee. If you want to return unused goods, send them back and they will refund the full price. You have 90 days to return the goods. You can use a form for withdrawal from the purchase contract, or registered customers can return products directly in their customer account under 'Moje objednávky'."
+}

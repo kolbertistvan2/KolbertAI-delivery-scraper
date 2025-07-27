@@ -1,0 +1,44 @@
+{
+  "website": "notino.cz",
+  "IN_STORE_RETURN": {
+    "available": "No",
+    "locations": "Kamenné prodejny a výdejní místa",
+    "time_limit": "90 dní",
+    "conditions": "null"
+  },
+  "HOME_COLLECTION": {
+    "available": "No",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null",
+    "conditions": "null"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "No",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "No",
+    "providers": "null",
+    "cost": "null",
+    "time_limit": "null"
+  },
+  "FREE_RETURN": {
+    "available": "No",
+    "conditions": "null",
+    "methods": "null"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "No",
+    "usage": "null",
+    "providers": "null"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "Yes",
+    "url": "5450",
+    "features": "Formulář pro odstoupení od kupní smlouvy."
+  },
+  "SUMMARY": "Customers can return unused goods within 90 days for a full refund of the product price. Returns are processed by sending the goods back. A withdrawal form is available online, and registered customers can initiate returns via their customer account."
+}

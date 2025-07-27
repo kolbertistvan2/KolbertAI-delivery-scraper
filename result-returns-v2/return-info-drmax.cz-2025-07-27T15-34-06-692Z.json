@@ -1,0 +1,38 @@
+{
+  "website": "drmax.cz",
+  "IN_STORE_RETURN": {
+    "available": "yes",
+    "locations": "Any Dr. Max store",
+    "time_limit": "14 days from receipt of goods",
+    "conditions": "Goods must be complete, undamaged, in original packaging, with all accessories, and with proof of purchase. Refund provided in cash or bank transfer."
+  },
+  "HOME_COLLECTION": {
+    "available": "no"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "yes",
+    "providers": "Zásilkovna",
+    "cost": "Free (using return code)",
+    "time_limit": "14 days from receipt of goods"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "yes",
+    "providers": "Zásilkovna (Z-BOX)",
+    "cost": "Free (using return code)",
+    "time_limit": "14 days from receipt of goods"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "Goods must be complete, undamaged, in original packaging, with all accessories. Excludes unpacked hygienic products. Free return via Zásilkovna or Z-BOX using return code 910000000.",
+    "methods": "Drop-off at Zásilkovna parcel shop or Z-BOX parcel locker"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "yes",
+    "usage": "Return code 910000000 required for free returns via Zásilkovna or Z-BOX.",
+    "providers": "Zásilkovna"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "no"
+  },
+  "SUMMARY": "Customers can return goods within 14 days of receipt. Returns are accepted at any Dr. Max store or free of charge via Zásilkovna parcel shops or Z-BOX lockers using return code 910000000. Goods must be complete, undamaged, unused, in original packaging, with all accessories, and with proof of purchase for in-store returns. Unpacked hygienic products cannot be returned. Paid returns are possible via other carriers."
+}

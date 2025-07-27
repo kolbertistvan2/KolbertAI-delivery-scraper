@@ -46,6 +46,7 @@ export const NAVIGATION_STRATEGIES: NavigationStrategy[] = [
       faqLinks: [
         "xpath=/html[1]/body[1]/div[2]/footer[1]/div[1]/div[1]/div[1]/section[4]/div[1]/div[1]/ul[1]/li[3]/a[1]"
       ],
+      termsLink: "xpath=/html[1]/body[1]/div[2]/footer[1]/div[1]/div[1]/div[1]/section[3]/div[1]/ul[1]/li[1]/a[1]",
       cookieButtons: [
         "Accept all cookies",
         "Accept",

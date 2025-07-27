@@ -1,0 +1,55 @@
+{
+  "website": "Alza.cz",
+  "IN_STORE_RETURN": {
+    "available": "false",
+    "locations": "Any Alza.cz branch",
+    "time_limit": "14 days from receipt",
+    "conditions": "Goods must be complete, undamaged and in original packaging. Proof of purchase is required. Different conditions apply for purchases made on a company ID (IČO)."
+  },
+  "HOME_COLLECTION": {
+    "available": "false",
+    "providers": "PPL",
+    "cost": "99 CZK",
+    "time_limit": "14 days from receipt",
+    "conditions": "Service ordered in 'My Orders' section of Alza account. Goods must be packed and ready for shipment."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "false",
+    "providers": [
+      "Zásilkovna",
+      "PPL ParcelShop"
+    ],
+    "cost": "69 CZK",
+    "time_limit": "14 days from receipt"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "false",
+    "providers": [
+      "AlzaBox",
+      "Z-BOX"
+    ],
+    "cost": "49 CZK",
+    "time_limit": "14 days from receipt"
+  },
+  "FREE_RETURN": {
+    "available": "false",
+    "conditions": "In-store returns are always free. For other methods (courier, Zásilkovna, AlzaBox), free returns are available for Alza Premium members. Alza Premium members also have an extended return period of 60 days from receipt. For selected products, a 30-day return period without giving a reason applies, with the same conditions as the 14-day period.",
+    "methods": "In-store, Home Collection (courier), Drop-off at Parcel Shop (Zásilkovna), Drop-off at Parcel Locker (AlzaBox)"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "false",
+    "usage": "A return code obtained from the Alza account is required for dropping off goods at Zásilkovna, PPL ParcelShop, AlzaBox, or Z-BOX.",
+    "providers": [
+      "Zásilkovna",
+      "PPL ParcelShop",
+      "AlzaBox",
+      "Z-BOX"
+    ]
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "false",
+    "url": "",
+    "features": "An online form is available within the Alza account to speed up the return process and provide further instructions after submission. This is an internal feature, not an external portal."
+  },
+  "SUMMARY": "Alza.cz offers several return options. The standard return period is 14 days from receipt for most items. Alza Premium members benefit from an extended 60-day return period and free returns across all methods. Selected products may also have a 30-day return period. Returns can be made: 1. In-store: Free of charge at any Alza.cz branch within 14 days (or 60 days for Premium). Goods must be complete, undamaged, in original packaging, and accompanied by proof of purchase. Different conditions apply for B2B purchases. 2. Home Collection: Via PPL courier for 99 CZK within 14 days (free for Premium). Requires booking through the Alza account and goods must be packed. 3. Drop-off at Parcel Shop: Via Zásilkovna or PPL ParcelShop for 69 CZK within 14 days (free for Premium). Requires a return code from the Alza account. 4. Drop-off at Parcel Locker: Via AlzaBox or Z-BOX for 49 CZK within 14 days (free for Premium). Requires a return code from the Alza account. For drop-off methods, goods must be packed, and size/weight limits apply. A return code obtained from the Alza account is necessary for all drop-off and home collection methods. An online form for returns is available within the Alza account to streamline the process, but there is no separate external return portal."
+}

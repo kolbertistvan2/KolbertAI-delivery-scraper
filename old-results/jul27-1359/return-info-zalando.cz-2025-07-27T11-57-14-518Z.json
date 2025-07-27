@@ -1,0 +1,52 @@
+{
+  "website": "zalando.cz",
+  "IN_STORE_RETURN": {
+    "available": "No",
+    "locations": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "HOME_COLLECTION": {
+    "available": "No",
+    "providers": "",
+    "cost": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "Yes",
+    "providers": [
+      "Zásilkovna (Z-Point)",
+      "Česká pošta"
+    ],
+    "cost": "Free",
+    "time_limit": "100 days from receipt of shipment"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "Yes",
+    "providers": [
+      "Zásilkovna (Z-BOX)"
+    ],
+    "cost": "Free",
+    "time_limit": "100 days from receipt of shipment"
+  },
+  "FREE_RETURN": {
+    "available": "Yes",
+    "conditions": "Always free, provided goods meet return conditions (unworn, unwashed, original condition with tags; underwear, swimwear, cosmetics in unopened original packaging; footwear in original box).",
+    "methods": "All available return methods (Zásilkovna Z-Point, Česká pošta, Zásilkovna Z-BOX)"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "Yes",
+    "usage": "A return code is needed, received after completing online return. No printed label is required for Zásilkovna (Z-Point) and Z-BOX.",
+    "providers": [
+      "Zásilkovna (Z-Point)",
+      "Zásilkovna (Z-BOX)"
+    ]
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "3326",
+    "features": "Online registration of return, generation of return code or new return label."
+  },
+  "SUMMARY": "Customers can return goods to Zalando.cz within 100 days of receiving the shipment. All returns are free of charge. Available return methods include dropping off parcels at Zásilkovna Z-Points, Česká pošta branches, or Zásilkovna Z-BOX lockers. For Zásilkovna services (Z-Point and Z-BOX), a return code obtained after online return completion is sufficient, and no printed label is needed. For Česká pošta, a printed return label is required. Goods must be unworn, unwashed, and in original condition with tags. Specific conditions apply to underwear, swimwear, cosmetics (original unopened packaging), and footwear (original box). Refunds are processed within 14 days of receiving the returned goods, using the original payment method."
+}

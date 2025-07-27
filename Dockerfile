@@ -13,15 +13,10 @@ RUN pnpm install
 COPY . .
 
 # Create result directory
-RUN mkdir -p result
+RUN mkdir -p result-returns-v2
 
 # Set environment variables
 ENV NODE_ENV=production
 
-# Create entrypoint script
-RUN echo '#!/bin/sh' > /app/entrypoint.sh && \
-    echo 'exec npx tsx extract-returns-v2.ts "$@"' >> /app/entrypoint.sh && \
-    chmod +x /app/entrypoint.sh
-
-# Use entrypoint script
-ENTRYPOINT ["/app/entrypoint.sh"] 
+# Use the correct entrypoint script
+ENTRYPOINT ["npx", "tsx", "extract-returns-v2.ts"] 

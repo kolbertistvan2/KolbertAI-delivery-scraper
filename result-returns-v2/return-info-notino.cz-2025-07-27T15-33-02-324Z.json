@@ -1,0 +1,32 @@
+{
+  "website": "notino.cz",
+  "IN_STORE_RETURN": {
+    "available": "yes",
+    "locations": "Physical stores and pick-up points",
+    "time_limit": "90 days",
+    "conditions": "Unused goods"
+  },
+  "HOME_COLLECTION": {
+    "available": "no"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "Unused goods, within 90 days, without giving a reason",
+    "methods": "Registered customers can return products directly in their customer account."
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "Not available",
+    "features": "Returns and complaints"
+  },
+  "SUMMARY": "Notino offers a 90-day return period for unused goods.  Returns can be made in-store at physical stores and pick-up points, or by registered customers through their online account. A money-back guarantee is provided."
+}

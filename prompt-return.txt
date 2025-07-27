@@ -1,62 +1,66 @@
 Target Country: Czechia
 
-Stagehand tool használatával:
-
 1. Navigate to the homepage of the website: ${website}
 2. Search for return information in these website locations:
     * Footer links: look for return/refund/exchange links
+    * Dedicated return info pages
     * FAQ section: search for return/refund/exchange keywords
     * Terms & Conditions page for return terms
     * Customer service pages for return procedures
-    * Dedicated return info pages
+    
 3. Extract return information from all relevant pages
 
 EXTRACT EXACTLY THESE RETURN CATEGORIES AND DO NOT EXTRACT DELIVERY INFORMATION. DO NOT VISIT LINKS ON EXTERNAL PAGES (e.g. logistics websites). 
 
 CRITICAL: ALL EXTRACTED INFORMATION MUST BE WRITTEN IN ENGLISH ONLY, REGARDLESS OF THE WEBSITE'S LANGUAGE. TRANSLATE ANY LOCAL LANGUAGE CONTENT TO ENGLISH. 
 
-EXCEPTION: Company names (e.g., Zásilkovna, Česká Pošta, PPL), brand names, and place names should remain in their original language. Only translate descriptive text, conditions, and procedures to English.
+EXCEPTION: Company names, brand names, and place names should remain in their original language. Only translate descriptive text, conditions, and procedures to English.
+
+MANDATORY: You MUST translate ALL text to English, including:
+- All time periods, conditions, and descriptions
 
 EXTRACT ONLY CONFIRMED INFORMATION:
 
+CRITICAL: "Available" means "Does the website offer this return method?" - NOT whether it's free or has conditions. If the website mentions a return method, it is "available" regardless of cost or conditions.
+
 IN-STORE RETURN:
-* Available: yes/no
+* Available: yes/no (Does the website offer in-store returns?)
 * Locations: [store locations/cities if available]
 * Time limit: [return period - e.g., 14 days, 30 days]
 * Conditions: [any specific conditions or requirements]
 
 HOME COLLECTION:
-* Available: yes/no
-* Providers: [list of courier companies that collect returns such as: , etc.]
+* Available: yes/no (if this return method is offered by the website)
+* Providers: [list of courier companies that collect returns, such as: PPL, DPD, etc.]
 * Cost: [price information or free collection details]
 * Time limit: [return period]
 * Conditions: [booking requirements, packaging conditions]
 
 DROP OFF VIA PARCEL SHOP:
-* Available: yes/no
-* Providers: [such as: , etc.]
+* Available: yes/no (if this return method is offered by the website)
+* Providers: [list of parcel shop networks/companies that support this return method, such as: Zásilkovna, PPL ParcelShop, etc.]
 * Cost: [price information or free drop-off details]
 * Time limit: [return period]
 
 DROP OFF VIA PARCEL LOCKER:
-* Available: yes/no
-* Providers: [such as: , etc.]
+* Available: yes/no (if this return method is offered by the website)
+* Providers: [list of parcel locker networks/companies that support this return method, such as: AlzaBox, Z-BOX, etc.]
 * Cost: [price information or free drop-off details]
 * Time limit: [return period]
 
 FREE RETURN:
-* Available: yes/no
+* Available: yes/no (Does the website offer free returns?)
 * Conditions: [minimum order value, specific product categories, time limits]
 * Methods: [which return methods are free]
 
 QR CODE/BARCODE OR PIN CODE:
-* Available: yes/no
+* Available: yes/no (Does the website use QR codes/barcodes/PIN codes for returns?)
 * Usage: [how codes are used - for parcel lockers, return portals, etc.]
 * Providers: [which services support this feature]
 
 EXTERNAL RETURN PORTAL:
-* Available: yes/no
-* URL: [return portal website if available]
+* Available: yes/no (Does the website have an external return portal?)
+* URL: [full website URL of the return portal, e.g., "https://returns.example.com" - only if it's a complete URL]
 * Features: [return label generation, status tracking, etc.]
 
 Website: ${website} 
@@ -66,10 +70,11 @@ IMPORTANT: Extract return information specifically for ${country}. Focus on retu
 
 Response Format: Return exactly this JSON structure. If a field is unavailable, write "not available". 
 
-MANDATORY: All text values in the JSON response MUST be in ENGLISH ONLY. Translate any local language content to English. 
+CRITICAL: Ensure all "available" fields contain ONLY "yes" or "no" in English, never local language equivalents.
 
-EXCEPTION: Company names (e.g., Zásilkovna, Česká Pošta, PPL), brand names, and place names should remain in their original language. Only translate descriptive text, conditions, and procedures to English.
+CRITICAL URL REQUIREMENT: For EXTERNAL_RETURN_PORTAL.url field, you MUST extract ONLY actual website URLs that start with "http://", "https://".
 {
+
   "website": "${website}",
   "IN_STORE_RETURN": {
     "available": "yes/no/not available",
@@ -108,7 +113,7 @@ EXCEPTION: Company names (e.g., Zásilkovna, Česká Pošta, PPL), brand names, 
   },
   "EXTERNAL_RETURN_PORTAL": {
     "available": "yes/no/not available",
-    "url": "URL or not available",
+    "url": "full URL (e.g., https://returns.example.com) or not available",
     "features": "features or not available"
   },
   "SUMMARY": "[Brief summary of return options, providers, costs, and restrictions]. NOTABLE FEATURES: [Key features, limitations, and special services]. WEBSITE ASSESSMENT: [Overall evaluation of return information quality and completeness]."

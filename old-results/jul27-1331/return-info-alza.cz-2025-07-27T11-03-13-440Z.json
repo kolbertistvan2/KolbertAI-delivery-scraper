@@ -1,0 +1,44 @@
+{
+  "website": "alza.cz",
+  "IN_STORE_RETURN": {
+    "available": "no",
+    "locations": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "HOME_COLLECTION": {
+    "available": "no",
+    "providers": "",
+    "cost": "",
+    "time_limit": "",
+    "conditions": ""
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "no",
+    "providers": "",
+    "cost": "",
+    "time_limit": ""
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "no",
+    "providers": "",
+    "cost": "",
+    "time_limit": ""
+  },
+  "FREE_RETURN": {
+    "available": "no",
+    "conditions": "",
+    "methods": ""
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "no",
+    "usage": "",
+    "providers": ""
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "no",
+    "url": "",
+    "features": ""
+  },
+  "SUMMARY": "Detailed return information, including periods, methods, costs, conditions, and procedures, is not present on this page. A link to 'Reklamace a vrácení' (Complaints and Returns) is available in the footer."
+}

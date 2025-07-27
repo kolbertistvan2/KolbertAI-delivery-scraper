@@ -1,0 +1,42 @@
+{
+  "website": "alza.cz",
+  "IN_STORE_RETURN": {
+    "available": "yes",
+    "locations": "any Alza branch",
+    "time_limit": "14 days (30 days for Alza Premium members)",
+    "conditions": "Return form and purchase document (invoice or delivery note) required. Customer bears return shipping costs.  Goods must be returned within 14 days of withdrawal.  Certain goods (e.g., customized, perishable, unsealed hygienic items) cannot be returned. Gifts received with the purchase must also be returned."
+  },
+  "HOME_COLLECTION": {
+    "available": "yes",
+    "providers": "Courier service arranged by Alza",
+    "cost": "may be subject to a fee",
+    "time_limit": "14 days (30 days for Alza Premium members)",
+    "conditions": "For larger or heavier goods; contact customer service to arrange pick-up; return form and purchase document (invoice or delivery note) required."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "yes",
+    "providers": "Any postal or courier service",
+    "cost": "customer pays for postage",
+    "time_limit": "14 days (30 days for Alza Premium members)"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "yes",
+    "providers": "AlzaBox",
+    "cost": "free",
+    "time_limit": "14 days (30 days for Alza Premium members)"
+  },
+  "FREE_RETURN": {
+    "available": "no",
+    "conditions": "While a 14-day (30 days for Alza Premium members) return period exists,  the customer bears return shipping costs except for AlzaBox.",
+    "methods": "In-store return, AlzaBox return"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "yes",
+    "usage": "A return code, generated in your customer account, is needed for AlzaBox returns.",
+    "providers": "AlzaBox"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "no"
+  },
+  "SUMMARY": "Customers can return goods within 14 days (30 days for Alza Premium members).  Returns can be made in-store, via AlzaBox, at a parcel shop, or by courier pick-up.  A return form and purchase document are required. In-store and AlzaBox returns are free; other methods may incur fees.  Certain items are non-returnable.  The customer bears return shipping costs unless using AlzaBox."
+}

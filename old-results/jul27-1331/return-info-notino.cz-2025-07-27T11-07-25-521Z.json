@@ -1,0 +1,44 @@
+{
+  "website": "notino.cz",
+  "IN_STORE_RETURN": {
+    "available": "yes",
+    "locations": "VLASTNÍ PRODEJNY A VÝDEJNÍ MÍSTA",
+    "time_limit": "90 days",
+    "conditions": "Return the goods at the branch; resolve via My Notino user account (account creation may be required); full product price will be refunded."
+  },
+  "HOME_COLLECTION": {
+    "available": "yes",
+    "providers": "Notino's courier",
+    "cost": "free of charge",
+    "time_limit": "90 days",
+    "conditions": "Available for 'Try It First' products. A sample is provided to try first. If the product does not suit, the courier will pick it up."
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "yes",
+    "providers": "unspecified carrier",
+    "cost": "not specified",
+    "time_limit": "90 days"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "yes",
+    "providers": "unspecified carrier",
+    "cost": "not specified",
+    "time_limit": "90 days"
+  },
+  "FREE_RETURN": {
+    "available": "yes",
+    "conditions": "Available for 'Try It First' products. A sample is provided to try first. If the product does not suit, it can be returned.",
+    "methods": "Home collection by Notino's courier"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "false",
+    "usage": "",
+    "providers": ""
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "0-8550",
+    "features": "Resolve returns, manage orders"
+  },
+  "SUMMARY": "Notino offers a 90-day return policy. Returns can be made in-store at Notino branches or by sending the goods back via an unspecified carrier. For 'Try It First' products, a free home collection service by Notino's courier is available if the product does not suit after trying the sample. All returns can be managed through the 'My Notino' user account portal. The full product price is refunded, but the cost of return shipping for general returns (not 'Try It First') is not specified."
+}

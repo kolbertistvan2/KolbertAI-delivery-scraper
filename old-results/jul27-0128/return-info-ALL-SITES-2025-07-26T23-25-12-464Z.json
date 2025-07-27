@@ -1,0 +1,227 @@
+{
+  "rohlik.cz": {
+    "IN_STORE_RETURN": {
+      "available": "No",
+      "locations": "Not applicable, as there are no physical retail stores for returns. Returns are sent to the seller's registered office.",
+      "time_limit": "14 days from withdrawal notification, which must be sent within 14 days of goods receipt.",
+      "conditions": "Goods must be returned within 14 days of withdrawal notification. Perishable goods, goods removed from sealed hygienic packaging, alcoholic beverages (under certain conditions), newspapers, periodicals, and digital content (if not on tangible medium and with prior consent) cannot be returned. Consumer bears the cost of return shipping."
+    },
+    "HOME_COLLECTION": {
+      "available": "No",
+      "providers": "Not applicable.",
+      "cost": "Not applicable.",
+      "time_limit": "Not applicable.",
+      "conditions": "Not applicable."
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "No",
+      "providers": "Not applicable.",
+      "cost": "Consumer bears the cost of return shipping.",
+      "time_limit": "14 days from withdrawal notification."
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "No",
+      "providers": "Not applicable.",
+      "cost": "Consumer bears the cost of return shipping.",
+      "time_limit": "14 days from withdrawal notification."
+    },
+    "FREE_RETURN": {
+      "available": "Yes",
+      "conditions": "Consumer bears all costs associated with returning the goods.",
+      "methods": "Online via website or application."
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "No",
+      "usage": "Not applicable.",
+      "providers": "Not applicable."
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "Yes",
+      "url": "1756",
+      "features": "The entire process is fully in your hands and under your control. You choose what you want to complain about, saving valuable time. Compensation in the form of credits is immediately uploaded to your customer account. Credits are a matter of course. If you do not want compensation credits, you can do a good deed and donate them to the Šatník foundation, which helps Ukrainian mothers with children. You will brighten eyes and gladden the hearts of those who truly need it. Thank you!"
+    },
+    "SUMMARY": "Rohlik.cz offers an online complaint/return process via their website or application. Customers have 72 hours (3 days) from the delivery of the order to initiate an online complaint. The process is self-service, allowing customers to select items for complaint. Compensation is provided in the form of credits, which are immediately added to the customer's account. There is also an option to donate these credits to the Šatník foundation, which supports Ukrainian mothers with children. No information is provided regarding in-store returns, home collection, parcel locker/shop drop-offs, or the use of QR codes/barcodes/PINs for returns."
+  },
+  "notino.cz": {
+    "IN_STORE_RETURN": {
+      "available": "yes",
+      "locations": "VLASTNÍ PRODEJNY A VÝDEJNÍ MÍSTA",
+      "time_limit": "90 DNŮ",
+      "conditions": "nepoužité zboží"
+    },
+    "HOME_COLLECTION": {
+      "available": "no",
+      "providers": "",
+      "cost": "",
+      "time_limit": "90 DNŮ",
+      "conditions": "nepoužité zboží"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "no",
+      "providers": "",
+      "cost": "",
+      "time_limit": "90 DNŮ"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "no",
+      "providers": "",
+      "cost": "",
+      "time_limit": "90 DNŮ"
+    },
+    "FREE_RETURN": {
+      "available": "no",
+      "conditions": "nepoužité zboží",
+      "methods": "zašlete nám jej zpět"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "no",
+      "usage": "",
+      "providers": ""
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "yes",
+      "url": "5437, 5440",
+      "features": "Formulář pro odstoupení od kupní smlouvy, vrácení produktů přímo v zákaznickém účtu"
+    },
+    "SUMMARY": "U nás neriskujete. Pokud se netrefíte a budete chtít nepoužité zboží vrátit, zašlete nám jej zpět a my vám vrátíme jeho plnou cenu. K odstoupení od kupní smlouvy můžete využít formulář, který naleznete zde. Naši registrovaní zákazníci mají možnost vrácení produktů přímo v zákaznickém účtu v sekci Moje objednávky. Bližší informace najdete v obchodních podmínkách."
+  },
+  "drmax.cz": {
+    "IN_STORE_RETURN": {
+      "available": "Yes",
+      "locations": "Any Dr. Max store",
+      "time_limit": "14 days from receipt",
+      "conditions": "undamaged, in original packaging, with complete accessories and a copy of the invoice"
+    },
+    "HOME_COLLECTION": {
+      "available": "Yes",
+      "providers": "PPL",
+      "cost": "99 Kč",
+      "time_limit": "N/A",
+      "conditions": "N/A"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "Yes",
+      "providers": "Zásilkovna",
+      "cost": "Free",
+      "time_limit": "14 days from receipt"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "Yes",
+      "providers": "Zásilkovna Balíkomat",
+      "cost": "Free",
+      "time_limit": "N/A"
+    },
+    "FREE_RETURN": {
+      "available": "Yes",
+      "conditions": "Consumer bears all costs of returning the goods.",
+      "methods": "Zásilkovna drop-off points, Zásilkovna Balíkomat"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "Yes",
+      "usage": "Generate a code online for free return at Zásilkovna drop-off points or Balíkomat. The code is valid for 14 days.",
+      "providers": "Zásilkovna"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "Yes",
+      "url": "1000",
+      "features": "N/A"
+    },
+    "SUMMARY": "Detailed return information, including specific periods, methods, costs, conditions, and procedures, is not directly available on this page. This information is likely contained within linked documents such as 'Poučení o odstoupení od smlouvy' (Instruction on withdrawal from contract), 'Reklamační řád' (Complaint procedure), and 'Všeobecné obchodní podmínky' (General Terms and Conditions) found in the footer."
+  },
+  "zalando.cz": {
+    "IN_STORE_RETURN": {
+      "available": "No",
+      "locations": "",
+      "time_limit": "",
+      "conditions": ""
+    },
+    "HOME_COLLECTION": {
+      "available": "No",
+      "providers": [
+        "Dhl",
+        "Ppl",
+        "Zasilkovna"
+      ],
+      "cost": "zdarma",
+      "time_limit": "30 dní",
+      "conditions": "Není explicitně uvedeno na této stránce"
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "Yes",
+      "providers": [
+        "PPL Parcelshop",
+        "Zásilkovna"
+      ],
+      "cost": "Free",
+      "time_limit": "30 days"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "No",
+      "providers": "Z-BOX",
+      "cost": "zdarma",
+      "time_limit": "30 dní"
+    },
+    "FREE_RETURN": {
+      "available": "Yes",
+      "conditions": "Nepoužité zboží",
+      "methods": "Drop-off at PPL Parcelshop or Zásilkovna"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "Yes",
+      "usage": "Generování vratného kódu ve svém účtu pro vrácení zboží.",
+      "providers": [
+        "PPL Parcelshop",
+        "Zásilkovna"
+      ]
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "Yes",
+      "url": "3333",
+      "features": "Online registration of returns, printing return labels, generating return codes."
+    },
+    "SUMMARY": "Nepoužité zboží můžete zdarma vrátit do 30 dní."
+  },
+  "Alza.cz": {
+    "IN_STORE_RETURN": {
+      "available": "yes",
+      "locations": "any Alza branch",
+      "time_limit": "14 days (30 days for Alza Premium members)",
+      "conditions": "enclose a copy of the purchase document (invoice or delivery note) and a completed return form; staff will check the goods."
+    },
+    "HOME_COLLECTION": {
+      "available": "yes",
+      "providers": "Courier service arranged by Alza",
+      "cost": "may be subject to a fee",
+      "time_limit": "14 days (30 days for Alza Premium members)",
+      "conditions": "For larger or heavier goods; contact customer service to arrange pick-up; enclose a copy of the purchase document (invoice or delivery note) and a completed return form."
+    },
+    "DROP_OFF_PARCEL_SHOP": {
+      "available": "yes",
+      "providers": "Any postal or courier service chosen by the customer",
+      "cost": "customer pays for postage",
+      "time_limit": "14 days (30 days for Alza Premium members)"
+    },
+    "DROP_OFF_PARCEL_LOCKER": {
+      "available": "yes",
+      "providers": "AlzaBox",
+      "cost": "free",
+      "time_limit": "14 days (30 days for Alza Premium members)"
+    },
+    "FREE_RETURN": {
+      "available": "yes",
+      "conditions": "within 14 days without giving a reason (30 days for Alza Premium members); enclose a copy of the purchase document (invoice or delivery note) and a completed return form; for AlzaBox, goods must fit and a return code is needed.",
+      "methods": "In-store return, AlzaBox return"
+    },
+    "QR_CODE_BARCODE_PIN": {
+      "available": "yes",
+      "usage": "A return code, generated in your customer account, is needed for AlzaBox returns.",
+      "providers": "AlzaBox"
+    },
+    "EXTERNAL_RETURN_PORTAL": {
+      "available": "Yes",
+      "url": "Not specified, available on Alza's website",
+      "features": "For withdrawal from the contract, the buyer can use a sample form."
+    },
+    "SUMMARY": "Return information is not available on the provided DOM. The DOM appears to be the homepage, not a dedicated return page."
+  }
+}

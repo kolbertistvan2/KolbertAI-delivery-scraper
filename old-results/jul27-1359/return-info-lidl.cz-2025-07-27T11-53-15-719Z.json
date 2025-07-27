@@ -1,0 +1,44 @@
+{
+  "website": "lidl.cz",
+  "IN_STORE_RETURN": {
+    "available": "yes",
+    "locations": "jakékoli prodejně Lidl v České republice",
+    "time_limit": "90 dnů od převzetí zboží",
+    "conditions": "předložit doklad o koupi (fakturu, účtenku)"
+  },
+  "HOME_COLLECTION": {
+    "available": "yes",
+    "providers": "kurýra",
+    "cost": "zdarma",
+    "time_limit": "90 dnů od převzetí zboží",
+    "conditions": "kontaktujte na zákaznické lince nebo e-mailem"
+  },
+  "DROP_OFF_PARCEL_SHOP": {
+    "available": "yes",
+    "providers": "Zásilkovnu",
+    "cost": "zdarma",
+    "time_limit": "90 dnů od převzetí zboží"
+  },
+  "DROP_OFF_PARCEL_LOCKER": {
+    "available": "yes",
+    "providers": "Zásilkovna",
+    "cost": "zdarma",
+    "time_limit": "90 dnů od převzetí zboží"
+  },
+  "FREE_RETURN": {
+    "available": "Yes",
+    "conditions": "Zboží zakoupené v e-shopu Lidl-shop.cz",
+    "methods": "na prodejně, přes Zásilkovnu, přes kurýra"
+  },
+  "QR_CODE_BARCODE_PIN": {
+    "available": "yes",
+    "usage": "vygenerovat kód pro vrácení zboží v našem online portálu pro vrácení zboží. S kódem pak zboží odevzdáte na jakémkoli podacím místě Zásilkovny.",
+    "providers": "Zásilkovna"
+  },
+  "EXTERNAL_RETURN_PORTAL": {
+    "available": "yes",
+    "url": "0-5277",
+    "features": "vygenerovat kód pro vrácení zboží"
+  },
+  "SUMMARY": "Lidl.cz offers a 30-day period for consideration and free returns. Specific return methods such as in-store returns, home collection, parcel shop drop-off, or parcel locker drop-off are not detailed in the provided text. A general customer service portal is available for inquiries."
+}

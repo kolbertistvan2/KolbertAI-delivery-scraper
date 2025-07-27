@@ -3,45 +3,46 @@ import { z } from 'zod';
 import * as fs from 'fs/promises';
 import * as path from 'path';
 import * as util from 'util';
-import { config } from 'dotenv';
 import { extractCountryFromDomain, getOptimalRegion } from './region-mapping';
 import { executeNavigationStrategy, directNavigate } from './direct-navigation';
 
-// Load environment variables from .env file
-config();
-
 // Function to merge extracted data from multiple pages
-async function mergeExtractedData(extractedData: any[], domain: string): Promise<any> {
+function mergeExtractedData(extractedData: any[], domain: string): any {
   if (extractedData.length === 0) return null;
   
-  console.log(`[${domain}] Merging data from ${extractedData.length} pages with simple union approach...`);
+  console.log(`[${domain}] Merging data from ${extractedData.length} pages...`);
   
-  // Start with empty data structure
-  let mergedData: any = {
-    website: '',
-    IN_STORE_RETURN: { available: 'not available', locations: 'not available', time_limit: 'not available', conditions: 'not available' },
-    HOME_COLLECTION: { available: 'not available', providers: 'not available', cost: 'not available', time_limit: 'not available', conditions: 'not available' },
-    DROP_OFF_PARCEL_SHOP: { available: 'not available', providers: 'not available', cost: 'not available', time_limit: 'not available' },
-    DROP_OFF_PARCEL_LOCKER: { available: 'not available', providers: 'not available', cost: 'not available', time_limit: 'not available' },
-    FREE_RETURN: { available: 'not available', conditions: 'not available', methods: 'not available' },
-    QR_CODE_BARCODE_PIN: { available: 'not available', usage: 'not available', providers: 'not available' },
-    EXTERNAL_RETURN_PORTAL: { available: 'not available', url: 'not available', features: 'not available' },
-    SUMMARY: ''
+  // Sort pages by priority: terms > return > faq > homepage
+  const pagePriority = {
+    'terms': 4,
+    'terms-page': 4,
+    'return': 3,
+    'return-page': 3,
+    'faq': 2,
+    'faq-page': 2,
+    'homepage': 1
   };
   
-  // Simple union merge - collect all information from all sources
-  extractedData.forEach((data, index) => {
-    const pageData = data.data;
-    const pageType = data.page;
+  // Sort extracted data by priority
+  const sortedData = extractedData.sort((a, b) => {
+    const priorityA = pagePriority[a.page as keyof typeof pagePriority] || 0;
+    const priorityB = pagePriority[b.page as keyof typeof pagePriority] || 0;
+    return priorityB - priorityA; // Higher priority first
+  });
+  
+  console.log(`[${domain}] Sorted pages by priority:`, sortedData.map(d => d.page));
+  
+  // Start with the highest priority page's data as base
+  const mergedData = { ...sortedData[0].data };
+  
+  // Merge additional data from other pages (lower priority)
+  for (let i = 1; i < sortedData.length; i++) {
+    const pageData = sortedData[i].data;
+    const pageType = sortedData[i].page;
     
-    console.log(`[${domain}] Processing data from ${pageType} page...`);
+    console.log(`[${domain}] Merging data from ${pageType} page (priority ${pagePriority[pageType as keyof typeof pagePriority] || 0})...`);
     
-    // Set website from first source
-    if (index === 0) {
-      mergedData.website = pageData.website || '';
-    }
-    
-    // Merge each category - simple union approach
+    // Merge each field, preferring HIGHER PRIORITY pages and English over local language
     Object.keys(pageData).forEach(key => {
       if (key === 'website') return; // Skip website field
       
@@ -51,26 +52,23 @@ async function mergeExtractedData(extractedData: any[], domain: string): Promise
           const currentValue = mergedData[key]?.[nestedKey];
           const newValue = pageData[key][nestedKey];
           
-          // Skip if new value is empty
-          if (!newValue || newValue === 'null' || newValue === '' || newValue === 'not available') return;
+          // Prefer English values over local language
+          const isCurrentEnglish = isEnglishValue(currentValue);
+          const isNewEnglish = isEnglishValue(newValue);
           
-          // If merged value is empty, use new value
-          if (!currentValue || currentValue === 'null' || currentValue === '' || currentValue === 'not available') {
+          // Replace if new value exists and either:
+          // 1. Current value is empty/null, OR
+          // 2. New value is English and current is not, OR  
+          // 3. This is from the highest priority page (terms page only)
+          const isHighestPriorityPage = pagePriority[pageType as keyof typeof pagePriority] === 4; // terms page only
+          
+          if (newValue && newValue !== 'null' && newValue !== '' && 
+              (!currentValue || currentValue === 'null' || currentValue === '' || 
+               (isNewEnglish && !isCurrentEnglish) ||
+               isHighestPriorityPage)) {
             if (!mergedData[key]) mergedData[key] = {};
             mergedData[key][nestedKey] = newValue;
-            console.log(`[${domain}] Added ${key}.${nestedKey} from ${pageType}: "${newValue}"`);
-          } else if (Array.isArray(currentValue) && Array.isArray(newValue)) {
-            // Merge arrays, removing duplicates
-            const mergedArray = [...new Set([...currentValue, ...newValue])];
-            mergedData[key][nestedKey] = mergedArray;
-            console.log(`[${domain}] Merged arrays for ${key}.${nestedKey} from ${pageType}`);
-          } else if (typeof currentValue === 'string' && typeof newValue === 'string') {
-            // If both have content and different, combine them
-            if (currentValue !== newValue) {
-              const combined = `${currentValue}. ${newValue}`;
-              mergedData[key][nestedKey] = combined;
-              console.log(`[${domain}] Combined ${key}.${nestedKey} from ${pageType}`);
-            }
+            console.log(`[${domain}] Updated ${key}.${nestedKey} from ${pageType} (priority ${pagePriority[pageType as keyof typeof pagePriority] || 0}): "${newValue}"`);
           }
         });
       } else {
@@ -78,171 +76,32 @@ async function mergeExtractedData(extractedData: any[], domain: string): Promise
         const currentValue = mergedData[key];
         const newValue = pageData[key];
         
-        // Skip if new value is empty
-        if (!newValue || newValue === 'null' || newValue === '' || newValue === 'not available') return;
+        // Prefer English values over local language
+        const isCurrentEnglish = isEnglishValue(currentValue);
+        const isNewEnglish = isEnglishValue(newValue);
         
-        // If merged value is empty, use new value
-        if (!currentValue || currentValue === 'null' || currentValue === '' || currentValue === 'not available') {
+        // Replace if new value exists and either:
+        // 1. Current value is empty/null, OR
+        // 2. New value is English and current is not, OR  
+        // 3. This is from the highest priority page (terms page only)
+        const isHighestPriorityPage = pagePriority[pageType as keyof typeof pagePriority] === 4; // terms page only
+        
+        if (newValue && newValue !== 'null' && newValue !== '' && 
+            (!currentValue || currentValue === 'null' || currentValue === '' || 
+             (isNewEnglish && !isCurrentEnglish) ||
+             isHighestPriorityPage)) {
           mergedData[key] = newValue;
-          console.log(`[${domain}] Added ${key} from ${pageType}: "${newValue}"`);
-        } else if (typeof currentValue === 'string' && typeof newValue === 'string') {
-          // If both have content and different, combine them
-          if (currentValue !== newValue) {
-            const combined = `${currentValue}. ${newValue}`;
-            mergedData[key] = combined;
-            console.log(`[${domain}] Combined ${key} from ${pageType}`);
-          }
+          console.log(`[${domain}] Updated ${key} from ${pageType} (priority ${pagePriority[pageType as keyof typeof pagePriority] || 0}): "${newValue}"`);
         }
       }
     });
-  });
-  
-  console.log(`[${domain}] Simple union merge completed`);
-  
-  // Use LLM to clean and structure the merged data
-  console.log(`[${domain}] Using LLM to clean and structure data...`);
-  const cleanedData = await cleanDataWithLLM(mergedData, domain);
-  
-  return cleanedData;
-}
-
-// Function to clean and structure data using LLM
-async function cleanDataWithLLM(data: any, domain: string): Promise<any> {
-  console.log(`[${domain}] Cleaning data with LLM...`);
-  
-  try {
-    // Create a prompt for the LLM to clean the data
-    const cleaningPrompt = `You are a data cleaning expert. Clean and structure the following return policy data for ${domain}.
-
-CRITICAL REQUIREMENTS:
-1. Remove all duplicates and redundant information
-2. Resolve any contradictions (use the most common/reliable information)
-3. Standardize values (e.g., "yes"/"no", consistent time formats)
-4. Keep only confirmed, accurate information
-5. Maintain the exact JSON structure
-6. All text must be in English
-7. Remove any "not available" fields that have actual data
-
-DATA TO CLEAN:
-${JSON.stringify(data, null, 2)}
-
-Return a clean, structured JSON with the same format. Remove duplicates, resolve contradictions, and standardize the data.`;
-
-    // Use Google AI to clean the data with Gemini 2.5 Flash Preview
-    const { GoogleGenerativeAI } = await import('@google/generative-ai');
-    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-preview-05-20' });
-    
-    const result = await model.generateContent(cleaningPrompt);
-    const response = await result.response;
-    const cleanedText = response.text();
-    
-    // Extract JSON from the response
-    const jsonMatch = cleanedText.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) {
-      console.warn(`[${domain}] Could not extract JSON from LLM response, using original data`);
-      return data;
-    }
-    
-    const cleanedData = JSON.parse(jsonMatch[0]);
-    console.log(`[${domain}] Data cleaned successfully with LLM`);
-    
-    return cleanedData;
-    
-  } catch (error) {
-    console.warn(`[${domain}] Failed to clean data with LLM:`, (error as Error).message);
-    console.warn(`[${domain}] Using original merged data`);
-    return data;
-  }
-}
-
-// Helper function to fix invalid URLs
-function fixInvalidUrls(data: any): any {
-  const fixedData = { ...data };
-  
-  // Check EXTERNAL_RETURN_PORTAL.url field
-  if (fixedData.EXTERNAL_RETURN_PORTAL?.url) {
-    const url = fixedData.EXTERNAL_RETURN_PORTAL.url;
-    
-    // Check if it's an invalid URL (numbers, internal IDs, etc.)
-    if (typeof url === 'string' && (
-      /^\d+$/.test(url) || // Just numbers
-      /^0-\d+$/.test(url) || // "0-1234" format
-      /^link-\d+$/.test(url) || // "link-1" format
-      !url.includes('.') || // No domain extension
-      url.length < 10 // Too short to be a real URL
-    )) {
-      fixedData.EXTERNAL_RETURN_PORTAL.url = "not available";
-    }
   }
   
-  return fixedData;
+  console.log(`[${domain}] Data merging completed with priority-based approach`);
+  return mergedData;
 }
 
-// Director.ai approach: process all collected data with single LLM call
-async function processAllCollectedData(allData: any[], domain: string, prompt: string): Promise<any> {
-  console.log(`[${domain}] Processing all collected data with LLM...`);
-  
-  // Create a comprehensive prompt for the LLM to process all data
-  const comprehensivePrompt = `You have collected return information from multiple pages of ${domain}. 
 
-Here is all the collected data from different pages:
-${JSON.stringify(allData, null, 2)}
-
-Based on ALL this collected information, create a single, comprehensive JSON response that includes the most accurate and complete return information.
-
-IMPORTANT RULES:
-1. Use ALL available information from ALL pages
-2. Prefer more detailed information over less detailed
-3. If there are conflicts, choose the most specific/complete information
-4. All text must be in English (except company names, brand names, place names)
-5. For URLs: only include actual website URLs, not internal IDs or numbers
-6. Fill in missing information where possible based on context
-
-${prompt}`;
-
-  try {
-    // Use Google AI to process all data
-    const { GoogleGenerativeAI } = await import('@google/generative-ai');
-    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-preview-05-20' });
-    
-    const result = await model.generateContent(comprehensivePrompt);
-    const response = await result.response;
-    const processedText = response.text();
-    
-    // Try to parse the processed JSON
-    try {
-      const processedData = JSON.parse(processedText);
-      console.log(`[${domain}] Successfully processed all data with LLM`);
-      return processedData;
-    } catch (parseError) {
-      console.warn(`[${domain}] Failed to parse LLM response, using fallback merge`);
-      // Fallback to simple merge if LLM parsing fails
-      return mergeExtractedData(allData, domain);
-    }
-  } catch (error) {
-    console.warn(`[${domain}] LLM processing failed, using fallback merge:`, error);
-    // Fallback to simple merge if LLM fails
-    return mergeExtractedData(allData, domain);
-  }
-}
-
-// Helper function to check if a value is a valid URL
-function isValidUrlValue(value: any): boolean {
-  if (!value || typeof value !== 'string') return false;
-  
-  // Check if it's an invalid URL (numbers, internal IDs, etc.)
-  if (/^\d+$/.test(value) || // Just numbers
-      /^0-\d+$/.test(value) || // "0-1234" format
-      /^link-\d+$/.test(value) || // "link-1" format
-      !value.includes('.') || // No domain extension
-      value.length < 10) { // Too short to be a real URL
-    return false;
-  }
-  
-  return true;
-}
 
 // Helper function to check if a value is in English
 function isEnglishValue(value: any): boolean {
@@ -494,69 +353,6 @@ async function handleCookieConsent(page: any, domain: string): Promise<void> {
   }
 }
 
-async function translateToEnglish(data: any, domain: string): Promise<any> {
-  console.log(`[${domain}] Translating data to English...`);
-  
-  // Check if data needs translation (contains non-English text)
-  const needsTranslation = JSON.stringify(data).match(/[áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]/);
-  if (!needsTranslation) {
-    console.log(`[${domain}] Data already appears to be in English, skipping translation`);
-    return data;
-  }
-  
-  // Create a universal translation prompt
-  const translationPrompt = `CRITICAL: Translate the following JSON data to English. Follow these strict rules:
-
-1. KEEP ORIGINAL: Company names, brand names, place names, URLs, phone numbers
-2. TRANSLATE TO ENGLISH: All descriptive text, conditions, procedures, time periods
-3. FIX EMPTY FIELDS: Replace empty strings "" with "not available"
-4. STANDARDIZE: Use "yes"/"no" consistently, not "Yes"/"no"
-5. PRESERVE JSON STRUCTURE: Return ONLY valid JSON, no explanations or markdown
-
-Translate all text values to English while preserving the JSON structure. Only company names, brand names, and place names should remain in their original language.
-
-JSON DATA TO TRANSLATE:
-${JSON.stringify(data, null, 2)}
-
-Return ONLY the translated JSON with the same structure. All text values must be in English except company names, brand names, and place names.`;
-
-  try {
-    // Use Google AI to translate
-    const { GoogleGenerativeAI } = await import('@google/generative-ai');
-    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-preview-05-20' });
-    
-    const result = await model.generateContent(translationPrompt);
-    const response = await result.response;
-    const translatedText = response.text();
-    
-    console.log(`[${domain}] Raw translation response:`, translatedText.substring(0, 200) + '...');
-    
-    // Try to parse the translated JSON
-    try {
-      // Clean up the response - remove markdown formatting if present
-      let cleanText = translatedText.trim();
-      if (cleanText.startsWith('```json')) {
-        cleanText = cleanText.replace(/^```json\s*/, '').replace(/\s*```$/, '');
-      } else if (cleanText.startsWith('```')) {
-        cleanText = cleanText.replace(/^```\s*/, '').replace(/\s*```$/, '');
-      }
-      
-      const translatedData = JSON.parse(cleanText);
-      console.log(`[${domain}] Translation completed successfully`);
-      return translatedData;
-    } catch (parseError) {
-      console.warn(`[${domain}] Failed to parse translated JSON:`, (parseError as Error).message);
-      console.warn(`[${domain}] Using original data instead`);
-      return data;
-    }
-  } catch (error) {
-    console.warn(`[${domain}] Translation failed:`, error);
-    console.warn(`[${domain}] Using original data instead`);
-    return data;
-  }
-}
-
 async function robustGoto(stagehandRef: { stagehand: Stagehand }, url: string, domain: string, maxRetries = 3): Promise<void> {
   let attempt = 0;
   let lastError: any = null;
@@ -632,16 +428,12 @@ async function processDomain(domain: string) {
     if (navigationResult.success && navigationResult.data.length > 0) {
       console.log(`[${domain}] Direct navigation strategy successful, processing extracted data...`);
       
-      // Director.ai approach: collect all data and let LLM decide final JSON
-      const allCollectedData = navigationResult.data;
-      console.log(`[${domain}] Collected data from ${allCollectedData.length} pages, processing with LLM...`);
+      // Use the improved merge logic with priority-based approach
+      const mergedData = mergeExtractedData(navigationResult.data, domain);
       
-      // Process all collected data with a single LLM call
-      const finalData = await processAllCollectedData(allCollectedData, domain, prompt);
-      
-      if (finalData) {
-        console.log(`[${domain}] Successfully processed all collected data with LLM`);
-        return finalData;
+      if (mergedData) {
+        console.log(`[${domain}] Successfully merged data from ${navigationResult.data.length} pages using priority-based approach`);
+        return mergedData;
       }
     }
     
@@ -816,7 +608,7 @@ async function processDomain(domain: string) {
         console.log(`[${domain}] DEBUG: Source ${index + 1}: ${item.page}`);
       });
       
-      const mergedData = await mergeExtractedData(extractedDataArray, domain);
+      const mergedData = mergeExtractedData(extractedDataArray, domain);
       console.log(`[${domain}] Return extraction completed with priority-based merged data from ${extractedDataArray.length} sources.`);
       return mergedData;
     } else {
@@ -931,16 +723,10 @@ async function aggregateResults() {
   for (const domain of orderedDomains) {
     if (resultData[domain]) {
       orderedResult[domain] = resultData[domain];
-    } else {
-      // Add missing domains with error status to maintain order
-      orderedResult[domain] = { 
-        error: `No data found for ${domain}. Domain may not have been processed or failed.`,
-        status: "missing"
-      };
     }
   }
   
-  // Add any remaining domains not in websites.txt (should be rare)
+  // Add any remaining domains not in websites.txt
   for (const domain of Array.from(allDomains)) {
     if (!orderedResult[domain]) {
       orderedResult[domain] = resultData[domain];
@@ -1005,12 +791,9 @@ Output:
     const result = await retryProcessDomain(domain);
     
     if (result) {
-      // Translate to English before saving
-      const translatedResult = await translateToEnglish(result, domain);
-      
       const timestamp = getTimestamp();
       const resultFile = path.join(RESULT_DIR, `return-info-${domain}-${timestamp}.json`);
-      await fs.writeFile(resultFile, JSON.stringify(translatedResult, null, 2), 'utf-8');
+      await fs.writeFile(resultFile, JSON.stringify(result, null, 2), 'utf-8');
       console.log(`✅ Results written to: ${resultFile}`);
     } else {
       console.error(`❌ Failed to extract return information for: ${domain}`);
