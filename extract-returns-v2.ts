@@ -405,6 +405,108 @@ const stagehandConfig = (domain: string): ConstructorParams => {
   };
 };
 
+async function createStagehandWithRetry(domain: string, maxRetries = 5): Promise<Stagehand> {
+  let lastError: any = null;
+  
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      console.log(`[${domain}] [CDP] Attempt ${attempt}/${maxRetries} to create Stagehand session`);
+      
+      // Set region before creating Stagehand instance
+      const country = extractCountryFromDomain(domain);
+      const region = getOptimalRegion(country);
+      process.env.BROWSERBASE_REGION = region;
+      
+      const stagehand = new Stagehand(stagehandConfig(domain));
+      await stagehand.init();
+      
+      // Verify page instance exists
+      const page = stagehand.page;
+      if (!page) {
+        throw new Error("Page instance is undefined after initialization");
+      }
+      
+      console.log(`[${domain}] [CDP] Stagehand initialized successfully on attempt ${attempt}`);
+      if (attempt > 1) {
+        logSuccessfulRecovery(domain);
+      }
+      return stagehand;
+      
+    } catch (error: any) {
+      lastError = error;
+      console.error(`[${domain}] [CDP] Attempt ${attempt} failed:`, error.message);
+      
+      // Specific handling for CDP errors
+      if (error.message.includes('CDP connection') || 
+          error.message.includes('browser context is undefined') ||
+          error.message.includes('StagehandInitError')) {
+        
+        logErrorStats(domain, 'cdp');
+        console.log(`[${domain}] [CDP] CDP connection error detected, waiting before retry...`);
+        await new Promise(resolve => setTimeout(resolve, 2000 * attempt)); // Exponential backoff
+        
+        // Force cleanup
+        try {
+          if (error.stagehand) {
+            await error.stagehand.close();
+          }
+        } catch (closeErr) {
+          console.warn(`[${domain}] [CDP] Error during cleanup:`, closeErr);
+        }
+      } else if (error.message.includes('timeout') || error.message.includes('net::ERR_')) {
+        logErrorStats(domain, 'network');
+        console.log(`[${domain}] [CDP] Network error detected, waiting before retry...`);
+        await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+      } else {
+        logErrorStats(domain, 'other');
+        console.log(`[${domain}] [CDP] Other error detected, waiting before retry...`);
+        await new Promise(resolve => setTimeout(resolve, 1500 * attempt));
+      }
+      
+      if (attempt === maxRetries) {
+        throw new Error(`[${domain}] Failed to initialize Stagehand after ${maxRetries} attempts. Last error: ${error.message}`);
+      }
+    }
+  }
+  
+  throw lastError;
+}
+
+// Add monitoring and error tracking
+const errorStats = {
+  cdpErrors: 0,
+  networkErrors: 0,
+  timeoutErrors: 0,
+  otherErrors: 0,
+  totalRetries: 0,
+  successfulRecoveries: 0
+};
+
+function logErrorStats(domain: string, errorType: string) {
+  errorStats.totalRetries++;
+  
+  switch (errorType) {
+    case 'cdp':
+      errorStats.cdpErrors++;
+      break;
+    case 'network':
+      errorStats.networkErrors++;
+      break;
+    case 'timeout':
+      errorStats.timeoutErrors++;
+      break;
+    default:
+      errorStats.otherErrors++;
+  }
+  
+  console.log(`[${domain}] 📊 Error Stats: CDP=${errorStats.cdpErrors}, Network=${errorStats.networkErrors}, Timeout=${errorStats.timeoutErrors}, Other=${errorStats.otherErrors}, Total=${errorStats.totalRetries}`);
+}
+
+function logSuccessfulRecovery(domain: string) {
+  errorStats.successfulRecoveries++;
+  console.log(`[${domain}] 🎉 Successful recovery! Total recoveries: ${errorStats.successfulRecoveries}`);
+}
+
 function getTimestamp() {
   const now = new Date();
   return now.toISOString().replace(/[:.]/g, '-');
@@ -560,10 +662,20 @@ Return ONLY the translated JSON with the same structure. All text values must be
 async function robustGoto(stagehandRef: { stagehand: Stagehand }, url: string, domain: string, maxRetries = 3): Promise<void> {
   let attempt = 0;
   let lastError: any = null;
+  
   while (attempt < maxRetries) {
     try {
       console.log(`[${domain}] [Goto attempt ${attempt + 1}] Navigating to: ${url}`);
-      await stagehandRef.stagehand.page.goto(url);
+      
+      // Check if page instance exists
+      if (!stagehandRef.stagehand.page) {
+        throw new Error("Page instance is undefined, need to reinitialize");
+      }
+      
+      await stagehandRef.stagehand.page.goto(url, { 
+        waitUntil: 'domcontentloaded',
+        timeout: 30000 
+      });
       
       // Handle cookie consent after navigation
       await handleCookieConsent(stagehandRef.stagehand.page, domain);
@@ -572,15 +684,30 @@ async function robustGoto(stagehandRef: { stagehand: Stagehand }, url: string, d
     } catch (err: any) {
       lastError = err;
       console.warn(`⚠️ [${domain}] Goto error: ${err.message || err}`);
-      try {
-        await stagehandRef.stagehand.close();
-      } catch (closeErr) {
-        console.warn(`[${domain}] Error closing Stagehand during restart:`, closeErr);
+      
+      // Specific handling for different error types
+      if (err.message.includes('CDP connection') || 
+          err.message.includes('browser context is undefined') ||
+          err.message.includes('Page instance is undefined')) {
+        
+        console.log(`[${domain}] CDP/Page error detected, reinitializing Stagehand...`);
+        
+        try {
+          await stagehandRef.stagehand.close();
+        } catch (closeErr) {
+          console.warn(`[${domain}] Error closing Stagehand during restart:`, closeErr);
+        }
+        
+        // Use the new retry function
+        const newStagehand = await createStagehandWithRetry(domain, 3);
+        stagehandRef.stagehand = newStagehand;
+        
+      } else if (err.message.includes('timeout') || err.message.includes('net::ERR_')) {
+        // Network errors - just retry with same instance
+        console.log(`[${domain}] Network error, retrying with same instance...`);
+        await new Promise(resolve => setTimeout(resolve, 2000 * (attempt + 1)));
       }
-      const newStagehand = new Stagehand(stagehandConfig(domain));
-      console.warn(`🔄 [${domain}] Restarting Stagehand (attempt ${attempt + 1})...`);
-      await newStagehand.init();
-      stagehandRef.stagehand = newStagehand;
+      
       attempt++;
     }
   }
@@ -590,16 +717,10 @@ async function robustGoto(stagehandRef: { stagehand: Stagehand }, url: string, d
 async function processDomain(domain: string) {
   let stagehand: Stagehand | null = null;
   try {
-    // Set region before creating Stagehand instance
-    const country = extractCountryFromDomain(domain);
-    const region = getOptimalRegion(country);
-    process.env.BROWSERBASE_REGION = region;
-    console.log(`[${domain}] Set BROWSERBASE_REGION to: ${region}`);
+    console.log(`[${domain}] Initializing Stagehand with robust retry logic...`);
+    stagehand = await createStagehandWithRetry(domain, 5);
+    console.log(`[${domain}] Stagehand initialized successfully with robust session.`);
     
-    console.log(`[${domain}] Initializing Stagehand with fresh session...`);
-    stagehand = new Stagehand(stagehandConfig(domain));
-    await stagehand.init();
-    console.log(`[${domain}] Stagehand initialized successfully with new session.`);
     const page = stagehand.page;
     if (!page) throw new Error("Failed to get page instance from Stagehand");
 
@@ -826,12 +947,13 @@ async function processDomain(domain: string) {
   } catch (err) {
     console.error(`[${domain}] Error processing:`, err);
     // Log error to file
-    const errorFile = path.join(RESULT_DIR, `error-${domain}-${getTimestamp()}.log`);
+    const normalizedDomain = domain.toLowerCase();
+    const errorFile = path.join(RESULT_DIR, `error-${normalizedDomain}-${getTimestamp()}.log`);
     let stack = '';
     if (err instanceof Error) {
       stack = err.stack || '';
     }
-    const errorMsg = `[${domain}] Error: ${util.format(err)}\nStack: ${stack}`;
+    const errorMsg = `[${normalizedDomain}] Error: ${util.format(err)}\nStack: ${stack}`;
     await fs.writeFile(errorFile, errorMsg, 'utf-8');
     return null;
   } finally {
@@ -847,26 +969,51 @@ async function processDomain(domain: string) {
 }
 
 async function retryProcessDomain(domain: string, maxRetries = 3) {
+  let lastError: any = null;
+  
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
-      console.log(`[${domain}] Attempt ${attempt} of ${maxRetries} with fresh session`);
+      console.log(`[${domain}] 🚀 Attempt ${attempt}/${maxRetries} with robust session management`);
+      
       const result = await processDomain(domain);
       if (result) {
-        console.log(`[${domain}] Success on attempt ${attempt}`);
+        console.log(`[${domain}] ✅ Success on attempt ${attempt}`);
         return result;
       }
-    } catch (err) {
-      console.error(`[${domain}] Attempt ${attempt} failed:`, err);
-      // Wait a bit before next attempt
+    } catch (err: any) {
+      lastError = err;
+      console.error(`[${domain}] ❌ Attempt ${attempt} failed:`, err.message);
+      
+      // Specific error handling
+      if (err.message.includes('CDP connection') || 
+          err.message.includes('browser context is undefined') ||
+          err.message.includes('StagehandInitError')) {
+        logErrorStats(domain, 'cdp');
+        console.log(`[${domain}] 🔄 CDP error detected, will retry with exponential backoff`);
+      } else if (err.message.includes('timeout') || err.message.includes('net::ERR_')) {
+        logErrorStats(domain, 'network');
+        console.log(`[${domain}] 🌐 Network error detected, will retry`);
+      } else {
+        logErrorStats(domain, 'other');
+        console.log(`[${domain}] ⚠️ Other error type, will retry`);
+      }
+      
+      // Exponential backoff: 5s, 10s, 15s
       if (attempt < maxRetries) {
-        console.log(`[${domain}] Waiting 5 seconds before next attempt...`);
-        await new Promise(resolve => setTimeout(resolve, 5000));
+        const waitTime = 5000 * attempt;
+        console.log(`[${domain}] ⏳ Waiting ${waitTime/1000}s before next attempt...`);
+        await new Promise(resolve => setTimeout(resolve, waitTime));
       }
     }
   }
-  // Ha minden próbálkozás sikertelen, logoljuk külön
-  const errorFile = path.join(RESULT_DIR, `failed-${domain}-${getTimestamp()}.log`);
-  await fs.writeFile(errorFile, `[${domain}] Failed after ${maxRetries} attempts\n`, 'utf-8');
+  
+  // Log detailed failure information
+  const normalizedDomain = domain.toLowerCase();
+  const errorFile = path.join(RESULT_DIR, `failed-${normalizedDomain}-${getTimestamp()}.log`);
+  const errorMessage = `[${normalizedDomain}] Failed after ${maxRetries} attempts\nLast error: ${lastError?.message || 'Unknown error'}\nStack: ${lastError?.stack || 'No stack trace'}`;
+  await fs.writeFile(errorFile, errorMessage, 'utf-8');
+  
+  console.log(`[${domain}] 💀 All ${maxRetries} attempts failed. Last error: ${lastError?.message}`);
   return null;
 }
 
@@ -875,7 +1022,7 @@ async function aggregateResults() {
   const resultData: Record<string, any> = {};
   const allDomains = new Set<string>();
   
-  // Collect all successful JSONs
+  // Collect all successful JSONs (with timestamp in filename)
   for (const file of files) {
     if (file.startsWith('return-info-') && file.endsWith('.json') && !file.startsWith('return-info-ALL-SITES')) {
       const filePath = path.join(RESULT_DIR, file);
@@ -883,8 +1030,14 @@ async function aggregateResults() {
         const data = JSON.parse(await fs.readFile(filePath, 'utf-8'));
         if (data && data.website) {
           const { website, ...rest } = data;
-          resultData[data.website] = rest;
-          allDomains.add(data.website);
+          // Normalize domain to lowercase for consistent handling
+          const normalizedWebsite = website.toLowerCase();
+          
+          // Use the most recent result if multiple files exist for same domain
+          if (!resultData[normalizedWebsite] || file.includes(getTimestamp().split('T')[0])) {
+            resultData[normalizedWebsite] = rest;
+            allDomains.add(normalizedWebsite);
+          }
         }
       } catch (e) {
         console.warn(`Failed to parse ${file}:`, e);
@@ -901,9 +1054,11 @@ async function aggregateResults() {
         const domainMatch = content.match(/\[([^\]]+)\]/);
         if (domainMatch) {
           const domain = domainMatch[1];
-          allDomains.add(domain);
-          if (!resultData[domain]) {
-            resultData[domain] = { error: content };
+          // Normalize domain to lowercase for consistent handling
+          const normalizedDomain = domain.toLowerCase();
+          allDomains.add(normalizedDomain);
+          if (!resultData[normalizedDomain]) {
+            resultData[normalizedDomain] = { error: content };
           }
         }
       } catch (e) {
@@ -920,7 +1075,8 @@ async function aggregateResults() {
     orderedDomains = websitesContent.split('\n')
       .map(line => line.trim())
       .filter(line => line && !line.startsWith('#'))
-      .map(line => line.replace(/^https?:\/\//, '').replace(/\/.*$/, ''));
+      .map(line => line.replace(/^https?:\/\//, '').replace(/\/.*$/, ''))
+      .map(line => line.toLowerCase()); // Normalize to lowercase
   } catch (e) {
     console.warn('Failed to read websites.txt, using alphabetical order');
     orderedDomains = Array.from(allDomains).sort();
@@ -956,6 +1112,15 @@ async function aggregateResults() {
   console.log(`📊 Total domains processed: ${Object.keys(orderedResult).length}`);
   console.log(`✅ Successful extractions: ${Object.keys(orderedResult).filter(d => !orderedResult[d].error).length}`);
   console.log(`❌ Failed extractions: ${Object.keys(orderedResult).filter(d => orderedResult[d].error).length}`);
+  
+  // Print error statistics
+  console.log(`\n📈 Error Recovery Statistics:`);
+  console.log(`🔄 Total retries: ${errorStats.totalRetries}`);
+  console.log(`🎉 Successful recoveries: ${errorStats.successfulRecoveries}`);
+  console.log(`📊 CDP errors: ${errorStats.cdpErrors}`);
+  console.log(`🌐 Network errors: ${errorStats.networkErrors}`);
+  console.log(`⏰ Timeout errors: ${errorStats.timeoutErrors}`);
+  console.log(`⚠️ Other errors: ${errorStats.otherErrors}`);
   
   return orderedResult;
 }
@@ -1002,14 +1167,19 @@ Output:
     const domain = command;
     console.log(`🚀 Starting return information extraction for: ${domain}`);
     
-    const result = await retryProcessDomain(domain);
+    // Normalize domain for processing (remove everything after /)
+    const normalizedDomain = domain.replace(/\/.*$/, '').toLowerCase();
+    console.log(`🔧 Normalized domain for processing: ${normalizedDomain}`);
+    
+    const result = await retryProcessDomain(normalizedDomain);
     
     if (result) {
       // Translate to English before saving
       const translatedResult = await translateToEnglish(result, domain);
       
+      // Normalize domain to lowercase for consistent file naming with timestamp
       const timestamp = getTimestamp();
-      const resultFile = path.join(RESULT_DIR, `return-info-${domain}-${timestamp}.json`);
+      const resultFile = path.join(RESULT_DIR, `return-info-${normalizedDomain}-${timestamp}.json`);
       await fs.writeFile(resultFile, JSON.stringify(translatedResult, null, 2), 'utf-8');
       console.log(`✅ Results written to: ${resultFile}`);
     } else {
