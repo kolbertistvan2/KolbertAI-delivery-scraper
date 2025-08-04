@@ -1,14 +1,33 @@
-Target Country: Czechia
+Target Country: Serbia
 
-1. Navigate to the homepage of the website: ${website}
-2. Search for return information in these website locations:
-    * Footer links: look for return/refund/exchange links
+1. Navigate to the homepage of ${website}
+
+COOKIE BANNER STRATEGY: If you encounter a cookie/consent banner that blocks content:
+- First, try to accept/close it
+- If that fails (e.g., Shadow DOM elements), immediately scroll to the bottom of the page to access footer links
+- Continue with the extraction without worrying about the cookie banner
+
+2. Scroll down to the footer for return information in these website locations:
+    * Footer links: look for return/refund/exchange links (scroll to bottom if needed)
     * Dedicated return info pages
     * FAQ section: search for return/refund/exchange keywords
     * Terms & Conditions page for return terms
     * Customer service pages for return procedures
-    
+
+TOP EXPECTED RETURN PROVIDERS FOR SERBIA (YOU MAY FIND OTHERS TOO):
+- Home Collection: Pošta Srbije, City Express, D Express, BEX Express, AKS
+- Drop-off Parcel Shops: Pošta Srbije offices, City Express points, local stores
+- Drop-off Parcel Lockers: limited availability
+
+SEARCH FOR THESE RETURN-RELATED TERMS IN Serbian LANGUAGE:
+- Return terms: povraćaj, zamena, refundiranje, garancija
+
 3. Extract return information from all relevant pages
+
+IMPORTANT NOTE-TAKING: After each EXTRACT operation, include in your reasoning:
+- FOUND SO FAR: Brief list of return methods, providers, and key information discovered
+- STILL MISSING: What critical information you haven't found yet
+- DECISION: Whether you have enough information for a comprehensive response or need to explore more
 
 EXTRACT EXACTLY THESE RETURN CATEGORIES AND DO NOT EXTRACT DELIVERY INFORMATION. DO NOT VISIT LINKS ON EXTERNAL PAGES (e.g. logistics websites). 
 
@@ -63,19 +82,28 @@ EXTERNAL RETURN PORTAL:
 * URL: [full website URL of the return portal, e.g., "https://returns.example.com" - only if it's a complete URL]
 * Features: [return label generation, status tracking, etc.]
 
-Website: ${website} 
+Website: ${website}
 Target Country: ${country}
 
 IMPORTANT: Extract return information specifically for ${country}. Focus on return policies, methods, and conditions that apply to customers in ${country}, even if the website serves multiple countries.
 
-Response Format: Return exactly this JSON structure. If a field is unavailable, write "not available". 
-
-CRITICAL: Ensure all "available" fields contain ONLY "yes" or "no" in English, never local language equivalents.
+Response Format: Return exactly this JSON structure, do not skip any field in the response JSON. If a field is unavailable, write "not available". 
 
 CRITICAL URL REQUIREMENT: For EXTERNAL_RETURN_PORTAL.url field, you MUST extract ONLY actual website URLs that start with "http://", "https://".
-{
 
-  "website": "${website}",
+MANDATORY: You MUST return the COMPLETE JSON structure with ALL fields. Do NOT skip any fields or provide abbreviated responses. Every field must be present in the response, even if the value is "not available".
+
+CRITICAL FIELD REQUIREMENTS:
+- "country" field is MANDATORY and must be included
+- Every object must have ALL its defined fields
+- For arrays, use ["not available"] if no data
+- For strings, use "not available" if no data
+- NEVER omit fields, even if they seem redundant
+
+```json
+{
+  "website": ${website},
+  "country": ${country},
   "IN_STORE_RETURN": {
     "available": "yes/no/not available",
     "locations": ["city1", "city2"] or "not available",
@@ -118,10 +146,21 @@ CRITICAL URL REQUIREMENT: For EXTERNAL_RETURN_PORTAL.url field, you MUST extract
   },
   "SUMMARY": "[Brief summary of return options, providers, costs, and restrictions]. NOTABLE FEATURES: [Key features, limitations, and special services]. WEBSITE ASSESSMENT: [Overall evaluation of return information quality and completeness]."
 }
+```
 
 If something is not available or not found, write "not available".
 Only extract information that is explicitly visible on the pages. Do not assume or guess.
 
+CRITICAL: You MUST return the COMPLETE JSON structure. Do NOT provide shortened or abbreviated responses. Include ALL fields from the schema, even if the value is "not available". Never skip fields or provide partial responses.
+
 IMPORTANT: The SUMMARY field should be formatted as a single text string that will work well when converted to a table format in Excel/CSV. Use clear section headers and concise descriptions separated by periods and line breaks where appropriate.
 
-FINAL REMINDER: ALL RESPONSES MUST BE IN ENGLISH ONLY. TRANSLATE ANY LOCAL LANGUAGE CONTENT TO ENGLISH. EXCEPTION: Company names, brand names, and place names should remain in their original language.
+FINAL REMINDER: Return the COMPLETE JSON structure with ALL fields. Never provide abbreviated or shortened responses. Every single field from the schema must be present in your response.
+
+VALIDATION CHECKLIST:
+□ "country" field is present
+□ All objects have all their defined fields
+□ Arrays use ["not available"] when empty
+□ Strings use "not available" when empty
+□ No fields are omitted or skipped
+□ Complete JSON structure matches the schema exactly

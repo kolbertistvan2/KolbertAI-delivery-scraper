@@ -103,7 +103,10 @@ async function mergeExtractedData(extractedData: any[], domain: string): Promise
   console.log(`[${domain}] Using LLM to clean and structure data...`);
   const cleanedData = await cleanDataWithLLM(mergedData, domain);
   
-  return cleanedData;
+  // Ensure complete JSON structure after LLM cleaning
+  const completeData = ensureCompleteJsonStructure(cleanedData, domain);
+  
+  return completeData;
 }
 
 // Function to clean and structure data using LLM
@@ -268,6 +271,111 @@ function isEnglishValue(value: any): boolean {
   
   return !nonEnglishPatterns.some(pattern => pattern.test(value));
 }
+
+// Function to ensure complete JSON structure with all required fields
+function ensureCompleteJsonStructure(data: any, domain: string): any {
+  if (!data) {
+    console.warn(`[${domain}] No data provided to ensureCompleteJsonStructure`);
+    return createDefaultJsonStructure(domain);
+  }
+  
+  console.log(`[${domain}] Ensuring complete JSON structure...`);
+  
+  // Create default structure
+  const completeStructure = createDefaultJsonStructure(domain);
+  
+  // Merge with actual data, preserving actual values
+  const mergedData = mergeWithDefaults(completeStructure, data);
+  
+  console.log(`[${domain}] JSON structure validation completed`);
+  return mergedData;
+}
+
+// Function to create default JSON structure with all required fields
+function createDefaultJsonStructure(domain: string): any {
+  return {
+    website: domain,
+    country: "not available",
+    IN_STORE_RETURN: {
+      available: "not available",
+      locations: ["not available"],
+      time_limit: "not available",
+      conditions: "not available"
+    },
+    HOME_COLLECTION: {
+      available: "not available",
+      providers: ["not available"],
+      cost: "not available",
+      time_limit: "not available",
+      conditions: "not available"
+    },
+    DROP_OFF_PARCEL_SHOP: {
+      available: "not available",
+      providers: ["not available"],
+      cost: "not available",
+      time_limit: "not available"
+    },
+    DROP_OFF_PARCEL_LOCKER: {
+      available: "not available",
+      providers: ["not available"],
+      cost: "not available",
+      time_limit: "not available"
+    },
+    FREE_RETURN: {
+      available: "not available",
+      conditions: "not available",
+      methods: ["not available"]
+    },
+    QR_CODE_BARCODE_PIN: {
+      available: "not available",
+      usage: "not available",
+      providers: ["not available"]
+    },
+    EXTERNAL_RETURN_PORTAL: {
+      available: "not available",
+      url: "not available",
+      features: ["not available"]
+    },
+    SUMMARY: "not available"
+  };
+}
+
+// Function to merge actual data with default structure
+function mergeWithDefaults(defaultStructure: any, actualData: any): any {
+  const result = { ...defaultStructure };
+  
+  // Helper function to merge nested objects
+  function mergeNested(defaultObj: any, actualObj: any): any {
+    if (!actualObj || typeof actualObj !== 'object') return defaultObj;
+    
+    const merged = { ...defaultObj };
+    for (const [key, value] of Object.entries(actualObj)) {
+      if (value !== undefined && value !== null && value !== "not available") {
+        if (typeof value === 'object' && !Array.isArray(value)) {
+          merged[key] = mergeNested(defaultObj[key] || {}, value);
+        } else {
+          merged[key] = value;
+        }
+      }
+    }
+    return merged;
+  }
+  
+  // Merge top-level fields
+  for (const [key, value] of Object.entries(actualData)) {
+    if (value !== undefined && value !== null && value !== "not available") {
+      if (typeof value === 'object' && !Array.isArray(value) && key !== 'website') {
+        result[key] = mergeNested(defaultStructure[key] || {}, value);
+      } else {
+        result[key] = value;
+      }
+    }
+  }
+  
+  return result;
+}
+
+
 
 if (!process.env.BROWSERBASE_API_KEY) {
   throw new Error('BROWSERBASE_API_KEY is missing! Cloud session cannot start.');
@@ -724,10 +832,33 @@ async function processDomain(domain: string) {
     const page = stagehand.page;
     if (!page) throw new Error("Failed to get page instance from Stagehand");
 
-    // Load and process prompt template
+    // Extract country from domain dynamically
+    const country = extractCountryFromDomain(domain);
+    
+    // Map country code to full country name for the prompt
+    const countryNameMap: Record<string, string> = {
+      'hungary': 'Hungary',
+      'poland': 'Poland', 
+      'czechia': 'Czechia',
+      'slovakia': 'Slovakia',
+      'slovenia': 'Slovenia',
+      'croatia': 'Croatia',
+      'serbia': 'Serbia',
+      'romania': 'Romania',
+      'germany': 'Germany',
+      'france': 'France',
+      'italy': 'Italy',
+      'spain': 'Spain',
+      'uk': 'United Kingdom'
+    };
+    
+    const countryName = countryNameMap[country] || 'Hungary'; // Default to Hungary
+    
+    // Load prompt template
     console.log(`[${domain}] Loading prompt from prompt-return.txt...`);
     const promptTemplate = await loadPrompt();
-    const variables = { website: domain, country: 'Czechia' };
+    
+    const variables = { website: domain, country: countryName };
     const prompt = replacePromptVariables(promptTemplate, variables);
     
     // Step 1: Goto homepage (robust)
@@ -805,10 +936,12 @@ async function processDomain(domain: string) {
           
           // Extract data from the return page using V2 prompt
           console.log(`[${domain}] Extracting return information from dedicated page...`);
-          returnPageData = await page.extract({
+          const extractedData = await page.extract({
             instruction: prompt,
             schema: returnSchema
           });
+          
+          returnPageData = extractedData;
           
           usedPromptIndex = i;
           break;
@@ -874,10 +1007,12 @@ async function processDomain(domain: string) {
               await page.waitForTimeout(2000);
               
               // Extract additional data
-              const additionalData = await page.extract({
+              const extractedAdditionalData = await page.extract({
                 instruction: `Extract any return-related information from this page for ${domain}`,
                 schema: returnSchema
               });
+              
+              const additionalData = extractedAdditionalData;
               
               // Go back to homepage
               await page.goBack();
@@ -907,10 +1042,12 @@ async function processDomain(domain: string) {
     await page.act("Scroll through the entire page from top to bottom to see all content");
     await page.waitForTimeout(3000);
     
-    const homepageData = await page.extract({
+    const extractedHomepageData = await page.extract({
       instruction: prompt,
       schema: returnSchema
     });
+    
+    const homepageData = extractedHomepageData;
     
     // Merge data if we have both
     if (returnPageData) {
