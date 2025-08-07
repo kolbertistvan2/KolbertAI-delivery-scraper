@@ -60,6 +60,37 @@ This will:
 - Clean JSON structure to match prompt format exactly
 - Output final results to `final-result-returns-v2/`
 
+### Failed Domains Processing
+If some domains fail during processing, you can retry them:
+
+1. **Create failed domains list:**
+```bash
+# Extract failed domains from log files
+ls result-returns-v2/failed-*.log | sed 's/result-returns-v2\/failed-//' | sed 's/-[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}T[0-9]\{2\}-[0-9]\{2\}-[0-9]\{2\}-[0-9]\{3\}Z\.log$//' | sort > failed-domains.txt
+```
+
+2. **Process failed domains:**
+```bash
+# Process failed domains individually
+npx tsx extract-returns-v2.ts failed-domains.txt
+
+# Or use Docker batch processing
+docker run -v $(pwd):/app -e BATCH_SIZE=5 kolbertai-shipping-extractor failed-domains.txt
+```
+
+3. **Re-run aggregation:**
+```bash
+# Re-aggregate with new results
+npx tsx aggregate-final-returns.ts
+```
+
+### Error Recovery Workflow
+1. **Check failed domains:** Look for `failed-*.log` files in `result-returns-v2/`
+2. **Create retry list:** Extract domain names from failed logs
+3. **Retry processing:** Run failed domains again
+4. **Re-aggregate:** Update final results with new data
+5. **Verify results:** Check final output in `final-result-returns-v2/`
+
 ### Output Structure
 The final JSON follows exactly the prompt structure:
 ```json
@@ -85,6 +116,7 @@ The final JSON follows exactly the prompt structure:
 ├── aggregate-final-returns.ts     # Final aggregation script
 ├── prompt-return.txt              # Return extraction prompt
 ├── websites.txt                   # Domain list
+├── failed-domains.txt             # Failed domains for retry (optional)
 ├── result-returns-v2/             # Raw results (gitignored)
 ├── final-result-returns-v2/       # Final results (gitignored)
 └── .gitignore                     # Excludes results folders
