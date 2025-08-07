@@ -375,6 +375,114 @@ function mergeWithDefaults(defaultStructure: any, actualData: any): any {
   return result;
 }
 
+// Function to calculate data quality score for a domain
+function calculateDataQualityScore(data: any): number {
+  if (!data || typeof data !== 'object') return 0;
+  
+  let score = 0;
+  const fields = [
+    'IN_STORE_RETURN', 'HOME_COLLECTION', 'DROP_OFF_PARCEL_SHOP', 
+    'DROP_OFF_PARCEL_LOCKER', 'FREE_RETURN', 'QR_CODE_BARCODE_PIN', 
+    'EXTERNAL_RETURN_PORTAL', 'SUMMARY'
+  ];
+  
+  // Count non-empty fields
+  for (const field of fields) {
+    if (data[field] && typeof data[field] === 'object') {
+      const fieldData = data[field];
+      if (fieldData.available && fieldData.available !== 'not available') {
+        score += 1;
+      }
+      // Check for other meaningful data in the field
+      const fieldKeys = Object.keys(fieldData);
+      for (const key of fieldKeys) {
+        if (fieldData[key] && fieldData[key] !== 'not available' && 
+            fieldData[key] !== null && fieldData[key] !== '') {
+          score += 0.5;
+        }
+      }
+    }
+  }
+  
+  // Bonus for having SUMMARY
+  if (data.SUMMARY && data.SUMMARY !== 'not available') {
+    score += 2;
+  }
+  
+  return score;
+}
+
+// Function to normalize domain name
+function normalizeDomain(domain: string): string {
+  return domain.toLowerCase()
+    .replace(/^https?:\/\//, '')
+    .replace(/^www\./, '')
+    .replace(/\/.*$/, '')
+    .trim();
+}
+
+// Function to filter and deduplicate domains
+function filterAndDeduplicateDomains(resultData: Record<string, any>, websitesList: string[]): Record<string, any> {
+  const normalizedWebsites = websitesList.map(d => normalizeDomain(d));
+  const filteredData: Record<string, any> = {};
+  const domainGroups: Record<string, string[]> = {};
+  
+  // Group domains by normalized name
+  for (const [domain, data] of Object.entries(resultData)) {
+    const normalized = normalizeDomain(domain);
+    if (!domainGroups[normalized]) {
+      domainGroups[normalized] = [];
+    }
+    domainGroups[normalized].push(domain);
+  }
+  
+  // Process each group
+  for (const [normalizedDomain, domains] of Object.entries(domainGroups)) {
+    if (domains.length === 1) {
+      // Single domain, keep it if it's in websites.txt or has good data
+      const domain = domains[0];
+      if (normalizedWebsites.includes(normalizedDomain) || calculateDataQualityScore(resultData[domain]) > 0) {
+        filteredData[domain] = resultData[domain];
+      }
+    } else {
+      // Multiple domains, choose the best one
+      let bestDomain = domains[0];
+      let bestScore = calculateDataQualityScore(resultData[bestDomain]);
+      let bestInWebsites = normalizedWebsites.includes(normalizedDomain);
+      
+      for (const domain of domains) {
+        const score = calculateDataQualityScore(resultData[domain]);
+        const inWebsites = normalizedWebsites.includes(normalizedDomain);
+        
+        // Priority: websites.txt > data quality > format
+        if (inWebsites && !bestInWebsites) {
+          bestDomain = domain;
+          bestScore = score;
+          bestInWebsites = true;
+        } else if (inWebsites === bestInWebsites) {
+          if (score > bestScore) {
+            bestDomain = domain;
+            bestScore = score;
+          } else if (score === bestScore) {
+            // If scores are equal, prefer the one without www. prefix
+            const currentHasWww = domain.includes('www.');
+            const bestHasWww = bestDomain.includes('www.');
+            if (!currentHasWww && bestHasWww) {
+              bestDomain = domain;
+            }
+          }
+        }
+      }
+      
+      // Only keep if it's in websites.txt or has meaningful data
+      if (bestInWebsites || bestScore > 0) {
+        filteredData[bestDomain] = resultData[bestDomain];
+      }
+    }
+  }
+  
+  return filteredData;
+}
 
 
 if (!process.env.BROWSERBASE_API_KEY) {
@@ -1167,13 +1275,17 @@ async function aggregateResults() {
         const data = JSON.parse(await fs.readFile(filePath, 'utf-8'));
         if (data && data.website) {
           const { website, ...rest } = data;
-          // Normalize domain to lowercase for consistent handling
-          const normalizedWebsite = website.toLowerCase();
+          // Normalize domain to lowercase and remove www. prefix for consistent handling
+          let normalizedWebsite = website.toLowerCase();
+          normalizedWebsite = normalizedWebsite.replace(/^www\./, '');
           
           // Use the most recent result if multiple files exist for same domain
-          if (!resultData[normalizedWebsite] || file.includes(getTimestamp().split('T')[0])) {
+          if (!resultData[normalizedWebsite]) {
             resultData[normalizedWebsite] = rest;
             allDomains.add(normalizedWebsite);
+          } else {
+            // If we already have data for this domain, keep the existing one (it's already the most recent)
+            console.log(`[AGGREGATE] Skipping ${file} - already have data for ${normalizedWebsite}`);
           }
         }
       } catch (e) {
@@ -1182,20 +1294,33 @@ async function aggregateResults() {
     }
   }
   
-  // Add error and failed logs for missing domains
+  // Add failed logs for missing domains (only domains that failed after 3 attempts)
   for (const file of files) {
-    if ((file.startsWith('error-') || file.startsWith('failed-')) && file.endsWith('.log')) {
+    if (file.startsWith('failed-') && file.endsWith('.log')) {
       const filePath = path.join(RESULT_DIR, file);
       try {
         const content = await fs.readFile(filePath, 'utf-8');
-        const domainMatch = content.match(/\[([^\]]+)\]/);
-        if (domainMatch) {
-          const domain = domainMatch[1];
+        
+        // Extract domain from filename (failed- prefix)
+        let domain = file.replace('failed-', '').replace(/-\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}-\d{3}Z\.log$/, '');
+        
+        // Fallback: try to extract from content if filename method fails
+        if (!domain) {
+          const domainMatch = content.match(/\[([^\]]+)\]/);
+          if (domainMatch) {
+            domain = domainMatch[1];
+          }
+        }
+        
+        if (domain) {
           // Normalize domain to lowercase for consistent handling
           const normalizedDomain = domain.toLowerCase();
           allDomains.add(normalizedDomain);
           if (!resultData[normalizedDomain]) {
-            resultData[normalizedDomain] = { error: content };
+            resultData[normalizedDomain] = { 
+              error: content,
+              status: "failed"
+            };
           }
         }
       } catch (e) {
@@ -1219,11 +1344,18 @@ async function aggregateResults() {
     orderedDomains = Array.from(allDomains).sort();
   }
   
+  // Filter and deduplicate domains based on quality BEFORE creating ordered result
+  console.log(`🔍 Filtering and deduplicating ${Object.keys(resultData).length} domains...`);
+  const filteredResultData = filterAndDeduplicateDomains(resultData, orderedDomains);
+  console.log(`✅ Filtered to ${Object.keys(filteredResultData).length} unique domains`);
+  
   // Create ordered result maintaining websites.txt order
   const orderedResult: Record<string, any> = {};
+  
+  // First, add domains in the exact order from websites.txt
   for (const domain of orderedDomains) {
-    if (resultData[domain]) {
-      orderedResult[domain] = resultData[domain];
+    if (filteredResultData[domain]) {
+      orderedResult[domain] = filteredResultData[domain];
     } else {
       // Add missing domains with error status to maintain order
       orderedResult[domain] = { 
@@ -1233,10 +1365,10 @@ async function aggregateResults() {
     }
   }
   
-  // Add any remaining domains not in websites.txt (should be rare)
-  for (const domain of Array.from(allDomains)) {
+  // Then, add any remaining filtered domains not in websites.txt (should be rare)
+  for (const domain of Object.keys(filteredResultData)) {
     if (!orderedResult[domain]) {
-      orderedResult[domain] = resultData[domain];
+      orderedResult[domain] = filteredResultData[domain];
     }
   }
   

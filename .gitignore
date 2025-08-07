@@ -3,3 +3,12 @@ dist/
 .env
 *.log
 .DS_Store
+
+# Results folders
+result/
+result-returns/
+result-returns-v2/
+result-delivery/
+result-loyalty-v1/
+final-result-returns-v2/
+old-results/
